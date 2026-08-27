@@ -1,0 +1,4 @@
+biopython>=1.83
+requests>=2.31
+pillow>=10.0
+pytest>=8.0

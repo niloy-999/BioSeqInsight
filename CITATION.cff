@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: BioSeqInsight
+message: If you use this software, please cite it as below.
+type: software
+authors:
+  - family-names: Islam
+    given-names: Tasnim Ul
+    affiliation: Bangladesh Agricultural University
+    email: tuiniloy789@gmail.com
+license: MIT
+date-released: "2026-08-28"
+preferred-citation:
+  type: conference-paper
+  title: "BioSeqInsight: An Integrated Local Platform for DNA-to-Protein Sequence Analysis and Structure Prediction"
+  authors:
+    - family-names: Islam
+      given-names: Tasnim Ul
+  year: 2026
+  conference:
+    name: Regional Statistical Conference 2026
+    city: Mymensingh
+    country: BD
+  notes: "Oral presentation of an accepted abstract (Reg. DAAS22). No DOI. Jointly organized by the Department of Agricultural and Applied Statistics, BAU and the Bangladesh Statistical Association."
