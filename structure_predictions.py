@@ -707,33 +707,144 @@ def predict_structure(
 
 
 def open_in_bioviewer(pdb_file: str | None = None) -> str:
-    """Open a PDB in BioViewer on macOS, else fall back to any available viewer."""
-    pdb_file_path = pdb_file or LAST_OPENED_PDB or DEFAULT_PDB_NAME
-    pdb_file_path = os.path.abspath(pdb_file_path)
-    if not os.path.isfile(pdb_file_path):
-        return (
-            f"No PDB file at {pdb_file_path}. "
-            "Run a prediction or download first. Files are saved under structures/."
-        )
+    
 
-    if sys.platform == "darwin":
-        try:
-            subprocess.run(["open", "-a", "BioViewer", pdb_file_path], check=True)
-            return f"Opened in BioViewer: {pdb_file_path}"
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            subprocess.run(["open", pdb_file_path], check=False)
+    if pdb_file and os.path.basename(pdb_file) != DEFAULT_PDB_NAME:
+
+        explicit_path = os.path.abspath(pdb_file)
+
+        if os.path.isfile(explicit_path):
+            pdb_file_path = explicit_path
+        else:
             return (
-                "BioViewer app not available. Opened the PDB with the "
-                f"default macOS handler: {pdb_file_path}"
+                f"PDB file not found:\n"
+                f"{explicit_path}\n"
+                "Please run a prediction or download a structure first."
             )
 
-    for candidate in ("pymol", "pymol3", "chimerax", "pymol.bat"):
-        if shutil.which(candidate):
-            subprocess.Popen([candidate, pdb_file_path])
-            return f"Opened with {candidate}: {pdb_file_path}"
+    else:
 
-    webbrowser.open("file://" + pdb_file_path)
-    return (
-        f"No BioViewer / PyMOL / ChimeraX found. PDB path:\n{pdb_file_path}\n"
-        "Open that file in any molecular viewer."
-    )
+      
+        if LAST_OPENED_PDB and os.path.isfile(LAST_OPENED_PDB):
+            pdb_file_path = os.path.abspath(LAST_OPENED_PDB)
+
+        else:
+
+            
+            structures_dir = os.path.abspath(STRUCTURE_DIR)
+
+            if not os.path.isdir(structures_dir):
+                return (
+                    f"Structures folder not found:\n"
+                    f"{structures_dir}\n"
+                    "Please run a prediction or download a structure first."
+                )
+
+            pdb_files = [
+                os.path.join(structures_dir, filename)
+                for filename in os.listdir(structures_dir)
+                if filename.lower().endswith(".pdb")
+                and os.path.isfile(
+                    os.path.join(structures_dir, filename)
+                )
+            ]
+
+            if not pdb_files:
+                return (
+                    f"No PDB files found in:\n"
+                    f"{structures_dir}\n"
+                    "Please run a prediction or download a structure first."
+                )
+
+    
+
+            pdb_file_path = max(
+                pdb_files,
+                key=os.path.getmtime
+            )
+
+   
+    if not os.path.isfile(pdb_file_path):
+        return (
+            f"PDB file not found:\n"
+            f"{pdb_file_path}\n"
+            "Please run a prediction or download a structure first."
+        )
+
+   
+    if sys.platform == "darwin":
+
+        try:
+            subprocess.run(
+                ["open", "-a", "BioViewer", pdb_file_path],
+                check=True
+            )
+
+            return (
+                "Opened in BioViewer:\n"
+                f"{pdb_file_path}"
+            )
+
+        except (subprocess.CalledProcessError, FileNotFoundError):
+
+            subprocess.run(
+                ["open", pdb_file_path],
+                check=False
+            )
+
+            return (
+                "BioViewer app was not available. "
+                "Opened the PDB with the default macOS handler:\n"
+                f"{pdb_file_path}"
+            )
+
+   
+    elif sys.platform == "win32":
+
+        try:
+            os.startfile(pdb_file_path)
+
+            return (
+                "Opened PDB:\n"
+                f"{pdb_file_path}"
+            )
+
+        except Exception as exc:
+            return f"Could not open PDB:\n{exc}"
+
+    
+    else:
+
+        for candidate in ("pymol", "pymol3", "chimerax"):
+
+            if shutil.which(candidate):
+
+                subprocess.Popen(
+                    [candidate, pdb_file_path]
+                )
+
+                return (
+                    f"Opened with {candidate}:\n"
+                    f"{pdb_file_path}"
+                )
+
+        if shutil.which("xdg-open"):
+
+            subprocess.Popen(
+                ["xdg-open", pdb_file_path]
+            )
+
+            return (
+                "Opened PDB:\n"
+                f"{pdb_file_path}"
+            )
+
+        webbrowser.open(
+            "file://" + pdb_file_path
+        )
+
+        return (
+            "No molecular viewer was found.\n"
+            f"PDB path:\n{pdb_file_path}\n"
+            "Open this file in BioViewer, PyMOL, or ChimeraX."
+        )
