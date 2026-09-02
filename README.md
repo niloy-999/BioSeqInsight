@@ -10,8 +10,19 @@ Presented as an accepted abstract (Reg. DAAS22) at the Regional Statistical Conf
 
 ## What it does
 
-![BioSeqInsight Interface](paper/image_868c0c.jpg)
-*Figure: (a) Sequence Analysis tab showing local DNA calculations. (b) Structure tab executing a live ESM Atlas fold. (c) 3Dmol.js rendering of the predicted CDK2 model.*
+### Interface Previews
+
+**1. Sequence Analysis**
+![Sequence Analysis Tab](images/gui_sequence_gc.png)
+*Figure 1: Sequence Analysis tab computing local GC content and base counts for a 10,295 nt DNA input.*
+
+**2. 3D Structure Prediction**
+![Structure Tab](images/gui_cdk2_plddt.png)
+*Figure 2: Structure tab executing a live ESM Atlas fold of human CDK2 (298 aa) with mean CA pLDDT.*
+
+**3. Integrated 3D Viewer**
+![3Dmol.js Viewer](images/gui_3dmol_cdk2.png)
+*Figure 3: 3Dmol.js cartoon rendering of the predicted CDK2 model.*
 
 ### Sequence Analysis (local)
 
@@ -29,7 +40,7 @@ Teaching check (`examples/short_dna.fasta`, 27 nt): GC **37.04%**, motif `ATG` a
 - RCSB sequence search + UniProt mapping
 - Download a stored [AlphaFold DB](https://alphafold.ebi.ac.uk/) model
 - Download an experimental structure from [RCSB PDB](https://www.rcsb.org/)
-- Load a local `.pdb` and open a 3Dmol.js cartoon in the browser
+- Automatically detects your OS to open the most recently fetched PDB in a local 3D viewer (BioViewer, PyMOL, ChimeraX, or default OS handler)
 - Kyte–Doolittle hydropathy and molecular weight (offline)
 - Secondary-structure **sketch** only (not Chou–Fasman / GOR)
 
