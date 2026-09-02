@@ -10,6 +10,9 @@ Presented as an accepted abstract (Reg. DAAS22) at the Regional Statistical Conf
 
 ## What it does
 
+![BioSeqInsight Interface](paper/image_868c0c.jpg)
+*Figure: (a) Sequence Analysis tab showing local DNA calculations. (b) Structure tab executing a live ESM Atlas fold. (c) 3Dmol.js rendering of the predicted CDK2 model.*
+
 ### Sequence Analysis (local)
 
 - GC content and A/C/G/T/N counts
@@ -64,60 +67,3 @@ python3 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python bio_gui.py
-```
-
-Internet is required for ESM Atlas, AlphaFold DB, RCSB, ID lookup, and the 3Dmol.js script. Optional wallpaper: `background.jpg` next to `bio_gui.py`.
-
-```bash
-python -m pytest -q
-```
-
-## Quick GUI check
-
-1. Sequence tab: `examples/short_dna.fasta` → GC 37.04%, motif `ATG`, ORFs.
-2. Structure tab: paste CDK2 or load `examples/ubiquitin.fasta`.
-3. **Find IDs and download matches** for a known protein.
-4. **Predict 3D Structure (ESM Atlas)** only if you want a live fold.
-5. Offline cartoon: **Load local PDB** → `examples/1UBQ.pdb`.
-
-## Batch CSV
-
-```bash
-python batch_benchmark.py examples/benchmark_25.fasta -o structures/benchmark_25_results.csv
-python batch_benchmark.py examples/benchmark_25.fasta -o structures/benchmark_25_results.csv --skip-esm
-```
-
-Failed ESM rows are valid results. Downloads go to `structures/` with separate names and do not overwrite earlier files.
-
-## Repository contents
-
-```
-bio_gui.py
-sequence_operations.py
-structure_predictions.py
-batch_benchmark.py
-examples/          # FASTA, 1UBQ.pdb, benchmark list
-tests/
-structures/        # created at runtime; not required in git
-paper/             # manuscript sources (optional)
-LICENSE            # MIT
-CITATION.cff
-```
-
-Do not commit `__pycache__/`, `.venv/`, or bulk `structures/*.pdb`. AlphaFold DB and RCSB files belong to those databases; fetch them at runtime.
-
-## Availability
-
-Source and example FASTA: this repository (MIT).  
-AlphaFold DB and RCSB structures: retrieved from their public APIs.  
-Do not submit confidential sequences to those services.
-
-## Cite
-
-Islam, T. U. (2026). *BioSeqInsight: An integrated local platform for DNA-to-protein sequence analysis and structure prediction.* Oral presentation of an accepted abstract (DAAS22), Regional Statistical Conference 2026, Bangladesh Agricultural University. No DOI.
-
-See `CITATION.cff`. After a public GitHub release you may add a software archive DOI (Zenodo). That DOI would cite the code, not a journal article.
-
-## License
-
-MIT for this repository. ESM Atlas, AlphaFold DB, UniProt, and RCSB have their own terms.
