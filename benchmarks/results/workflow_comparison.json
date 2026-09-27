@@ -1,0 +1,161 @@
+{
+  "software_version": "2.0.2",
+  "generated_at": "2026-09-26T11:40:30+00:00",
+  "method": "Step, application and manual-data-transfer counts derived from the published manual protocol (benchmarks/protocols/manual_workflow_protocol.md). Machine timings measured offline on this host. Human completion times and error rates are NOT included here; see usability_study_protocol.md.",
+  "tasks": [
+    {
+      "task": "T1_single_sequence_characterisation",
+      "goal": "For one coding sequence: GC content, melting temperature, longest ORF and the physicochemical properties of its product.",
+      "manual": {
+        "steps": 16,
+        "applications": 5,
+        "application_list": [
+          "notes",
+          "web tool A",
+          "web tool B",
+          "web tool C",
+          "web tool D"
+        ],
+        "manual_data_transfers": 8
+      },
+      "integrated": {
+        "steps": 3,
+        "applications": 1,
+        "application_list": [
+          "BioSeqInsight"
+        ],
+        "manual_data_transfers": 1
+      },
+      "step_reduction_percent": 81.2,
+      "application_reduction": 4,
+      "manual_transfers_eliminated": 7,
+      "bioseqinsight_machine_time_s": 0.002,
+      "notes": "The manual route recomputes nothing: it retypes the same sequence into four tools, each with its own defaults, and the analysis conditions are not recorded anywhere."
+    },
+    {
+      "task": "T2_structure_retrieval_with_identity_check",
+      "goal": "Obtain a structure for a protein and establish whether it really is that protein rather than a homologue or a different molecule.",
+      "manual": {
+        "steps": 17,
+        "applications": 7,
+        "application_list": [
+          "AlphaFold DB",
+          "EMBOSS/BLAST",
+          "RCSB PDB",
+          "UniProt",
+          "judgement",
+          "notes",
+          "text editor"
+        ],
+        "manual_data_transfers": 5
+      },
+      "integrated": {
+        "steps": 3,
+        "applications": 1,
+        "application_list": [
+          "BioSeqInsight"
+        ],
+        "manual_data_transfers": 1
+      },
+      "step_reduction_percent": 82.4,
+      "application_reduction": 6,
+      "manual_transfers_eliminated": 4,
+      "bioseqinsight_machine_time_s": null,
+      "notes": "The manual alignment step is the one most often skipped, and skipping it is exactly how v1.0's benchmark reported 25/25 successful retrievals while 7 of them were the wrong molecule. Machine time for this task is network-bound and is reported by run_structure_benchmark.py."
+    },
+    {
+      "task": "T3_batch_of_fifty_sequences",
+      "goal": "Produce one table of properties for fifty sequences.",
+      "manual": {
+        "steps": 5,
+        "applications": 3,
+        "application_list": [
+          "spreadsheet",
+          "text editor",
+          "web tools A-D"
+        ],
+        "manual_data_transfers": 2
+      },
+      "integrated": {
+        "steps": 3,
+        "applications": 1,
+        "application_list": [
+          "BioSeqInsight"
+        ],
+        "manual_data_transfers": 0
+      },
+      "step_reduction_percent": 99.6,
+      "application_reduction": 2,
+      "manual_transfers_eliminated": 2,
+      "bioseqinsight_machine_time_s": 0.038,
+      "notes": "The manual step count below expands the per-sequence loop: 50 x 16 steps plus the surrounding spreadsheet work. The integrated count does not grow with the number of sequences, which is the point.",
+      "manual_expanded_steps": 804
+    },
+    {
+      "task": "T4_reproduce_an_earlier_analysis",
+      "goal": "Re-run an analysis from six months ago and get the same numbers.",
+      "manual": {
+        "steps": 6,
+        "applications": 5,
+        "application_list": [
+          "judgement",
+          "notes",
+          "spreadsheet",
+          "web tools",
+          "web tools A-D"
+        ],
+        "manual_data_transfers": 1
+      },
+      "integrated": {
+        "steps": 3,
+        "applications": 1,
+        "application_list": [
+          "BioSeqInsight"
+        ],
+        "manual_data_transfers": 0
+      },
+      "step_reduction_percent": 50.0,
+      "application_reduction": 4,
+      "manual_transfers_eliminated": 1,
+      "bioseqinsight_machine_time_s": 0.039,
+      "notes": "Each BioSeqInsight project stores the software version, the complete settings and the input sequences, so the run is re-executable. The manual route depends on what the analyst happened to write down."
+    },
+    {
+      "task": "T5_share_an_analysis_with_a_collaborator",
+      "goal": "Give a colleague everything needed to check and continue the work.",
+      "manual": {
+        "steps": 6,
+        "applications": 3,
+        "application_list": [
+          "email",
+          "file manager",
+          "notes"
+        ],
+        "manual_data_transfers": 1
+      },
+      "integrated": {
+        "steps": 2,
+        "applications": 2,
+        "application_list": [
+          "BioSeqInsight",
+          "email"
+        ],
+        "manual_data_transfers": 0
+      },
+      "step_reduction_percent": 66.7,
+      "application_reduction": 1,
+      "manual_transfers_eliminated": 1,
+      "bioseqinsight_machine_time_s": 0.002,
+      "notes": "The exported archive contains the sequences, the retrieved coordinates, the results, the logs, the settings snapshot and the software version, and re-imports into a working project."
+    }
+  ],
+  "totals": {
+    "manual_steps": 849,
+    "integrated_steps": 14,
+    "step_reduction_percent": 98.4,
+    "distinct_applications_manual": 16,
+    "distinct_applications_integrated": 2,
+    "manual_data_transfers_manual": 17,
+    "manual_data_transfers_integrated": 2
+  }
+}

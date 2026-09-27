@@ -1,0 +1,70 @@
+accession,protein_name,organism,functional_class,membrane_associated,length,stratum,resolved_at
+P69905,Haemoglobin subunit alpha,Homo sapiens,oxygen_transport,no,142,short,2026-09-26T11:40:39+00:00
+P68871,Haemoglobin subunit beta,Homo sapiens,oxygen_transport,no,147,short,2026-09-26T11:40:39+00:00
+P02144,Myoglobin,Homo sapiens,oxygen_transport,no,154,medium,2026-09-26T11:40:40+00:00
+P68082,Myoglobin,Equus caballus,oxygen_transport,no,154,medium,2026-09-26T11:40:40+00:00
+P00698,Lysozyme C,Gallus gallus,hydrolase,no,147,short,2026-09-26T11:40:40+00:00
+P61626,Lysozyme C,Homo sapiens,hydrolase,no,148,short,2026-09-26T11:40:40+00:00
+P00720,Endolysin,Escherichia virus T4,hydrolase,no,164,medium,2026-09-26T11:40:41+00:00
+P00974,Pancreatic trypsin inhibitor,Bos taurus,protease_inhibitor,no,100,short,2026-09-26T11:40:41+00:00
+P63165,Small ubiquitin-related modifier 1,Homo sapiens,post_translational_modifier,no,101,short,2026-09-26T11:40:41+00:00
+P62979,Ubiquitin-40S ribosomal protein S27a,Homo sapiens,post_translational_modifier,no,156,medium,2026-09-26T11:40:41+00:00
+P0CG48,Polyubiquitin-C,Homo sapiens,post_translational_modifier,no,685,long,2026-09-26T11:40:42+00:00
+P0A6F9,10 kDa chaperonin,Escherichia coli,chaperone,no,97,short,2026-09-26T11:40:42+00:00
+P0A6F5,60 kDa chaperonin,Escherichia coli,chaperone,no,548,long,2026-09-26T11:40:42+00:00
+P61769,Beta-2-microglobulin,Homo sapiens,immune,no,119,short,2026-09-26T11:40:43+00:00
+P01308,Insulin,Homo sapiens,hormone,no,110,short,2026-09-26T11:40:43+00:00
+P61823,Ribonuclease pancreatic,Bos taurus,hydrolase,no,150,medium,2026-09-26T11:40:44+00:00
+P07998,Ribonuclease pancreatic,Homo sapiens,hydrolase,no,156,medium,2026-09-26T11:40:44+00:00
+P02766,Transthyretin,Homo sapiens,transport,no,147,short,2026-09-26T11:40:44+00:00
+P0AE67,Chemotaxis protein CheY,Escherichia coli,signalling,no,129,short,2026-09-26T11:40:44+00:00
+P62937,Peptidyl-prolyl cis-trans isomerase A,Homo sapiens,isomerase,no,165,medium,2026-09-26T11:40:45+00:00
+P01112,GTPase HRas,Homo sapiens,signalling,no,189,medium,2026-09-26T11:40:45+00:00
+P01116,GTPase KRas,Homo sapiens,signalling,no,189,medium,2026-09-26T11:40:45+00:00
+P42212,Green fluorescent protein,Aequorea victoria,fluorescent_reporter,no,238,medium,2026-09-26T11:40:46+00:00
+P00918,Carbonic anhydrase 2,Homo sapiens,lyase,no,260,medium,2026-09-26T11:40:46+00:00
+P01584,Interleukin-1 beta,Homo sapiens,cytokine,no,269,medium,2026-09-26T11:40:47+00:00
+P24941,Cyclin-dependent kinase 2,Homo sapiens,kinase,no,298,medium,2026-09-26T11:40:47+00:00
+P31749,RAC-alpha serine/threonine-protein kinase,Homo sapiens,kinase,no,480,long,2026-09-26T11:40:47+00:00
+P01375,Tumour necrosis factor,Homo sapiens,cytokine,yes,233,medium,2026-09-26T11:40:48+00:00
+P09038,Fibroblast growth factor 2,Homo sapiens,growth_factor,no,288,medium,2026-09-26T11:40:48+00:00
+P04637,Cellular tumour antigen p53,Homo sapiens,transcription_factor,no,393,long,2026-09-26T11:40:48+00:00
+P0AEX9,Maltose/maltodextrin-binding periplasmic protein,Escherichia coli,transport,no,396,long,2026-09-26T11:40:49+00:00
+P00760,Cationic trypsin,Bos taurus,protease,no,246,medium,2026-09-26T11:40:49+00:00
+P00734,Prothrombin,Homo sapiens,protease,no,622,long,2026-09-26T11:40:49+00:00
+P00441,Superoxide dismutase [Cu-Zn],Homo sapiens,oxidoreductase,no,154,medium,2026-09-26T11:40:50+00:00
+P04406,Glyceraldehyde-3-phosphate dehydrogenase,Homo sapiens,oxidoreductase,no,335,long,2026-09-26T11:40:50+00:00
+P60174,Triosephosphate isomerase,Homo sapiens,isomerase,no,249,medium,2026-09-26T11:40:50+00:00
+P00338,L-lactate dehydrogenase A chain,Homo sapiens,oxidoreductase,no,332,long,2026-09-26T11:40:51+00:00
+P06733,Alpha-enolase,Homo sapiens,lyase,no,434,long,2026-09-26T11:40:51+00:00
+P0DP23,Calmodulin-1,Homo sapiens,calcium_sensor,no,149,short,2026-09-26T11:40:52+00:00
+P60709,Actin cytoplasmic 1,Homo sapiens,cytoskeleton,no,375,long,2026-09-26T11:40:52+00:00
+P68363,Tubulin alpha-1B chain,Homo sapiens,cytoskeleton,no,451,long,2026-09-26T11:40:52+00:00
+P02768,Serum albumin,Homo sapiens,transport,no,609,long,2026-09-26T11:40:53+00:00
+P02769,Serum albumin,Bos taurus,transport,no,607,long,2026-09-26T11:40:53+00:00
+P01009,Alpha-1-antitrypsin,Homo sapiens,protease_inhibitor,no,418,long,2026-09-26T11:40:53+00:00
+P07900,Heat shock protein HSP 90-alpha,Homo sapiens,chaperone,no,732,long,2026-09-26T11:40:54+00:00
+P11142,Heat shock cognate 71 kDa protein,Homo sapiens,chaperone,no,646,long,2026-09-26T11:40:54+00:00
+P0A6Y8,Chaperone protein DnaK,Escherichia coli,chaperone,no,638,long,2026-09-26T11:40:54+00:00
+P37840,Alpha-synuclein,Homo sapiens,intrinsically_disordered,yes,140,short,2026-09-26T11:40:54+00:00
+P10636,Microtubule-associated protein tau,Homo sapiens,intrinsically_disordered,no,758,long,2026-09-26T11:40:55+00:00
+P05067,Amyloid-beta precursor protein,Homo sapiens,membrane_receptor,yes,770,long,2026-09-26T11:40:55+00:00
+P00533,Epidermal growth factor receptor,Homo sapiens,membrane_receptor,yes,1210,long,2026-09-26T11:40:55+00:00
+P04626,Receptor tyrosine-protein kinase erbB-2,Homo sapiens,membrane_receptor,yes,1255,long,2026-09-26T11:40:56+00:00
+P06213,Insulin receptor,Homo sapiens,membrane_receptor,yes,1382,long,2026-09-26T11:40:57+00:00
+P42574,Caspase-3,Homo sapiens,protease,no,277,medium,2026-09-26T11:40:58+00:00
+P10415,Apoptosis regulator Bcl-2,Homo sapiens,apoptosis_regulator,yes,239,medium,2026-09-26T11:40:59+00:00
+P38398,Breast cancer type 1 susceptibility protein,Homo sapiens,dna_repair,no,1863,long,2026-09-26T11:40:59+00:00
+P03372,Oestrogen receptor,Homo sapiens,transcription_factor,no,595,long,2026-09-26T11:41:00+00:00
+P10275,Androgen receptor,Homo sapiens,transcription_factor,no,920,long,2026-09-26T11:41:01+00:00
+P0ACJ8,cAMP-activated global transcriptional regulator CRP,Escherichia coli,transcription_factor,no,210,medium,2026-09-26T11:41:01+00:00
+P0A799,Phosphoglycerate kinase,Escherichia coli,kinase,no,387,long,2026-09-26T11:41:01+00:00
+P00350,6-phosphogluconate dehydrogenase decarboxylating,Escherichia coli,oxidoreductase,no,468,long,2026-09-26T11:41:01+00:00
+P02925,D-ribose-binding periplasmic protein,Escherichia coli,transport,no,296,medium,2026-09-26T11:41:02+00:00
+P00004,Cytochrome c,Equus caballus,electron_transport,no,105,short,2026-09-26T11:41:02+00:00
+P02754,Beta-lactoglobulin,Bos taurus,transport,no,178,medium,2026-09-26T11:41:02+00:00
+P00711,Alpha-lactalbumin,Bos taurus,calcium_binding,no,142,short,2026-09-26T11:41:02+00:00
+P01857,Immunoglobulin heavy constant gamma 1,Homo sapiens,immune,no,399,long,2026-09-26T11:41:03+00:00
+P01834,Immunoglobulin kappa constant,Homo sapiens,immune,no,107,short,2026-09-26T11:41:03+00:00
+P02452,Collagen alpha-1(I) chain,Homo sapiens,structural,no,1464,long,2026-09-26T11:41:04+00:00
+P02751,Fibronectin,Homo sapiens,extracellular_matrix,no,2477,long,2026-09-26T11:41:05+00:00

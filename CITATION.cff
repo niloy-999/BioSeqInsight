@@ -1,23 +1,92 @@
 cff-version: 1.2.0
-title: BioSeqInsight
-message: If you use this software, please cite it as below.
+title: "BioSeqInsight: an integrated desktop platform for DNA sequence analysis and validated protein structure-resource retrieval"
+message: "If you use this software, please cite it using these metadata, and cite the structural resources it queries separately."
 type: software
-authors:
-  - family-names: Islam
-    given-names: Tasnim Ul
-    affiliation: Bangladesh Agricultural University
-    email: tuiniloy789@gmail.com
+version: "2.0.2"
+date-released: "2026-09-23"
 license: MIT
-date-released: "2026-08-28"
-preferred-citation:
-  type: conference-paper
-  title: "BioSeqInsight: An Integrated Local Platform for DNA-to-Protein Sequence Analysis and Structure Prediction"
-  authors:
-    - family-names: Islam
-      given-names: Tasnim Ul
-  year: 2026
-  conference:
-    name: Regional Statistical Conference 2026
-    city: Mymensingh
-    country: BD
-  notes: "Oral presentation of an accepted abstract (Reg. DAAS22). No DOI. Jointly organized by the Department of Agricultural and Applied Statistics, BAU and the Bangladesh Statistical Association."
+repository-code: "https://github.com/niloy-999/BioSeqInsight"
+url: "https://github.com/niloy-999/BioSeqInsight"
+abstract: >-
+  BioSeqInsight is a cross-platform desktop application and command-line tool
+  that combines nucleotide and protein sequence analysis with retrieval of
+  protein structures from RCSB PDB, the AlphaFold Protein Structure Database
+  and the ESM Atlas fold service. Its distinguishing feature is automatic
+  validation of sequence-to-structure mapping: every retrieved structure is
+  aligned against the query sequence and cross-checked against its database
+  accession, and the outcome is reported on an explicit five-level scale
+  (M0-M4) so that a homologue or an unrelated molecule is never presented as
+  the queried protein. The software has no required third-party dependencies,
+  ships a 432-test offline suite, and stores the inputs, settings and software
+  version of each analysis so that runs can be reproduced and shared.
+keywords:
+  - bioinformatics
+  - sequence analysis
+  - protein structure
+  - structure validation
+  - AlphaFold
+  - ESMFold
+  - RCSB PDB
+  - UniProt
+  - reproducibility
+  - desktop application
+authors:
+  - family-names: "PLEASE-REPLACE-WITH-YOUR-SURNAME"
+    given-names: "PLEASE-REPLACE-WITH-YOUR-GIVEN-NAME"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "PLEASE-REPLACE-WITH-YOUR-INSTITUTION"
+references:
+  - type: article
+    title: "The Protein Data Bank"
+    authors:
+      - family-names: Berman
+        given-names: "Helen M."
+    journal: "Nucleic Acids Research"
+    volume: 28
+    start: 235
+    end: 242
+    year: 2000
+    doi: "10.1093/nar/28.1.235"
+  - type: article
+    title: "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models"
+    authors:
+      - family-names: Varadi
+        given-names: Mihaly
+    journal: "Nucleic Acids Research"
+    volume: 50
+    start: D439
+    end: D444
+    year: 2022
+    doi: "10.1093/nar/gkab1061"
+  - type: article
+    title: "Highly accurate protein structure prediction with AlphaFold"
+    authors:
+      - family-names: Jumper
+        given-names: John
+    journal: "Nature"
+    volume: 596
+    start: 583
+    end: 589
+    year: 2021
+    doi: "10.1038/s41586-021-03819-2"
+  - type: article
+    title: "Evolutionary-scale prediction of atomic-level protein structure with a language model"
+    authors:
+      - family-names: Lin
+        given-names: Zeming
+    journal: "Science"
+    volume: 379
+    start: 1123
+    end: 1130
+    year: 2023
+    doi: "10.1126/science.ade2574"
+  - type: article
+    title: "UniProt: the Universal Protein Knowledgebase in 2023"
+    authors:
+      - name: "The UniProt Consortium"
+    journal: "Nucleic Acids Research"
+    volume: 51
+    start: D523
+    end: D531
+    year: 2023
+    doi: "10.1093/nar/gkac1052"

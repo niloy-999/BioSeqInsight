@@ -1,0 +1,70 @@
+accession,protein_name,organism,functional_class,membrane_associated,selection_rationale
+P69905,Haemoglobin subunit alpha,Homo sapiens,oxygen_transport,no,Classic small globin with abundant experimental structures; carried over from the v1.0 benchmark for continuity
+P68871,Haemoglobin subunit beta,Homo sapiens,oxygen_transport,no,Paralogue of HBA; tests whether sequence search can separate two highly similar chains
+P02144,Myoglobin,Homo sapiens,oxygen_transport,no,Single-domain globin; textbook reference structure
+P68082,Myoglobin,Equus caballus,oxygen_transport,no,Non-human orthologue of a human entry; probes cross-species mapping errors
+P00698,Lysozyme C,Gallus gallus,hydrolase,no,Most-deposited small enzyme in the PDB; high redundancy stress case
+P61626,Lysozyme C,Homo sapiens,hydrolase,no,Human orthologue of hen lysozyme; direct orthologue-confusion test
+P00720,Endolysin,Escherichia virus T4,hydrolase,no,Known AlphaFold DB coverage gap in the v1.0 benchmark; retained deliberately
+P00974,Pancreatic trypsin inhibitor,Bos taurus,protease_inhibitor,no,Small disulfide-rich protein; mapped to the wrong accession in v1.0
+P63165,Small ubiquitin-related modifier 1,Homo sapiens,post_translational_modifier,no,Ubiquitin-fold protein; tests discrimination within a large fold family
+P62979,Ubiquitin-40S ribosomal protein S27a,Homo sapiens,post_translational_modifier,no,Ubiquitin fused to a ribosomal protein; fragment-versus-full-length coverage test
+P0CG48,Polyubiquitin-C,Homo sapiens,post_translational_modifier,no,Tandem repeat protein whose deposited structures are single units; severe coverage mismatch case
+P0A6F9,10 kDa chaperonin,Escherichia coli,chaperone,no,Mapped to GroEL rather than GroES in v1.0; complex-versus-subunit test
+P0A6F5,60 kDa chaperonin,Escherichia coli,chaperone,no,The partner of GroES; included so the confusion can be measured in both directions
+P61769,Beta-2-microglobulin,Homo sapiens,immune,no,Immunoglobulin fold; mapped to a non-human accession in v1.0
+P01308,Insulin,Homo sapiens,hormone,no,Preproinsulin query returned insulin-degrading enzyme in v1.0; the headline mapping failure
+P61823,Ribonuclease pancreatic,Bos taurus,hydrolase,no,Classic small enzyme with many mutant structures
+P07998,Ribonuclease pancreatic,Homo sapiens,hydrolase,no,Human orthologue of RNase A
+P02766,Transthyretin,Homo sapiens,transport,no,Homotetramer; probes assembly-versus-chain reporting
+P0AE67,Chemotaxis protein CheY,Escherichia coli,signalling,no,Canonical bacterial response regulator
+P62937,Peptidyl-prolyl cis-trans isomerase A,Homo sapiens,isomerase,no,Abundant cytosolic enzyme
+P01112,GTPase HRas,Homo sapiens,signalling,no,Small GTPase; most structures are truncated catalytic domains
+P01116,GTPase KRas,Homo sapiens,signalling,no,Near-identical paralogue of HRas; deliberate high-identity discrimination test
+P42212,Green fluorescent protein,Aequorea victoria,fluorescent_reporter,no,Beta-barrel with low ESMFold confidence in v1.0
+P00918,Carbonic anhydrase 2,Homo sapiens,lyase,no,Well-characterised medium-sized enzyme
+P01584,Interleukin-1 beta,Homo sapiens,cytokine,no,Beta-trefoil cytokine
+P24941,Cyclin-dependent kinase 2,Homo sapiens,kinase,no,Protein kinase fold; the worked example in the v1.0 manuscript
+P31749,RAC-alpha serine/threonine-protein kinase,Homo sapiens,kinase,no,Multidomain kinase; only fragments are deposited
+P01375,Tumour necrosis factor,Homo sapiens,cytokine,yes,Type II membrane protein released as a soluble trimer
+P09038,Fibroblast growth factor 2,Homo sapiens,growth_factor,no,Multiple isoforms share one accession; isoform-boundary test
+P04637,Cellular tumour antigen p53,Homo sapiens,transcription_factor,no,Largely disordered outside its DNA-binding domain; mapped to RPB1 in v1.0
+P0AEX9,Maltose/maltodextrin-binding periplasmic protein,Escherichia coli,transport,no,Common fusion tag; long enough to exceed the ESM Atlas length limit
+P00760,Cationic trypsin,Bos taurus,protease,no,Serine protease with a mature chain much shorter than the precursor
+P00734,Prothrombin,Homo sapiens,protease,no,Zymogen whose structures cover only the mature protease domain
+P00441,Superoxide dismutase [Cu-Zn],Homo sapiens,oxidoreductase,no,Small metalloenzyme
+P04406,Glyceraldehyde-3-phosphate dehydrogenase,Homo sapiens,oxidoreductase,no,Abundant housekeeping enzyme
+P60174,Triosephosphate isomerase,Homo sapiens,isomerase,no,The canonical TIM barrel
+P00338,L-lactate dehydrogenase A chain,Homo sapiens,oxidoreductase,no,Tetrameric metabolic enzyme
+P06733,Alpha-enolase,Homo sapiens,lyase,no,Moonlighting glycolytic enzyme
+P0DP23,Calmodulin-1,Homo sapiens,calcium_sensor,no,Identical protein product shared by three genes and accessions; accession-ambiguity test
+P60709,Actin cytoplasmic 1,Homo sapiens,cytoskeleton,no,Highly conserved across eukaryotes; orthologue-confusion stress case
+P68363,Tubulin alpha-1B chain,Homo sapiens,cytoskeleton,no,Structures exist almost exclusively as heterodimers and polymers
+P02768,Serum albumin,Homo sapiens,transport,no,Large multidomain carrier well beyond the ESM Atlas limit
+P02769,Serum albumin,Bos taurus,transport,no,Bovine orthologue of the above
+P01009,Alpha-1-antitrypsin,Homo sapiens,protease_inhibitor,no,Serpin with distinct native and cleaved conformations
+P07900,Heat shock protein HSP 90-alpha,Homo sapiens,chaperone,no,Large multidomain chaperone
+P11142,Heat shock cognate 71 kDa protein,Homo sapiens,chaperone,no,Deposited only as separate domains
+P0A6Y8,Chaperone protein DnaK,Escherichia coli,chaperone,no,Bacterial HSP70 counterpart
+P37840,Alpha-synuclein,Homo sapiens,intrinsically_disordered,yes,Intrinsically disordered; expected low prediction confidence
+P10636,Microtubule-associated protein tau,Homo sapiens,intrinsically_disordered,no,Disordered with many isoforms; a hard case by design
+P05067,Amyloid-beta precursor protein,Homo sapiens,membrane_receptor,yes,Single-pass membrane protein; only fragments are deposited
+P00533,Epidermal growth factor receptor,Homo sapiens,membrane_receptor,yes,Receptor tyrosine kinase; ectodomain and kinase domain deposited separately
+P04626,Receptor tyrosine-protein kinase erbB-2,Homo sapiens,membrane_receptor,yes,Paralogue of EGFR
+P06213,Insulin receptor,Homo sapiens,membrane_receptor,yes,Large disulfide-linked receptor
+P42574,Caspase-3,Homo sapiens,protease,no,Processed into two chains from one precursor
+P10415,Apoptosis regulator Bcl-2,Homo sapiens,apoptosis_regulator,yes,Tail-anchored membrane protein
+P38398,Breast cancer type 1 susceptibility protein,Homo sapiens,dna_repair,no,Very large; only small domains are deposited
+P03372,Oestrogen receptor,Homo sapiens,transcription_factor,no,Nuclear receptor with separately deposited domains
+P10275,Androgen receptor,Homo sapiens,transcription_factor,no,Nuclear receptor with a long disordered N-terminus
+P0ACJ8,cAMP-activated global transcriptional regulator CRP,Escherichia coli,transcription_factor,no,Bacterial DNA-binding regulator
+P0A799,Phosphoglycerate kinase,Escherichia coli,kinase,no,Bacterial metabolic enzyme
+P00350,6-phosphogluconate dehydrogenase decarboxylating,Escherichia coli,oxidoreductase,no,Bacterial oxidoreductase
+P02925,D-ribose-binding periplasmic protein,Escherichia coli,transport,no,Periplasmic binding protein with a cleaved signal peptide
+P00004,Cytochrome c,Equus caballus,electron_transport,no,Small electron carrier; non-human by design
+P02754,Beta-lactoglobulin,Bos taurus,transport,no,Lipocalin fold
+P00711,Alpha-lactalbumin,Bos taurus,calcium_binding,no,Structurally similar to lysozyme despite a different function; fold-versus-function test
+P01857,Immunoglobulin heavy constant gamma 1,Homo sapiens,immune,no,Constant region present in thousands of antibody structures; extreme redundancy case
+P01834,Immunoglobulin kappa constant,Homo sapiens,immune,no,Short constant domain found in most Fab structures
+P02452,Collagen alpha-1(I) chain,Homo sapiens,structural,no,Fibrous repeat protein; no full-length structure exists
+P02751,Fibronectin,Homo sapiens,extracellular_matrix,no,Very large modular protein deposited only as individual modules

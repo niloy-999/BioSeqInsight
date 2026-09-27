@@ -1,0 +1,144 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bioseqinsight"
+version = "2.0.2"
+description = "Integrated DNA sequence analysis and validated protein structure-resource retrieval"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "BioSeqInsight contributors" }]
+keywords = [
+    "bioinformatics", "sequence analysis", "protein structure",
+    "AlphaFold", "ESMFold", "RCSB PDB", "UniProt", "desktop application",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: X11 Applications",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Typing :: Typed",
+]
+
+# The core package has NO required third-party dependencies. Every sequence
+# and protein calculation is implemented in the standard library, so the
+# package installs and its full offline test suite runs anywhere Python
+# runs. Optional extras add convenience and cross-validation.
+dependencies = []
+
+[project.optional-dependencies]
+# Uses requests instead of urllib for HTTP: connection pooling, better
+# proxy handling. The stdlib transport is used automatically when absent.
+http = ["requests>=2.28"]
+# Enables the Biopython cross-validation test module. Not needed to run the
+# software; needed to reproduce the parity results reported in the paper.
+validation = ["biopython>=1.81"]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+    "ruff>=0.5",
+    "black>=24.1",
+    "mypy>=1.8",
+    "build>=1.0",
+    "twine>=5.0",
+]
+all = ["bioseqinsight[http,validation,dev]"]
+
+[project.urls]
+Homepage = "https://github.com/niloy-999/BioSeqInsight"
+Repository = "https://github.com/niloy-999/BioSeqInsight"
+Issues = "https://github.com/niloy-999/BioSeqInsight/issues"
+Changelog = "https://github.com/niloy-999/BioSeqInsight/blob/main/CHANGELOG.md"
+Documentation = "https://github.com/niloy-999/BioSeqInsight/tree/main/docs"
+
+[project.scripts]
+bioseqinsight = "bioseqinsight.cli:main"
+
+[project.gui-scripts]
+bioseqinsight-gui = "bioseqinsight.gui.main_window:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bioseqinsight = ["py.typed"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra --strict-markers --strict-config"
+markers = [
+    "network: test requires internet access (deselected by default in CI)",
+    "slow: test takes more than a second",
+]
+filterwarnings = ["error::DeprecationWarning:bioseqinsight.*"]
+
+[tool.coverage.run]
+source = ["bioseqinsight"]
+branch = true
+omit = [
+    # Tkinter view modules cannot be exercised on a headless CI runner.
+    # The formatting logic they display is in gui/formatting.py, which IS
+    # covered; see docs/developer-guide.md for the rationale.
+    "*/gui/main_window.py",
+    "*/gui/sequence_view.py",
+    "*/gui/structure_view.py",
+    "*/gui/widgets.py",
+]
+
+[tool.coverage.report]
+precision = 1
+show_missing = true
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM", "RUF"]
+ignore = [
+    "E501",    # line length is handled by the formatter
+    "B008",    # function call in default argument, used deliberately for settings
+    "RUF012",  # mutable class attributes; dataclasses handle this
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["N802", "N803"]
+"benchmarks/*" = ["N802"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+ignore_missing_imports = true
+check_untyped_defs = true
+exclude = ["build/", "dist/"]
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false

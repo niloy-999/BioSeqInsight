@@ -1,31 +1,26 @@
-# Example sequences
+# Example data
 
-## `short_dna.fasta`
+Small inputs for trying the software and for the tutorials in `docs/`.
 
-Tiny teaching construct:
+| File | Use |
+|---|---|
+| `dna/demo_gene.fasta` | One clean ORF; the quickest way to see sequence analysis work |
+| `dna/ambiguous.fasta` | Contains N codes at real positions; shows that ambiguity does not shift the reading frame |
+| `dna/primer_panel.fasta` | Five short sequences spanning GC extremes, for melting-temperature comparison |
+| `proteins/ubiquitin.fasta` | Resolves to an exact (M4) structural match |
+| `proteins/benchmark_subset.fasta` | Five proteins covering an exact match, two near-identical paralogues, a low-confidence barrel, and the preproinsulin mis-mapping case |
+| `proteins/disordered.fasta` | Intrinsically disordered; expect low prediction confidence |
+| `structures/1UBQ.pdb` | An experimental coordinate file, for the local-file and viewer paths |
 
-- Sequence: `CCCATGTCTTCTAAAGTTAAATAACCC`
-- Frame +1 translation of the whole string starts at the leading `CCC` → `PMSSKVK` then `P`
-- ORF search (ATG to stop) → `MSSKVK`
-- Expected GC content: 37.04%
-- Motif `ATG` 1-based start: 4
+Try them:
 
-Use this on the **Sequence Analysis** tab.
+```bash
+bioseqinsight dna --file examples/dna/demo_gene.fasta
+bioseqinsight protein --file examples/proteins/ubiquitin.fasta --sketch
+bioseqinsight batch examples/proteins/benchmark_subset.fasta --formats csv,html
+bioseqinsight structure P0CG48          # needs network access
+```
 
-## `ubiquitin.fasta`
-
-Human ubiquitin monomer, 76 aa.
-
-Approximate checks:
-
-- Molecular weight ≈ 8565 Da
-- Mean Kyte–Doolittle hydropathy ≈ −0.49
-
-Use this for mass / hydropathy.
-
-## `1UBQ.pdb`
-
-Experimental ubiquitin from RCSB. Use **Load local PDB**. Crystal B-factors
-are mobility values, not pLDDT.
-
-New predictions and downloads are written to `structures/` as separate files.
+`benchmark_subset.fasta` is deliberately chosen to produce different mapping
+levels: run it with `--structures` and the exported table will show an M4
+alongside cases that are not exact matches. That contrast is the point.

@@ -1,4 +1,13 @@
-biopython>=1.83
-requests>=2.31
-pillow>=10.0
-pytest>=8.0
+# BioSeqInsight has no required runtime dependencies: every sequence and
+# protein calculation is implemented against the Python standard library.
+#
+# This file pins the OPTIONAL runtime extras, for users who want them and for
+# reproducing the published benchmarks. Install with:
+#     pip install -r requirements.txt
+#
+# Or install the package with the extras you want instead:
+#     pip install bioseqinsight[http]
+#     pip install bioseqinsight[http,validation]
+
+requests==2.32.3      # optional HTTP transport; urllib is used when absent
+biopython==1.84       # optional; enables the cross-validation test module

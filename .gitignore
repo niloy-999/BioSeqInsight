@@ -1,29 +1,35 @@
 __pycache__/
-
 *.py[cod]
-
-*$py.class
-
-.Python
-
+*.egg-info/
+build/
+dist/
+.eggs/
 .venv/
-
 venv/
-
 env/
-
-.env
-
-.DS_Store
-
-*.html
-
-predicted_structure.pdb
-
-structures/
-
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
 .pytest_cache/
-
+.mypy_cache/
+.ruff_cache/
+.tox/
 .idea/
-
 .vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime output: regenerate, do not commit
+structures/
+*.log
+logs/
+.bioseqinsight/
+
+# Benchmark output. The committed results in benchmarks/results/ are the
+# published ones; dated runs stay local.
+benchmarks/results/*_20*.csv
+benchmarks/results/*_20*.json
+
+# Generated coverage report
+coverage.json

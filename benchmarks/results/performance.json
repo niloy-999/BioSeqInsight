@@ -1,0 +1,102 @@
+{
+  "software_version": "2.0.2",
+  "generated_at": "2026-09-26T11:40:28+00:00",
+  "environment": {
+    "python": "3.13.5",
+    "implementation": "CPython",
+    "platform": "macOS-27.0-arm64-arm-64bit-Mach-O",
+    "processor": "arm"
+  },
+  "seed": 20260921,
+  "repeats": 3,
+  "single_sequence": {
+    "dna_300nt_ms": 0.8,
+    "dna_3000nt_ms": 7.748,
+    "dna_30000nt_ms": 75.507,
+    "protein_100aa_ms": 0.733,
+    "protein_300aa_ms": 2.252,
+    "protein_1000aa_ms": 7.077
+  },
+  "batch_scalability": [
+    {
+      "sequences": 10,
+      "median_s": 0.0203,
+      "stdev_s": 0.0001,
+      "per_sequence_ms": 2.032,
+      "sequences_per_second": 492.2
+    },
+    {
+      "sequences": 100,
+      "median_s": 0.1999,
+      "stdev_s": 0.0011,
+      "per_sequence_ms": 1.999,
+      "sequences_per_second": 500.2
+    },
+    {
+      "sequences": 500,
+      "median_s": 0.9946,
+      "stdev_s": 0.0509,
+      "per_sequence_ms": 1.989,
+      "sequences_per_second": 502.7
+    },
+    {
+      "sequences": 1000,
+      "median_s": 1.9875,
+      "stdev_s": 0.0558,
+      "per_sequence_ms": 1.987,
+      "sequences_per_second": 503.1
+    }
+  ],
+  "batch_per_sequence_cost_ratio": 1.02,
+  "alignment": [
+    {
+      "query_length": 76,
+      "subject_length": 68,
+      "median_ms": 1.03,
+      "cells": 5313
+    },
+    {
+      "query_length": 150,
+      "subject_length": 135,
+      "median_ms": 3.85,
+      "cells": 20536
+    },
+    {
+      "query_length": 300,
+      "subject_length": 270,
+      "median_ms": 15.69,
+      "cells": 81571
+    },
+    {
+      "query_length": 600,
+      "subject_length": 540,
+      "median_ms": 69.33,
+      "cells": 325141
+    }
+  ],
+  "cache": {
+    "payload_bytes": 200006,
+    "write_ms": 1.158,
+    "read_ms": 0.305,
+    "simulated_remote_call_s": 2.0,
+    "speedup_versus_remote_call": 6556.0,
+    "note": "The remote call is a constant taken from the v1.0 benchmark's median ESM Atlas response time, not a measurement made here. The point of the ratio is the order of magnitude: a cache hit is local disk I/O."
+  },
+  "export": {
+    "rows": 200,
+    "csv_ms": 2.07,
+    "json_ms": 15.27,
+    "html_ms": 3.15
+  },
+  "startup": {
+    "import_and_first_analysis_ms": 27.6,
+    "samples_ms": [
+      37.5,
+      27.5,
+      27.6,
+      27.5,
+      27.7
+    ]
+  },
+  "note": "Local computation only. External service latency is a property of the remote resources and is reported by run_structure_benchmark.py."
+}

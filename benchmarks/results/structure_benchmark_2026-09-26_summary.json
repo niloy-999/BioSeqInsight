@@ -1,0 +1,136 @@
+{
+  "software_version": "2.0.2",
+  "generated_at": "2026-09-26T12:04:09+00:00",
+  "candidates": 69,
+  "resolved": 69,
+  "unresolved": 0,
+  "unresolved_accessions": [],
+  "strata": {
+    "short": {
+      "proteins": 16,
+      "exact_matches": 16
+    },
+    "medium": {
+      "proteins": 23,
+      "exact_matches": 22
+    },
+    "long": {
+      "proteins": 30,
+      "exact_matches": 30
+    }
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 69,
+      "retrieved": 68,
+      "success_rate_percent": 98.6,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 98.6,
+      "not_found": 1,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 0.382,
+      "exact_matches": 68,
+      "accounting_check": "ok"
+    },
+    "esmatlas": {
+      "requests": 69,
+      "retrieved": 45,
+      "success_rate_percent": 65.2,
+      "attempted_requests": 46,
+      "attempted_success_rate_percent": 97.8,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 1,
+      "invalid_input": 23,
+      "skipped": 0,
+      "recovered_after_failure": 1,
+      "median_response_time_s": 1.421,
+      "exact_matches": 0,
+      "accounting_check": "ok"
+    },
+    "rcsb": {
+      "requests": 69,
+      "retrieved": 58,
+      "success_rate_percent": 84.1,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 84.1,
+      "not_found": 6,
+      "timeouts": 0,
+      "service_errors": 5,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 5.228,
+      "exact_matches": 38,
+      "accounting_check": "ok"
+    }
+  },
+  "best_mapping_distribution": {
+    "M0": 0,
+    "M1": 0,
+    "M2": 0,
+    "M3": 1,
+    "M4": 68
+  },
+  "exact_mapping_rate_percent": 98.6,
+  "any_structure_rate_percent": 100.0,
+  "wall_clock_s": 1412.1,
+  "settings": {
+    "http_timeout_s": 60.0,
+    "esm_timeout_s": 90.0,
+    "max_attempts": 3,
+    "backoff_base_s": 1.0,
+    "backoff_max_s": 20.0,
+    "jitter": true,
+    "offline": false,
+    "cache_enabled": true,
+    "cache_dir": "/Users/niloy/.bioseqinsight/cache",
+    "cache_ttl_days": 30.0,
+    "download_dir": "/Volumes/movies and others/Coding/python/BioSeqInsight/structures",
+    "projects_dir": "/Users/niloy/.bioseqinsight/projects",
+    "log_file": "/Users/niloy/.bioseqinsight/logs/bioseqinsight.log",
+    "log_level": "INFO",
+    "log_json": false,
+    "genetic_code_table": 1,
+    "min_orf_aa": 30,
+    "tm_primer_nM": 250.0,
+    "tm_na_mM": 50.0,
+    "hydropathy_window": 9,
+    "esm_max_length": 400,
+    "alphafold_versions": [
+      "v4",
+      "v3"
+    ],
+    "fallback_order": [
+      "rcsb",
+      "alphafold",
+      "esmatlas"
+    ],
+    "rcsb_search_identity_cutoff": 0.9,
+    "rcsb_search_max_hits": 5,
+    "validate_structures": true,
+    "exact_identity_threshold": 99.0,
+    "exact_coverage_threshold": 95.0,
+    "high_identity_threshold": 95.0,
+    "high_coverage_threshold": 80.0,
+    "related_identity_threshold": 40.0,
+    "related_coverage_threshold": 40.0,
+    "batch_workers": 4,
+    "batch_chunk_size": 100,
+    "viewer_command": "",
+    "open_browser": true
+  },
+  "cache": {
+    "enabled": true,
+    "directory": "/Users/niloy/.bioseqinsight/cache",
+    "ttl_s": 2592000.0,
+    "hits": 0,
+    "misses": 790,
+    "hit_rate_percent": 0.0,
+    "entries": 781
+  }
+}

@@ -1,0 +1,169 @@
+name: tests
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main, develop]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: py${{ matrix.python-version }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      # Installed with no extras on purpose: this job proves the package
+      # works with zero third-party dependencies on every supported
+      # platform. If any core module grows an accidental import of
+      # requests or Biopython, this job fails.
+      - name: Install the package only
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+          pip install pytest pytest-cov
+
+      - name: Confirm no third-party runtime dependencies were pulled in
+        shell: bash
+        run: |
+          python - <<'PY'
+          import importlib.util, sys
+          for forbidden in ("Bio", "requests", "numpy", "pandas"):
+              if importlib.util.find_spec(forbidden):
+                  sys.exit(f"{forbidden} should not be installed in this job")
+          print("clean environment confirmed")
+          PY
+
+      - name: Run the offline test suite
+        run: python -m pytest -q --cov=bioseqinsight --cov-report=xml --cov-report=term
+
+      - name: Check the CLI works from a clean install
+        shell: bash
+        run: |
+          bioseqinsight version
+          bioseqinsight --offline dna ATGGCTAGCTAGGCTTACCGATTGGCATTAA --min-orf 3
+          bioseqinsight --offline protein MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEG
+
+      - name: Upload coverage
+        if: matrix.os == 'ubuntu-latest' && matrix.python-version == '3.12'
+        uses: codecov/codecov-action@v4
+        with:
+          files: ./coverage.xml
+          fail_ci_if_error: false
+
+  cross-validation:
+    name: Biopython cross-validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # This is the job that proves the dependency-free implementations agree
+      # with an established reference. tests/test_biopython_parity.py skips
+      # itself when Biopython is absent, so it must run somewhere on purpose.
+      - name: Install with the validation extra
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[validation]"
+          pip install pytest
+
+      - name: Run the parity tests and fail if they were skipped
+        run: |
+          python -m pytest tests/test_biopython_parity.py -v
+          python -m pytest tests/test_biopython_parity.py -q --collect-only \
+            | tee /tmp/collected.txt
+          grep -q "test_molecular_weight_matches" /tmp/collected.txt
+
+  http-extra:
+    name: requests transport
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install with the http extra
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[http]"
+          pip install pytest
+      - name: Run the suite against the requests transport
+        run: python -m pytest -q
+
+  benchmarks:
+    name: offline benchmarks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+
+      # Both of these run without network access and are deterministic, so a
+      # regression in the retry machinery or a large performance regression
+      # breaks the build rather than being noticed at submission time.
+      - name: Fault injection
+        run: python benchmarks/scripts/run_fault_injection.py --repeats 50
+
+      - name: Performance
+        run: python benchmarks/scripts/run_performance_benchmark.py --sizes 10,100 --repeats 2
+
+      - name: Workflow comparison
+        run: python benchmarks/scripts/run_workflow_comparison.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: benchmarks/results/
+
+  packaging:
+    name: build and install the wheel
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install build twine
+      - run: python -m build
+      - run: twine check dist/*
+
+      # Installing the built wheel into a fresh environment, outside the
+      # source tree, is the check that catches a missing package or a module
+      # that only imports because the repository happens to be on sys.path.
+      - name: Install the wheel in a clean environment and use it
+        run: |
+          python -m venv /tmp/fresh
+          /tmp/fresh/bin/pip install dist/*.whl
+          cd /tmp
+          /tmp/fresh/bin/bioseqinsight version
+          /tmp/fresh/bin/bioseqinsight --offline dna ATGAAACCCGGGTTTTAA --min-orf 3
+          /tmp/fresh/bin/python -c "import bioseqinsight; print(bioseqinsight.__version__)"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: distributions
+          path: dist/
