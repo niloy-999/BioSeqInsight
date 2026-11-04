@@ -1,0 +1,88 @@
+\section{Related work}
+\label{sec:related-work}
+
+\subsection{Sequence-analysis toolkits}
+
+Biopython \citep{cock2009biopython} is the de facto standard Python library
+for sequence parsing, translation, and protein-parameter calculation, and is
+used directly by a large fraction of bioinformatics scripting in Python.
+EMBOSS \citep{rice2000emboss} provides an equivalent, broader suite as
+command-line Unix tools rather than a library, including its own
+isoelectric-point calculator (\texttt{iep}) and pairwise alignment tools. Both
+are mature, well-validated, and neither is superseded by the present work:
+\bsi\ reimplements a comparable set of sequence and protein calculations
+independently, in pure Python with no required dependencies
+(Section~\ref{sec:core-calculations}), and cross-validates that
+reimplementation against Biopython directly rather than depending on it, for
+reasons discussed in Section~\ref{sec:architecture}. Where the two
+deliberately disagree -- most notably on isoelectric point, where no single
+pKa scale is universally agreed and independent calculators are documented
+to differ by several tenths of a pH unit \citep{kozlowski2016ipc} -- \bsi\
+reports the method and conditions used rather than asserting an
+unqualified value, and its test suite documents the disagreement rather than
+concealing it.
+
+Neither Biopython nor EMBOSS provides an interactive desktop interface, and
+neither couples sequence analysis to structure retrieval: a user who wants
+both must write connecting code themselves. Several general-purpose
+scientific notebook environments (Jupyter-based pipelines built on Biopython)
+fill this gap on a per-project basis, but do not constitute a reusable,
+tested, packaged tool.
+
+\subsection{Structure databases and prediction resources}
+
+The RCSB Protein Data Bank \citep{berman2000pdb} is the primary repository of
+experimentally determined structures and exposes a sequence-search API that
+\bsi\ uses directly. The AlphaFold Protein Structure Database
+\citep{varadi2022alphafolddb}, built on the AlphaFold prediction method
+\citep{jumper2021alphafold}, and the ESM Atlas fold service, built on the
+ESMFold language model \citep{lin2023esmfold}, both provide predicted
+structures for sequences with no experimental structure, at the cost of a
+confidence estimate (predicted local distance difference test, pLDDT) in
+place of the crystallographic or cryo-EM validation an experimental
+structure carries. \bsi\ does not implement, retrain, or redistribute any of
+these prediction methods; it is a client that queries their public APIs,
+distinguishes their confidence metric from the superficially similar
+crystallographic B-factor reported by experimental structures
+(Section~\ref{sec:validation}), and attributes results to the resource that
+produced them. None of the three resources' own interfaces performs the
+identity check described in Section~\ref{sec:m0m4} against an
+externally supplied query sequence; that check is outside their scope as
+databases, and is precisely the gap this software is built to close for a
+client performing automated or semi-automated retrieval.
+
+\subsection{Structure visualisation and analysis tools}
+
+PyMOL \citep{pymol}, UCSF ChimeraX \citep{pettersen2021chimerax}, and web-based
+viewers such as 3Dmol.js \citep{rego20153dmol} provide structure
+visualisation and, in the case of PyMOL and ChimeraX, extensive structural
+analysis capability once a coordinate file has been obtained. \bsi\ embeds
+3Dmol.js for in-application viewing and can hand a retrieved structure to an
+external viewer such as PyMOL or ChimeraX when one is installed
+(Section~\ref{sec:gui}), rather than duplicating their visualisation or
+analysis functionality. Its contribution is upstream of visualisation:
+deciding, before a structure is opened in any viewer, whether it is the
+structure the user actually asked for.
+
+\subsection{Positioning}
+
+\bsi\ does not claim algorithmic novelty in its sequence alignment, which
+uses standard Needleman--Wunsch and semi-global dynamic programming
+\citep{needleman1970}, nor in its thermodynamic and physicochemical
+calculations, which follow established published methods
+(Sections~\ref{sec:core-calculations}--\ref{sec:validation}). Its
+contribution is threefold and specifically evidentiary rather than
+algorithmic: (i) an explicit, thresholded classification of
+sequence-to-structure correspondence (M0--M4) applied uniformly across
+three heterogeneous structural resources, in place of the implicit
+binary success/failure result common to ad hoc retrieval scripts and to the
+initial prototype of this software, whose benchmark reported a hit for every query; (ii) an integrated workflow in which
+sequence analysis, structure retrieval, and validation share one
+configuration, one cache, and one reproducible project record, rather than
+requiring a user to coordinate several independent tools by hand; and (iii)
+a body of evidence -- an offline test suite, deterministic fault injection,
+cross-validation against Biopython, and a measurement of how often naive
+retrieval returns the wrong structure for \N{ds-n} randomly sampled proteins,
+judged against independently curated cross-references, together with an
+adversarial benchmark -- supporting the reliability of that classification and
+reporting its cost and its limits.

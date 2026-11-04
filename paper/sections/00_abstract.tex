@@ -1,0 +1,37 @@
+\textbf{Motivation:} Moving from a nucleotide sequence to a protein structure
+usually means chaining independent web tools, and the step that would confirm
+that a retrieved structure is the queried molecule is easily skipped, because a
+sequence search returns similar sequences, not necessarily the one asked about.
+How often a naive workflow returns the wrong structure has rarely been measured.
+
+\textbf{Results:} We present \bsi\ 2.0, a desktop and command-line platform that
+integrates sequence analysis (ORF finding, translation, protein properties,
+primer thermodynamics) with structure retrieval from RCSB PDB, AlphaFold DB and
+ESM Atlas. Every retrieved structure is aligned to the query and its database
+cross-references are checked, and the result is reported on a five-level scale
+(M0--M4) in which only a full-length, accession-confirmed match is M4; a
+confirmed but incomplete structure is flagged as partial. We measured the effect
+on \N{ds-n} randomly sampled reviewed UniProt proteins from \N{ds-orgs}
+organisms, judged against curated PDBe SIFTS and RCSB cross-references rather
+than against our own alignment. Accepting the top RCSB sequence-search hit
+returned a structure not catalogued under the queried accession for
+\N{n1-all-false} of \N{n1-all-q} queries, including \N{n1-has-false} of
+\N{n1-has-acc} hits (\N{n1-has-far}\%) for the \N{ds-has} proteins that have a
+deposited structure; \N{n1-all-tier-diff} of the \N{n1-all-false} were
+$<$90\% identical to the query. Accepting only M4 gave \N{s1-all-false} false
+associations among \N{s1-all-acc} accepted structures (95\% CI
+\N{s1-all-far-lo}--\N{s1-all-far-hi}\%) but returned a correct structure for
+\N{s1-has-sens}\% of proteins that have one, against \N{n1-has-sens}\% for the
+naive policy; of the \N{gate-rejected} correct hits it rejected, \N{gate-partial}
+were partial structures and \N{gate-unmeasured} could not be validated because no
+PDB-format file exists. Constructed negatives (unrelated proteins, fragments,
+paralogues) reached M4 in \N{adv-nonB3-M4} of \N{adv-nonB3-n} cases. The M2
+threshold is not evidence of homology: \N{nf-m2-pct}\% of unrelated pairs satisfy
+it. Engineering evidence includes 502 automated tests, deterministic fault
+injection (80.0\% recovery of injected faults), and a reduction from 849 to 14
+user interaction steps against a documented manual workflow.
+
+\textbf{Availability:} \bsi\ is implemented in Python (standard library only for
+its core computations), released under the MIT licence, and available at
+\url{https://github.com/niloy-999/BioSeqInsight}
+(\todoinline{Zenodo DOI: XXXX}).

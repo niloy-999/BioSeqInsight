@@ -1,0 +1,24 @@
+\section{Conclusions}
+\label{sec:conclusions}
+
+We presented \bsi\ 2.0, an integrated platform for sequence analysis and protein
+structure retrieval whose distinguishing feature is that every retrieved structure
+is checked against the query and reported on an explicit five-level scale, with a
+qualifier for confirmed but partial structures. On \N{ds-n} randomly sampled
+proteins, judged against independently curated cross-references, accepting the top
+sequence-search hit returned a structure not catalogued under the queried accession
+for \N{n1-all-false} queries, including \N{n1-has-false} of \N{n1-has-acc} hits for
+proteins that have a structure; accepting only M4 accepted \N{s1-all-false} wrong
+structures, at the cost of returning a correct structure for \N{s1-has-sens}\% of
+proteins that have one rather than \N{n1-has-sens}\%. The main reasons for that cost
+are partial structures and entries that cannot be validated from a PDB-format file,
+both addressable.
+
+The same study qualifies the claim. Zero false associations at M4 is consistency
+between two views of related curated data; the false associations that remain
+at the permissive level are the same or a near-identical sequence; M2 is not
+evidence of homology; and the prototype's accession discordances do not
+demonstrate wrong structures. The software and the measurement are released
+together, with the protocol amendments that record how the measurement was
+corrected, so that the validation layer and the benchmark that tests it can both
+be scrutinised.

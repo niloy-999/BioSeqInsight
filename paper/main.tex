@@ -1,0 +1,128 @@
+% =============================================================================
+% BioSeqInsight 2.0 manuscript
+% Target: Bioinformatics Advances (Original Article) / backup: PLOS ONE
+% -----------------------------------------------------------------------------
+% This is intentionally written against a generic article class rather than
+% the OUP bioinfo.cls or the PLOS LaTeX template, on the explicit instruction
+% that formatting/length will be adapted per-journal afterwards. All content,
+% section structure and citations are written to be portable to either
+% target with mechanical reformatting (class swap + \bibliographystyle
+% change) rather than a rewrite.
+%
+% To compile:
+%   pdflatex main && bibtex main && pdflatex main && pdflatex main
+% =============================================================================
+
+\documentclass[11pt]{article}
+
+% ---- packages ---------------------------------------------------------------
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage[expansion=false]{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, fit, backgrounds, shapes.geometric}
+\usepackage{authblk}
+\usepackage[colorlinks=true, linkcolor=blue!50!black, citecolor=blue!50!black,
+            urlcolor=blue!50!black]{hyperref}
+\usepackage{natbib}
+\bibliographystyle{unsrtnat}
+\usepackage{caption}
+\captionsetup{font=small, labelfont=bf}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{fancyvrb}
+\usepackage{lineno}
+\usepackage{setspace}
+\usepackage{todonotes}
+
+% Monospace listing style for CLI examples / code
+\lstdefinestyle{cli}{
+  basicstyle=\ttfamily\small,
+  breaklines=true,
+  columns=fullflexible,
+  frame=single,
+  backgroundcolor=\color{gray!8},
+  rulecolor=\color{gray!40}
+}
+\lstset{style=cli}
+
+% Mapping-level colour macros, used consistently in text, tables and figures
+\definecolor{mapM4}{HTML}{1a7f37}
+\definecolor{mapM3}{HTML}{0969da}
+\definecolor{mapM2}{HTML}{9a6700}
+\definecolor{mapM1}{HTML}{cf222e}
+\definecolor{mapM0}{HTML}{6e7781}
+\newcommand{\mlevel}[1]{\textbf{#1}}
+
+\newcommand{\bsi}{\textsc{BioSeqInsight}}
+\providecommand{\provisionalbanner}{}
+\InputIfFileExists{results/numbers}{}{\providecommand{\N}[1]{\textbf{??}}}
+\newcommand{\todoinline}[1]{\todo[inline, backgroundcolor=yellow!30]{#1}}
+
+\linenumbers % remove for camera-ready; helpful for reviewers
+
+\title{\bsi\ 2.0: An Integrated Desktop Platform for DNA Sequence Analysis
+with Validated Protein Structure-Resource Retrieval}
+
+% -----------------------------------------------------------------------------
+% AUTHOR BLOCK -- placeholder. Needs real names, affiliations, ORCID iDs and
+% the corresponding-author email before submission. See the accompanying
+% message for exactly what is needed here.
+% -----------------------------------------------------------------------------
+\author[1]{Author Name\thanks{Corresponding author: \texttt{email@institution.edu}}}
+\affil[1]{Department/Institution, City, Country}
+
+\date{}
+
+\begin{document}
+\maketitle
+\provisionalbanner
+
+\begin{abstract}
+\input{sections/00_abstract}
+\end{abstract}
+
+\noindent\textbf{Keywords:} bioinformatics software; sequence analysis;
+protein structure retrieval; structure validation; reproducibility;
+AlphaFold; RCSB PDB; UniProt
+
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+\input{sections/01_introduction}
+\input{sections/02_related_work}
+\input{sections/03_methods}
+\input{sections/04_implementation}
+\input{sections/05_evaluation}
+\input{sections/06_discussion}
+\input{sections/07_limitations}
+\input{sections/08_conclusions}
+\input{sections/09_availability}
+
+\section*{Acknowledgments}
+\todoinline{Add any acknowledgments (colleagues who piloted the software,
+institutional computing resources, etc.), or delete this section if none.}
+
+\section*{Funding}
+\todoinline{State funding sources, or explicitly ``This work received no
+specific funding.''}
+
+\section*{Author contributions}
+\todoinline{CRediT taxonomy statement, e.g. Conceptualization, Software,
+Validation, Writing -- original draft, Writing -- review \& editing, etc.,
+attributed to each author.}
+
+\section*{Conflict of interest}
+The authors declare no competing interests.
+
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,74 @@
+\section{Software and data availability}
+\label{sec:availability}
+
+\bsi\ is released under the MIT licence. Source code, the complete test
+suite, all benchmark scripts and their outputs (including every dated live
+benchmark run referenced in Section~\ref{sec:live-benchmark}, retained as an
+audit trail, and the validation package that produces Sections~\ref{sec:validation-study}--\ref{sec:case-study}), the documented manual-workflow protocol
+(Section~\ref{sec:workflow-comparison}), the usability-study protocol
+referenced in Section~\ref{sec:limitations}, and full documentation are
+available at:
+
+\begin{center}
+\url{https://github.com/niloy-999/BioSeqInsight}
+\end{center}
+
+\noindent The version described in this manuscript is tagged
+\texttt{v2.0.2} and archived with a permanent identifier at
+\todoinline{Zenodo DOI: 10.5281/zenodo.XXXXXXX -- mint on first GitHub
+Release from the v2.0.2 tag, after connecting the repository to Zenodo, and
+insert the resulting DOI here before submission.} An earlier prototype
+(v1.0.0), discussed for context in Sections~\ref{sec:introduction} and
+\ref{sec:case-study}, is preserved unmodified at the repository tag
+\texttt{v1.0-archive}.
+
+\paragraph{Installation.}
+\begin{lstlisting}
+pip install bioseqinsight
+\end{lstlisting}
+requires Python 3.10 or later and no compiled dependencies
+(Section~\ref{sec:package-architecture}). \todoinline{If a standalone
+installer (Section~\ref{sec:limitations}) is available at submission time,
+add its location here.}
+
+\paragraph{Reproducing the results in this paper.}
+Every quantitative result in Section~\ref{sec:evaluation} is produced by a
+script included in the repository under \texttt{benchmarks/scripts/}, runnable
+independently of this manuscript:
+
+\begin{lstlisting}
+git clone https://github.com/niloy-999/BioSeqInsight.git
+cd BioSeqInsight && pip install -e ".[validation]"
+
+python -m pytest --cov=bioseqinsight            # Section 5.1-5.2
+python benchmarks/scripts/run_fault_injection.py         # Section 5.3
+python benchmarks/scripts/run_performance_benchmark.py   # Section 5.4
+python benchmarks/scripts/run_workflow_comparison.py     # Section 5.5
+python benchmarks/scripts/run_structure_benchmark.py \
+    --out benchmarks/results/structure_benchmark_$(date +%F)  # live service benchmark, network
+
+# validation study (network; about a day): see validation/README.md
+bash validation/run_all.sh baselines
+bash validation/run_all.sh threshold
+bash validation/run_all.sh casestudies
+bash validation/run_all.sh report
+python validation/scripts/07_manuscript_numbers.py   # every number in Sections 5.6-5.9
+\end{lstlisting}
+
+The validation study depends on the state of UniProt, RCSB and PDBe at run time
+and on a frozen adversarial case file whose SHA-256 is recorded beside it; the
+protocol, its amendments and the corrected analyses are in
+\texttt{validation/PROTOCOL.md}. The three benchmarks not requiring network access
+(Sections~\ref{sec:fault-injection}--\ref{sec:workflow-comparison}) are
+deterministic and reproduce the reported figures exactly on any machine; the
+live structure-resource benchmark (Section~\ref{sec:live-benchmark}) depends
+on the queried resources' state at run time and is expected to vary modestly
+between runs, as documented by the multiple dated runs retained in the
+repository during this software's development.
+
+\paragraph{Data availability.} No new biological data were generated. The
+live benchmark candidate list
+(\texttt{benchmarks/data/benchmark\_candidates.csv}) references public
+UniProt accessions only; all retrieved structures originate from the public
+resources cited in Section~\ref{sec:retrieval} and are subject to those
+resources' own terms of use.

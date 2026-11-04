@@ -1,0 +1,83 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{What this evidence supports}
+
+The evaluation in Section~\ref{sec:evaluation} addresses three separable claims,
+and it is worth stating precisely what supports each. \emph{Maturity} is
+supported by the test suite, the continuous-integration matrix and the packaging
+evidence of Sections~\ref{sec:testing} and~\ref{sec:package-architecture}; the six
+defects in Table~\ref{tab:defects} are offered as evidence that testing was
+substantive, not that the software is defect-free, which no finite suite can
+establish. \emph{Reliability} is supported at two levels that should not be
+conflated: behaviour under network failure (Section~\ref{sec:fault-injection}, a
+controlled deterministic experiment) and the correctness of the \emph{output},
+where the central evidence is the validation study of
+Section~\ref{sec:validation-study}. \emph{Value over an unintegrated manual
+workflow} is supported by an objective interaction-cost comparison
+(Section~\ref{sec:workflow-comparison}), which is a proxy for effort, not a
+measurement of human task time or error rate.
+
+\subsection{What validation buys, and what it costs}
+
+The validation study separates two things that a single ``success'' flag
+conflates. Accepting the top sequence-search hit returns a structure not
+catalogued under the queried accession for most queries in a random sample, but
+most of those are proteins that have no deposited structure at all, for which a
+homologue comes back; for proteins that do have a structure the naive policy was
+wrong for a minority of queries, and a smaller part of those were clearly a
+different protein. Validation converts these into explicit levels. The strict
+policy accepted no wrong structure, and the permissive policy's false
+associations were all the same or a near-identical sequence. The price is
+sensitivity: \N{s1-has-sens}\% of proteins with a structure received an M4 against
+\N{n1-has-sens}\% for the naive policy, because many correct structures are partial,
+cannot be validated, or lack a confirmed accession.
+
+We therefore present the two operating points as a choice, not a verdict. A user
+who needs to assert that a structure \emph{is} the queried protein should take M4
+and accept that it will often return nothing; a user who can use the same or a
+near-identical sequence should take M3 or better; a user who simply wants a
+related fold can take any level but should read the level. Partial structures,
+now flagged, are real structures of the protein and are often what a
+structural biologist wants; the flag lets them be found without weakening M4.
+
+\subsection{The AlphaFold defect as a general lesson}
+
+The AlphaFold DB retrieval defect (Table~\ref{tab:defects};
+Section~\ref{sec:live-benchmark}) is discussed not because it was unusually severe
+but because of how it presented: a client that built the model URL from an assumed
+version number returned HTTP 404 for every request once the database was
+republished, which is indistinguishable in isolation from the absence of a model.
+The general lesson is that a retrieval client's assumptions about a remote
+resource should be verified against its authoritative interface, and that a
+failure rate near 100\% on a resource that should have high coverage is itself
+a signal. The same applies to this study's own tooling, as the next subsection
+records.
+
+\subsection{Verifying the verifier}
+
+The validation study itself went wrong in ways that are instructive, and we
+report them because the same errors are easy to make in any benchmark of a
+validation layer. Our first analysis scored the naive baselines as accepted
+exactly when their hit was correct and then evaluated them against that same
+label, which made them perfect by construction. Our first threshold analysis
+defined its ``true positives'' as the classifier's own M4 output, which made the
+separation circular. An early sampler took the first results returned by a search
+and produced an all-human sample. The adversarial set was built with an ordering
+that depended on string hashing, so a ``seeded'' draw differed between runs. A
+documentation table stated thresholds that did not match the shipped defaults.
+Each was found by inspecting the output against what it should have been, was
+corrected before the numbers reported here were produced, and is logged as a
+protocol amendment in the repository. The practical conclusion is that a
+benchmark of a verification step needs the same adversarial scrutiny as the step.
+
+\subsection{Why the classification generalises, and where it does not}
+
+The M0--M4 design is deliberately resource-agnostic: it depends only on a query
+sequence, a returned chain, and optionally a set of cross-references, so it applies
+unchanged to experimental structures, accession-keyed predictions and
+sequence-only predictions. Its strongest levels depend on cross-references that
+only some resources provide, which is why ESM Atlas predictions cannot reach M4 by
+design. Its weakest level, M2, depends on an identity measure that is not
+discriminating at the threshold we ship (Section~\ref{sec:threshold}); a user
+should treat M2 as a prompt to look, not as a finding.

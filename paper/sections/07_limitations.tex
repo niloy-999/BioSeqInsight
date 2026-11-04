@@ -1,0 +1,68 @@
+\section{Limitations}
+\label{sec:limitations}
+
+\paragraph{Ground truth is accession-level and not fully independent.} Correctness
+is judged against PDBe SIFTS and RCSB entity references. These are curated
+independently of the software's alignment, but they are not independent of the
+cross-references the accession check reads, so a result of zero false associations
+at M4 shows consistency between two views of related curated data, not an
+independent audit. A structure that is the right protein but catalogued under a
+different accession is counted as a false association; the tiering of
+Section~\ref{sec:validation-study} shows how much of the total this is, but the
+headline rates should be read as accession-level.
+
+\paragraph{The sample is not representative.} The \N{ds-n} proteins are a random
+draw from reviewed UniProt entries, stratified by length and category, taken at one
+time from one release. About \N{ds-no} of \N{ds-n} have no deposited structure,
+which is typical of Swiss-Prot, and the rates are comparisons between policies on
+this set, not estimates of prevalence in any user's workload.
+
+\paragraph{Entries without a PDB-format file cannot be validated.} The RCSB
+provider downloads PDB-format files, which do not exist for large or recent
+entries. \N{gate-unmeasured} of the \N{gate-total} correct naive hits and
+\N{n1-all-tier-unm} of the \N{n1-all-false} naive false associations could not be
+validated for this reason (every case an HTTP 404). They cannot be accepted, which
+costs sensitivity. Validating from the polymer-entity sequence when no PDB file
+exists is a bounded fix we have not made.
+
+\paragraph{M2 is not evidence of homology.} The related-record thresholds sit at the
+alignment's noise floor: \N{nf-m2-pct}\% of unrelated pairs satisfy them
+(Section~\ref{sec:threshold}). We did not retune them on the evaluation data.
+Identity is computed over the aligned region only and is inflated for short
+subject chains.
+
+\paragraph{The strict policy has low sensitivity.} A correct structure was
+returned for \N{s1-has-sens}\% of proteins that have one. Most of the loss is
+legitimate (partial structures, no file to validate), but a user who needs
+coverage must use the permissive operating point and accept its same-sequence and
+near-identical false associations.
+
+\paragraph{The adversarial benchmark is limited and partly unverified.} B5 has only
+\N{adv-B5-n} scored cases. B1 depends on a Pfam grouping and a crude sequence-similarity
+estimate used only for construction, and a pair that reaches M4 is most likely a
+construction error that this benchmark cannot distinguish from a cross-reference
+error. B3's label is an assumption, not ground truth, and is not reported as a
+failure rate. \N{adv-unresolved} of \N{adv-total} built cases could not be scored,
+so the scored cases are not a random subset. The frozen set was produced by a
+script whose pair ordering was not reproducible, so regenerating it gives a different sample.
+
+\paragraph{The 25-protein re-adjudication reproduces today's archive, not the
+prototype's.} It cannot show what v1.0 retrieved in August 2026, only what a
+sequence search returns now. It shows the prototype's discordance flags do not
+demonstrate wrong structures; it does not show what the prototype did.
+
+\paragraph{The live service benchmark is small and its M4 rate is a coverage figure.}
+The 69-protein set was curated to include difficult cases and AlphaFold DB is
+accession-keyed, so its M4 rate says nothing about validation. Service behaviour
+varies with time; the dated runs retained in the repository document that variation.
+
+\paragraph{Fault injection and usability.} The 80\% recovery figure is a property
+of the injected scenarios, not an expected service-level rate. Interaction-step
+counts are a proxy for effort; no human-subject usability study has been run, and
+the protocol for one is included in the repository. The statement-coverage figure,
+the standalone installer and the archival DOI are pending
+(\todoinline{insert \texttt{pytest --cov} output, installer status and Zenodo DOI}).
+
+\paragraph{Scope.} Structure retrieval covers a single query chain; multi-chain
+assemblies are validated by their best-matching chain, and complexes in which the
+queried protein is one of many chains are classified on that chain only.

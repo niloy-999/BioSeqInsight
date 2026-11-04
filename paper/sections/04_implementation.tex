@@ -1,0 +1,139 @@
+\section{Implementation}
+\label{sec:implementation}
+
+\subsection{Python package architecture}
+\label{sec:package-architecture}
+
+\bsi\ is distributed as a standard Python package (\texttt{src} layout,
+\texttt{pyproject.toml}-based build) targeting Python 3.10 and above and
+tested on CPython 3.10--3.13 across Linux, macOS, and Windows in continuous
+integration (Section~\ref{sec:testing}). The installed package exposes the
+layers of Figure~\ref{fig:architecture} as Python subpackages
+(\texttt{bioseqinsight.core}, \texttt{.models}, \texttt{.services},
+\texttt{.structures}, \texttt{.workflows}, \texttt{.io}, \texttt{.gui}) plus
+a \texttt{cli} module. The \textbf{core computational package has no
+required third-party runtime dependencies}: every nucleotide and protein
+calculation in Section~\ref{sec:core-calculations} is implemented against
+the standard library alone. Two optional extras are provided: \texttt{http}
+installs the \texttt{requests} library for a connection-pooling HTTP
+transport (the standard-library \texttt{urllib} transport is used
+automatically when it is absent, with identical externally observable
+behaviour), and \texttt{validation} installs Biopython
+\citep{cock2009biopython}, which enables the cross-validation test module of
+Section~\ref{sec:cross-validation} but is not required to run the software.
+Installation is a single command:
+
+\begin{lstlisting}
+pip install bioseqinsight
+\end{lstlisting}
+
+with no compiler, no scientific numerical stack, and no system libraries
+required for the core package. This is a deliberate design constraint
+(Section~\ref{sec:architecture}) rather than an incidental property: the
+target user includes biologists installing the software on a personal
+laptop, for whom a missing compiler or an unsatisfiable binary dependency is
+a common point of failure for scientific Python tools.
+
+\subsection{Command-line interface}
+\label{sec:cli}
+
+Every capability of the graphical interface is reachable from the command
+line, which is the primary interface used to generate the reproducible
+figures and tables in Section~\ref{sec:evaluation} and is fully usable on a
+headless machine or within a continuous-integration pipeline. Subcommands
+cover nucleotide analysis (\texttt{dna}), protein analysis
+(\texttt{protein}), structure retrieval and validation (\texttt{structure}),
+batch processing of a FASTA file (\texttt{batch}), reproducible project
+management (\texttt{project}), cache inspection (\texttt{cache}), effective
+configuration (\texttt{config}), and version/environment reporting
+(\texttt{version}). Exit codes distinguish success (0), user input error
+(2), and runtime failure (3), so the interface composes directly into shell
+scripts and continuous-integration checks. The verdict for each structure is a plain sentence in the report and in every
+export. The three forms below are the message templates in the validation module,
+shown for the exact, partial and mismatch cases:
+
+\begin{lstlisting}
+M4: Exact biological identity confirmed (identity 100.0%, coverage 100.0%);
+    the structure cross-references <ACCESSION>.
+partial_structure: Partial structure of the requested protein: the structure
+    cross-references <ACCESSION> and matches the query at <x>% identity over
+    the region it contains, but it covers only <y>% of your sequence. It is a
+    real structure of this protein, not a full-length one.
+M1 (measured mismatch): WARNING: the retrieved structure does not correspond
+    to the requested protein (identity <x>%, coverage <y>%), which is below the
+    threshold for even a related record. It is associated with <ACCESSION>.
+\end{lstlisting}
+
+\subsection{Graphical interface}
+\label{sec:gui}
+
+A four-tab Tkinter desktop interface (Sequence Analysis, Protein Analysis,
+Structure Retrieval, Batch Analysis) calls the same underlying API as the
+command line. Network operations execute on a background thread and post
+results back to the Tkinter main loop through a queue, so a slow or stalled
+external request does not freeze the interface; all widget mutation remains
+confined to the main thread as Tkinter requires. The Structure Retrieval tab
+displays, for every queried resource, its attempt history, whether it
+recovered from a transient failure, whether the response was served from
+cache, and a coloured M0--M4 badge with the identity and coverage measures
+behind it (Table~\ref{tab:m0m4}); a retrieved structure can be opened in an
+embedded 3Dmol.js \citep{rego20153dmol} viewer or handed to an external
+viewer such as PyMOL \citep{pymol} or ChimeraX
+\citep{pettersen2021chimerax} when one is installed. Tkinter ships with most
+standard Python distributions; on platforms where it is absent, launching
+the graphical interface prints an explanatory message and the equivalent
+command-line invocation rather than raising an unhandled exception, so that
+absence of a display toolkit degrades gracefully to the fully capable
+command-line interface rather than making the software unusable.
+
+The formatting logic that turns a result object into the text shown in the
+graphical interface is implemented in a module with no Tkinter import
+(\texttt{gui.formatting}), specifically so that the exact wording a user
+reads -- including every warning that a retrieved structure is not a
+confirmed match -- is covered by the same offline, headless test suite as
+the rest of the software (Section~\ref{sec:testing}), rather than being
+exercised only by manual interaction with the graphical interface.
+
+\subsection{Caching}
+\label{sec:caching}
+
+Responses from every external resource are cached on disk under a
+per-resource namespace, keyed by a hash of the query and relevant request
+parameters, with a configurable time-to-live (seven days by default) and an
+explicit refresh option. Each cached payload is stored alongside a SHA-256
+checksum computed at write time; on read, the checksum is recomputed and
+compared, and a mismatch -- whether from disk corruption or external
+tampering -- causes the entry to be discarded and treated as a cache miss
+rather than served. Cache statistics (hit rate, entry count, on-disk size)
+are available through both interfaces. Caching is not merely a performance
+optimisation in this software: it is what makes repeated re-analysis of the
+same sequence set, including the live benchmark of
+Section~\ref{sec:live-benchmark}, practical without repeatedly loading the
+queried public resources.
+
+\subsection{Batch processing}
+\label{sec:batch}
+
+A FASTA file of arbitrary size is processed as a batch: each record's
+alphabet (nucleotide or protein) is detected automatically or may be
+specified explicitly, local analysis proceeds according to the detected
+type, and structure retrieval (when requested) is dispatched across a
+configurable thread pool, since it is I/O-bound on external network
+requests rather than CPU-bound. A single malformed or unanalysable record is
+isolated to its own output row, carrying its specific error, rather than
+aborting the run; the throughput and scaling behaviour of local (structure
+retrieval excluded) batch processing is reported in
+Section~\ref{sec:performance}.
+
+\subsection{Export and project management}
+\label{sec:export}
+
+Results export to CSV, TSV, or JSON with a fixed, documented column set
+(\texttt{io.export.BATCH\_COLUMNS}), and to a self-contained HTML report with
+all styling inlined and no external script or stylesheet reference, so that
+the report remains renderable indefinitely after the analysis that produced
+it, independent of any external resource's continued availability. The
+project mechanism of Section~\ref{sec:reproducibility} is exposed through
+both interfaces: \texttt{bioseqinsight project create/info/export/import}
+on the command line, and a \emph{Project} menu in the graphical interface
+offering the same operations.

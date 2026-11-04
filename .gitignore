@@ -33,3 +33,11 @@ benchmarks/results/*_20*.json
 
 # Generated coverage report
 coverage.json
+.venv/
+__pycache__/
+*.egg-info/
+.DS_Store
+validation/work/
+*.bak
+.coverage
+htmlcov/

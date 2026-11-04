@@ -1,0 +1,388 @@
+\section{Methods}
+\label{sec:methods}
+
+\subsection{System architecture}
+\label{sec:architecture}
+
+\bsi\ is organised as a layered Python package with dependencies enforced
+to point in a single direction, shown in Figure~\ref{fig:architecture}. A
+\texttt{core} layer implements every nucleotide and protein calculation
+against the Python standard library only, with no file, network, or
+graphical-interface access. A \texttt{models} layer defines typed,
+JSON-serialisable result dataclasses shared by every layer above it,
+replacing the pattern -- present in the initial prototype -- of returning
+pre-formatted display strings directly from analysis functions, which
+precludes batch processing, machine-readable export, and independent testing
+of computed values versus displayed wording. A \texttt{services} layer
+provides HTTP transport (with pluggable backends, Section~\ref{sec:testing}),
+a retry policy, an on-disk response cache, and structured logging. A
+\texttt{structures} layer implements one client class per external resource
+(RCSB, AlphaFold DB, ESM Atlas, UniProt) plus the validation logic of
+Section~\ref{sec:validation} and a manager that sequences providers
+according to configurable fallback order. A \texttt{workflows} layer
+implements batch analysis and reproducible project management
+(Section~\ref{sec:reproducibility}). An \texttt{io} layer implements CSV,
+TSV, JSON, and self-contained HTML export. Finally, a command-line interface
+and a Tkinter graphical interface both consume the same underlying API,
+described in Section~\ref{sec:implementation}.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    layer/.style={rectangle, rounded corners, draw=black!60, minimum width=9.6cm,
+                  minimum height=1.05cm, align=center, font=\small},
+    arrow/.style={-{Stealth[length=2.2mm]}, thick, gray!70}
+  ]
+  \node[layer, fill=blue!8]  (gui)  {\textbf{Presentation} --- \texttt{gui/} (Tkinter), \texttt{cli.py}};
+  \node[layer, fill=blue!14, below=0.28cm of gui]  (wf)   {\textbf{Orchestration} --- \texttt{workflows/} (batch runner, projects)};
+  \node[layer, fill=blue!20, below=0.28cm of wf]   (str)  {\textbf{Domain services} --- \texttt{structures/} (providers, validation, manager)};
+  \node[layer, fill=blue!26, below=0.28cm of str]  (svc)  {\textbf{Infrastructure} --- \texttt{services/} (transport, retry, cache, logging)};
+  \node[layer, fill=blue!32, below=0.28cm of svc]  (core) {\textbf{Pure computation} --- \texttt{core/} and \texttt{models/} (stdlib only)};
+
+  \draw[arrow] (gui.south) -- (wf.north);
+  \draw[arrow] (wf.south) -- (str.north);
+  \draw[arrow] (str.south) -- (svc.north);
+  \draw[arrow] (svc.south) -- (core.north);
+
+  \node[right=0.15cm of gui, font=\scriptsize, text width=2.6cm, align=left, text=gray!60]
+       {depends on layer below};
+\end{tikzpicture}
+\caption{\bsi\ layer architecture. Dependencies point downward only;
+\texttt{core} imports nothing outside the Python standard library, which is
+verified by a dedicated continuous-integration job that installs the package
+with no optional extras and fails if a third-party import is reachable from
+\texttt{core}.}
+\label{fig:architecture}
+\end{figure}
+
+Three design decisions follow directly from the motivating problem in
+Section~\ref{sec:introduction}. First, results are dataclasses rather than
+formatted strings, so that the value a validation check acts upon and the
+text a user reads are produced from the same computation and can be tested
+independently; the wording shown in the interfaces, including every warning
+that accompanies a non-exact structure match, is itself covered by tests
+(Section~\ref{sec:testing}). Second, sequence-to-structure validation
+(Section~\ref{sec:validation}) is implemented as a single function called
+uniformly by the manager after every provider returns a result, rather than
+being available as an opt-in utility a caller might omit -- the failure mode
+in Section~\ref{sec:introduction} arose precisely because validation was
+optional in the initial prototype. Third, the HTTP transport is an
+interface with three implementations (a \texttt{requests}-based transport,
+a standard-library \texttt{urllib} transport used when \texttt{requests} is
+not installed, and a scripted fake transport used only in tests), which is
+what makes deterministic fault-injection testing possible
+(Section~\ref{sec:fault-injection}): a test can assert that two HTTP 504
+responses followed by a 200 response produce exactly one recovered result,
+on every machine, without depending on a real service failing at a
+convenient moment.
+
+\subsection{DNA and protein sequence analysis}
+\label{sec:core-calculations}
+
+\paragraph{Nucleotide analysis.}
+Input sequences are accepted in FASTA or raw form; header lines, whitespace,
+and non-nucleotide punctuation copied incidentally from database records
+(digits, alignment gaps) are ignored, while genuine unexpected symbols are
+reported rather than silently discarded. Reported nucleotide measures
+include base composition and GC content (IUPAC ambiguity codes excluded from
+both numerator and denominator, so that a sequence with unresolved bases is
+not artificially reported as GC-poor), reverse complementation, transcription,
+six-frame translation, open-reading-frame detection with a configurable
+minimum length and choice of NCBI genetic code table (standard, vertebrate
+mitochondrial, mould/protozoan mitochondrial, and bacterial/archaeal tables
+are bundled), and IUPAC degenerate-motif search on both strands.
+Ambiguity codes are retained in place during translation rather than
+stripped before codon splitting: a codon containing an unresolved base
+translates to an unspecified residue (\texttt{X}) at its own position,
+which preserves the reading frame of every downstream codon. Melting
+temperature is estimated by the Wallace rule for short oligonucleotides and
+by SantaLucia's nearest-neighbour thermodynamics with salt correction
+\citep{santalucia1998} for longer duplexes within the range for which that
+two-state model is applicable; the method and the primer/salt conditions
+used are always reported alongside the value, and a duplex outside the
+model's validated length range carries an explicit caveat rather than a bare
+number.
+
+\paragraph{Protein analysis.}
+Protein descriptors include average molecular weight (IUPAC average residue
+masses, less one water molecule per peptide bond), grand average of
+hydropathy (GRAVY) and a Kyte--Doolittle hydropathy profile
+\citep{kytedoolittle1982}, aromaticity and aliphatic index
+\citep{ikai1980aliphatic}, extinction coefficient at 280\,nm by the
+Gill--von Hippel method \citep{gillvonhippel1989} (reported both with
+cysteines reduced and as cystines), and isoelectric point by iterative
+charge-balance search over a Bjellqvist-style pKa table. Because independent
+isoelectric-point calculators are documented to disagree by several tenths
+of a pH unit depending on which of several published pKa scales they use
+\citep{kozlowski2016ipc}, \bsi\ does not claim numerical identity with any
+one external tool; instead its cross-validation suite
+(Section~\ref{sec:cross-validation}) checks agreement with Biopython within
+a stated, literature-consistent tolerance and, independently of any external
+tool, checks that the net charge computed at the reported isoelectric point
+is itself zero. A Chou--Fasman-style secondary-structure propensity sketch
+\citep{choufasman1978} is provided for illustrative and teaching purposes
+and is labelled, in the interface, the exported data, and this manuscript,
+as a propensity sketch rather than a structure prediction; a user who needs
+an actual secondary-structure assignment is directed to DSSP applied to a
+real structure, or to a dedicated modern predictor.
+
+\subsection{External structure-resource retrieval}
+\label{sec:retrieval}
+
+Three structural resources are queried, each through a dedicated provider
+class implementing a common interface (Figure~\ref{fig:architecture}):
+
+\begin{itemize}[leftmargin=1.4em]
+  \item \textbf{RCSB PDB} \citep{berman2000pdb}: direct retrieval by PDB
+  identifier, or sequence search followed by download of the top-scoring
+  entry, with cross-reference accessions read from the matched polymer
+  entity's reference-sequence metadata.
+  \item \textbf{AlphaFold Protein Structure Database}
+  \citep{varadi2022alphafolddb}: retrieval by UniProt accession. The
+  provider queries the public prediction API to discover the model file
+  currently served for that accession, rather than constructing the file
+  URL from an assumed model-version number; the database periodically
+  republishes its models under a new version, and a client that instead
+  encodes a fixed version number degrades to reporting a coverage gap for
+  every accession once the database moves past it, a failure mode that is
+  indistinguishable from genuinely absent coverage without querying the
+  authoritative endpoint. An HTTP 404 response from the prediction API is
+  treated as a true coverage gap and is not retried; a malformed or empty
+  API response is treated as a service failure and is.
+  \item \textbf{ESM Atlas} (ESMFold, \citealp{lin2023esmfold}): on-demand
+  structure prediction from an arbitrary sequence, subject to a configurable
+  maximum sequence length; sequences exceeding the limit are rejected before
+  any network request is made, and this rejection is reported as its own
+  outcome category distinct from either a retrieved structure or a service
+  failure (Section~\ref{sec:evaluation}).
+\end{itemize}
+
+UniProt \citep{uniprot2023} is queried first when the input is an
+accession, to obtain the canonical sequence against which every retrieved
+structure is subsequently validated; without this step, an accession query
+would have no query sequence for the validation check of
+Section~\ref{sec:validation} to use.
+
+Providers are tried in a configurable order (RCSB, then AlphaFold DB, then
+ESM Atlas, by default) and the manager stops at the first exact (M4,
+Section~\ref{sec:m0m4}) match, unless configured to query every resource
+regardless (used for the benchmark in Section~\ref{sec:live-benchmark}).
+Responses are cached on disk, keyed by resource, query, and relevant
+parameters, with a stored SHA-256 checksum verified before a cached payload
+is served; a tampered or corrupted cache entry is discarded and refetched
+rather than served.
+
+\subsection{Sequence-to-structure validation}
+\label{sec:validation}
+
+Every structure a provider returns is compared against the query sequence
+before being reported. The coordinate file is parsed to recover per-chain
+sequence (from \texttt{SEQRES} records where present, falling back to the
+$\text{C}\alpha$ trace otherwise), and the chain whose sequence aligns best
+to the query is selected.
+
+Alignment uses semi-global (``glocal'') dynamic programming rather than a
+strict global alignment: the query is aligned end to end while the subject
+chain may be a sub-sequence of it with no length penalty. Scoring is
+deliberately simple (match $+1$, mismatch $-1$, linear gap $-2$, no
+substitution matrix): the alignment's role here is to measure identity and
+coverage of one candidate against the query, not to rank distant homologues
+by evolutionary score. Because identity is taken over the aligned region only, it
+depends on the scoring scheme: with permissive gap scoring, an alignment of two
+unrelated sequences can reach a high identity over a short aligned stretch
+(Section~\ref{sec:threshold}), so identity is only interpretable together with
+coverage and, for the strongest claim, with the accession check. The algorithm has $O(mn)$ time and memory bound guarded by a maximum
+cell-count cap that raises an explicit error rather than exhausting memory
+on pathologically long inputs. This choice matters concretely: a deposited
+construct that omits a cleaved signal peptide or a disordered terminal
+region -- common in crystallography -- is still a correct structure of the
+folded domain it does cover, and a strict global alignment
+\citep{needleman1970} would understate its identity in proportion to the
+omitted length. Two measures are reported: \emph{identity}, the fraction of
+aligned positions that match, and \emph{coverage}, the fraction of the query
+length included in the alignment; a fragment therefore shows high identity
+with reduced coverage, which is the correct characterisation, rather than
+being scored as a poor match overall.
+
+Accessions are collected from the coordinate file's own cross-references
+(\texttt{DBREF} records and equivalent \texttt{REMARK} fields) and, where
+the originating provider's API exposes it, from provider-supplied metadata
+independent of the coordinate file itself -- for RCSB, the matched polymer
+entity's reference-sequence identifiers. The queried accession is
+normalised (handling FASTA header forms such as
+\texttt{sp\textbar P24941\textbar CDK2\_HUMAN} and AlphaFold model names such
+as \texttt{AF-P69905-F1}) and compared against this set.
+
+\subsection{M0--M4 sequence-to-structure correspondence classification}
+\label{sec:m0m4}
+
+The identity, coverage, and accession-match measures of
+Section~\ref{sec:validation} are combined into a single ordinal
+classification, summarised in Table~\ref{tab:m0m4} and
+Figure~\ref{fig:decision}, reported alongside every retrieved structure in
+both interfaces and in every exported table.
+
+\begin{table}[htbp]
+\centering
+\small
+\caption{The M0--M4 sequence-to-structure correspondence scale. Default
+thresholds are shown; all six numeric thresholds are configurable and the
+values in force are recorded with every result.}
+\label{tab:m0m4}
+\begin{tabular}{@{}llp{7.4cm}@{}}
+\toprule
+\textbf{Level} & \textbf{Name} & \textbf{Criteria} \\
+\midrule
+\textcolor{mapM4}{\mlevel{M4}} & Exact &
+Accession cross-referenced by the structure \emph{and} identity $\geq 99\%$
+\emph{and} coverage $\geq 95\%$. \\[2pt]
+\textcolor{mapM3}{\mlevel{M3}} & High confidence &
+Identity $\geq 95\%$ and coverage $\geq 80\%$; accession not confirmed
+(the same or a near-identical sequence). \\[2pt]
+\textcolor{mapM2}{\mlevel{M2}} & Related record &
+Identity $\geq 40\%$ and coverage $\geq 40\%$, below the M3 thresholds
+(a homologue, an orthologue, or a fragment); \emph{not} evidence of homology
+(Section~\ref{sec:threshold}). \\[2pt]
+\textcolor{mapM1}{\mlevel{M1}} & Unverified &
+Either no comparison was possible (no query sequence, or no readable chain),
+\emph{or} a comparison was made and fell below even the M2 thresholds. \\[2pt]
+\textcolor{mapM0}{\mlevel{M0}} & No result &
+No structural record was returned by any queried resource. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    dec/.style={diamond, draw=black!70, aspect=2.4, minimum width=3.1cm, align=center, font=\scriptsize, inner sep=1pt},
+    res/.style={rectangle, rounded corners, draw=black!70, minimum width=2.5cm, minimum height=0.75cm, align=center, font=\scriptsize\bfseries},
+    lbl/.style={font=\scriptsize, midway, fill=white, inner sep=1pt}
+  ]
+  \node[res, fill=gray!15] (start) {Structure retrieved};
+  \node[dec, below=0.55cm of start] (d1) {Comparison\\possible?};
+  \node[res, right=1.65cm of d1, fill=mapM1!25, text=black] (m1a) {\textcolor{mapM1}{\textbf{M1}} unverified};
+  \node[dec, below=0.85cm of d1] (d2) {identity $\geq$40\%\\coverage $\geq$40\%?};
+  \node[res, right=1.65cm of d2, fill=mapM1!25, text=black] (m1b) {\textcolor{mapM1}{\textbf{M1}} unverified};
+  \node[dec, below=0.85cm of d2] (d3) {identity $\geq$95\%\\coverage $\geq$80\%?};
+  \node[res, right=1.65cm of d3, fill=mapM2!25, text=black] (m2) {\textcolor{mapM2}{\textbf{M2}} related record};
+  \node[dec, below=0.85cm of d3] (d4) {accession\\cross-referenced\\\emph{and} identity $\geq$99\%,\\coverage $\geq$95\%?};
+  \node[res, right=1.65cm of d4, fill=mapM3!25, text=black] (m3) {\textcolor{mapM3}{\textbf{M3}} high confidence};
+  \node[res, below=0.85cm of d4, fill=mapM4!25, text=black] (m4) {\textcolor{mapM4}{\textbf{M4}} exact};
+
+  \draw[-{Stealth[length=1.8mm]}] (start) -- (d1);
+  \draw[-{Stealth[length=1.8mm]}] (d1) -- node[lbl]{no} (m1a);
+  \draw[-{Stealth[length=1.8mm]}] (d1) -- node[lbl, anchor=west]{yes} (d2);
+  \draw[-{Stealth[length=1.8mm]}] (d2) -- node[lbl]{no} (m1b);
+  \draw[-{Stealth[length=1.8mm]}] (d2) -- node[lbl, anchor=west]{yes} (d3);
+  \draw[-{Stealth[length=1.8mm]}] (d3) -- node[lbl]{no} (m2);
+  \draw[-{Stealth[length=1.8mm]}] (d3) -- node[lbl, anchor=west]{yes} (d4);
+  \draw[-{Stealth[length=1.8mm]}] (d4) -- node[lbl]{no} (m3);
+  \draw[-{Stealth[length=1.8mm]}] (d4) -- node[lbl, anchor=west]{yes} (m4);
+\end{tikzpicture}
+\caption{Decision path from a retrieved structure to its M0--M4
+classification. M0 (no structural record returned by any resource) is not
+shown, as it precedes this diagram entirely. Only M4 supports an unqualified
+statement that a retrieved structure is the queried protein.}
+\label{fig:decision}
+\end{figure}
+
+Two consequences of this design are worth stating explicitly. First, accession agreement alone does not confer M4: a
+short peptide fragment of a much longer protein can legitimately carry its
+parent accession while covering a small fraction of the query, so M4
+additionally requires the coverage threshold; without it, a fragment would
+be indistinguishable from a complete structure. Second, sequence agreement
+alone does not confer M4 either: two distinct proteins can share a
+near-identical local region, and a deposited construct may be a chimera or
+engineered variant whose \emph{chain sequence} matches the query while the
+\emph{entry} describes something else; a perfect sequence match without
+accession confirmation is therefore reported as M3, not M4, and the
+difference between ``very likely correct'' and ``confirmed correct'' is
+preserved in the report rather than collapsed. A structure whose measured
+identity and coverage fall below even the M2 thresholds is classified M1
+with an explicit warning naming the accession actually returned, rather than
+being rounded up to M2 (``related'').
+
+\paragraph{What ``accession confirmed'' means, and does not mean.} The
+accession check reads the structure's own cross-references (coordinate-file
+\texttt{DBREF} records and, for RCSB, the matched entity's reference-sequence
+identifiers). It therefore asserts that the \emph{entry} is catalogued under the
+queried accession, which is an accession-level claim: an identical sequence
+filed under a different accession is not confirmed (it is reported M3), and the
+check inherits whatever curation errors the cross-references contain. The
+validation study (Section~\ref{sec:validation-study}) judges correctness at this
+same accession level, against references that are curated independently of this
+software but are not independent of the cross-references the check reads.
+
+\paragraph{Partial-structure qualifier.} A deposited structure is often only a
+domain construct. When the accession is confirmed and identity is at least the
+high-identity threshold ($95\%$) but coverage is below the high-coverage
+threshold ($80\%$), the report carries \texttt{partial\_structure = true} and a
+message stating that the structure is a real but incomplete structure of the
+requested protein. The qualifier does not change the mapping level (such a
+result is M1 or M2) and cannot co-occur with M3 or M4, so M4 keeps its meaning
+of a full-length exact match. It was added because the validation study showed
+that the original message for these results (``does not correspond to the
+requested protein'') was wrong for them.
+
+\subsection{Error handling and fault tolerance}
+\label{sec:fault-tolerance-methods}
+
+HTTP requests are wrapped in a typed error hierarchy rooted at a common
+\texttt{BioSeqInsightError} base class, with specific subclasses
+distinguishing a transport failure, a timeout, a not-found result, a
+service error, a validation failure, and a cache failure, so that a caller
+can handle each category differently. Transient
+failures (HTTP 429, 500, 502, 503, 504; connection errors; read timeouts)
+are retried with exponential backoff and random jitter up to a configurable
+attempt budget, honouring a server-supplied \texttt{Retry-After} header when
+present; permanent client errors (404, 403) are not retried. Every attempt
+is recorded (status code or transport error, elapsed time, whether a retry
+followed) and the full attempt history is exposed in every result, which is
+what makes the fault-injection evaluation of
+Section~\ref{sec:fault-injection} directly traceable to specific,
+inspectable request sequences rather than to an aggregate pass/fail count
+alone.
+
+A response is additionally validated as \emph{content} before being
+accepted, independent of its HTTP status: a payload that does not contain an
+expected marker (for example, an \texttt{ATOM} record in a coordinate-file
+response) is treated as a failure and retried according to the same policy,
+even when the server returned HTTP 200. This addresses a specific,
+concrete failure pattern in which a gateway or load balancer returns an
+HTML error page with a 200 status during an outage; a client that trusts
+the status code alone would write that page to disk as though it were a
+structure file.
+
+When the first-tried resource cannot supply a usable result, the manager
+proceeds to the next configured resource rather than reporting failure
+immediately (Section~\ref{sec:retrieval}); every resource that was queried,
+successfully or not, is reported in the result, so a fallback is visible
+rather than silent.
+
+\subsection{Reproducibility and project workflows}
+\label{sec:reproducibility}
+
+Configuration (retry budget and backoff parameters, cache location and
+time-to-live, provider fallback order, M0--M4 thresholds, melting-temperature
+conditions, default genetic-code table, batch worker count, and endpoint
+URLs) resolves through a documented precedence chain -- built-in defaults,
+then an optional settings file, then environment variables, then explicit
+command-line or API arguments -- and is validated on load, with inconsistent
+values (for example, an M2 identity threshold exceeding the M3 threshold, or
+an unrecognised provider name) rejected immediately rather than producing an
+unexplained result later. The complete effective settings, together with the
+software version, are recorded with every batch run and every project.
+
+A \emph{project} is a directory holding the exact input sequences analysed,
+any retrieved structure coordinates, exported result tables, structured logs,
+and a metadata file recording the software version and settings snapshot
+above. A project exports to a single zip archive that re-imports into a
+working project on another machine, with archive extraction defended against
+path-traversal (``zip slip'') by rejecting any entry whose path would
+escape the destination directory. This is the mechanism by which a
+completed analysis in \bsi\ can be handed to a collaborator, or re-run
+against a later software version, as a single, self-contained, auditable
+unit rather than as an ad hoc collection of files and remembered settings;
+its effect on the number of manual steps this requires is quantified in
+Section~\ref{sec:workflow-comparison}.

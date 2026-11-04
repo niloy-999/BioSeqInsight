@@ -1,0 +1,72 @@
+\section{Introduction}
+\label{sec:introduction}
+
+A routine task in molecular biology is to characterise a nucleotide or protein
+sequence and then look at the three-dimensional structure of the protein it
+encodes. In practice this is a chain of separate tools: a sequence-analysis
+package for open reading frames and composition, a primer-design page, a protein
+property calculator, and then one or more structure resources, namely the
+experimental archive RCSB PDB \citep{berman2000pdb}, the predicted-model
+database AlphaFold DB \citep{varadi2022alphafolddb,jumper2021alphafold}, and the
+language-model predictor ESM Atlas \citep{lin2023esmfold}. Each hand-off is a
+manual copy-and-paste, and each is a place where an identifier can be
+mistyped or a result misread.
+
+The step that is most easily skipped is the one that matters most for the
+conclusion drawn from a structure: confirming that the structure that came back
+is the protein that was asked about. A sequence search is designed to return
+\emph{similar} sequences, and the structure archives are keyed in different
+ways: AlphaFold DB by UniProt accession, RCSB PDB by entry and by sequence
+similarity, ESM Atlas by predicting from the sequence alone. A hit therefore
+tells the user that something was found, not that it is the queried molecule: it
+may be a paralogue, a fragment, a different isoform, or the same protein
+catalogued under a different accession. Scripts that fetch ``the first
+structure'' and report success make this distinction invisible, and the question
+of how often it matters has, to our knowledge, rarely been measured.
+
+This paper has two parts. The first is a software contribution. \bsi\ 2.0
+integrates sequence analysis with structure retrieval and, for every retrieved
+structure, performs the check that is usually skipped: the structure's chain is
+aligned to the query, the structure's own database cross-references are compared
+with the queried accession, and the outcome is reported on an explicit five-level
+scale (M0--M4) in which only a full-length structure whose accession is confirmed
+is called an exact match (Section~\ref{sec:m0m4}). The second is a measurement.
+Using \N{ds-n} randomly sampled reviewed UniProt proteins from \N{ds-orgs}
+organisms, we ask how often accepting the top sequence-search hit returns a
+structure that is not catalogued under the queried accession, how often the
+validation layer prevents that, what it costs in correct structures rejected,
+and where its thresholds are and are not meaningful
+(Section~\ref{sec:validation-study}). Correctness is judged against curated
+cross-references from PDBe SIFTS and RCSB rather than against the software's own
+alignment, so the evaluation does not simply restate the classifier's output.
+
+A note on how this study came to be framed, because it changed the paper. An
+earlier prototype of this software (v1.0) reported a structural hit for every
+query in its small benchmark, and its own report flagged that for 7 of 25
+queries the UniProt accession attached to the hit differed from the query.
+v1.0 had no step that compared the retrieved structure with the query sequence,
+so it could not say whether those hits were wrong. We initially read the flags
+as failures. Re-adjudicating all 25 queries against current data
+(Section~\ref{sec:case-study}) shows that for \N{cs-disc-contains} of the
+\N{cs-disc-n} flagged queries the top RCSB sequence-search hit is an entry that
+does contain the queried accession (\N{cs-disc-M4} validate as M4), so the
+discordance reflected how accessions were attributed to hits, not wrong structures. The lesson we take is methodological:
+an accession mismatch in a reporting layer is not the same thing as a wrong
+structure, and the two should be separated by an explicit sequence and
+cross-reference check on a large sample, which is what the present study does.
+
+\paragraph{Contributions.}
+(i) An integrated, dependency-light platform with a command-line and a graphical
+interface (Sections~\ref{sec:architecture}--\ref{sec:export}).
+(ii) A five-level sequence-to-structure classification with a partial-structure
+qualifier, applied uniformly to three heterogeneous resources
+(Section~\ref{sec:m0m4}).
+(iii) A measurement on \N{ds-n} random proteins of how often naive retrieval
+returns a structure not catalogued under the queried accession, how often
+validation prevents it, and what that costs
+(Section~\ref{sec:validation-study}), with an adversarial benchmark of
+constructed negatives (Section~\ref{sec:adversarial}).
+(iv) Engineering evidence: an offline test suite, deterministic fault
+injection, cross-validation against an established implementation, performance
+measurements and an interaction-cost comparison
+(Sections~\ref{sec:testing}--\ref{sec:workflow-comparison}).
