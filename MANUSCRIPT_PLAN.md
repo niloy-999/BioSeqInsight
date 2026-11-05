@@ -70,9 +70,9 @@ outage rather than an engineering response to one.
 | Results agree with an established reference | `tests/test_biopython_parity.py`, run in a dedicated CI job |
 | Values match published constants | e.g. ubiquitin 8564.74 Da vs accepted 8564.8 Da, asserted as a test |
 | Retrieved structures are verified, not assumed | M0–M4 taxonomy with alignment identity, coverage and accession cross-check |
-| The previous version was unreliable in exactly this way | 7 of 25 v1.0 "successes" were a different molecule |
+| The previous version could not resolve accession discordance | for 7 of 25 v1.0 queries the hit's accession differed from the query; whether each was a wrong molecule is adjudicated by `validation/scripts/06_case_studies.py` (do not claim "wrong molecule" before it is run) |
 
-**The 7/25 finding should be prominent in the paper, not buried.** It is the
+**The 7/25 accession-discordance finding is a motivation, not a result, until adjudicated.** It is the
 motivation for the entire rewrite and it is a genuine contribution: it
 demonstrates a failure mode that affects any tool performing unvalidated
 sequence-to-structure lookup, which is most of them.
@@ -208,8 +208,8 @@ One page. Structure:
 
 1. Acknowledge the decision without arguing with it.
 2. State that the software was rebuilt rather than revised, and say why: an
-   audit of the previous version found that 7 of the 25 reported successful
-   structure retrievals returned a different molecule.
+   audit of the previous version found that for 7 of its 25 queries the hit was
+   associated with a different accession (adjudication pending / see results).
 3. Address each criticism in a short paragraph with a number and a pointer:
    maturity (432 tests, 89.6 % coverage, 12-way CI matrix); reliability
    (80 % recovery across 1 300 simulated failures; validated structure

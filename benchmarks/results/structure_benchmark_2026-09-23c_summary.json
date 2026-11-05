@@ -1,0 +1,68 @@
+{
+  "software_version": "2.0.2",
+  "generated_at": "2026-09-23T20:30:02+00:00",
+  "note": "THE CITABLE RESULT. A third same-day run, on 2.0.2, with every field produced natively -- no hand-reconciliation, no back-annotation. Every per_provider.accounting_check reads 'ok'; best_mapping_distribution sums exactly to resolved (69); strata exact_matches (16+22+30=68) cross-validates against best_mapping_distribution.M4 (68) independently. This is the first run in the sequence documented in this directory's README that required no correction at all, which is what makes it the one to cite rather than any of the four runs before it.",
+  "candidates": 69,
+  "resolved": 69,
+  "unresolved": 0,
+  "unresolved_accessions": [],
+  "strata": {
+    "short": {"proteins": 16, "exact_matches": 16},
+    "medium": {"proteins": 23, "exact_matches": 22},
+    "long": {"proteins": 30, "exact_matches": 30}
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 69,
+      "retrieved": 68,
+      "success_rate_percent": 98.6,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 98.6,
+      "not_found": 1,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 0.314,
+      "exact_matches": 68,
+      "accounting_check": "ok"
+    },
+    "esmatlas": {
+      "requests": 69,
+      "retrieved": 46,
+      "success_rate_percent": 66.7,
+      "attempted_requests": 46,
+      "attempted_success_rate_percent": 100.0,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 23,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 2.042,
+      "exact_matches": 0,
+      "accounting_check": "ok"
+    },
+    "rcsb": {
+      "requests": 69,
+      "retrieved": 59,
+      "success_rate_percent": 85.5,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 85.5,
+      "not_found": 6,
+      "timeouts": 0,
+      "service_errors": 4,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 4.978,
+      "exact_matches": 39,
+      "accounting_check": "ok"
+    }
+  },
+  "best_mapping_distribution": {"M0": 0, "M1": 0, "M2": 0, "M3": 1, "M4": 68},
+  "exact_mapping_rate_percent": 98.6,
+  "any_structure_rate_percent": 100.0,
+  "wall_clock_s": 540.7
+}

@@ -56,15 +56,36 @@ CANDIDATES = ROOT / "benchmarks" / "data" / "benchmark_candidates.csv"
 STRATA = (("short", 0, 150), ("medium", 150, 300), ("long", 300, 10**9))
 
 RESOLVED_COLUMNS = [
-    "accession", "protein_name", "organism", "functional_class",
-    "membrane_associated", "length", "stratum", "resolved_at",
+    "accession",
+    "protein_name",
+    "organism",
+    "functional_class",
+    "membrane_associated",
+    "length",
+    "stratum",
+    "resolved_at",
 ]
 RESULT_COLUMNS = [
-    "accession", "protein_name", "organism", "functional_class", "stratum",
-    "length", "provider", "status", "identifier", "mapping_level",
-    "identity_percent", "coverage_percent", "accession_match", "confidence",
-    "confidence_kind", "attempts", "recovered", "from_cache",
-    "response_time_s", "error",
+    "accession",
+    "protein_name",
+    "organism",
+    "functional_class",
+    "stratum",
+    "length",
+    "provider",
+    "status",
+    "identifier",
+    "mapping_level",
+    "identity_percent",
+    "coverage_percent",
+    "accession_match",
+    "confidence",
+    "confidence_kind",
+    "attempts",
+    "recovered",
+    "from_cache",
+    "response_time_s",
+    "error",
 ]
 
 
@@ -81,7 +102,9 @@ def load_candidates(limit: int | None) -> list[dict]:
     return rows[:limit] if limit else rows
 
 
-def resolve(manager: StructureManager, candidates: list[dict], refresh: bool) -> tuple[list[dict], list[dict]]:
+def resolve(
+    manager: StructureManager, candidates: list[dict], refresh: bool
+) -> tuple[list[dict], list[dict]]:
     """Fetch canonical sequences; return (resolved, unresolved)."""
     resolved, unresolved = [], []
     for index, row in enumerate(candidates, 1):
@@ -201,8 +224,10 @@ def summarise(rows: list[dict], resolved: list[dict], unresolved: list[dict]) ->
             "recovered_after_failure": sum(1 for r in subset if r["recovered"]),
             "median_response_time_s": round(_median(times), 3) if times else None,
             "exact_matches": sum(1 for r in subset if r["mapping_level"] == "M4"),
-            "accounting_check": "ok" if accounted == len(subset) else (
-                f"MISMATCH: {accounted} accounted for out of {len(subset)} requests"
+            "accounting_check": (
+                "ok"
+                if accounted == len(subset)
+                else (f"MISMATCH: {accounted} accounted for out of {len(subset)} requests")
             ),
         }
 
@@ -325,9 +350,9 @@ def main(argv: list[str] | None = None) -> int:
         json.dumps(summary, indent=2), encoding="utf-8"
     )
 
-    print(json.dumps(
-        {k: v for k, v in summary.items() if k not in ("settings", "cache")}, indent=2
-    ))
+    print(
+        json.dumps({k: v for k, v in summary.items() if k not in ("settings", "cache")}, indent=2)
+    )
     print(f"\nWritten to {out.parent}/", file=sys.stderr)
     return 0
 

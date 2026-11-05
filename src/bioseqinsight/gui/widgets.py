@@ -10,9 +10,8 @@ from __future__ import annotations
 import queue
 import threading
 import tkinter as tk
-from collections.abc import Callable
 from tkinter import ttk
-from typing import Any
+from typing import Any, Callable
 
 MONO = ("Menlo", 11) if tk.TkVersion >= 8.6 else ("Courier", 11)
 
@@ -123,7 +122,7 @@ class BackgroundRunner:
         def target() -> None:
             try:
                 result = work()
-            except Exception as exc:
+            except Exception as exc:  # noqa: BLE001 - reported to the user
                 self._queue.put((on_error or _reraise, (exc,)))
             else:
                 self._queue.put((on_success, (result,)))
@@ -186,9 +185,9 @@ def bind_copy(text_widget: tk.Text) -> None:
 
 
 __all__ = [
-    "MAPPING_COLOURS",
     "BackgroundRunner",
     "LabelledText",
+    "MAPPING_COLOURS",
     "MappingBadge",
     "StatusBar",
     "bind_copy",

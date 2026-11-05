@@ -26,8 +26,8 @@ tested without a network connection.
 
 from __future__ import annotations
 
-__version__ = "2.0.2"
+__version__ = "2.0.3"
 __author__ = "Tasnim Ul Islam, Md. Bayazid Hossen"
 __license__ = "MIT"
 
-__all__ = ["__author__", "__license__", "__version__"]
+__all__ = ["__version__", "__author__", "__license__"]

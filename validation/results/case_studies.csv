@@ -1,0 +1,26 @@
+accession,accession_retrieval_alphafold_id,accession_retrieval_alphafold_mapping,accession_retrieval_rcsb_id,accession_retrieval_rcsb_mapping,af_plddt,esm_status,hit_note,length,query_length_2026,query_name,top_hit,top_hit_accession_match,top_hit_coverage,top_hit_entity_id,top_hit_hit_accessions,top_hit_identity,top_hit_mapping,top_hit_pdb_id,top_hit_truth_label,top_hit_truth_rcsb,top_hit_truth_sifts,top_hit_validation_error,v1_flagged_discordant
+P00974,AF-P00974-F1,M4,4BNR,M4,97.8,504,mapped Q52V24,100,100,BPTI,found,True,100.0,2,P00974,100.0,M4,4BNR,positive,True,True,,True
+P63165,AF-P63165-F1,M4,1A5R,M4,78.28,504,,101,101,SUMO1,found,True,100.0,1,P63165,100.0,M4,1A5R,positive,True,True,,False
+P0A6F9,AF-P0A6F9-F1,M4,1AON,M4,90.8,504,mapped GroEL,97,97,GroES,found,True,100.0,2,P0A6F9,100.0,M4,1AON,positive,True,True,,True
+P61626,AF-P61626-F1,M4,1C46,M3,94.07,ok,,148,148,"lysozyme (H, human)",found,True,88.51351351351352,1,P61626,100.0,M3,1C46,positive,True,True,,False
+P00698,AF-P00698-F1,M4,3B6L,M4,93.89,ok,,147,147,lysozyme (hen),found,True,100.0,1,P00698,100.0,M4,3B6L,positive,True,True,,False
+P00720,,M0,1LYD,M3,,ok,AFDB 404,164,164,T4 lysozyme,found,True,100.0,1,P00720,98.78048780487805,M3,1LYD,positive,True,True,,False
+P61769,AF-P61769-F1,M4,3JTS,M4,86.82,ok,mapped Q30597,119,119,beta-2 microglobulin,found,True,100.0,2,P61769,100.0,M4,3JTS,positive,True,True,,True
+P01308,AF-P01308-F1,M4,6B3Q,M4,93.99,ok,mapped insulin-degrading enzyme (IDE),110,110,insulin (preproinsulin),found,True,100.0,2,P01308,100.0,M4,6B3Q,positive,True,True,,True
+P61823,AF-P61823-F1,M4,8R5V,M4,94.04,ok,,150,150,RNase A,found,True,100.0,1,P61823,100.0,M4,8R5V,positive,True,True,,False
+P02144,AF-P02144-F1,M4,3RGK,M3,97.18,ok,,154,154,myoglobin,found,True,99.35064935064935,1,P02144,98.69281045751634,M3,3RGK,positive,True,True,,False
+P69905,AF-P69905-F1,M4,1BZ1,M4,98.06,ok,,142,142,haemoglobin alpha,found,True,100.0,1,P69905,100.0,M4,1BZ1,positive,True,True,,False
+P68871,AF-P68871-F1,M4,1DXT,M4,98.06,ok,mapped Hb-alpha,147,147,haemoglobin beta,found,True,100.0,2,P68871,100.0,M4,1DXT,positive,True,True,,True
+P02766,AF-P02766-F1,M4,4ANK,M4,87.99,504,,147,147,transthyretin,found,True,100.0,1,P02766,100.0,M4,4ANK,positive,True,True,,False
+P0AE67,AF-P0AE67-F1,M4,1DJM,M4,96.99,504,,129,129,CheY,found,False,100.0,1,P0AE67,100.0,M3,1DJM,positive,True,True,,False
+P62937,AF-P62937-F1,M4,1AK4,M4,98.06,504,,165,165,cyclophilin A,found,True,100.0,1,P62937,100.0,M4,1AK4,positive,True,True,,False
+P01112,AF-P01112-F1,M4,4Q21,M4,91.95,504,,189,189,H-Ras,found,True,100.0,1,P01112,100.0,M4,4Q21,positive,True,True,,False
+P42212,AF-P42212-F1,M4,1W7S,M4,96.64,ok,,238,238,GFP,found,True,99.15966386554622,1,P42212,99.15254237288136,M4,1W7S,positive,True,True,,False
+P00918,AF-P00918-F1,M4,1CA3,M4,97.37,ok,,260,260,carbonic anhydrase II,found,True,100.0,1,P00918,100.0,M4,1CA3,positive,True,True,,False
+P01584,AF-P01584-F1,M4,5MVZ,M1,76.23,ok,,269,269,IL-1 beta,found,False,89.96282527881041,3,B5BUQ8,21.074380165289256,M1,5MVZ,ambiguous,False,True,,False
+P24941,AF-P24941-F1,M4,,M0,88.46,ok,+ PDB 1AQ1,298,298,CDK2,found,,,1,P24941,,,11GV,positive,True,True,404 fetching https://files.rcsb.org/download/11GV.pdb: not found,False
+P01375,AF-P01375-F1,M4,6OP0,M2,84.56,ok,,233,233,TNF-alpha,found,True,67.81115879828326,1,P01375,100.0,M2,6OP0,positive,True,True,,False
+P09038,AF-P09038-F1,M4,1II4,M1,70.27,504,,288,288,FGF2,found,True,75.34722222222223,1,P09038,26.267281105990783,M1,1II4,positive,True,True,,False
+P04637,AF-P04637-F1,M4,6XRE,M4,75.99,ok,mapped RPB1,393,393,p53,found,True,100.0,13,P04637,100.0,M4,6XRE,positive,True,True,,True
+P0AEX9,AF-P0AEX9-F1,M4,8C8F,M4,94.28,504,,396,396,MBP,found,False,100.0,1,P0AEX9,100.0,M3,8C8F,positive,True,True,,False
+,AF-P0CG48-F1,M4,8Q7R,M4,88.65,ok,mapped P0CG48,76,76,ubiquitin (76 aa),found,True,100.0,2,P0CG48,100.0,M4,11SY,positive,True,True,,True

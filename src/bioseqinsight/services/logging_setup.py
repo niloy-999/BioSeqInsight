@@ -68,7 +68,9 @@ def configure_logging(
         logger.removeHandler(handler)
         handler.close()
 
-    formatter: logging.Formatter = JsonFormatter() if json_format else logging.Formatter(TEXT_FORMAT)
+    formatter: logging.Formatter = (
+        JsonFormatter() if json_format else logging.Formatter(TEXT_FORMAT)
+    )
 
     if console:
         stream = logging.StreamHandler()
@@ -126,8 +128,8 @@ def log_operation(
 
 
 __all__ = [
-    "LOGGER_NAME",
     "JsonFormatter",
+    "LOGGER_NAME",
     "configure_logging",
     "get_logger",
     "log_operation",

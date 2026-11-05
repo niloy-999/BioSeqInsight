@@ -64,16 +64,22 @@ tool defaulted to are not recorded anywhere. And the step that establishes
 whether the retrieved structure is your protein — aligning the deposited
 chain against your query — is the easiest one to skip.
 
-Skipping it is not hypothetical. The audit in [`docs/SOFTWARE_AUDIT.md`](docs/SOFTWARE_AUDIT.md)
-re-examined the 25-protein benchmark published for version 1.0 of this
-software, which reported 25/25 successful structure retrievals. Seven of
-those 25 were a different molecule. Querying human preproinsulin returned
-insulin-*degrading* enzyme, and the software reported success.
+Version 1.0 of this software illustrates the problem. Its 25-protein
+benchmark reported a structural hit for 25/25 queries, and for 7 of them the
+UniProt accession associated with the top hit differed from the query (for
+example preproinsulin P01308 was associated with insulin-degrading enzyme
+P14735). v1.0 flagged the discordance but could not decide whether each
+entry was nonetheless a structure of the queried molecule: some cases are
+plausibly benign (the ubiquitin sequence maps to P0CG48, which contains it;
+GroES and haemoglobin-beta may sit in multi-chain entries with their
+partners), others may be genuine mismatches. See
+[`docs/SOFTWARE_AUDIT.md`](docs/SOFTWARE_AUDIT.md); an entry-by-entry
+adjudication is produced by `validation/scripts/06_case_studies.py`.
 
-BioSeqInsight 2.0 is built around that finding. Every retrieved structure is
-aligned against the query sequence and cross-checked against the accession,
-and the result is reported on an explicit five-level scale. The software will
-tell you it failed rather than hand you the wrong protein.
+BioSeqInsight 2.0 is built to make that decision explicit. Every retrieved
+structure is aligned against the query sequence and cross-checked against the
+accession, and the result is reported on a five-level scale, so an accession
+discordance is resolved by evidence rather than left ambiguous.
 
 ---
 
@@ -186,7 +192,7 @@ shown in the GUI, the CLI and every exported table.
 | Level | Meaning | Safe to state "this is the structure of my protein"? |
 |---|---|---|
 | **M4** | Exact: the accession is cross-referenced by the entry **and** identity ≥ 99 % with coverage ≥ 95 % | **Yes** |
-| **M3** | High confidence: identity ≥ 95 %, coverage ≥ 90 %, accession not confirmed | Probably, state the evidence |
+| **M3** | High confidence: identity ≥ 95 %, coverage ≥ 80 %, accession not confirmed | The same or a near-identical sequence; state the evidence |
 | **M2** | Related record: a homologue, orthologue or fragment | **No** |
 | **M1** | Retrieved but identity not established, or measured and clearly different | **No** |
 | **M0** | No structural record returned | — |
@@ -421,7 +427,7 @@ real structure, or a dedicated predictor.
 * Melting temperature uses SantaLucia (1998) nearest-neighbour parameters for
   duplexes of 14–60 nt. Outside that range a warning is attached to the
   result, and long sequences do not obey a two-state model.
-* Alignment is Needleman–Wunsch / semi-global with an affine gap penalty,
+* Alignment is Needleman–Wunsch / semi-global with unit match/mismatch scores (+1/−1) and a linear gap penalty (−2),
   capped at 4 million cells. It is for identity verification, not homology
   searching; use BLAST or HMMER for that.
 * Isoelectric point uses a fixed pKa set and ignores local structural

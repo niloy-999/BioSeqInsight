@@ -15,6 +15,7 @@ from tkinter import filedialog, messagebox, ttk
 
 from ..core.alphabet import parse_fasta
 from ..io.export import to_json, write_csv, write_html_report, write_json, write_tsv
+from ..models.results import StructureResult
 from ..structures.manager import StructureSearchOutcome
 from ..structures.visualization import (
     open_in_browser,
@@ -73,9 +74,9 @@ class StructureView(ttk.Frame):
             )
 
         self.refresh_var = tk.BooleanVar(value=False)
-        ttk.Checkbutton(
-            controls, text="Ignore cache (refetch)", variable=self.refresh_var
-        ).grid(row=len(actions), column=0, sticky="w", pady=(12, 0))
+        ttk.Checkbutton(controls, text="Ignore cache (refetch)", variable=self.refresh_var).grid(
+            row=len(actions), column=0, sticky="w", pady=(12, 0)
+        )
 
         ttk.Button(controls, text="Export result JSON", width=22, command=self.export_json).grid(
             row=len(actions) + 1, column=0, sticky="ew", pady=(12, 2)
@@ -151,7 +152,9 @@ class StructureView(ttk.Frame):
             f"Chains        {len(parsed.chains)}",
         ]
         for chain in parsed.chains:
-            lines.append(f"  chain {chain.chain_id}: {chain.residue_count} residues ({chain.source})")
+            lines.append(
+                f"  chain {chain.chain_id}: {chain.residue_count} residues ({chain.source})"
+            )
         if parsed.accessions:
             lines.append(f"Cross-refs    {', '.join(parsed.accessions)}")
         if parsed.title:
@@ -178,9 +181,7 @@ class StructureView(ttk.Frame):
                 if best and best.confidence is not None
                 else ""
             ),
-            mapping=(
-                f"{best.mapping_level.value} {best.mapping_level.label}" if best else ""
-            ),
+            mapping=(f"{best.mapping_level.value} {best.mapping_level.label}" if best else ""),
         )
         if open_in_browser(html):
             self.app.status.idle("Opened the 3Dmol.js viewer in your browser.")
@@ -197,9 +198,7 @@ class StructureView(ttk.Frame):
     def _current_pdb(self) -> str | None:
         if self._local_pdb and Path(self._local_pdb).is_file():
             return self._local_pdb
-        messagebox.showinfo(
-            "BioSeqInsight", "Retrieve a structure or load a local PDB file first."
-        )
+        messagebox.showinfo("BioSeqInsight", "Retrieve a structure or load a local PDB file first.")
         return None
 
     def export_json(self) -> None:
@@ -243,7 +242,9 @@ class BatchView(ttk.Frame):
         ttk.Spinbox(options, from_=1, to=16, textvariable=self.workers, width=6).grid(
             row=1, column=1, sticky="w", pady=(8, 0)
         )
-        ttk.Label(options, text="Min ORF (aa)").grid(row=1, column=2, sticky="e", pady=(8, 0), padx=(16, 4))
+        ttk.Label(options, text="Min ORF (aa)").grid(
+            row=1, column=2, sticky="e", pady=(8, 0), padx=(16, 4)
+        )
         self.min_orf = tk.IntVar(value=30)
         ttk.Spinbox(options, from_=1, to=2000, textvariable=self.min_orf, width=6).grid(
             row=1, column=3, sticky="w", pady=(8, 0)
@@ -252,7 +253,12 @@ class BatchView(ttk.Frame):
             row=2, column=0, sticky="w", pady=(12, 0)
         )
         for index, (label, kind) in enumerate(
-            [("Export CSV", "csv"), ("Export TSV", "tsv"), ("Export JSON", "json"), ("Export HTML", "html")]
+            [
+                ("Export CSV", "csv"),
+                ("Export TSV", "tsv"),
+                ("Export JSON", "json"),
+                ("Export HTML", "html"),
+            ]
         ):
             ttk.Button(options, text=label, command=lambda k=kind: self.export(k)).grid(
                 row=2, column=index + 1 if index < 3 else 1, sticky="w", pady=(12, 0), padx=4
@@ -321,9 +327,12 @@ class BatchView(ttk.Frame):
                 f"Recovered calls  {summary.recovered_requests}",
             ]
         if summary.mapping_counts:
-            lines.append("Mapping levels   " + ", ".join(
-                f"{level}={count}" for level, count in sorted(summary.mapping_counts.items())
-            ))
+            lines.append(
+                "Mapping levels   "
+                + ", ".join(
+                    f"{level}={count}" for level, count in sorted(summary.mapping_counts.items())
+                )
+            )
         failures = [row for row in rows if row.error]
         if failures:
             lines += ["", "Records with problems:"]

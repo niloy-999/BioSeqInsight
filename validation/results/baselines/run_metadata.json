@@ -1,0 +1,6 @@
+{
+  "n_candidates": 1000,
+  "elapsed_s": 8045.9,
+  "rcsb_identity_cutoff_method2": 0.9,
+  "definition": "naive methods accept whatever the resource returns (Amendment 5)"
+}

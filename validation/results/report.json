@@ -1,0 +1,687 @@
+{
+  "definitions": {
+    "method1_naive": "top RCSB sequence-search hit, accepted unconditionally",
+    "method1_validated_strict": "the same hit, accepted only if M4",
+    "method1_validated_permissive": "the same hit, accepted if M3 or M4",
+    "method2_naive": "top hit with RCSB's own 0.9 identity cutoff, accepted unconditionally",
+    "method2_validated_strict": "the same hit, accepted only if M4",
+    "method2_validated_permissive": "the same hit, accepted if M3 or M4",
+    "method3_strict": "bioseqinsight retrieval, accepted only if M4",
+    "method3_permissive": "bioseqinsight retrieval, accepted if M3 or M4"
+  },
+  "rcsb": {
+    "method1_naive": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 909,
+        "true_associations": 179,
+        "false_associations": 730,
+        "false_association_tiers": {
+          "same_sequence": 34,
+          "near_identical": 70,
+          "different": 503,
+          "unmeasured": 123
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 91,
+        "false_association_rate": 0.8031,
+        "false_association_rate_95ci": [
+          0.776,
+          0.8276
+        ],
+        "false_associations_per_1000_queries": 730.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 213,
+        "true_associations": 176,
+        "false_associations": 37,
+        "false_association_tiers": {
+          "same_sequence": 2,
+          "near_identical": 10,
+          "different": 13,
+          "unmeasured": 12
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 2,
+        "false_association_rate": 0.1737,
+        "false_association_rate_95ci": [
+          0.1287,
+          0.2302
+        ],
+        "false_associations_per_1000_queries": 172.1,
+        "sensitivity_correct_structure_returned": 0.8186,
+        "sensitivity_95ci": [
+          0.7617,
+          0.8644
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 696,
+        "true_associations": 3,
+        "false_associations": 693,
+        "false_association_tiers": {
+          "same_sequence": 32,
+          "near_identical": 60,
+          "different": 490,
+          "unmeasured": 111
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 89,
+        "false_association_rate": 0.9957,
+        "false_association_rate_95ci": [
+          0.9874,
+          0.9985
+        ],
+        "false_associations_per_1000_queries": 882.8
+      }
+    },
+    "method1_validated_strict": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 85,
+        "true_associations": 85,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 915,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0432
+        ],
+        "false_associations_per_1000_queries": 0.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 85,
+        "true_associations": 85,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 130,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0432
+        ],
+        "false_associations_per_1000_queries": 0.0,
+        "sensitivity_correct_structure_returned": 0.3953,
+        "sensitivity_95ci": [
+          0.3324,
+          0.462
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 0,
+        "true_associations": 0,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 785,
+        "false_association_rate": null,
+        "false_association_rate_95ci": null,
+        "false_associations_per_1000_queries": 0.0
+      }
+    },
+    "method1_validated_permissive": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 160,
+        "true_associations": 105,
+        "false_associations": 55,
+        "false_association_tiers": {
+          "same_sequence": 34,
+          "near_identical": 21,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 840,
+        "false_association_rate": 0.3438,
+        "false_association_rate_95ci": [
+          0.2746,
+          0.4202
+        ],
+        "false_associations_per_1000_queries": 55.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 109,
+        "true_associations": 104,
+        "false_associations": 5,
+        "false_association_tiers": {
+          "same_sequence": 2,
+          "near_identical": 3,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 106,
+        "false_association_rate": 0.0459,
+        "false_association_rate_95ci": [
+          0.0198,
+          0.1029
+        ],
+        "false_associations_per_1000_queries": 23.3,
+        "sensitivity_correct_structure_returned": 0.4837,
+        "sensitivity_95ci": [
+          0.4178,
+          0.5502
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 51,
+        "true_associations": 1,
+        "false_associations": 50,
+        "false_association_tiers": {
+          "same_sequence": 32,
+          "near_identical": 18,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 734,
+        "false_association_rate": 0.9804,
+        "false_association_rate_95ci": [
+          0.897,
+          0.9965
+        ],
+        "false_associations_per_1000_queries": 63.7
+      }
+    },
+    "method2_naive": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 343,
+        "true_associations": 189,
+        "false_associations": 154,
+        "false_association_tiers": {
+          "same_sequence": 34,
+          "near_identical": 75,
+          "different": 15,
+          "unmeasured": 30
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 657,
+        "false_association_rate": 0.449,
+        "false_association_rate_95ci": [
+          0.3972,
+          0.5019
+        ],
+        "false_associations_per_1000_queries": 154.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 210,
+        "true_associations": 186,
+        "false_associations": 24,
+        "false_association_tiers": {
+          "same_sequence": 2,
+          "near_identical": 12,
+          "different": 1,
+          "unmeasured": 9
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 5,
+        "false_association_rate": 0.1143,
+        "false_association_rate_95ci": [
+          0.078,
+          0.1644
+        ],
+        "false_associations_per_1000_queries": 111.6,
+        "sensitivity_correct_structure_returned": 0.8651,
+        "sensitivity_95ci": [
+          0.813,
+          0.9044
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 133,
+        "true_associations": 3,
+        "false_associations": 130,
+        "false_association_tiers": {
+          "same_sequence": 32,
+          "near_identical": 63,
+          "different": 14,
+          "unmeasured": 21
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 652,
+        "false_association_rate": 0.9774,
+        "false_association_rate_95ci": [
+          0.9358,
+          0.9923
+        ],
+        "false_associations_per_1000_queries": 165.6
+      }
+    },
+    "method2_validated_strict": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 85,
+        "true_associations": 85,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 915,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0432
+        ],
+        "false_associations_per_1000_queries": 0.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 85,
+        "true_associations": 85,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 130,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0432
+        ],
+        "false_associations_per_1000_queries": 0.0,
+        "sensitivity_correct_structure_returned": 0.3953,
+        "sensitivity_95ci": [
+          0.3324,
+          0.462
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 0,
+        "true_associations": 0,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 785,
+        "false_association_rate": null,
+        "false_association_rate_95ci": null,
+        "false_associations_per_1000_queries": 0.0
+      }
+    },
+    "method2_validated_permissive": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 160,
+        "true_associations": 105,
+        "false_associations": 55,
+        "false_association_tiers": {
+          "same_sequence": 34,
+          "near_identical": 21,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 840,
+        "false_association_rate": 0.3438,
+        "false_association_rate_95ci": [
+          0.2746,
+          0.4202
+        ],
+        "false_associations_per_1000_queries": 55.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 108,
+        "true_associations": 104,
+        "false_associations": 4,
+        "false_association_tiers": {
+          "same_sequence": 2,
+          "near_identical": 2,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 107,
+        "false_association_rate": 0.037,
+        "false_association_rate_95ci": [
+          0.0145,
+          0.0914
+        ],
+        "false_associations_per_1000_queries": 18.6,
+        "sensitivity_correct_structure_returned": 0.4837,
+        "sensitivity_95ci": [
+          0.4178,
+          0.5502
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 52,
+        "true_associations": 1,
+        "false_associations": 51,
+        "false_association_tiers": {
+          "same_sequence": 32,
+          "near_identical": 19,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 733,
+        "false_association_rate": 0.9808,
+        "false_association_rate_95ci": [
+          0.8988,
+          0.9966
+        ],
+        "false_associations_per_1000_queries": 65.0
+      }
+    },
+    "method3_strict": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 83,
+        "true_associations": 83,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 917,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0442
+        ],
+        "false_associations_per_1000_queries": 0.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 83,
+        "true_associations": 83,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 132,
+        "false_association_rate": 0.0,
+        "false_association_rate_95ci": [
+          0.0,
+          0.0442
+        ],
+        "false_associations_per_1000_queries": 0.0,
+        "sensitivity_correct_structure_returned": 0.386,
+        "sensitivity_95ci": [
+          0.3235,
+          0.4526
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 0,
+        "true_associations": 0,
+        "false_associations": 0,
+        "false_association_tiers": {
+          "same_sequence": 0,
+          "near_identical": 0,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 785,
+        "false_association_rate": null,
+        "false_association_rate_95ci": null,
+        "false_associations_per_1000_queries": 0.0
+      }
+    },
+    "method3_permissive": {
+      "all": {
+        "n_queries": 1000,
+        "accepted": 144,
+        "true_associations": 96,
+        "false_associations": 48,
+        "false_association_tiers": {
+          "same_sequence": 31,
+          "near_identical": 17,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 856,
+        "false_association_rate": 0.3333,
+        "false_association_rate_95ci": [
+          0.2616,
+          0.4138
+        ],
+        "false_associations_per_1000_queries": 48.0
+      },
+      "has_structure": {
+        "n_queries": 215,
+        "accepted": 97,
+        "true_associations": 95,
+        "false_associations": 2,
+        "false_association_tiers": {
+          "same_sequence": 1,
+          "near_identical": 1,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 118,
+        "false_association_rate": 0.0206,
+        "false_association_rate_95ci": [
+          0.0057,
+          0.0721
+        ],
+        "false_associations_per_1000_queries": 9.3,
+        "sensitivity_correct_structure_returned": 0.4419,
+        "sensitivity_95ci": [
+          0.3771,
+          0.5087
+        ]
+      },
+      "no_structure": {
+        "n_queries": 785,
+        "accepted": 47,
+        "true_associations": 1,
+        "false_associations": 46,
+        "false_association_tiers": {
+          "same_sequence": 30,
+          "near_identical": 16,
+          "different": 0,
+          "unmeasured": 0
+        },
+        "unadjudicable_accepted": 0,
+        "returned_nothing": 738,
+        "false_association_rate": 0.9787,
+        "false_association_rate_95ci": [
+          0.8889,
+          0.9962
+        ],
+        "false_associations_per_1000_queries": 58.6
+      }
+    },
+    "paired_false_association_tests": {
+      "naive1_vs_strict1": {
+        "queries": 1000,
+        "false_assoc_only_in_first": 730,
+        "false_assoc_only_in_second": 0,
+        "p_value": 3.541058984203562e-220
+      },
+      "naive1_vs_permissive1": {
+        "queries": 1000,
+        "false_assoc_only_in_first": 675,
+        "false_assoc_only_in_second": 0,
+        "p_value": 1.2758009537404886e-203
+      },
+      "naive1_vs_method3_strict": {
+        "queries": 1000,
+        "false_assoc_only_in_first": 730,
+        "false_assoc_only_in_second": 0,
+        "p_value": 3.541058984203562e-220
+      },
+      "naive2_vs_strict2": {
+        "queries": 1000,
+        "false_assoc_only_in_first": 154,
+        "false_assoc_only_in_second": 0,
+        "p_value": 8.758115402030107e-47
+      }
+    },
+    "correct_naive_hits_by_gate_outcome": {
+      "accepted (M4)": 85,
+      "partial structure (accession confirmed, identity >= 95, coverage < 80)": 35,
+      "unmeasured (no coordinate file validated)": 23,
+      "M3 (high identity and coverage, accession not confirmed)": 20,
+      "other (M1)": 12,
+      "other (M2)": 4
+    },
+    "unmeasured_hit_reasons": {
+      "404 fetching https://files.rcsb.org/download/4V61.pdb: not found": 9,
+      "404 fetching https://files.rcsb.org/download/10QM.pdb: not found": 6,
+      "404 fetching https://files.rcsb.org/download/28NT.pdb: not found": 5,
+      "404 fetching https://files.rcsb.org/download/11BQ.pdb: not found": 5,
+      "404 fetching https://files.rcsb.org/download/7UNR.pdb: not found": 4,
+      "404 fetching https://files.rcsb.org/download/7NHN.pdb: not found": 4,
+      "404 fetching https://files.rcsb.org/download/3J9W.pdb: not found": 4,
+      "404 fetching https://files.rcsb.org/download/6V39.pdb: not found": 3,
+      "404 fetching https://files.rcsb.org/download/10FZ.pdb: not found": 3,
+      "404 fetching https://files.rcsb.org/download/9A76.pdb: not found": 3,
+      "404 fetching https://files.rcsb.org/download/8HKX.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/10PX.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/22TU.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/5MYJ.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/8RD8.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9I5T.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9HIG.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/28JW.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9O17.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/8HKU.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/7NHK.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/7UTI.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9BFD.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9A7X.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/9QPC.pdb: not found": 2,
+      "404 fetching https://files.rcsb.org/download/6SKF.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9H3G.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/3J9M.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/31FX.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8CRX.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6O8W.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9I5V.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9E6Q.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/3J6X.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8RDW.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/4V4N.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6I7V.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/4V7E.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9EHO.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/4V6F.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9NRI.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/5LI0.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7JIL.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/11HE.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8Q84.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9E9C.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7QGG.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7QXW.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7QGN.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6N2Y.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8UGH.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8UU8.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A7T.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/5WLC.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9SFP.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7EW5.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7K22.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8I9Z.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6YW5.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6Q9E.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/25HR.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A2W.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/4V6U.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7RYJ.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9GRX.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/11WX.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8W9Z.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A4E.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8QMA.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7UOM.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A5Q.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6JEO.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8TEP.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7KZP.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8J07.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6KE6.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6SX4.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/6R21.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A5D.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8G4L.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7OST.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9DGR.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/7A7D.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A4U.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9FQR.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9YC9.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A7J.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/8Y5K.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A2I.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/36QU.pdb: not found": 1,
+      "404 fetching https://files.rcsb.org/download/9A6Z.pdb: not found": 1
+    },
+    "method3_level_distribution": {
+      "M0": 726,
+      "M1": 77,
+      "M2": 53,
+      "M3": 61,
+      "M4": 83
+    }
+  },
+  "alphafold": {
+    "note": "AlphaFold DB is keyed by UniProt accession, so its model is the queried entry by construction; M4 here is close to guaranteed and is NOT evidence about validation.",
+    "n": 1000,
+    "model_available": 964,
+    "method3_level_distribution": {
+      "M0": 36,
+      "M1": 2,
+      "M3": 2,
+      "M4": 960
+    }
+  }
+}

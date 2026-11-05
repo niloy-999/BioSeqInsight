@@ -6,6 +6,20 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
 
+## [2.0.3] - 2026-10-30
+
+### Added
+- `partial_structure` qualifier on `ValidationReport`: a structure whose accession is confirmed and whose aligned region is at least 95 % identical but covers less than 80 % of the query is flagged as a partial structure of the requested protein. The mapping level is unchanged and M4 still means a full-length exact match.
+- `validation/`: the validation study (stratified benchmark, adversarial benchmark, baseline comparison, threshold analysis, case studies), its protocol with amendments, and the script that generates every number quoted in the manuscript.
+
+### Changed
+- The M1 message no longer tells the user that a confirmed partial structure "does not correspond to the requested protein".
+- Documentation states the shipped thresholds (M3: 95 % / 80 %; M2: 40 % / 40 %).
+- The `validation.py` docstring no longer states the v1.0 preproinsulin result as fact.
+
+### Fixed
+- The `bioseqinsight.structures` package was excluded from the repository by an over-broad `.gitignore` rule (`structures/`, intended for downloaded files), so builds from the v2.0.2 tag lacked it and failed on import. v2.0.3 is the first tag that builds and installs correctly from a clean checkout.
+
 ## [2.0.2] — 2026-09-23
 
 Two more issues found from a second independent live run of the structure
@@ -54,6 +68,14 @@ never triggered by any existing test. Six regression tests
 (`tests/test_benchmark_scripts.py::TestBestMappingDistribution`,
 `::TestAttemptedSuccessRate`) now cover both directly, including the exact
 "one candidate genuinely gets nothing" shape that a live run hit.
+
+**Confirmed by a third live run the same day**
+(`benchmarks/results/structure_benchmark_2026-09-23c_summary.json`), the
+first in the sequence to require no correction at all: every
+`accounting_check` read `"ok"` natively, `best_mapping_distribution` summed
+to the resolved count natively, and the strata breakdown independently
+cross-validated against it. This closes the live-testing round for 2.0.x —
+see `benchmarks/results/README.md` for the full five-run history.
 
 ---
 
@@ -148,8 +170,8 @@ from it can still be reproduced.
   GUI, the CLI and every exported table. Only M4 (accession confirmed *and*
   identity ≥ 99 % at ≥ 95 % coverage) supports the claim that a structure is
   the queried protein.
-- Needleman–Wunsch and semi-global pairwise alignment with affine gap
-  penalties (`core/alignment.py`), used for identity and coverage
+- Needleman–Wunsch and semi-global pairwise alignment with unit
+  match/mismatch scores (+1/−1) and a linear gap penalty (−2) (`core/alignment.py`), used for identity and coverage
   measurement. Semi-global alignment means a PDB chain that is a perfect
   fragment of a longer UniProt sequence scores 100 % identity with reduced
   coverage, which is the biologically correct reading.

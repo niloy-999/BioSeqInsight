@@ -23,9 +23,10 @@ are *similar*, and similar covers:
 * the same protein, correctly — which is what you wanted.
 
 Software that reports "structure retrieved" for all six is not answering your
-question. Version 1.0 of this software did exactly that, and 7 of the 25
-structures in its published benchmark were a different molecule from the one
-queried. See [`SOFTWARE_AUDIT.md`](SOFTWARE_AUDIT.md).
+question. Version 1.0 of this software returned a hit for every query without being able
+to say which case applied: for 7 of its 25 benchmark queries the accession
+associated with the hit differed from the query. See
+[`SOFTWARE_AUDIT.md`](SOFTWARE_AUDIT.md).
 
 ---
 
@@ -36,8 +37,8 @@ Every structure BioSeqInsight retrieves is assigned one of five levels.
 | Level | Name | Criteria | Interpretation |
 |---|---|---|---|
 | **M4** | Exact | Accession cross-referenced by the entry **and** identity ≥ 99 % **and** coverage ≥ 95 % | This is the structure of your protein. Cite it as such. |
-| **M3** | High confidence | Identity ≥ 95 % and coverage ≥ 90 %, accession not confirmed | Almost certainly your protein. State the identity and coverage when you report it. |
-| **M2** | Related record | Identity ≥ 30 % and coverage ≥ 50 %, below the M3 thresholds | A homologue, orthologue or fragment. **Not** your protein. Useful for comparison, not for a structural claim. |
+| **M3** | High confidence | Identity ≥ 95 % and coverage ≥ 80 %, accession not confirmed | The same or a near-identical sequence, possibly filed under another accession. State the identity and coverage when you report it. |
+| **M2** | Related record | Identity ≥ 40 % and coverage ≥ 40 %, below the M3 thresholds | A homologue, orthologue or fragment. Not a confirmed match for your protein (a confirmed but partial structure of it is flagged `partial_structure`, see below). Chance alone satisfies these thresholds for about 1 in 10 unrelated pairs, so do not read M2 as evidence of homology. |
 | **M1** | Unverified | Either no comparison was possible, or a comparison was made and the structure is clearly not the query | No structural claim is supported. Read the message: the two cases are different. |
 | **M0** | No result | No resource returned a structural record | — |
 
@@ -114,16 +115,22 @@ the sequence is 40 % identical. Reported as a related record with a warning.
 A reader who sees M2 and uses the structure anyway has made an informed
 choice; one who was shown "structure retrieved" has not.
 
-**M1 — the preproinsulin case.** Query `P01308`. The search returns an entry
-associated with `P14735` (insulin-degrading enzyme). The alignment is far
-below the related thresholds. v1.0 called this a success; v2.0 reports:
+**M1 — a measured mismatch (format illustration).** When a comparison is made
+and the best chain falls below the related thresholds, the report has this
+shape. **The numbers are placeholders showing the format, not output from a
+real query.**
 
 ```
-mapping        M1 Retrieved but unverified
+mapping        M1 Unverified
 WARNING: the retrieved structure does not correspond to the requested protein
-(identity 8.2%, coverage 11.4%), which is below the threshold for even a
-related record. It is associated with P14735.
+(identity <X>%, coverage <Y>%), which is below the threshold for even a
+related record. It is associated with <accession>.
 ```
+
+Whether the historical preproinsulin query (`P01308`, associated with
+`P14735` in the v1.0 benchmark) lands here, or in M4 because the returned
+entry is an insulin-containing complex, is an empirical question answered by
+`validation/scripts/06_case_studies.py`, not asserted here.
 
 **M1 — a bare PDB identifier.** Querying `1UBQ` directly gives no query
 sequence to compare against, so nothing can be verified. This is the "no
@@ -164,3 +171,20 @@ table.
 
 The defaults are deliberately strict. If a threshold has to be relaxed to
 make a structure qualify as M4, that is information about the structure.
+
+
+## The partial-structure qualifier
+
+A deposited structure is often only a domain construct. If the structure's own
+cross-references confirm the queried accession and the aligned region is at
+least 95 % identical, but the structure covers less than 80 % of your sequence,
+the result is flagged `partial_structure: true` and the message says so:
+
+> Partial structure of the requested protein: the structure cross-references
+> *accession* and matches the query at *x* % identity over the region it
+> contains, but it covers only *y* % of your sequence. It is a real structure
+> of this protein, not a full-length one.
+
+The flag is a qualifier, not a level. The mapping level (M1 or M2) is unchanged
+and the flag is never set for M3 or M4, so M4 still means a full-length exact
+match.

@@ -28,11 +28,10 @@ from __future__ import annotations
 import json
 import shutil
 import zipfile
-from collections.abc import Sequence
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Sequence
 
 from .. import __version__
 from ..config.settings import Settings, get_settings
@@ -91,14 +90,13 @@ class Project:
         description: str = "",
         settings: Settings | None = None,
         overwrite: bool = False,
-    ) -> Project:
+    ) -> "Project":
         """Create a new project directory."""
         target = Path(path)
         if target.exists():
             if not overwrite and any(target.iterdir()):
                 raise ProjectError(
-                    f"{target} already exists and is not empty. "
-                    "Pass overwrite=True to reuse it."
+                    f"{target} already exists and is not empty. " "Pass overwrite=True to reuse it."
                 )
         target.mkdir(parents=True, exist_ok=True)
         for name_ in SUBDIRECTORIES:
@@ -118,12 +116,14 @@ class Project:
         return project
 
     @classmethod
-    def open(cls, path: str | Path, settings: Settings | None = None) -> Project:
+    def open(cls, path: str | Path, settings: Settings | None = None) -> "Project":
         """Open an existing project directory."""
         target = Path(path)
         manifest_path = target / MANIFEST_NAME
         if not manifest_path.is_file():
-            raise ProjectError(f"{target} is not a BioSeqInsight project ({MANIFEST_NAME} missing).")
+            raise ProjectError(
+                f"{target} is not a BioSeqInsight project ({MANIFEST_NAME} missing)."
+            )
         try:
             data = json.loads(manifest_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError) as exc:
@@ -167,9 +167,7 @@ class Project:
 
     # -- contents -----------------------------------------------------------
 
-    def add_sequences(
-        self, records: Sequence[FastaRecord], filename: str = "input.fasta"
-    ) -> str:
+    def add_sequences(self, records: Sequence[FastaRecord], filename: str = "input.fasta") -> str:
         """Copy sequence records into the project."""
         target = self.path / "sequences" / filename
         target.write_text(write_fasta(records), encoding="utf-8")
@@ -273,7 +271,7 @@ class Project:
         return str(target)
 
     @classmethod
-    def import_zip(cls, archive_path: str | Path, destination: str | Path) -> Project:
+    def import_zip(cls, archive_path: str | Path, destination: str | Path) -> "Project":
         """Restore a project exported with :meth:`export_zip`."""
         destination = Path(destination)
         destination.mkdir(parents=True, exist_ok=True)

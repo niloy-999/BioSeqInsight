@@ -70,7 +70,9 @@ class SequenceView(ttk.Frame):
                 row=index, column=0, sticky="ew", pady=2
             )
 
-        ttk.Label(controls, text="Motif (IUPAC)").grid(row=len(buttons), column=0, sticky="w", pady=(12, 2))
+        ttk.Label(controls, text="Motif (IUPAC)").grid(
+            row=len(buttons), column=0, sticky="w", pady=(12, 2)
+        )
         self.motif_var = tk.StringVar()
         ttk.Entry(controls, textvariable=self.motif_var, width=24).grid(
             row=len(buttons) + 1, column=0, sticky="ew"
@@ -108,9 +110,7 @@ class SequenceView(ttk.Frame):
         identifier = records[0].identifier if records else "sequence"
         sequence = records[0].sequence if records else text
         if detect_alphabet(sequence) == "protein":
-            raise SequenceError(
-                "That looks like a protein sequence. Use the Protein Analysis tab."
-            )
+            raise SequenceError("That looks like a protein sequence. Use the Protein Analysis tab.")
         return SequenceAnalyzer(
             sequence, identifier=identifier, table=self.app.settings.genetic_code_table
         )
@@ -161,8 +161,7 @@ class SequenceView(ttk.Frame):
                         DIVIDER,
                         f"GC content   {analyzer.get_gc_content():.2f}%",
                         f"Length       {len(analyzer)} nt",
-                        "Counts       "
-                        + ", ".join(f"{b}={c}" for b, c in composition.items()),
+                        "Counts       " + ", ".join(f"{b}={c}" for b, c in composition.items()),
                         "",
                         "Ambiguity codes are excluded from the GC calculation.",
                     ]
@@ -175,7 +174,10 @@ class SequenceView(ttk.Frame):
     def run_revcomp(self) -> None:
         self._guard(
             lambda: self.output.set(
-                "Reverse complement\n" + DIVIDER + "\n" + _wrap(self._analyzer().get_reverse_complement(), 60)
+                "Reverse complement\n"
+                + DIVIDER
+                + "\n"
+                + _wrap(self._analyzer().get_reverse_complement(), 60)
             )
         )
 
@@ -329,7 +331,8 @@ class ProteinView(ttk.Frame):
 
     def open_fasta(self) -> None:
         path = filedialog.askopenfilename(
-            title="Open FASTA", filetypes=[("FASTA", "*.fasta *.fa *.faa *.txt"), ("All files", "*.*")]
+            title="Open FASTA",
+            filetypes=[("FASTA", "*.fasta *.fa *.faa *.txt"), ("All files", "*.*")],
         )
         if not path:
             return

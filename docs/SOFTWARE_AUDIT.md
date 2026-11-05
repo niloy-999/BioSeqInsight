@@ -22,37 +22,63 @@ submitted manuscript (25 proteins, RCSB / AlphaFold DB / ESM Atlas).
 
 ## 2. The finding that mattered
 
-**The v1.0 manuscript reported 25 of 25 proteins successfully mapped to
-RCSB PDB entries. Re-examining those 25 mappings shows that 7 of them
-returned a different molecule from the one queried.**
+The v1.0 manuscript's Table 3 ("Individual results for the 25-protein
+benchmark evaluated on 28 August 2026") reported, for every query: sequence
+length, whether the live ESM Atlas request returned a model or an HTTP 504,
+the mean per-residue pLDDT of that ESM Atlas model when it succeeded, the
+pLDDT of the retrieved AlphaFold DB model, and a note. The note column
+flagged 7 of the 25 queries with **"mapped \<accession\>"**, meaning the
+retrieval step had associated the query with a UniProt accession other than
+the one queried, reproduced verbatim below:
 
-The software had no way to notice. It performed a sequence search, took a
-hit, downloaded the coordinates, and reported success. No step compared the
-deposited chain with the query, and no step checked whether the entry's
-UniProt cross-reference matched the accession that had been asked about.
+| Query | Query length (aa) | AF pLDDT | Note (v1.0's own flag) |
+|---|---|---|---|
+| P00974 (BPTI) | 100 | 97.80 | mapped Q52V24 |
+| P0A6F9 (GroES) | 97 | 90.80 | mapped GroEL |
+| P61769 ($\beta_2$-microglobulin) | 119 | 86.82 | mapped Q30597 |
+| P01308 (insulin) | 110 | 93.99 | mapped insulin-degrading enzyme (IDE) |
+| P68871 (Hb-$\beta$) | 147 | 98.06 | mapped Hb-$\alpha$ |
+| P04637 (p53) | 393 | 75.99 | mapped RPB1 |
+| UBIQ_76 (ubiquitin, 76 aa) | 76 | 88.65 | mapped P0CG48 |
 
-The clearest case: querying human **preproinsulin (P01308)** returned a
-structure of **insulin-degrading enzyme (P14735)** — the enzyme that destroys
-the hormone rather than the hormone itself. Both are legitimate sequence-search
-neighbours. Only one is the answer to the question.
+**A precise, important point about what these numbers are.** The "AF pLDDT"
+column is AlphaFold's own per-residue confidence in *its own predicted
+structure* for whatever accession the retrieval step landed on. It is not a
+sequence-identity or coverage measurement between the query and the
+returned structure, and v1.0's pipeline did not compute one — nothing in
+Table 3 says how similar P00974's sequence is to Q52V24's. A high pLDDT
+(90-98% for five of the seven flagged cases above) meant AlphaFold was
+confident in the structure it returned; it said nothing about whether that
+structure was for the queried protein. That is precisely the gap v2.0's
+identity/coverage/accession check (this document's Section 4;
+manuscript Section on the M0-M4 classification) closes, and precisely why a
+high-confidence prediction for the wrong protein is one of the failure
+modes the M0-M4 scale is designed to catch (a case that would present as a
+strong AlphaFold pLDDT with a weak or absent sequence match is exactly the
+"M1, high pLDDT but low identity" pattern).
 
-Other categories of mis-mapping in the same set:
+The seven flagged cases are not, on this evidence alone, seven confirmed
+wrong molecules — v1.0's own manuscript did not claim that; it explicitly
+stated a returned hit "does not by itself establish that the retrieved
+structure is the exact biological target." What v1.0 lacked was any
+mechanism to go further. The plausible outcomes differ case by case: the
+ubiquitin case plausibly maps to P0CG48 because P0CG48 (polyubiquitin-C)
+literally contains the 76-residue ubiquitin sequence as a repeat unit; the
+GroES/GroEL and Hb-$\alpha$/Hb-$\beta$ cases are plausibly multi-chain
+entries containing both partners; the insulin/IDE, $\beta_2$m, BPTI, and
+p53 cases have no such obvious benign explanation from length and name
+alone. **These are hypotheses, not findings.** They are adjudicated
+properly, with live sequence alignment against each retrieved chain and
+independent PDBe SIFTS / RCSB cross-reference agreement (not
+BioSeqInsight's own alignment used as its own ground truth), by
+`validation/scripts/06_case_studies.py`. Its output
+(`validation/results/case_studies.csv`) is the authoritative record; this
+table is the historical primary source it starts from.
 
-| Category | Example | Why the search returned it |
-|---|---|---|
-| Substrate returned instead of the protein | preproinsulin → insulin-degrading enzyme | local sequence similarity in the bound-peptide region |
-| Complex partner instead of the subunit | GroES (P0A6F9) → GroEL | co-deposited in the same entry |
-| Non-human orthologue for a human query | β2-microglobulin (P61769) → non-human entry | high cross-species conservation |
-| Fragment presented as the full protein | multi-domain queries → single-domain entries | the deposited construct is a fragment |
-
-None of these are failures of the RCSB search, which did what it was asked.
-They are failures of a client that treated "a structure came back" as "the
-right structure came back".
-
-**What v2.0 does about it.** Every retrieval is aligned against the query and
-cross-checked against the accession, and the result is reported on the M0–M4
-scale. The preproinsulin case now comes back as M1 with an explicit warning
-naming the accession actually returned, instead of as a success.
+**What v2.0 does about the underlying gap.** Every retrieval is aligned
+against the query and cross-checked against the accession, and the result
+is reported on the M0-M4 scale, so a pLDDT number is never presented
+without the identity and coverage measurements needed to interpret it.
 
 ---
 
@@ -108,7 +134,7 @@ Two further points concern presentation rather than arithmetic:
 
 | Claim in the v1.0 manuscript | What supported it | What v2.0 provides |
 |---|---|---|
-| "25/25 structures retrieved" | a count of HTTP 200 responses | mapping-level distribution with identity and coverage per protein; the 7 mis-mappings are visible |
+| "25/25 structures retrieved" | a count of HTTP 200 responses | mapping-level distribution with identity and coverage per protein; the 7 accession-discordant cases are adjudicated individually |
 | "robust error handling" | the presence of `try`/`except` | 13-scenario fault-injection experiment over 1 300 requests, reproducible offline in seconds |
 | "9/25 ESM Atlas requests returned 504" | an observation | the same failure modes injected deterministically, with a measured 80 % recovery rate |
 | "integrates multiple analyses" | a feature list | interaction counts against a published manual protocol |

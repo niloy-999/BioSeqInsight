@@ -111,7 +111,7 @@ class Settings:
         path: str | os.PathLike[str] | None = None,
         use_env: bool = True,
         **overrides: Any,
-    ) -> Settings:
+    ) -> "Settings":
         """Build settings from file, environment and explicit overrides."""
         data: dict[str, Any] = {}
         source = "defaults"
@@ -130,7 +130,7 @@ class Settings:
         return cls.from_dict(data, source=source)
 
     @classmethod
-    def from_dict(cls, data: dict[str, Any], source: str = "dict") -> Settings:
+    def from_dict(cls, data: dict[str, Any], source: str = "dict") -> "Settings":
         known = {f.name: f for f in fields(cls) if not f.name.startswith("_")}
         clean: dict[str, Any] = {}
         for key, value in data.items():
@@ -252,9 +252,9 @@ __all__ = [
     "RCSB_ENTRY_URL",
     "RCSB_POLYMER_URL",
     "RCSB_SEARCH_URL",
+    "Settings",
     "UNIPROT_FASTA_URL",
     "UNIPROT_JSON_URL",
-    "Settings",
     "get_settings",
     "set_settings",
 ]

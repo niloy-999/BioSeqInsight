@@ -18,10 +18,9 @@ import html
 import io
 import json
 import os
-from collections.abc import Iterable, Sequence
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable, Sequence
 
 from .. import __version__
 from ..core.alphabet import FastaRecord, write_fasta
@@ -64,7 +63,7 @@ def _round(value: Any, digits: int = 4) -> Any:
 
 def batch_row_to_record(row: BatchRow) -> dict[str, Any]:
     """Flatten one :class:`BatchRow` into a single table row."""
-    record: dict[str, Any] = dict.fromkeys(BATCH_COLUMNS, "")
+    record: dict[str, Any] = {column: "" for column in BATCH_COLUMNS}
     record["identifier"] = row.identifier
     record["input_type"] = row.input_type
     record["length"] = row.length if row.length is not None else ""
@@ -155,9 +154,7 @@ def _jsonable(value: Any) -> Any:
     return value
 
 
-def write_sequences_fasta(
-    records: Iterable[FastaRecord], path: str | os.PathLike[str]
-) -> str:
+def write_sequences_fasta(records: Iterable[FastaRecord], path: str | os.PathLike[str]) -> str:
     return _write(path, write_fasta(records))
 
 
@@ -263,9 +260,7 @@ BioSeqInsight does not generate structural predictions itself; cite the underlyi
 """
 
 
-def write_html_report(
-    rows: Sequence[BatchRow], path: str | os.PathLike[str], **kwargs
-) -> str:
+def write_html_report(rows: Sequence[BatchRow], path: str | os.PathLike[str], **kwargs) -> str:
     return _write(path, build_html_report(rows, **kwargs))
 
 

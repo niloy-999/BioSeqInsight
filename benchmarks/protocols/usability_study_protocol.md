@@ -92,8 +92,9 @@ Given a UniProt accession, obtain a structure and state, with evidence,
 whether it is the queried protein, a homologue, or something else.
 
 *Task 2 includes one deliberate trap:* one accession in each set is a protein
-whose top sequence-search hit is a different molecule (the preproinsulin →
-insulin-degrading enzyme case from the v1.0 audit). Whether participants
+whose top sequence-search hit is a genuinely different molecule (to be chosen
+from the adversarial set once `validation/` has been run and adjudicated; the
+historical preproinsulin case may or may not qualify). Whether participants
 detect this is the primary measure for RQ2.
 
 **Task 3 — Small batch (target ~20 min manual).**

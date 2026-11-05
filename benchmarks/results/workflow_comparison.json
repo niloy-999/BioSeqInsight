@@ -1,6 +1,6 @@
 {
   "software_version": "2.0.2",
-  "generated_at": "2026-09-26T11:40:30+00:00",
+  "generated_at": "2026-09-23T20:19:03+00:00",
   "method": "Step, application and manual-data-transfer counts derived from the published manual protocol (benchmarks/protocols/manual_workflow_protocol.md). Machine timings measured offline on this host. Human completion times and error rates are NOT included here; see usability_study_protocol.md.",
   "tasks": [
     {
@@ -29,7 +29,7 @@
       "step_reduction_percent": 81.2,
       "application_reduction": 4,
       "manual_transfers_eliminated": 7,
-      "bioseqinsight_machine_time_s": 0.002,
+      "bioseqinsight_machine_time_s": 0.001,
       "notes": "The manual route recomputes nothing: it retypes the same sequence into four tools, each with its own defaults, and the analysis conditions are not recorded anywhere."
     },
     {
@@ -87,7 +87,7 @@
       "step_reduction_percent": 99.6,
       "application_reduction": 2,
       "manual_transfers_eliminated": 2,
-      "bioseqinsight_machine_time_s": 0.038,
+      "bioseqinsight_machine_time_s": 0.024,
       "notes": "The manual step count below expands the per-sequence loop: 50 x 16 steps plus the surrounding spreadsheet work. The integrated count does not grow with the number of sequences, which is the point.",
       "manual_expanded_steps": 804
     },
@@ -117,7 +117,7 @@
       "step_reduction_percent": 50.0,
       "application_reduction": 4,
       "manual_transfers_eliminated": 1,
-      "bioseqinsight_machine_time_s": 0.039,
+      "bioseqinsight_machine_time_s": 0.024,
       "notes": "Each BioSeqInsight project stores the software version, the complete settings and the input sequences, so the run is re-executable. The manual route depends on what the analyst happened to write down."
     },
     {
@@ -145,7 +145,7 @@
       "step_reduction_percent": 66.7,
       "application_reduction": 1,
       "manual_transfers_eliminated": 1,
-      "bioseqinsight_machine_time_s": 0.002,
+      "bioseqinsight_machine_time_s": 0.001,
       "notes": "The exported archive contains the sequences, the retrieved coordinates, the results, the logs, the settings snapshot and the software version, and re-imports into a working project."
     }
   ],

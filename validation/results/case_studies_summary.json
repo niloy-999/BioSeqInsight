@@ -1,0 +1,23 @@
+{
+  "v1_discordant_queries": {
+    "n": 7,
+    "top_hit_found": 7,
+    "top_hit_entry_contains_query_accession": 7,
+    "top_hit_entry_does_not_contain_query_accession": 0,
+    "top_hit_ambiguous_or_unknown": 0,
+    "top_hit_validated_M4": 7,
+    "top_hit_validated_M3": 0,
+    "top_hit_validated_below_M3": 0
+  },
+  "v1_other_queries": {
+    "n": 18,
+    "top_hit_found": 18,
+    "top_hit_entry_contains_query_accession": 17,
+    "top_hit_entry_does_not_contain_query_accession": 0,
+    "top_hit_ambiguous_or_unknown": 1,
+    "top_hit_validated_M4": 9,
+    "top_hit_validated_M3": 5,
+    "top_hit_validated_below_M3": 3
+  },
+  "interpretation_note": "'Contains the query accession' is an accession-level claim. A top hit that is an identical or near-identical protein filed under a different accession, or a complex whose queried chain is not catalogued under this accession, counts as NOT containing it; inspect each such row (top_hit_hit_accessions) before describing it as an error."
+}

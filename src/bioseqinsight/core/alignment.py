@@ -92,7 +92,10 @@ def _traceback_stats(aligned_a: str, aligned_b: str, mode: str) -> tuple[int, in
             covered += 1
             if x == y:
                 identities += 1
-        elif (x != "-" and y == "-") or (x == "-" and y != "-"):
+        elif x != "-" and y == "-":
+            if mode == "global":
+                columns += 1
+        elif x == "-" and y != "-":
             if mode == "global":
                 columns += 1
     return identities, columns, covered

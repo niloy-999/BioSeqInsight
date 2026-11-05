@@ -36,16 +36,18 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 
 from bioseqinsight import __version__  # noqa: E402
+from bioseqinsight.services.logging_setup import configure_logging  # noqa: E402
 from bioseqinsight.services.http_client import (  # noqa: E402
     HttpClient,
     RetryPolicy,
     summarise_attempts,
 )
-from bioseqinsight.services.logging_setup import configure_logging  # noqa: E402
 from bioseqinsight.services.transport import FakeTransport, ScriptedResponse  # noqa: E402
 
 URL = "https://api.example.org/fold"
-COORDINATES = "ATOM      1  N   MET A   1      10.000  10.000  10.000  1.00 90.00           N\nEND\n"
+COORDINATES = (
+    "ATOM      1  N   MET A   1      10.000  10.000  10.000  1.00 90.00           N\nEND\n"
+)
 
 #: name -> (description, scripted responses, expected outcome)
 SCENARIOS: dict[str, tuple[str, list[ScriptedResponse], str]] = {

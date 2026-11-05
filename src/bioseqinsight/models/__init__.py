@@ -1,11 +1,11 @@
 """Structured result models for BioSeqInsight."""
 
 from .results import (
-    ORF,
     AttemptRecord,
     BatchRow,
     MappingLevel,
     MotifHit,
+    ORF,
     ProteinResult,
     RetrievalStatus,
     SecondaryStructureSketch,
@@ -16,11 +16,11 @@ from .results import (
 )
 
 __all__ = [
-    "ORF",
     "AttemptRecord",
     "BatchRow",
     "MappingLevel",
     "MotifHit",
+    "ORF",
     "ProteinResult",
     "RetrievalStatus",
     "SecondaryStructureSketch",

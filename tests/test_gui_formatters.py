@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import json
 
+import pytest
+
 from bioseqinsight.core.protein import ProteinAnalyzer
 from bioseqinsight.core.sequence import SequenceAnalyzer
 from bioseqinsight.core.translation import six_frame_translation

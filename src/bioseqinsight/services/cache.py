@@ -102,7 +102,9 @@ class ResponseCache:
 
     # -- API ----------------------------------------------------------------
 
-    def get(self, namespace: str, key: str, *, refresh: bool = False) -> tuple[str, CacheEntry] | None:
+    def get(
+        self, namespace: str, key: str, *, refresh: bool = False
+    ) -> tuple[str, CacheEntry] | None:
         """Return ``(payload, entry)`` for a live cache hit, else ``None``."""
         if not self.enabled or refresh:
             self.misses += 1
@@ -247,13 +249,15 @@ class NullCache(ResponseCache):
     """A cache that never stores anything, for ``--no-cache`` runs."""
 
     def __init__(self) -> None:
-        super().__init__(directory=Path(tempfile.gettempdir()) / "bioseqinsight-null", enabled=False)
+        super().__init__(
+            directory=Path(tempfile.gettempdir()) / "bioseqinsight-null", enabled=False
+        )
 
     def get(self, namespace: str, key: str, *, refresh: bool = False):
         self.misses += 1
         return None
 
-    def put(self, *args, **kwargs) -> CacheEntry:
+    def put(self, *args, **kwargs) -> CacheEntry:  # noqa: D102
         return CacheEntry(
             key=kwargs.get("key", ""),
             namespace=args[0] if args else "",

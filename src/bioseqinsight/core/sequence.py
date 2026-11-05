@@ -12,7 +12,7 @@ handles errors itself.
 from __future__ import annotations
 
 from .. import __version__
-from ..models.results import ORF, MotifHit, SequenceResult, TmResult
+from ..models.results import MotifHit, ORF, SequenceResult, TmResult
 from .alphabet import (
     DNA_BASES,
     canonical_dna,
@@ -85,7 +85,9 @@ class SequenceAnalyzer:
     def six_frames(self) -> dict[str, str]:
         return six_frame_translation(self.sequence, table=self.table)
 
-    def find_motifs(self, motif: str, both_strands: bool = True, regex: bool = False) -> list[MotifHit]:
+    def find_motifs(
+        self, motif: str, both_strands: bool = True, regex: bool = False
+    ) -> list[MotifHit]:
         return find_motif(self.sequence, motif, both_strands=both_strands, regex=regex)
 
     def find_orfs(self, min_aa: int = 30, include_reverse: bool = True) -> list[ORF]:
@@ -138,8 +140,7 @@ class SequenceAnalyzer:
             gc_percent=self.get_gc_content(),
             composition=composition,
             composition_percent={
-                base: (100.0 * count / n if n else 0.0)
-                for base, count in composition.items()
+                base: (100.0 * count / n if n else 0.0) for base, count in composition.items()
             },
             ambiguous_count=ambiguous,
             reverse_complement=self.get_reverse_complement() if include_sequences else None,

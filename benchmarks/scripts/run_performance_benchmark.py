@@ -91,12 +91,9 @@ def benchmark_batch(sizes: list[int], repeats: int) -> list[dict]:
         )
         runner = BatchRunner(settings)
         for size in sizes:
-            dna = [
-                FastaRecord(f"dna{i}", "", make_dna(rng, 900)) for i in range(size // 2)
-            ]
+            dna = [FastaRecord(f"dna{i}", "", make_dna(rng, 900)) for i in range(size // 2)]
             protein = [
-                FastaRecord(f"prot{i}", "", make_protein(rng, 300))
-                for i in range(size - size // 2)
+                FastaRecord(f"prot{i}", "", make_protein(rng, 300)) for i in range(size - size // 2)
             ]
             records = dna + protein
             median, stdev = timed(
@@ -150,7 +147,10 @@ def benchmark_alignment(repeats: int) -> list[dict]:
                 "cells": (length + 1) * (len(subject) + 1),
             }
         )
-        print(f"  alignment {length:>4} x {len(subject):>4}: {1000 * median:>7.1f} ms", file=sys.stderr)
+        print(
+            f"  alignment {length:>4} x {len(subject):>4}: {1000 * median:>7.1f} ms",
+            file=sys.stderr,
+        )
     return rows
 
 
@@ -182,8 +182,12 @@ def benchmark_export(repeats: int) -> dict:
     rng = random.Random(SEED)
     with TemporaryDirectory() as tmp:
         settings = Settings.from_dict(
-            {"download_dir": f"{tmp}/s", "cache_dir": f"{tmp}/c", "log_file": f"{tmp}/l/x.log",
-             "offline": True}
+            {
+                "download_dir": f"{tmp}/s",
+                "cache_dir": f"{tmp}/c",
+                "log_file": f"{tmp}/l/x.log",
+                "offline": True,
+            }
         )
         records = [FastaRecord(f"p{i}", "", make_protein(rng, 300)) for i in range(200)]
         rows, _ = BatchRunner(settings).run(records)
@@ -278,16 +282,18 @@ def main(argv: list[str] | None = None) -> int:
     out.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     print("\n== Summary ==")
-    print(json.dumps(
-        {
-            "single_sequence": single,
-            "batch_scalability": batch,
-            "batch_per_sequence_cost_ratio": report["batch_per_sequence_cost_ratio"],
-            "cache_read_ms": cache["read_ms"],
-            "startup_ms": startup["import_and_first_analysis_ms"],
-        },
-        indent=2,
-    ))
+    print(
+        json.dumps(
+            {
+                "single_sequence": single,
+                "batch_scalability": batch,
+                "batch_per_sequence_cost_ratio": report["batch_per_sequence_cost_ratio"],
+                "cache_read_ms": cache["read_ms"],
+                "startup_ms": startup["import_and_first_analysis_ms"],
+            },
+            indent=2,
+        )
+    )
     print(f"\nWritten to {out}", file=sys.stderr)
     return 0
 

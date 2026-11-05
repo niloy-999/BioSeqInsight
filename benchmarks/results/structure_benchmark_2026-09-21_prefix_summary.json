@@ -1,0 +1,54 @@
+{
+  "software_version": "2.0.0",
+  "generated_at": "2026-09-21T09:39:35+00:00",
+  "note": "Live run against RCSB PDB, AlphaFold DB and ESM Atlas, captured before the AlphaFold provider fix described in CHANGELOG.md (Unreleased). AlphaFold's 0% retrieval rate in this run was caused by the version-guessing defect, not a genuine absence of coverage; see that entry before citing the per_provider.alphafold figures below. RCSB and ESM Atlas figures are unaffected by that defect and are representative. A corrected run should be captured and should replace this file before submission.",
+  "candidates": 69,
+  "resolved": 69,
+  "unresolved": 0,
+  "unresolved_accessions": [],
+  "strata": {
+    "short": {"proteins": 16, "exact_matches": 11},
+    "medium": {"proteins": 23, "exact_matches": 12},
+    "long": {"proteins": 30, "exact_matches": 14}
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 69,
+      "retrieved": 0,
+      "success_rate_percent": 0.0,
+      "not_found": 60,
+      "timeouts": 0,
+      "service_errors": 9,
+      "recovered_after_failure": 0,
+      "median_response_time_s": null,
+      "exact_matches": 0,
+      "note": "Affected by the version-guessing defect fixed post-run. Re-run required."
+    },
+    "esmatlas": {
+      "requests": 60,
+      "retrieved": 40,
+      "success_rate_percent": 66.7,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 0,
+      "recovered_after_failure": 2,
+      "median_response_time_s": 1.563,
+      "exact_matches": 0
+    },
+    "rcsb": {
+      "requests": 60,
+      "retrieved": 52,
+      "success_rate_percent": 86.7,
+      "not_found": 5,
+      "timeouts": 0,
+      "service_errors": 3,
+      "recovered_after_failure": 1,
+      "median_response_time_s": 4.24,
+      "exact_matches": 37
+    }
+  },
+  "best_mapping_distribution": {"M0": 0, "M1": 3, "M2": 2, "M3": 14, "M4": 37},
+  "exact_mapping_rate_percent": 53.6,
+  "any_structure_rate_percent": 81.2,
+  "wall_clock_s": 921.4
+}

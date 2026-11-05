@@ -1,0 +1,33 @@
+{
+  "total_cases": 925,
+  "resolved_and_scored": 642,
+  "unresolved": 283,
+  "by_class": {
+    "B1_wrong_paralogue": {
+      "n": 101,
+      "stayed_within_expected": 100,
+      "false_m4": 1
+    },
+    "B5_high_identity_wrong_entity": {
+      "n": 2,
+      "stayed_within_expected": 2,
+      "false_m4": 0
+    },
+    "B2_fragment": {
+      "n": 68,
+      "stayed_within_expected": 68,
+      "false_m4": 0
+    },
+    "B4_unrelated": {
+      "n": 392,
+      "stayed_within_expected": 352,
+      "false_m4": 0
+    },
+    "B3_wrong_isoform": {
+      "n": 79,
+      "stayed_within_expected": 62,
+      "false_m4": 17
+    }
+  },
+  "overall_false_m4_rate": 0.028
+}

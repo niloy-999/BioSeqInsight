@@ -90,8 +90,8 @@ Goal: obtain a structure and establish whether it is the queried protein.
 
 Steps 8–13 are the identity check. They are the steps most often skipped,
 and skipping them is precisely the failure that produced v1.0's misleading
-"25/25 structures retrieved" result, in which 7 of the 25 were a different
-molecule. A baseline that omitted these steps would be a faster baseline and
+"25/25 hits" result, in which 7 of the 25 hits carried a different accession (unresolved by v1.0, and not established to be
+wrong molecules). A baseline that omitted these steps would be a faster baseline and
 a dishonest one.
 
 BioSeqInsight equivalent: enter the accession, click *Retrieve and validate*,

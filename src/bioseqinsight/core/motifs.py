@@ -21,10 +21,21 @@ from .alphabet import DNA_BASES, clean_dna
 from .codon import reverse_complement
 
 IUPAC_EXPANSION: dict[str, str] = {
-    "A": "A", "C": "C", "G": "G", "T": "T",
-    "R": "AG", "Y": "CT", "S": "GC", "W": "AT",
-    "K": "GT", "M": "AC", "B": "CGT", "D": "AGT",
-    "H": "ACT", "V": "ACG", "N": "ACGT",
+    "A": "A",
+    "C": "C",
+    "G": "G",
+    "T": "T",
+    "R": "AG",
+    "Y": "CT",
+    "S": "GC",
+    "W": "AT",
+    "K": "GT",
+    "M": "AC",
+    "B": "CGT",
+    "D": "AGT",
+    "H": "ACT",
+    "V": "ACG",
+    "N": "ACGT",
 }
 
 
@@ -135,8 +146,8 @@ def restriction_summary(sequence: str, sites: dict[str, str]) -> dict[str, list[
 
 
 __all__ = [
-    "DNA_BASES",
     "IUPAC_EXPANSION",
+    "DNA_BASES",
     "MotifError",
     "compile_motif",
     "find_motif",

@@ -71,8 +71,7 @@ def _build(table_id: int) -> GeneticCode:
         name, aas, start_codons = _NCBI_TABLES[table_id]
     except KeyError as exc:  # pragma: no cover - defensive
         raise KeyError(
-            f"Genetic code table {table_id} is not bundled. "
-            f"Available: {sorted(_NCBI_TABLES)}"
+            f"Genetic code table {table_id} is not bundled. " f"Available: {sorted(_NCBI_TABLES)}"
         ) from exc
     if len(aas) != 64:  # pragma: no cover - guards a typo in the table above
         raise ValueError(f"Table {table_id} must define 64 codons, got {len(aas)}")
@@ -105,9 +104,22 @@ def available_tables() -> dict[int, str]:
 
 
 COMPLEMENT = {
-    "A": "T", "T": "A", "G": "C", "C": "G", "U": "A", "N": "N",
-    "R": "Y", "Y": "R", "S": "S", "W": "W", "K": "M", "M": "K",
-    "B": "V", "V": "B", "D": "H", "H": "D",
+    "A": "T",
+    "T": "A",
+    "G": "C",
+    "C": "G",
+    "U": "A",
+    "N": "N",
+    "R": "Y",
+    "Y": "R",
+    "S": "S",
+    "W": "W",
+    "K": "M",
+    "M": "K",
+    "B": "V",
+    "V": "B",
+    "D": "H",
+    "H": "D",
 }
 
 _RC_TABLE = str.maketrans(
@@ -128,8 +140,8 @@ def reverse_complement(sequence: str) -> str:
 
 __all__ = [
     "CODON_ORDER",
-    "STOP",
     "GeneticCode",
+    "STOP",
     "available_tables",
     "complement",
     "get_genetic_code",

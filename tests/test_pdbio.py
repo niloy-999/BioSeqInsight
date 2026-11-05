@@ -11,9 +11,7 @@ from bioseqinsight.structures.pdbio import (
     parse_pdb,
 )
 
-UBIQUITIN = (
-    "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
-)
+UBIQUITIN = "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
 
 MINIMAL = """\
 ATOM      1  N   MET A   1      10.000  10.000  10.000  1.00 90.00           N
@@ -69,8 +67,10 @@ class TestConfidence:
         assert kind == "bfactor"
 
     def test_a_zero_to_one_column_is_rescaled_for_predictions(self):
-        scaled = MINIMAL.replace(" 90.00 ", "  0.90 ").replace(" 80.00 ", "  0.80 ").replace(
-            " 70.00 ", "  0.70 "
+        scaled = (
+            MINIMAL.replace(" 90.00 ", "  0.90 ")
+            .replace(" 80.00 ", "  0.80 ")
+            .replace(" 70.00 ", "  0.70 ")
         )
         value, kind = mean_confidence(scaled, is_predicted=True)
         assert kind == "plddt"

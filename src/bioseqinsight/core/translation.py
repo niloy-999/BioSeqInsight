@@ -32,11 +32,7 @@ def translate(
     out: list[str] = []
     for i in range(0, len(usable), 3):
         codon = usable[i : i + 3]
-        aa = (
-            code.translate_codon(codon, unknown=unknown)
-            if set(codon) <= DNA_BASES
-            else unknown
-        )
+        aa = code.translate_codon(codon, unknown=unknown) if set(codon) <= DNA_BASES else unknown
         if aa == STOP and to_stop:
             break
         out.append(aa)

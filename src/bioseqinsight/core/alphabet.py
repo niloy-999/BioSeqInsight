@@ -9,8 +9,8 @@ covered by its own unit tests, which removes a whole class of
 from __future__ import annotations
 
 import re
-from collections.abc import Iterable, Iterator
 from dataclasses import dataclass
+from typing import Iterable, Iterator
 
 DNA_BASES = frozenset("ACGT")
 RNA_BASES = frozenset("ACGU")
@@ -285,11 +285,11 @@ def write_fasta(records: Iterable[FastaRecord], line_width: int = 60) -> str:
 __all__ = [
     "DNA_ALPHABET",
     "DNA_BASES",
+    "FastaRecord",
     "IGNORABLE",
     "MIN_DETECTION_LENGTH",
     "PROTEIN_ALPHABET",
     "PROTEIN_LETTERS",
-    "FastaRecord",
     "SequenceError",
     "canonical_dna",
     "clean_dna",

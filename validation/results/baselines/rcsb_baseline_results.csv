@@ -1,0 +1,1001 @@
+accession,has_structure,length,method1_accession_match,method1_coverage,method1_entity_id,method1_hit,method1_hit_accessions,method1_identity,method1_mapping,method1_pdb_id,method1_truth_label,method1_truth_rcsb,method1_truth_sifts,method1_validated_accept,method1_validation_error,method2_accession_match,method2_coverage,method2_entity_id,method2_hit,method2_hit_accessions,method2_identity,method2_mapping,method2_pdb_id,method2_truth_label,method2_truth_rcsb,method2_truth_sifts,method2_validated_accept,method2_validation_error,method3_accepted,method3_accession_match,method3_coverage,method3_identifier,method3_identity,method3_mapping,method3_status,method3_truth_label
+P08063,True,63,True,100.0,2,True,P08063,100.0,M4,3BTP,positive,True,True,True,,True,100.0,2,True,P08063,100.0,M4,3BTP,positive,True,True,True,,True,True,100.0,3BTP,100.0,M4,ok,positive
+Q97Q59,True,112,True,100.0,1,True,Q97Q59,100.0,M4,2IAZ,positive,True,True,True,,True,100.0,1,True,Q97Q59,100.0,M4,2IAZ,positive,True,True,True,,True,True,100.0,2IAZ,100.0,M4,ok,positive
+P0CG56,True,122,False,100.0,4,True,P0CG56,100.0,M3,3R0L,positive,True,True,False,,False,100.0,4,True,P0CG56,100.0,M3,3R0L,positive,True,True,False,,True,True,100.0,3R0L,100.0,M4,ok,positive
+P00711,True,142,True,86.61971830985915,1,True,P00711,100.0,M3,1F6R,positive,True,True,False,,True,86.61971830985915,1,True,P00711,100.0,M3,1F6R,positive,True,True,False,,False,True,86.61971830985915,1F6R,100.0,M3,ok,positive
+P50120,True,134,True,100.0,1,True,P50120,100.0,M4,6BTH,positive,True,True,True,,True,100.0,1,True,P50120,100.0,M4,6BTH,positive,True,True,True,,True,True,100.0,6BTH,100.0,M4,ok,positive
+Q70LC7,True,132,True,100.0,2,True,Q70LC7,100.0,M4,5W7G,positive,True,True,True,,True,100.0,2,True,Q70LC7,100.0,M4,5W7G,positive,True,True,True,,True,True,100.0,5W7G,100.0,M4,ok,positive
+Q948Z4,True,88,False,71.5909090909091,1,True,Q948Z4,98.41269841269842,M2,5E5Q,positive,True,True,False,,False,71.5909090909091,1,True,Q948Z4,98.41269841269842,M2,5E5Q,positive,True,True,False,,False,True,71.5909090909091,5E5Q,98.41269841269842,M2,ok,positive
+Q4JAP5,True,128,,,7,True,Q4JAP5,,,8HKX,positive,True,True,False,404 fetching https://files.rcsb.org/download/8HKX.pdb: not found,,,7,True,Q4JAP5,,,8HKX,positive,True,True,False,404 fetching https://files.rcsb.org/download/8HKX.pdb: not found,False,,,,,M0,no_result,
+P42830,True,114,True,68.42105263157895,1,True,P42830,100.0,M2,2MGS,positive,True,True,False,,True,68.42105263157895,1,True,P42830,100.0,M2,2MGS,positive,True,True,False,,False,True,68.42105263157895,2MGS,100.0,M2,ok,positive
+Q5JE20,True,147,,,15,True,Q5JE20,,,6SKF,positive,True,True,False,404 fetching https://files.rcsb.org/download/6SKF.pdb: not found,,,15,True,Q5JE20,,,6SKF,positive,True,True,False,404 fetching https://files.rcsb.org/download/6SKF.pdb: not found,False,,,,,M0,no_result,
+P20406,True,52,True,100.0,4,True,P20406,100.0,M4,8B1R,positive,True,True,True,,True,100.0,4,True,P20406,100.0,M4,8B1R,positive,True,True,True,,True,True,100.0,8B1R,100.0,M4,ok,positive
+Q72WF4,True,102,True,100.0,1,True,Q72WF4,100.0,M4,3OQ2,positive,True,True,True,,True,100.0,1,True,Q72WF4,100.0,M4,3OQ2,positive,True,True,True,,True,True,100.0,3OQ2,100.0,M4,ok,positive
+O74966,True,77,True,100.0,10,True,O74966,100.0,M4,3JB9,positive,True,True,True,,True,100.0,10,True,O74966,100.0,M4,3JB9,positive,True,True,True,,False,,,,,M0,no_result,
+Q72IN1,True,140,,,9,True,P60488,,,10PX,negative,False,False,False,404 fetching https://files.rcsb.org/download/10PX.pdb: not found,,,9,True,P60488,,,10PX,negative,False,False,False,404 fetching https://files.rcsb.org/download/10PX.pdb: not found,False,,,,,M0,no_result,
+B7IA28,True,105,,,24,True,B7IA28,,,6V39,positive,True,True,False,404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,,24,True,B7IA28,,,6V39,positive,True,True,False,404 fetching https://files.rcsb.org/download/6V39.pdb: not found,False,,,,,M0,no_result,
+G1SYU7,True,51,,,43,True,P62891,,,22TU,negative,False,False,False,404 fetching https://files.rcsb.org/download/22TU.pdb: not found,,,43,True,P62891,,,22TU,negative,False,False,False,404 fetching https://files.rcsb.org/download/22TU.pdb: not found,False,,,,,M0,no_result,
+P10217,True,130,False,90.76923076923077,3,True,P10217,99.15254237288136,M3,6M5R,positive,True,True,False,,False,90.76923076923077,3,True,P10217,99.15254237288136,M3,6M5R,positive,True,True,False,,False,True,90.76923076923077,6M5R,99.15254237288136,M3,ok,positive
+O07227,True,73,True,100.0,2,True,O07227,100.0,M4,3H87,positive,True,True,True,,True,100.0,2,True,O07227,100.0,M4,3H87,positive,True,True,True,,True,True,100.0,3H87,100.0,M4,ok,positive
+Q9HWE4,True,88,,,17,True,Q9HWE4,,,7UNR,positive,True,True,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,,17,True,Q9HWE4,,,7UNR,positive,True,True,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,False,,,,,M0,no_result,
+P68871,True,147,True,100.0,2,True,P68871,100.0,M4,1DXT,positive,True,True,True,,True,100.0,2,True,P68871,100.0,M4,1DXT,positive,True,True,True,,True,True,100.0,1DXT,100.0,M4,ok,positive
+O33347,True,93,True,96.7741935483871,1,True,O33347,20.0,M1,3G5O,positive,True,True,False,,True,96.7741935483871,1,True,O33347,20.0,M1,3G5O,positive,True,True,False,,False,True,96.7741935483871,3G5O,20.0,M1,ok,positive
+O67367,True,150,True,100.0,1,True,O67367,100.0,M4,1OZ9,positive,True,True,True,,True,100.0,1,True,O67367,100.0,M4,1OZ9,positive,True,True,True,,True,True,100.0,1OZ9,100.0,M4,ok,positive
+Q6MX18,True,97,True,97.9381443298969,1,True,Q6MX18,23.157894736842106,M1,3H6P,positive,True,True,False,,True,97.9381443298969,1,True,Q6MX18,23.157894736842106,M1,3H6P,positive,True,True,False,,False,True,97.9381443298969,3H6P,23.157894736842106,M1,ok,positive
+P0C1Z0,True,61,False,100.0,2,True,P0C1Z0,100.0,M3,1B41,positive,True,True,False,,False,100.0,2,True,P0C1Z0,100.0,M3,1B41,positive,True,True,False,,True,True,100.0,1B41,100.0,M4,ok,positive
+O07624,True,142,True,100.0,1,True,O07624,100.0,M4,1R0U,positive,True,True,True,,True,100.0,1,True,O07624,100.0,M4,1R0U,positive,True,True,True,,True,True,100.0,1R0U,100.0,M4,ok,positive
+Q9T043,True,134,,,26,True,Q9T043,,,9H3G,positive,True,True,False,404 fetching https://files.rcsb.org/download/9H3G.pdb: not found,,,26,True,Q9T043,,,9H3G,positive,True,True,False,404 fetching https://files.rcsb.org/download/9H3G.pdb: not found,False,,,,,M0,no_result,
+P29603,True,67,True,98.50746268656717,1,True,P29603,100.0,M4,1SIZ,positive,True,True,True,,True,98.50746268656717,1,True,P29603,100.0,M4,1SIZ,positive,True,True,True,,True,True,98.50746268656717,1SIZ,100.0,M4,ok,positive
+A2RMG0,True,77,,,20,True,A2RMG0,,,5MYJ,positive,True,True,False,404 fetching https://files.rcsb.org/download/5MYJ.pdb: not found,,,20,True,A2RMG0,,,5MYJ,positive,True,True,False,404 fetching https://files.rcsb.org/download/5MYJ.pdb: not found,False,,,,,M0,no_result,
+O31796,True,73,True,100.0,1,True,O31796,100.0,M4,3AHU,positive,True,True,True,,True,100.0,1,True,O31796,100.0,M4,3AHU,positive,True,True,True,,True,True,100.0,3AHU,100.0,M4,ok,positive
+P61803,True,113,True,100.0,4,True,P61803,100.0,M4,6S7O,positive,True,True,True,,True,100.0,4,True,P61803,100.0,M4,6S7O,positive,True,True,True,,True,True,100.0,6S7O,100.0,M4,ok,positive
+Q6QLR2,True,67,True,70.14925373134328,1,True,Q6QLR2,97.87234042553192,M2,5LCS,positive,True,True,False,,True,70.14925373134328,1,True,Q6QLR2,97.87234042553192,M2,5LCS,positive,True,True,False,,False,True,70.14925373134328,5LCS,97.87234042553192,M2,ok,positive
+P58062,True,85,True,77.6470588235294,1,True,P58062,100.0,M2,2LEO,positive,True,True,False,,True,77.6470588235294,1,True,P58062,100.0,M2,2LEO,positive,True,True,False,,False,True,77.6470588235294,2LEO,100.0,M2,ok,positive
+O60783,True,128,,,65,True,O60783,,,3J9M,positive,True,True,False,404 fetching https://files.rcsb.org/download/3J9M.pdb: not found,,,65,True,O60783,,,3J9M,positive,True,True,False,404 fetching https://files.rcsb.org/download/3J9M.pdb: not found,False,,,,,M0,no_result,
+Q4FUD4,True,118,,,25,True,A0A0M5MJL8,,,8RD8,negative,False,False,False,404 fetching https://files.rcsb.org/download/8RD8.pdb: not found,,,25,True,A0A0M5MJL8,,,8RD8,negative,False,False,False,404 fetching https://files.rcsb.org/download/8RD8.pdb: not found,False,,,,,M0,no_result,
+P67091,True,144,True,100.0,1,True,P67091,100.0,M4,4R2L,positive,True,True,True,,True,100.0,1,True,P67091,100.0,M4,4R2L,positive,True,True,True,,True,True,100.0,4R2L,100.0,M4,ok,positive
+P27684,True,142,False,100.0,7,True,P27684,95.77464788732394,M3,5MMI,positive,True,True,False,,False,100.0,7,True,P27684,95.77464788732394,M3,5MMI,positive,True,True,False,,False,,,,,M0,no_result,
+P14115,True,148,,,52,True,P14115,,,31FX,positive,True,True,False,404 fetching https://files.rcsb.org/download/31FX.pdb: not found,,,52,True,P14115,,,31FX,positive,True,True,False,404 fetching https://files.rcsb.org/download/31FX.pdb: not found,False,,,,,M0,no_result,
+Q0JMY8,True,145,True,100.0,1,True,Q0JMY8,99.3103448275862,M4,5XFH,positive,True,True,True,,True,100.0,1,True,Q0JMY8,99.3103448275862,M4,5XFH,positive,True,True,True,,True,True,100.0,5XFH,99.3103448275862,M4,ok,positive
+P62806,True,103,False,100.0,5,True,P62798,100.0,M3,12OF,negative,False,False,False,,False,100.0,5,True,P62798,100.0,M3,12OF,negative,False,False,False,,True,True,100.0,1F66,100.0,M4,ok,positive
+P03170,True,88,False,100.0,3,True,A0A140GKJ0,97.72727272727273,M3,5U1D,negative,False,False,False,,False,100.0,3,True,A0A140GKJ0,97.72727272727273,M3,5U1D,negative,False,False,False,,False,True,38.63636363636363,1QLO,97.05882352941177,M1,ok,positive
+P01315,True,108,False,100.0,2,True,P01308,87.96296296296296,M2,6B3Q,negative,False,False,False,,False,29.62962962962963,2,True,P01308,96.875,M1,6K59,negative,False,False,False,,False,False,29.62962962962963,6K59,96.875,M1,ok,negative
+P9WJ87,True,82,True,59.75609756097561,1,True,P9WJ87,100.0,M2,7WJ0,positive,True,True,False,,True,59.75609756097561,1,True,P9WJ87,100.0,M2,7WJ0,positive,True,True,False,,False,True,59.75609756097561,7WJ0,100.0,M2,ok,positive
+P21741,True,143,False,86.7132867132867,1,True,Q9W767,62.903225806451616,M2,2LUT,negative,False,False,False,,True,41.25874125874126,1,True,P21741,100.0,M2,1MKN,positive,True,True,False,,False,True,41.25874125874126,1MKN,100.0,M2,ok,positive
+Q00433,True,128,True,93.75,1,True,Q00433,20.0,M1,1QGW,positive,True,True,False,,True,93.75,1,True,Q00433,20.0,M1,1QGW,positive,True,True,False,,False,True,93.75,1QGW,20.0,M1,ok,positive
+Q9Z2S7,False,137,False,56.934306569343065,1,True,P80220,94.87179487179488,M2,1DIP,negative,False,False,False,,False,56.934306569343065,1,True,P80220,94.87179487179488,M2,1DIP,negative,False,False,False,,False,False,56.934306569343065,1DIP,94.87179487179488,M2,ok,negative
+Q04679,False,66,False,100.0,3,True,P54710,75.75757575757575,M2,7E1Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8VY86,False,144,False,99.30555555555556,1,True,Q6NGV7,47.55244755244755,M2,6TR8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8GWT5,False,137,False,98.54014598540147,1,True,P53173,42.22222222222222,M2,32PZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9SL15,False,145,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P18528,False,98,False,87.75510204081633,2,True,,34.883720930232556,M1,8REK,negative,False,False,False,,False,87.75510204081633,2,True,,34.883720930232556,M1,8REK,negative,False,False,False,,False,False,87.75510204081633,8REK,34.883720930232556,M1,ok,negative
+B3Q856,False,106,,,44,True,A7NEB3,,,28NT,negative,False,False,False,404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8H0V1,False,126,False,99.2063492063492,1,True,Q8EB92,64.0,M2,1TZA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7NTQ7,False,75,,,24,True,A0A0E2KXL3,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,,24,True,A0A0E2KXL3,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,False,,,,,M0,no_result,
+Q04PU0,False,104,,,37,True,Q6A6M8,,,8CRX,negative,False,False,False,404 fetching https://files.rcsb.org/download/8CRX.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q48EE6,False,123,False,94.3089430894309,1,True,Q6NCZ4,37.93103448275862,M1,3FOV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2SWG5,False,87,,,4,True,Q7MWL6,,,9I5T,negative,False,False,False,404 fetching https://files.rcsb.org/download/9I5T.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0BIL0,False,142,False,97.88732394366197,1,True,P75467,30.215827338129497,M1,1N0E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P52725,False,60,False,50.0,1,True,P62680,90.0,M2,1M0G,negative,False,False,False,,False,50.0,1,True,P62680,90.0,M2,1M0G,negative,False,False,False,,False,False,50.0,1M0G,90.0,M2,ok,negative
+A8A952,False,58,,,27,True,Q4JAG0,,,8HKX,negative,False,False,False,404 fetching https://files.rcsb.org/download/8HKX.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2G079,False,132,False,96.96969696969697,1,True,P50618,45.3125,M2,1RLJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5WF65,False,149,False,97.98657718120805,1,True,Q9K973,78.76712328767124,M2,5CJ9,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8Z325,False,145,False,100.0,8,True,Q2FW38,100.0,M3,4WCE,negative,False,False,False,,False,100.0,8,True,Q2FW38,100.0,M3,4WCE,negative,False,False,False,,False,,,,,M0,no_result,
+Q31U54,False,70,,,5,True,P0A7M9,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,,5,True,P0A7M9,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,False,,,,,M0,no_result,
+A8F7D4,False,140,False,100.0,1,True,Q9X286,60.0,M2,1TZT,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5XJ43,False,137,,,32,True,A0A1B4XKU1,,,6O8W,negative,False,False,False,404 fetching https://files.rcsb.org/download/6O8W.pdb: not found,,,32,True,A0A1B4XKU1,,,6O8W,negative,False,False,False,404 fetching https://files.rcsb.org/download/6O8W.pdb: not found,False,,,,,M0,no_result,
+Q68RV8,False,54,,,49,True,P28804,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A075B6H9,False,119,False,92.43697478991596,3,True,,20.0,M1,7CR5,negative,False,False,False,,False,92.43697478991596,3,True,,20.0,M1,7CR5,negative,False,False,False,,False,False,92.43697478991596,7CR5,20.0,M1,ok,negative
+A4YWD8,False,138,False,94.20289855072464,1,True,P0A742,59.23076923076923,M2,28OA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1AGK8,False,103,,,18,True,P0A7R5,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,,,18,True,P0A7R5,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,False,,,,,M0,no_result,
+B6EI95,False,149,False,99.32885906040268,1,True,P0A8D0,80.4054054054054,M2,9FXK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9KU88,False,81,False,100.0,1,True,P0A890,74.07407407407408,M2,1DCJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5F6Y8,False,133,False,94.73684210526316,2,True,P0A6T9,61.111111111111114,M2,3A7A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5Y4Q2,False,98,False,100.0,11,True,P03902,97.95918367346938,M3,5LDW,negative,False,False,False,,False,100.0,11,True,P03902,97.95918367346938,M3,5LDW,negative,False,False,False,,False,,,,,M0,no_result,
+B0K5Q4,False,107,False,94.39252336448598,22,True,P0CI78,55.445544554455445,M2,3J3V,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6G9U3,False,116,False,100.0,1,True,Q2G2Q4,100.0,M3,8BXA,negative,False,False,False,,False,100.0,1,True,Q2G2Q4,100.0,M3,8BXA,negative,False,False,False,,False,False,100.0,8BXA,100.0,M3,ok,negative
+Q4UN64,False,121,,,19,True,A0A0M4U628,,,8RD8,negative,False,False,False,404 fetching https://files.rcsb.org/download/8RD8.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2JI03,False,66,,,52,True,P23326,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5N384,False,74,False,97.29729729729729,2,True,P0A8G9,38.888888888888886,M1,8TXR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1JNZ0,False,128,,,42,True,A2RNM6,,,5MYJ,negative,False,False,False,404 fetching https://files.rcsb.org/download/5MYJ.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8EUC3,False,122,False,100.0,25,True,Q50308,70.49180327868852,M2,7OOD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7MTN7,False,126,,,44,True,Q7MTN7,,,9I5V,positive,True,True,False,404 fetching https://files.rcsb.org/download/9I5V.pdb: not found,,,44,True,Q7MTN7,,,9I5V,positive,True,True,False,404 fetching https://files.rcsb.org/download/9I5V.pdb: not found,False,,,,,M0,no_result,
+P0DH98,False,149,False,100.0,1,True,P59220,99.32885906040268,M3,4AQR,negative,False,False,False,,False,100.0,1,True,P59220,99.32885906040268,M3,4AQR,negative,False,False,False,,False,False,100.0,4AQR,99.32885906040268,M3,ok,negative
+Q2GEC5,False,131,,,8,True,Q3IJJ9,,,9HIG,negative,False,False,False,404 fetching https://files.rcsb.org/download/9HIG.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8MLG4,False,72,False,100.0,1,True,Q18CI2,84.72222222222223,M2,6C00,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1GYV6,False,124,False,100.0,1,True,Q9WY55,49.193548387096776,M2,1ZKO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5M2K4,False,111,False,100.0,1,True,P0A0H5,48.648648648648646,M2,6OV1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9PTA5,False,137,False,86.86131386861314,1,True,P00617,89.91596638655462,M2,1BUN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0SPR8,False,80,,,49,True,P66461,,,7NHN,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHN.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5I7J6,False,122,False,100.0,6,True,P04450,75.40983606557377,M2,1C04,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2LSG3,False,74,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O02772,False,133,False,99.24812030075188,1,True,P10790,92.42424242424242,M2,1BWY,negative,False,False,False,,False,99.24812030075188,1,True,P10790,92.42424242424242,M2,1BWY,negative,False,False,False,,False,False,99.24812030075188,1BWY,92.42424242424242,M2,ok,negative
+Q9CDE7,False,93,False,100.0,1,True,P9WP57,89.24731182795699,M2,2MMU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2LQ85,False,123,,,12,True,P62128,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9VTK5,False,148,False,100.0,1,True,P02417,75.0,M2,1DIV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1IDW7,False,113,False,99.11504424778761,1,True,A3DHB8,58.92857142857143,M2,1YBX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7K6S6,False,117,,,23,True,P26565,,,28JW,negative,False,False,False,404 fetching https://files.rcsb.org/download/28JW.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1SMW2,False,97,False,100.0,1,True,P9WPE5,77.31958762886597,M2,1HX5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+D9IWE0,False,129,False,81.3953488372093,1,True,A4ZDL6,70.47619047619048,M2,3A2E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8MA81,False,61,,,32,True,A3MY38,,,9E6Q,negative,False,False,False,404 fetching https://files.rcsb.org/download/9E6Q.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q57G77,False,110,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7NSA5,False,115,,,16,True,P0A7K6,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,16,True,P0A7K6,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,False,,,,,M0,no_result,
+A5EXZ1,False,84,,,46,True,A0A1V3DIZ9,,,6V39,negative,False,False,False,404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P02841,False,74,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P22827,False,73,False,100.0,3,True,E9NW27,87.67123287671232,M2,9LT3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6BY86,False,56,,,76,True,P41057,,,3J6X,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J6X.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8XV20,False,64,False,90.625,28,True,A0AAN0XZZ8,24.137931034482758,M1,9H91,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q66G78,False,105,False,99.04761904761905,3,True,P0A8U6,90.38461538461539,M2,1CMA,negative,False,False,False,,False,99.04761904761905,3,True,P0A8U6,90.38461538461539,M2,1CMA,negative,False,False,False,,False,False,99.04761904761905,1CMA,90.38461538461539,M2,ok,negative
+O49606,False,141,False,98.58156028368795,1,True,Q39250,54.67625899280576,M2,1F7S,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C1CL62,False,122,,,2,True,A0A0M4SX69,,,8RDW,negative,False,False,False,404 fetching https://files.rcsb.org/download/8RDW.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8E1G6,False,142,,,10,True,P0AA10,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P64465,False,67,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8I574,False,76,False,97.36842105263158,1,True,Q8RGD7,51.351351351351354,M2,3ZK1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8L8C0,False,109,False,97.24770642201835,1,True,P0AAC8,47.16981132075472,M2,1R94,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q46DC5,False,64,,,25,True,Q8THP2,,,9O17,negative,False,False,False,404 fetching https://files.rcsb.org/download/9O17.pdb: not found,,,25,True,Q8THP2,,,9O17,negative,False,False,False,404 fetching https://files.rcsb.org/download/9O17.pdb: not found,False,,,,,M0,no_result,
+Q6F1Y0,False,129,,,8,True,P12879,,,3J9W,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7WHP3,False,70,,,21,True,Q9I5V8,,,7UNR,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1KVW5,False,136,False,95.58823529411765,6,True,P07891,85.38461538461539,M2,22VL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2JUJ9,False,137,,,9,True,P82278,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q63H66,False,121,,,13,True,P20282,,,3J9W,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,,39,True,P20282,,,9FY1,negative,False,False,False,404 fetching https://files.rcsb.org/download/9FY1.pdb: not found,False,,,,,M0,no_result,
+P56375,False,106,False,92.45283018867924,1,True,P00818,83.6734693877551,M2,1APS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q55G18,False,128,False,90.625,8,True,Q9Y244,19.82758620689655,M1,8QYJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7MYG5,False,130,,,14,True,C3SR12,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,,14,True,C3SR12,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,False,,,,,M0,no_result,
+Q4QMC3,False,103,,,18,True,P0A7R5,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,,,18,True,P0A7R5,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,False,,,,,M0,no_result,
+B5YTN0,False,104,,,21,True,C3SQZ7,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,21,True,C3SQZ7,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,False,,,,,M0,no_result,
+B9KZV9,False,117,,,14,True,P0AG44,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q72WV8,False,148,False,100.0,1,True,P02417,75.67567567567568,M2,1DIV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B3H2P8,False,84,False,95.23809523809524,3,True,A3M139,67.5,M2,7P2Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8YQ06,False,72,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8EDV5,False,83,False,100.0,5,True,A6VF37,84.33734939759036,M2,9O1A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C3MR79,False,86,,,9,True,P38613,,,8HKU,negative,False,False,False,404 fetching https://files.rcsb.org/download/8HKU.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3KCB7,False,134,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8ZHI7,False,128,False,100.0,2,True,P0A6T9,75.0,M2,3A8I,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8YQ66,False,100,,,46,True,Q9GGE2,,,28JW,negative,False,False,False,404 fetching https://files.rcsb.org/download/28JW.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9DYB4,False,111,,,20,True,Q927L2,,,7NHN,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHN.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9AB65,False,130,False,93.07692307692308,1,True,Q57917,22.31404958677686,M1,6K0A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P19348,False,138,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A144LVM3,False,89,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C6D9B8,False,116,False,100.0,1,True,P0A8S9,77.58620689655173,M2,1G8E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7N1W2,False,68,False,97.05882352941177,1,True,P0A8K7,56.06060606060606,M2,5H1N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9MS76,False,53,False,94.33962264150944,5,True,D0EVU6,20.0,M1,9K7V,negative,False,False,False,,False,94.33962264150944,5,True,D0EVU6,20.0,M1,9K7V,negative,False,False,False,,False,,,,,M0,no_result,
+A6QES8,False,124,False,100.0,1,True,Q7A1N5,100.0,M3,2FRH,negative,False,False,False,,False,100.0,1,True,Q7A1N5,100.0,M3,2FRH,negative,False,False,False,,False,False,100.0,2FRH,100.0,M3,ok,negative
+Q1R9W7,False,90,False,98.88888888888889,1,True,A0A0H3NLH8,42.69662921348315,M2,5LCY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O28372,False,149,,,4,True,,,,4V4N,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V4N.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P43001,False,134,False,99.25373134328358,1,True,P01236,70.67669172932331,M2,1RW5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q679B6,False,98,False,100.0,11,True,P03902,87.75510204081633,M2,5LDW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7CFT2,False,59,,,52,True,C3SR32,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5L3R1,False,120,False,100.0,15,True,P20277,87.5,M2,3J3V,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P14108,False,67,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9MVV4,False,110,False,96.36363636363636,1,True,P0AB44,85.84905660377359,M2,2H7A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9DJH3,False,126,False,99.2063492063492,1,True,Q5SKW9,50.4,M2,1ONL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2FS96,False,149,False,87.24832214765101,3,True,O27646,33.07692307692308,M1,1FXK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B6DCV1,False,75,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P69055,False,129,False,100.0,3,True,P69054,100.0,M3,1NEK,negative,False,False,False,,False,100.0,3,True,P69054,100.0,M3,1NEK,negative,False,False,False,,False,False,100.0,1NEK,100.0,M3,ok,negative
+A6SUD8,False,100,False,95.0,3,True,Q9HVT9,51.578947368421055,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P67645,False,119,False,100.0,4,True,P0A8Q3,92.43697478991596,M2,1KF6,negative,False,False,False,,False,100.0,4,True,P0A8Q3,92.43697478991596,M2,1KF6,negative,False,False,False,,False,False,100.0,1KF6,92.43697478991596,M2,ok,negative
+P48326,False,108,False,82.4074074074074,1,True,O31728,35.95505617977528,M1,3ZIH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0AAY4,False,94,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6T6T3,False,128,False,50.0,1,True,Q5EE07,78.125,M2,1Z1X,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8GEC0,False,125,False,100.0,1,True,O50089,48.8,M2,1IZ6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5T752,False,114,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+D0NB65,False,140,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q02R72,False,50,,,55,True,Q2EEQ2,,,6I7V,negative,False,False,False,404 fetching https://files.rcsb.org/download/6I7V.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6TFP8,False,91,False,100.0,6,True,P0A800,100.0,M3,10MA,negative,False,False,False,,False,100.0,6,True,P0A800,100.0,M3,10MA,negative,False,False,False,,False,False,100.0,10MA,100.0,M3,ok,negative
+B0JLR5,False,131,False,97.70992366412214,1,True,Q9WY55,42.96875,M2,1ZKO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3ZBX9,False,129,False,91.47286821705427,4,True,Q9BTM1,24.576271186440678,M1,6KVD,negative,False,False,False,,False,91.47286821705427,4,True,Q9BTM1,24.576271186440678,M1,6KVD,negative,False,False,False,,False,False,91.47286821705427,6KVD,24.576271186440678,M1,ok,negative
+Q7W3Z2,False,130,,,39,True,A0A0E2ZLL8,,,28NT,negative,False,False,False,404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P52855,False,109,,,66,True,Q5I7K5,,,4V7E,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V7E.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P25140,False,143,False,79.02097902097903,2,True,P08700,80.53097345132744,M2,5UV8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7MH90,False,75,False,100.0,12,True,A0AAN0Y440,100.0,M3,9H90,negative,False,False,False,,False,100.0,12,True,A0AAN0Y440,100.0,M3,9H90,negative,False,False,False,,False,False,100.0,9H90,100.0,M3,ok,negative
+B7GF88,False,127,False,99.21259842519684,2,True,P0A6T9,50.79365079365079,M2,3A7A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7UJW3,False,142,,,10,True,P0AA10,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,10,True,P0AA10,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,False,,,,,M0,no_result,
+B4TCZ1,False,107,False,100.0,1,True,Q83LS2,93.45794392523365,M2,1Y2I,negative,False,False,False,,False,100.0,1,True,Q83LS2,93.45794392523365,M2,1Y2I,negative,False,False,False,,False,False,100.0,1Y2I,93.45794392523365,M2,ok,negative
+A6SXP7,False,60,,,27,True,A7NCH9,,,28NT,negative,False,False,False,404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0JEF5,False,118,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9CKW8,False,72,False,98.61111111111111,1,True,P0AF36,61.971830985915496,M2,2JEE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7UPJ2,False,136,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5HU29,False,129,False,100.0,1,True,A1W062,100.0,M3,9P4G,negative,False,False,False,,False,100.0,1,True,A1W062,100.0,M3,9P4G,negative,False,False,False,,False,False,100.0,9P4G,100.0,M3,ok,negative
+A2S759,False,77,False,94.8051948051948,1,True,P69428,49.31506849315068,M2,2MN6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9U7D1,False,135,False,100.0,1,True,P59226,94.07407407407408,M2,23RS,negative,False,False,False,,False,100.0,1,True,P59226,94.07407407407408,M2,23RS,negative,False,False,False,,False,False,100.0,23RS,94.07407407407408,M2,ok,negative
+Q6GHU0,False,104,False,100.0,1,True,P0A0K6,100.0,M3,2O7K,negative,False,False,False,,False,100.0,1,True,P0A0K6,100.0,M3,2O7K,negative,False,False,False,,False,False,100.0,2O7K,100.0,M3,ok,negative
+Q556Y1,False,66,,,57,True,A0A6P7SBH5,,,9EHO,negative,False,False,False,404 fetching https://files.rcsb.org/download/9EHO.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7ZMI4,False,118,,,17,True,P0A7L3,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,,17,True,P0A7L3,,,10QM,negative,False,False,False,404 fetching https://files.rcsb.org/download/10QM.pdb: not found,False,,,,,M0,no_result,
+Q8NL19,False,101,False,100.0,1,True,A1B482,67.32673267326733,M2,8QBY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8AQN6,False,72,False,100.0,1,True,Q8PAH9,38.888888888888886,M1,3EFG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0UHX7,False,126,,,56,True,Q8VVE2,,,4V6F,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V6F.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5U942,False,133,False,100.0,1,True,P9WNR9,100.0,M3,5YRX,negative,False,False,False,,False,100.0,1,True,P9WNR9,100.0,M3,5YRX,negative,False,False,False,,False,False,100.0,5YRX,100.0,M3,ok,negative
+Q1XDJ3,False,126,,,44,True,P80377,,,10PX,negative,False,False,False,404 fetching https://files.rcsb.org/download/10PX.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8TWR5,False,138,False,100.0,2,True,Q8U3I5,48.55072463768116,M2,2D74,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0CAL4,False,83,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2BYN3,False,106,,,39,True,A0A1B4XKR5,,,7NHK,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8M9Y6,False,65,,,50,True,P28805,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C4L7T8,False,63,False,100.0,28,True,A0AAN0XZZ8,79.36507936507937,M2,9H91,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9UAD0,False,59,False,61.016949152542374,1,True,P15222,83.33333333333333,M2,1SIS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+E9RFT2,False,114,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4XQQ3,False,142,,,35,True,Q9HVY2,,,7UNR,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,,35,True,Q9HVY2,,,7UNR,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,False,,,,,M0,no_result,
+C6DJT9,False,109,False,100.0,1,True,B5XUC8,87.1559633027523,M2,9ISJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8PU76,False,62,,,22,True,Q8TQL7,,,9NRI,negative,False,False,False,404 fetching https://files.rcsb.org/download/9NRI.pdb: not found,,,22,True,Q8TQL7,,,9NRI,negative,False,False,False,404 fetching https://files.rcsb.org/download/9NRI.pdb: not found,False,,,,,M0,no_result,
+B2GHC3,False,85,,,45,True,Q2FWD8,,,5LI0,negative,False,False,False,404 fetching https://files.rcsb.org/download/5LI0.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4ITP1,False,75,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q895R1,False,145,False,100.0,1,True,Q9ZDD2,57.241379310344826,M2,7N56,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2S7I3,False,138,,,38,True,Q3IF18,,,9HIG,negative,False,False,False,404 fetching https://files.rcsb.org/download/9HIG.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1CDT5,False,98,False,100.0,1,True,P0A6R3,97.95918367346938,M3,1ETY,negative,False,False,False,,False,100.0,1,True,P0A6R3,97.95918367346938,M3,1ETY,negative,False,False,False,,False,False,100.0,1ETY,97.95918367346938,M3,ok,negative
+Q8EGD7,False,112,False,69.64285714285714,1,True,P83819,51.282051282051285,M2,1USM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8S5M8,False,119,False,92.43697478991596,2,True,P62699,42.72727272727273,M2,8QBN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4UDP2,False,147,False,97.95918367346938,1,True,P15266,78.47222222222223,M2,1NHK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P61684,False,72,False,100.0,1,True,Q2FW28,87.5,M2,2N8N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3ZXB8,False,119,,,23,True,A0A1B4XM76,,,7NHK,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P06384,False,134,,,36,True,P17353,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,36,True,P17353,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,False,,,,,M0,no_result,
+P82767,False,75,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0K643,False,132,,,11,True,Q9HWF8,,,7UNR,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0CI86,False,60,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9NEE6,False,89,,,46,True,A0A1B2U0Q7,,,7JIL,negative,False,False,False,404 fetching https://files.rcsb.org/download/7JIL.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C3PHK4,False,130,False,99.23076923076923,1,True,B2HKH2,54.263565891472865,M2,3TZU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P82126,False,53,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2I2Q5,False,69,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P14113,False,64,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7MSS9,False,105,False,98.0952380952381,1,True,Q6FF51,45.63106796116505,M2,3HQX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0DMY1,False,76,False,56.578947368421055,1,True,P11494,97.67441860465117,M2,1BDS,negative,False,False,False,,False,56.578947368421055,1,True,P11494,97.67441860465117,M2,1BDS,negative,False,False,False,,False,False,56.578947368421055,1BDS,97.67441860465117,M2,ok,negative
+Q0VMG1,False,76,,,48,True,A0A150HZL5,,,6V39,negative,False,False,False,404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2IIJ6,False,141,False,82.97872340425532,1,True,Q2G2Q4,38.46153846153846,M1,6YE5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8EUD6,False,124,False,100.0,13,True,Q50297,71.7741935483871,M2,7OOC,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0S1D8,False,143,False,100.0,1,True,O66592,51.74825174825175,M2,8Y1Q,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P13960,False,91,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1E9T3,False,96,,,21,True,Q8Y441,,,7NHN,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHN.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P02344,False,90,False,100.0,1,True,Q99U17,61.111111111111114,M2,4QJN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B3DFP2,False,78,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P28674,False,98,False,37.755102040816325,1,True,P01304,91.89189189189189,M1,1F8P,negative,False,False,False,,False,37.755102040816325,1,True,P01304,91.89189189189189,M1,1F8P,negative,False,False,False,,False,False,37.755102040816325,1F8P,91.89189189189189,M1,ok,negative
+Q97BK5,False,147,False,94.5578231292517,1,True,,57.55395683453237,M2,3VVT,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5FUJ7,False,124,False,96.7741935483871,1,True,Q6G2F0,53.333333333333336,M2,3MXU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7HE40,False,146,False,100.0,1,True,O66742,52.73972602739726,M2,2DBO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8G875,False,81,False,100.0,1,True,P0A890,82.71604938271605,M2,1DCJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0ACB4,False,95,False,98.94736842105263,3,True,Q9HVT9,59.57446808510638,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1B628,False,88,False,100.0,25,True,A0R150,94.31818181818181,M2,5O60,negative,False,False,False,,False,100.0,25,True,A0R150,94.31818181818181,M2,5O60,negative,False,False,False,,False,,,,,M0,no_result,
+P64502,False,95,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9L9E3,False,92,,,15,True,Q9M3I4,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P58752,False,58,False,94.82758620689656,1,True,P01492,49.09090909090909,M2,1VNA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O44786,False,115,False,100.0,1,True,Q963F7,80.8695652173913,M2,8VJ2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C3MXG6,False,88,,,25,True,P38618,,,8HKU,negative,False,False,False,404 fetching https://files.rcsb.org/download/8HKU.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2T357,False,123,,,12,True,P62128,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,12,True,P62128,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,False,,,,,M0,no_result,
+Q03429,False,123,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q45391,False,104,False,91.34615384615384,1,True,O50329,40.0,M2,7O41,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+W4VS70,False,90,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0C0M1,False,66,False,100.0,1,True,P0C0L9,100.0,M3,2BZT,negative,False,False,False,,False,100.0,1,True,P0C0L9,100.0,M3,2BZT,negative,False,False,False,,False,False,100.0,2BZT,100.0,M3,ok,negative
+Q8XBT3,False,142,False,98.59154929577464,1,True,P67091,42.142857142857146,M2,4R2L,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2THN1,False,85,False,95.29411764705883,1,True,A0A0K2E3A3,56.79012345679013,M2,7Y8Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P9WNB4,False,125,False,92.0,4,True,P0A8Q3,28.695652173913043,M1,1KF6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P64525,False,124,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3N475,False,136,False,86.02941176470588,1,True,P0A7Y8,40.17094017094017,M2,2LJP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O31920,False,115,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C0HLB0,False,56,False,100.0,1,True,A0A1Z0YU59,64.28571428571429,M2,5M4V,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9KPK8,True,226,True,100.0,1,True,Q9KPK8,100.0,M4,2JHQ,positive,True,True,True,,True,100.0,1,True,Q9KPK8,100.0,M4,2JHQ,positive,True,True,True,,True,True,100.0,2JHQ,100.0,M4,ok,positive
+P16114,True,265,True,100.0,1,True,P16114,100.0,M4,6XIU,positive,True,True,True,,True,100.0,1,True,P16114,100.0,M4,6XIU,positive,True,True,True,,True,True,100.0,6XIU,100.0,M4,ok,positive
+P23284,True,216,True,100.0,3,True,P23284,100.0,M4,8K0F,positive,True,True,True,,True,100.0,3,True,P23284,100.0,M4,8K0F,positive,True,True,True,,True,True,100.0,8K0F,100.0,M4,ok,positive
+P07291,True,157,True,91.0828025477707,3,True,P07291,28.67132867132867,M1,1B7T,positive,True,True,False,,True,91.0828025477707,3,True,P07291,28.67132867132867,M1,1B7T,positive,True,True,False,,False,True,91.0828025477707,1B7T,28.67132867132867,M1,ok,positive
+O32277,True,246,False,87.8048780487805,1,True,O32277,100.0,M3,2FPN,positive,True,True,False,,False,87.8048780487805,1,True,O32277,100.0,M3,2FPN,positive,True,True,False,,False,True,87.8048780487805,2FPN,100.0,M3,ok,positive
+Q9Y3A3,True,225,True,100.0,4,True,Q9Y3A3,100.0,M4,7K36,positive,True,True,True,,True,100.0,4,True,Q9Y3A3,100.0,M4,7K36,positive,True,True,True,,False,,,,,M0,no_result,
+Q07337,True,210,True,82.85714285714286,1,True,Q07337,100.0,M3,1GGQ,positive,True,True,False,,True,82.85714285714286,1,True,Q07337,100.0,M3,1GGQ,positive,True,True,False,,False,True,82.85714285714286,1GGQ,100.0,M3,ok,positive
+G1TT27,True,257,,,3,True,,,,11HE,negative,False,False,False,404 fetching https://files.rcsb.org/download/11HE.pdb: not found,,,3,True,,,,11HE,negative,False,False,False,404 fetching https://files.rcsb.org/download/11HE.pdb: not found,False,,,,,M0,no_result,
+P04871,True,245,True,100.0,1,True,P04871,100.0,M4,2WUY,positive,True,True,True,,True,100.0,1,True,P04871,100.0,M4,2WUY,positive,True,True,True,,True,True,100.0,2WUY,100.0,M4,ok,positive
+P9WFG7,True,164,False,100.0,1,True,P9WFG7,100.0,M3,2FR2,positive,True,True,False,,False,100.0,1,True,P9WFG7,100.0,M3,2FR2,positive,True,True,False,,True,True,100.0,2FR2,100.0,M4,ok,positive
+P0DXI0,True,235,False,100.0,1,True,P0DXI0,99.57446808510639,M3,5ME5,positive,True,True,False,,False,100.0,1,True,P0DXI0,99.57446808510639,M3,5ME5,positive,True,True,False,,True,True,100.0,5ME5,99.57446808510639,M4,ok,positive
+Q8R0F8,True,221,True,100.0,1,True,Q8R0F8,100.0,M4,6SBI,positive,True,True,True,,True,100.0,1,True,Q8R0F8,100.0,M4,6SBI,positive,True,True,True,,True,True,100.0,6SBI,100.0,M4,ok,positive
+O53943,True,300,True,100.0,3,True,O53943,100.0,M4,4KXR,positive,True,True,True,,True,100.0,3,True,O53943,100.0,M4,4KXR,positive,True,True,True,,True,True,100.0,4KXR,100.0,M4,ok,positive
+Q9I4D4,True,185,True,99.45945945945945,1,True,Q9I4D4,98.3695652173913,M3,1RTT,positive,True,True,False,,True,99.45945945945945,1,True,Q9I4D4,98.3695652173913,M3,1RTT,positive,True,True,False,,False,True,99.45945945945945,1RTT,98.3695652173913,M3,ok,positive
+P81662,True,176,True,100.0,1,True,P81662,100.0,M4,2KS4,positive,True,True,True,,True,100.0,1,True,P81662,100.0,M4,2KS4,positive,True,True,True,,True,True,100.0,2KS4,100.0,M4,ok,positive
+Q9YC02,True,235,True,100.0,1,True,Q9YC02,100.0,M4,2Z0S,positive,True,True,True,,True,100.0,1,True,Q9YC02,100.0,M4,2Z0S,positive,True,True,True,,True,True,100.0,2Z0S,100.0,M4,ok,positive
+Q6ITC7,True,151,,,61,True,P62277,,,22TU,negative,False,False,False,404 fetching https://files.rcsb.org/download/22TU.pdb: not found,,,61,True,P62277,,,22TU,negative,False,False,False,404 fetching https://files.rcsb.org/download/22TU.pdb: not found,False,,,,,M0,no_result,
+P16094,True,286,True,100.0,1,True,P16094,100.0,M4,6LOQ,positive,True,True,True,,True,100.0,1,True,P16094,100.0,M4,6LOQ,positive,True,True,True,,True,True,100.0,6LOQ,100.0,M4,ok,positive
+P76010,True,244,True,100.0,1,True,P76010,100.0,M4,5Y6F,positive,True,True,True,,True,100.0,1,True,P76010,100.0,M4,5Y6F,positive,True,True,True,,True,True,100.0,5Y6F,100.0,M4,ok,positive
+Q2YSF8,True,195,False,100.0,1,True,Q2G036,100.0,M3,3QWD,negative,False,False,False,,False,100.0,1,True,Q2G036,100.0,M3,3QWD,negative,False,False,False,,False,False,100.0,3QWD,100.0,M3,ok,negative
+P00375,True,187,True,99.46524064171123,1,True,P00375,100.0,M4,2FZJ,positive,True,True,True,,True,99.46524064171123,1,True,P00375,100.0,M4,2FZJ,positive,True,True,True,,True,True,99.46524064171123,2FZJ,100.0,M4,ok,positive
+P53168,True,247,,,4,True,P53168,,,8Q84,positive,True,True,False,404 fetching https://files.rcsb.org/download/8Q84.pdb: not found,,,4,True,P53168,,,8Q84,positive,True,True,False,404 fetching https://files.rcsb.org/download/8Q84.pdb: not found,False,,,,,M0,no_result,
+Q8RQP5,True,152,True,100.0,1,True,Q8RQP5,100.0,M4,1IV1,positive,True,True,True,,True,100.0,1,True,Q8RQP5,100.0,M4,1IV1,positive,True,True,True,,True,True,100.0,1IV1,100.0,M4,ok,positive
+P47779,True,160,True,83.75,1,True,P47779,100.0,M3,7TY1,positive,True,True,False,,True,83.75,1,True,P47779,100.0,M3,7TY1,positive,True,True,False,,False,True,83.75,7TY1,100.0,M3,ok,positive
+O95749,True,300,True,100.0,1,True,O95749,100.0,M4,2Q80,positive,True,True,True,,True,100.0,1,True,O95749,100.0,M4,2Q80,positive,True,True,True,,True,True,100.0,2Q80,100.0,M4,ok,positive
+Q9YDV3,True,188,True,100.0,1,True,Q9YDV3,100.0,M4,2DVK,positive,True,True,True,,True,100.0,1,True,Q9YDV3,100.0,M4,2DVK,positive,True,True,True,,True,True,100.0,2DVK,100.0,M4,ok,positive
+P9WGH5,True,177,True,100.0,5,True,P9WGH5,100.0,M4,6DV9,positive,True,True,True,,True,100.0,5,True,P9WGH5,100.0,M4,6DV9,positive,True,True,True,,True,True,100.0,6DV9,100.0,M4,ok,positive
+Q91642,True,242,True,100.0,1,True,Q91642,100.0,M4,7C9B,positive,True,True,True,,True,100.0,1,True,Q91642,100.0,M4,7C9B,positive,True,True,True,,True,True,100.0,7C9B,100.0,M4,ok,positive
+P08228,True,154,True,99.35064935064935,1,True,P08228,100.0,M4,3GTT,positive,True,True,True,,True,99.35064935064935,1,True,P08228,100.0,M4,3GTT,positive,True,True,True,,True,True,99.35064935064935,3GTT,100.0,M4,ok,positive
+Q9CQ06,True,216,,,19,True,Q9CQ06,,,9E9C,positive,True,True,False,404 fetching https://files.rcsb.org/download/9E9C.pdb: not found,,,19,True,Q9CQ06,,,9E9C,positive,True,True,False,404 fetching https://files.rcsb.org/download/9E9C.pdb: not found,False,,,,,M0,no_result,
+P67870,True,215,True,100.0,2,True,P67870,100.0,M4,1JWH,positive,True,True,True,,True,100.0,2,True,P67870,100.0,M4,1JWH,positive,True,True,True,,True,True,100.0,1JWH,100.0,M4,ok,positive
+P54962,True,182,True,96.7032967032967,1,True,P54962,96.5909090909091,M3,3EBK,positive,True,True,False,,True,96.7032967032967,1,True,P54962,96.5909090909091,M3,3EBK,positive,True,True,False,,False,True,96.7032967032967,3EBK,96.5909090909091,M3,ok,positive
+Q63507,True,214,,,48,True,Q63507,,,7QGG,positive,True,True,False,404 fetching https://files.rcsb.org/download/7QGG.pdb: not found,,,48,True,Q63507,,,7QGG,positive,True,True,False,404 fetching https://files.rcsb.org/download/7QGG.pdb: not found,False,,,,,M0,no_result,
+Q9K3V1,True,251,True,100.0,1,True,Q9K3V1,100.0,M4,9EOL,positive,True,True,True,,True,100.0,1,True,Q9K3V1,100.0,M4,9EOL,positive,True,True,True,,True,True,100.0,9EOL,100.0,M4,ok,positive
+P04951,True,248,True,100.0,1,True,P04951,100.0,M4,1VH1,positive,True,True,True,,True,100.0,1,True,P04951,100.0,M4,1VH1,positive,True,True,True,,True,True,100.0,1VH1,100.0,M4,ok,positive
+O48528,True,159,True,100.0,10,True,O48528,100.0,M4,8BEF,positive,True,True,True,,True,100.0,10,True,O48528,100.0,M4,8BEF,positive,True,True,True,,True,True,100.0,8BEF,100.0,M4,ok,positive
+O26776,True,155,True,100.0,1,True,O26776,100.0,M4,1W94,positive,True,True,True,,True,100.0,1,True,O26776,100.0,M4,1W94,positive,True,True,True,,True,True,100.0,1W94,100.0,M4,ok,positive
+O88878,True,213,,,33,True,O76080,,,7QXW,negative,False,False,False,404 fetching https://files.rcsb.org/download/7QXW.pdb: not found,,,33,True,O76080,,,7QXW,negative,False,False,False,404 fetching https://files.rcsb.org/download/7QXW.pdb: not found,False,True,34.74178403755869,1WFL,93.24324324324324,M1,ok,positive
+P16563,True,243,False,90.12345679012346,1,True,Q8JI39,53.42465753424658,M2,1WVR,negative,False,False,False,,True,23.45679012345679,1,True,P16563,100.0,M1,2A05,positive,True,True,False,,False,True,23.45679012345679,2A05,100.0,M1,ok,positive
+Q8VY88,True,175,True,64.57142857142857,1,True,Q8VY88,94.69026548672566,M2,8K48,positive,True,True,False,,True,64.57142857142857,1,True,Q8VY88,94.69026548672566,M2,8K48,positive,True,True,False,,False,True,64.57142857142857,8K48,94.69026548672566,M2,ok,positive
+Q9UKW6,True,265,False,98.11320754716981,1,True,Q9NZC4,36.15384615384615,M1,10SM,negative,False,False,False,,False,38.113207547169814,1,True,Q9UKW6,99.00990099009901,M1,1WWX,positive,True,True,False,,False,True,38.113207547169814,1WWX,99.00990099009901,M1,ok,positive
+P02643,True,182,False,99.45054945054945,2,True,P68246,81.76795580110497,M2,1YTZ,negative,False,False,False,,False,80.21978021978022,1,True,P02585;P48788,45.89041095890411,M2,7KAA,negative,False,False,False,,False,True,86.26373626373626,1A2X,26.751592356687897,M1,ok,positive
+P35625,True,211,True,95.260663507109,2,True,P35625,19.402985074626866,M1,3CKI,positive,True,True,False,,True,95.260663507109,2,True,P35625,19.402985074626866,M1,3CKI,positive,True,True,False,,False,True,95.260663507109,3CKI,19.402985074626866,M1,ok,positive
+O35906,True,267,True,39.70037453183521,3,True,O35906,100.0,M1,9J1N,positive,True,True,False,,True,39.70037453183521,3,True,O35906,100.0,M1,9J1N,positive,True,True,False,,False,True,39.70037453183521,9J1N,100.0,M1,ok,positive
+O95297,True,269,True,50.185873605947954,1,True,O95297,98.51851851851852,M2,6IGO,positive,True,True,False,,True,50.185873605947954,1,True,O95297,98.51851851851852,M2,6IGO,positive,True,True,False,,False,True,50.185873605947954,6IGO,98.51851851851852,M2,ok,positive
+P02877,True,204,False,59.80392156862745,1,True,U5HK42,77.04918032786885,M2,4JP6,negative,False,False,False,,True,21.07843137254902,1,True,P02877,100.0,M1,1HEV,positive,True,True,False,,False,True,21.07843137254902,1HEV,100.0,M1,ok,positive
+Q8WUU5,True,269,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9JL99,False,229,False,55.89519650655022,1,True,Q9P126,60.15625,M2,3WSR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8WWA1,False,233,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9QZ47,False,272,,,3,True,P45379,,,7UTI,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UTI.pdb: not found,False,20.220588235294116,3,True,P12620,94.54545454545455,M1,2Z5H,negative,False,False,False,,False,False,20.220588235294116,2Z5H,94.54545454545455,M1,ok,negative
+P37802,True,199,True,77.8894472361809,1,True,P37802,96.12903225806451,M2,1WYM,positive,True,True,False,,True,77.8894472361809,1,True,P37802,96.12903225806451,M2,1WYM,positive,True,True,False,,False,True,77.8894472361809,1WYM,96.12903225806451,M2,ok,positive
+P06398,False,253,,,3,True,P45379,,,7UTI,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UTI.pdb: not found,False,71.54150197628458,1,True,P12620,34.25414364640884,M1,1YTZ,negative,False,False,False,,False,False,71.54150197628458,1YTZ,34.25414364640884,M1,ok,negative
+P69417,False,230,False,100.0,1,True,Q20NS3,98.69565217391305,M3,4OPH,negative,False,False,False,,False,100.0,1,True,Q20NS3,98.69565217391305,M3,4OPH,negative,False,False,False,,False,False,100.0,4OPH,98.69565217391305,M3,ok,negative
+Q8IRJ8,False,288,False,88.54166666666667,6,True,Q6I9Y2,23.529411764705884,M1,7APK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q86UA6,False,219,False,20.54794520547945,2,True,A0A2I3HSY1,100.0,M1,9N87,negative,False,False,False,,False,20.54794520547945,2,True,A0A2I3HSY1,100.0,M1,9N87,negative,False,False,False,,False,False,20.54794520547945,9N87,100.0,M1,ok,negative
+P0CK66,False,252,False,82.93650793650794,1,True,P31343,95.69377990430623,M3,2W69,negative,False,False,False,,False,82.93650793650794,1,True,P31343,95.69377990430623,M3,2W69,negative,False,False,False,,False,False,82.93650793650794,2W69,95.69377990430623,M3,ok,negative
+P17486,False,223,False,34.52914798206278,1,True,P83949,58.44155844155844,M1,4UUS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P14817,False,209,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P20896,False,292,False,79.10958904109589,3,True,P27025,26.406926406926406,M1,6BLH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q16Y34,False,272,False,70.22058823529412,1,True,Q5SQI0,48.69109947643979,M2,3VWD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q14773,False,271,False,71.21771217712177,2,True,Q9UMF0,38.3419689119171,M1,3BN3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9UT72,False,205,False,34.63414634146341,1,True,O88846,54.929577464788736,M1,3NG2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3MNG2,False,240,False,92.5,1,True,P13000,45.4954954954955,M2,1A82,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q98F04,False,173,False,92.48554913294798,1,True,O04841,45.625,M2,1F3Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8F6A5,False,217,False,100.0,1,True,Q9WYD1,64.0552995391705,M2,1VPX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3YV49,False,161,False,100.0,1,True,P0A8R0,100.0,M3,1Q5X,negative,False,False,False,,False,100.0,1,True,P0A8R0,100.0,M3,1Q5X,negative,False,False,False,,False,False,100.0,1Q5X,100.0,M3,ok,negative
+B0RQK3,False,228,False,98.6842105263158,1,True,Q9HVQ7,63.55555555555556,M2,9GHL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9CNN6,False,168,,,2,True,P0A8B2,,,7QGN,negative,False,False,False,404 fetching https://files.rcsb.org/download/7QGN.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3MAP3,False,155,False,98.70967741935483,1,True,P56944,52.94117647058823,M2,7LJP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q46HP4,False,211,False,89.57345971563981,1,True,O67099,51.32275132275132,M2,5XBH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6QCU4,False,254,False,98.81889763779527,1,True,,66.53386454183267,M2,4EVZ,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4GAG3,False,225,False,100.0,1,True,Q9HVQ7,55.111111111111114,M2,9GHL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P36233,False,273,False,73.62637362637362,1,True,P09486,98.50746268656717,M2,1BMO,negative,False,False,False,,False,73.62637362637362,1,True,P09486,98.50746268656717,M2,1BMO,negative,False,False,False,,False,False,73.62637362637362,1BMO,98.50746268656717,M2,ok,negative
+A0LIJ6,False,208,,,34,True,P66548,,,7NHN,negative,False,False,False,404 fetching https://files.rcsb.org/download/7NHN.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q91WE3,False,199,False,100.0,6,True,Q9BUL9,87.93969849246231,M2,6AHR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0AET9,False,255,False,100.0,1,True,P0AET8,100.0,M3,1AHH,negative,False,False,False,,False,100.0,1,True,P0AET8,100.0,M3,1AHH,negative,False,False,False,,False,False,100.0,1AHH,100.0,M3,ok,negative
+O03700,False,231,False,91.34199134199135,40,True,O79881,20.85308056872038,M1,7V2C,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q30QW4,False,224,False,92.85714285714286,1,True,O63075,35.57692307692308,M1,22VL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q668W9,False,264,False,98.86363636363636,1,True,P07649,80.07662835249042,M2,1DJ0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7V8F6,False,243,False,91.76954732510288,1,True,Q9WZQ4,37.66816143497758,M1,2YYV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5CXZ0,False,297,False,93.26599326599326,1,True,Q57727,27.79783393501805,M1,6M31,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9F2L1,False,217,False,67.74193548387096,1,True,O28077,42.857142857142854,M2,3DO8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P70368,False,190,False,42.10526315789474,1,True,P06601,65.0,M2,1FJL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C1KVV7,False,296,False,99.66216216216216,1,True,P44862,54.23728813559322,M2,1NRI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P46172,False,205,,,15,True,P0A7V3,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,,,15,True,P0A7V3,,,10FZ,negative,False,False,False,404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,False,,,,,M0,no_result,
+B5RBY7,False,265,False,96.60377358490567,1,True,A6TBJ8,73.046875,M2,6JYY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6WHC9,False,161,False,95.03105590062111,1,True,P0AG86,70.58823529411765,M2,1QYN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P02517,False,208,False,70.67307692307692,1,True,Q7JP52,43.53741496598639,M2,7PE3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0HW75,False,152,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5YWW4,False,190,False,100.0,1,True,P0A6N8,99.47368421052632,M3,8S8U,negative,False,False,False,,False,100.0,1,True,P0A6N8,99.47368421052632,M3,8S8U,negative,False,False,False,,False,False,100.0,8S8U,99.47368421052632,M3,ok,negative
+A5GIR9,False,150,,,33,True,P12629,,,4V61,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q92PY8,False,163,False,100.0,1,True,A0A1I4C747,62.576687116564415,M2,9XWD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0J8G8,False,222,False,25.675675675675677,1,True,O22456,71.9298245614035,M1,7NB0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2KEK3,False,151,False,96.02649006622516,14,True,P19946,50.3448275862069,M2,3J3V,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5EW69,False,244,False,97.54098360655738,1,True,A0A0H3GMB7,51.680672268907564,M2,8EES,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O80674,False,253,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9M5Q4,False,156,,,37,True,Q14JC3,,,28NT,negative,False,False,False,404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6FAU4,False,163,False,98.15950920245399,1,True,P57708,60.625,M2,5B8F,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2V6N5,False,291,,,3,True,A0A0M4TPJ7,,,6N2Y,negative,False,False,False,404 fetching https://files.rcsb.org/download/6N2Y.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3CPV8,False,258,False,83.33333333333333,1,True,B3XNW8,33.95348837209303,M1,3D5L,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3DBQ1,False,251,False,98.80478087649402,1,True,Q8XKU1,58.064516129032256,M2,4Y8F,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P43687,False,273,False,34.065934065934066,1,True,Q9VD99,64.51612903225806,M1,3A01,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5ZXA0,False,165,False,95.15151515151516,2,True,P38276,31.21019108280255,M1,4CLC,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P54230,False,155,False,65.16129032258064,1,True,P32196,76.23762376237623,M2,1KWI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9JK95,False,193,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O25963,False,259,False,96.13899613899613,1,True,Q65JX9,35.34136546184739,M1,4PYT,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0KBG7,False,299,False,97.32441471571906,1,True,Q9HTN2,60.48109965635739,M2,2BUF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q17YX5,False,215,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6AYE8,False,224,False,50.44642857142857,1,True,Q5T4W7,93.80530973451327,M2,2ASK,negative,False,False,False,,False,88.83928571428571,1,True,Q5T4W7,23.115577889447238,M1,2GH0,negative,False,False,False,,False,False,88.83928571428571,2GH0,23.115577889447238,M1,ok,negative
+A9MUK6,False,213,False,100.0,1,True,P0A752,85.44600938967136,M2,1K4K,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9AAG9,False,207,False,97.58454106280193,1,True,Q8U192,57.92079207920792,M2,1XI3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4SGR7,False,182,False,96.7032967032967,2,True,P39070,57.95454545454545,M2,1YYF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A0A8X5N4,False,292,False,85.95890410958904,2,True,Q72LA5,19.52191235059761,M1,2VPW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9I106,False,256,False,89.84375,1,True,P77202,48.69565217391305,M2,2H0I,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A0A7XNA3,False,183,False,97.26775956284153,1,True,Q4VSJ8,44.38202247191011,M2,3P2F,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8KZP5,False,286,False,100.0,1,True,P47229,78.32167832167832,M2,2OG1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+F1QUP1,False,227,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9I1M3,False,153,False,97.38562091503267,1,True,A9CIH8,41.61073825503356,M2,3I4P,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7LM45,False,220,False,100.0,1,True,P0AFC7,100.0,M3,7AWT,negative,False,False,False,,False,100.0,1,True,P0AFC7,100.0,M3,7AWT,negative,False,False,False,,False,False,100.0,7AWT,100.0,M3,ok,negative
+Q4ZLQ1,False,245,False,96.73469387755102,1,True,A1R562,36.28691983122363,M1,4WD0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8TV83,False,200,False,96.5,2,True,Q9X0C8,45.59585492227979,M2,1GPW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2JT68,False,181,False,92.81767955801105,7,True,Q8DJ01,70.23809523809524,M2,6HUM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7H7H4,False,269,False,100.0,1,True,P39593,62.0817843866171,M2,1C3Q,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0CH29,False,277,False,98.91696750902527,2,True,,76.27737226277372,M2,28YE,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q81MX1,False,158,False,94.30379746835443,2,True,P38276,34.22818791946309,M1,4CLC,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0TG68,False,299,False,100.0,1,True,P60757,100.0,M3,1H3D,negative,False,False,False,,False,100.0,1,True,P60757,100.0,M3,1H3D,negative,False,False,False,,False,False,100.0,1H3D,100.0,M3,ok,negative
+Q88RA1,False,262,False,96.94656488549619,3,True,A0ACD6B948,43.30708661417323,M2,8WM7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7MJ30,False,290,False,96.55172413793103,1,True,Q9YBM8,34.642857142857146,M1,4OD4,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q253Y0,False,298,False,96.97986577181209,1,True,Q9WZX6,45.674740484429066,M2,1M6Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B6J7A4,False,256,False,95.3125,1,True,O58038,27.049180327868854,M1,3VRH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4TFC5,False,251,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9I8G4,False,226,False,85.39823008849558,1,True,Q9BVC5,30.05181347150259,M1,31FW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q168B1,False,217,False,99.07834101382488,1,True,Q9WYD1,55.348837209302324,M2,1VPX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5INE5,False,241,False,100.0,1,True,Q9X0C7,91.70124481327801,M2,1QO2,negative,False,False,False,,False,100.0,1,True,Q9X0C7,91.70124481327801,M2,1QO2,negative,False,False,False,,False,False,100.0,1QO2,91.70124481327801,M2,ok,negative
+B3PK21,False,252,False,95.23809523809524,1,True,Q9HWC1,41.666666666666664,M2,2F9T,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1IQQ4,False,297,False,100.0,1,True,P0A6L4,100.0,M3,3LBC,negative,False,False,False,,False,100.0,1,True,P0A6L4,100.0,M3,3LBC,negative,False,False,False,,False,False,100.0,3LBC,100.0,M3,ok,negative
+Q60652,False,266,False,75.93984962406014,1,True,Q64329,73.76237623762377,M2,3C8J,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C0JAQ5,False,273,False,100.0,1,True,P0CE82,85.71428571428571,M2,4RW3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O47491,False,262,,,57,True,Q35916,,,8UGH,negative,False,False,False,404 fetching https://files.rcsb.org/download/8UGH.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q66S61,False,248,False,56.854838709677416,1,True,P11226,80.1418439716312,M2,1HUP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q89N76,False,167,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8PVA5,False,152,,,16,True,Q8TS56,,,9O17,negative,False,False,False,404 fetching https://files.rcsb.org/download/9O17.pdb: not found,,,16,True,Q8TS56,,,9O17,negative,False,False,False,404 fetching https://files.rcsb.org/download/9O17.pdb: not found,False,,,,,M0,no_result,
+Q71YI9,False,205,False,100.0,1,True,Q8Y672,100.0,M3,3TAU,negative,False,False,False,,False,100.0,1,True,Q8Y672,100.0,M3,3TAU,negative,False,False,False,,False,False,100.0,3TAU,100.0,M3,ok,negative
+Q83FQ7,False,221,False,99.5475113122172,1,True,P00950,60.90909090909091,M2,1BQ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q03PZ7,False,157,False,95.54140127388536,1,True,P11998,46.666666666666664,M2,1RVV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7NRS0,False,273,False,96.7032967032967,1,True,Q195N6,37.121212121212125,M1,5D0N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q94AR6,False,204,False,31.862745098039216,3,True,Q8W1E3,70.76923076923077,M1,8XUF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P9WF14,False,150,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3APJ0,False,172,,,5,True,P21467,,,3J9W,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4SU91,False,286,False,100.0,1,True,P09158,94.4055944055944,M2,3O4F,negative,False,False,False,,False,100.0,1,True,P09158,94.4055944055944,M2,3O4F,negative,False,False,False,,False,False,100.0,3O4F,94.4055944055944,M2,ok,negative
+B0RQ28,False,299,False,99.33110367892976,1,True,Q49149,51.851851851851855,M2,4Z7R,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0BNR3,False,153,False,98.69281045751634,13,True,P0A8A8,60.9271523178808,M2,7AFI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q90165,False,218,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B3H0R2,False,208,False,100.0,1,True,A6TCB0,83.17307692307692,M2,6WN8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8EQV8,False,166,False,92.16867469879519,2,True,Q9X005,46.40522875816993,M2,2F9Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9ADM4,False,219,False,100.0,1,True,Q2SU58,89.49771689497717,M2,4DHE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5RGH7,False,155,False,100.0,1,True,P0AG86,96.7741935483871,M3,5JTL,negative,False,False,False,,False,100.0,1,True,P0AG86,96.7741935483871,M3,5JTL,negative,False,False,False,,False,False,100.0,5JTL,96.7741935483871,M3,ok,negative
+Q1CEB6,False,290,False,58.96551724137931,1,True,P09378,64.32748538011695,M2,5U93,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2KY81,False,190,False,94.21052631578948,1,True,Q6F7I0,30.726256983240223,M1,2QGG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O34994,True,212,True,71.22641509433963,1,True,O34994,100.0,M2,3FV6,positive,True,True,False,,True,71.22641509433963,1,True,O34994,100.0,M2,3FV6,positive,True,True,False,,False,True,71.22641509433963,3FV6,100.0,M2,ok,positive
+Q04E44,False,197,,,31,True,A0A0U5A6T9,,,8UU8,negative,False,False,False,404 fetching https://files.rcsb.org/download/8UU8.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1A0A9,False,232,False,98.27586206896552,1,True,Q1WR87,60.08771929824562,M2,4GMK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6USK6,False,236,False,99.57627118644068,1,True,Q58499,73.61702127659575,M2,4RC1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O94588,False,177,False,23.728813559322035,1,True,P41772,64.28571428571429,M1,1CO4,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q15VG2,False,263,False,99.23954372623574,1,True,P07649,64.36781609195403,M2,1DJ0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q90665,False,295,False,100.0,1,True,Q92854,78.64406779661017,M2,1OLZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q05033,False,238,False,99.15966386554622,1,True,Q04884,81.35593220338983,M2,2MAF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0RDY8,False,170,False,68.82352941176471,1,True,Q2G2Q4,42.73504273504273,M2,6YE5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7GK37,False,166,,,5,True,P21467,,,3J9W,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,,5,True,P21467,,,3J9W,negative,False,False,False,404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,False,,,,,M0,no_result,
+A3NWL9,False,155,False,100.0,1,True,Q2SWY7,98.70967741935483,M3,4H4G,negative,False,False,False,,False,100.0,1,True,Q2SWY7,98.70967741935483,M3,4H4G,negative,False,False,False,,False,False,100.0,4H4G,98.70967741935483,M3,ok,negative
+Q8NXZ3,False,293,False,98.97610921501706,1,True,P37565,67.24137931034483,M2,1VZY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1ZNE2,False,210,,,9,True,P0A7V3,,,11BQ,negative,False,False,False,404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1CC00,False,209,False,86.1244019138756,1,True,P0C0R7,91.66666666666667,M2,1EIZ,negative,False,False,False,,False,86.1244019138756,1,True,P0C0R7,91.66666666666667,M2,1EIZ,negative,False,False,False,,False,False,86.1244019138756,1EIZ,91.66666666666667,M2,ok,negative
+Q9Z5B6,False,231,False,84.84848484848484,1,True,Q5F5E3,45.91836734693877,M2,5I01,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P9WLI6,False,230,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q46XD7,False,265,False,100.0,1,True,Q2SZ94,69.81132075471699,M2,4F3Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0C5S3,False,194,False,91.75257731958763,1,True,Q3JXA5,48.87640449438202,M2,3RQI,negative,False,False,False,,False,41.75257731958763,1,True,Q53228,82.71604938271605,M2,1UMQ,negative,False,False,False,,False,False,41.75257731958763,1UMQ,82.71604938271605,M2,ok,negative
+Q49WP9,False,161,False,100.0,1,True,P63820,76.3975155279503,M2,3F3M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1GUJ1,False,198,False,97.97979797979798,8,True,P10442,51.54639175257732,M2,7UWE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9KSN0,False,218,False,89.90825688073394,1,True,O86262,42.857142857142854,M2,1PJZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5PM99,False,213,False,98.59154929577464,1,True,Q5SLQ3,34.76190476190476,M1,2QHS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P47498,False,256,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q06394,False,159,False,99.37106918238993,1,True,A0A9Y2YA81,56.32911392405063,M2,7UQL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0A6D8,False,173,False,100.0,1,True,P0A6D7,100.0,M3,1KAG,negative,False,False,False,,False,100.0,1,True,P0A6D7,100.0,M3,1KAG,negative,False,False,False,,False,False,100.0,1KAG,100.0,M3,ok,negative
+P62368,True,240,True,76.66666666666667,1,True,P62368,98.91304347826087,M2,4C81,positive,True,True,False,,True,76.66666666666667,1,True,P62368,98.91304347826087,M2,4C81,positive,True,True,False,,False,True,76.66666666666667,4C81,98.91304347826087,M2,ok,positive
+C3KTD5,False,246,False,97.96747967479675,1,True,P0A8A0,50.62240663900415,M2,1KON,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1JPP0,False,192,False,94.27083333333333,1,True,P44882,48.61878453038674,M2,1IZM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9KEE9,False,279,False,95.3405017921147,2,True,P9WG01,35.714285714285715,M1,8JA7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9FMS7,False,196,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9KDD7,False,158,,,2,True,P80240,,,9A7T,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A7T.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q65942,False,169,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8GMY8,False,270,False,99.25925925925925,1,True,Q9I5U7,53.35820895522388,M2,9T9N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2IA65,False,155,,,37,True,Q14JC3,,,28NT,negative,False,False,False,404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q18GB1,False,158,False,97.46835443037975,1,True,Q401C5,81.81818181818181,M2,2ZUA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+F1NLH9,False,201,False,96.01990049751244,1,True,Q9BY32,77.72020725388602,M2,2CAR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q87J80,False,278,False,97.4820143884892,1,True,Q195N6,33.210332103321036,M1,5D0N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7NBY0,False,191,False,98.42931937172774,1,True,Q5NGZ6,98.40425531914893,M3,3NEA,negative,False,False,False,,False,98.42931937172774,1,True,Q5NGZ6,98.40425531914893,M3,3NEA,negative,False,False,False,,False,False,98.42931937172774,3NEA,98.40425531914893,M3,ok,negative
+A1URL6,False,299,False,94.31438127090301,1,True,Q0PA35,51.41843971631206,M2,3P2O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4WUS5,False,195,False,100.0,1,True,P34047,52.82051282051282,M2,2F1D,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8P589,False,232,False,96.55172413793103,1,True,P9WK83,38.839285714285715,M1,1W66,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6GZI2,False,250,False,99.2,1,True,Q8A0U2,54.435483870967744,M2,7RPN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2W9D1,False,283,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q73VJ7,False,227,False,100.0,1,True,P9WFQ9,88.10572687224669,M2,2ZHX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8MI61,False,297,False,96.63299663299664,1,True,P07128,41.11498257839721,M2,5WAT,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0CA93,False,196,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3QB39,False,268,False,89.55223880597015,1,True,O35000,48.333333333333336,M2,2BKV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5UJG3,False,264,False,96.96969696969697,1,True,Q7JIQ1,98.046875,M3,9DMY,negative,False,False,False,,False,96.96969696969697,1,True,Q7JIQ1,98.046875,M3,9DMY,negative,False,False,False,,False,False,96.96969696969697,9DMY,98.046875,M3,ok,negative
+B4TI40,False,257,False,95.3307392996109,1,True,A0A0H3LM39,36.734693877551024,M1,5TSA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6LYE5,False,214,False,96.72897196261682,3,True,O87880,42.028985507246375,M2,3A5C,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7LSP9,False,180,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9FUJ9,False,166,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8ZUT0,False,178,False,85.3932584269663,1,True,P67136,37.5,M1,7Y7O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P36573,False,279,False,99.2831541218638,1,True,F1KZZ8,71.84115523465704,M2,4HL0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A5GAC6,False,210,False,98.57142857142857,1,True,G9QLG5,52.17391304347826,M2,6JXN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4EBH0,False,150,False,100.0,18,True,A9ND50,52.666666666666664,M2,9TZ5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7JVV5,False,292,False,97.26027397260275,1,True,Q9I2U6,51.40845070422535,M2,4A5O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q24SK9,False,201,False,96.51741293532338,1,True,P38424,57.21649484536083,M2,1SUL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8CF98,False,277,False,55.95667870036101,1,True,Q9BWP8,56.774193548387096,M2,4YLI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P16103,False,156,False,57.05128205128205,1,True,P03355,82.02247191011236,M2,2M9U,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1AML8,False,161,False,95.03105590062111,1,True,Q2YXK3,39.21568627450981,M1,8BDV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8DD17,False,261,False,97.70114942528735,1,True,P32664,44.705882352941174,M2,1VK6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P76520,False,211,False,88.15165876777252,1,True,A0A2Y2P124,100.0,M3,6UXT,negative,False,False,False,,False,88.15165876777252,1,True,A0A2Y2P124,100.0,M3,6UXT,negative,False,False,False,,False,False,88.15165876777252,6UXT,100.0,M3,ok,negative
+B7N2X1,False,269,False,99.62825278810409,3,True,P05523,99.6268656716418,M3,1K82,negative,False,False,False,,False,99.62825278810409,3,True,P05523,99.6268656716418,M3,1K82,negative,False,False,False,,False,False,99.62825278810409,1K82,99.6268656716418,M3,ok,negative
+C1DKD3,False,297,False,96.63299663299664,1,True,P0A6Y5,42.857142857142854,M2,1I7F,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P23106,False,281,False,98.57651245551601,1,True,P96965,59.92779783393502,M2,2D0D,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9MDW3,False,259,False,96.52509652509653,1,True,,69.2,M2,4EVZ,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3B380,False,202,,,26,True,Q7MXK8,,,9I5T,negative,False,False,False,404 fetching https://files.rcsb.org/download/9I5T.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9QBY9,False,200,False,100.0,1,True,P03407,84.5,M2,7D7S,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8IMX7,False,241,False,88.79668049792531,1,True,O31675,56.54205607476636,M2,3BL5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9WJ69,False,244,False,90.57377049180327,1,True,P0A7Y0,40.27149321266968,M2,7R97,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B3A0Q4,False,185,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7N2J8,False,257,False,100.0,1,True,P32664,99.22178988326849,M3,1VK6,negative,False,False,False,,False,100.0,1,True,P32664,99.22178988326849,M3,1VK6,negative,False,False,False,,False,False,100.0,1VK6,99.22178988326849,M3,ok,negative
+Q8D3J4,False,287,False,99.65156794425087,3,True,P0ABA6,51.3986013986014,M2,5T4O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7SXX7,False,275,False,53.09090909090909,1,True,Q9H7P6,43.83561643835616,M2,3TOW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4TJK8,False,267,False,97.75280898876404,1,True,C3T5M2,79.3103448275862,M2,4GEK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q65189,False,233,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8QV69,False,224,False,97.32142857142857,1,True,C0JJ97,72.4770642201835,M2,8IZL,negative,False,False,False,,False,97.32142857142857,1,True,C0JJ97,72.4770642201835,M2,8IZL,negative,False,False,False,,False,False,97.32142857142857,8IZL,72.4770642201835,M2,ok,negative
+Q2YMH2,False,189,False,99.47089947089947,23,True,,56.91489361702128,M2,28YE,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7VMJ8,False,199,False,97.98994974874371,1,True,O66905,43.07692307692308,M2,5XJ5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P18735,False,168,False,100.0,3,True,Q07230,58.333333333333336,M2,2I13,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P46656,False,188,False,66.48936170212765,1,True,P10109,90.4,M2,3P1M,negative,False,False,False,,False,66.48936170212765,1,True,P10109,90.4,M2,3P1M,negative,False,False,False,,False,False,66.48936170212765,3P1M,90.4,M2,ok,negative
+Q5FVI9,False,211,False,81.99052132701422,1,True,Q9BV47,97.6878612716763,M3,5GTJ,negative,False,False,False,,False,81.99052132701422,1,True,Q9BV47,97.6878612716763,M3,5GTJ,negative,False,False,False,,False,False,81.99052132701422,5GTJ,97.6878612716763,M3,ok,negative
+B7HPK2,False,156,False,99.35897435897436,1,True,P67136,63.87096774193548,M2,7Y7O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O60125,False,195,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8EE77,False,212,False,87.26415094339623,6,True,C1DMA4,25.945945945945947,M1,8AHX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8FCH9,False,218,False,100.0,1,True,O31675,88.53211009174312,M2,3BL5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1UUB8,False,282,False,100.0,1,True,Q6G549,86.17021276595744,M2,6WQM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2FLW4,False,169,False,94.0828402366864,1,True,A0A0X1KGP2,63.522012578616355,M2,3X1J,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6TDU1,False,216,False,94.44444444444444,1,True,P16455,68.62745098039215,M2,1EH6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6AQV6,False,197,False,98.4771573604061,1,True,O66905,42.2680412371134,M2,5XJ5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P31408,True,511,True,100.0,2,True,P31408,100.0,M4,6XBW,positive,True,True,True,,True,100.0,2,True,P31408,100.0,M4,6XBW,positive,True,True,True,,False,,,,,M0,no_result,
+Q8IVW8,True,549,True,100.0,4,True,Q8IVW8,100.0,M4,7YUB,positive,True,True,True,,True,100.0,4,True,Q8IVW8,100.0,M4,7YUB,positive,True,True,True,,True,True,100.0,7YUB,100.0,M4,ok,positive
+B9KK24,True,428,True,100.0,1,True,B9KK24,100.0,M4,8VQH,positive,True,True,True,,True,100.0,1,True,B9KK24,100.0,M4,8VQH,positive,True,True,True,,True,True,100.0,8VQH,100.0,M4,ok,positive
+Q8TDS4,True,363,True,86.22589531680441,1,True,P0ABE7;Q8TDS4,23.322683706070286,M1,8H2G,positive,True,True,False,,True,86.22589531680441,1,True,P0ABE7;Q8TDS4,23.322683706070286,M1,8H2G,positive,True,True,False,,False,True,86.22589531680441,8H2G,23.322683706070286,M1,ok,positive
+P07250,True,355,True,100.0,1,True,P07250,100.0,M4,2IEW,positive,True,True,True,,True,100.0,1,True,P07250,100.0,M4,2IEW,positive,True,True,True,,True,True,100.0,2IEW,100.0,M4,ok,positive
+P47039,True,444,True,100.0,1,True,P47039,100.0,M4,3B46,positive,True,True,True,,True,100.0,1,True,P47039,100.0,M4,3B46,positive,True,True,True,,True,True,100.0,3B46,100.0,M4,ok,positive
+Q6XR72,True,485,True,100.0,1,True,Q6XR72,100.0,M4,9KVX,positive,True,True,True,,True,100.0,1,True,Q6XR72,100.0,M4,9KVX,positive,True,True,True,,True,True,100.0,9KVX,100.0,M4,ok,positive
+P0A9S1,True,382,True,100.0,1,True,P0A9S1,100.0,M4,1RRM,positive,True,True,True,,True,100.0,1,True,P0A9S1,100.0,M4,1RRM,positive,True,True,True,,True,True,100.0,1RRM,100.0,M4,ok,positive
+P33750,True,489,,,29,True,P33750,,,5WLC,positive,True,True,False,404 fetching https://files.rcsb.org/download/5WLC.pdb: not found,,,29,True,P33750,,,5WLC,positive,True,True,False,404 fetching https://files.rcsb.org/download/5WLC.pdb: not found,False,,,,,M0,no_result,
+Q5U467,True,468,,,1,True,Q5U467,,,9SFP,positive,True,True,False,404 fetching https://files.rcsb.org/download/9SFP.pdb: not found,,,1,True,Q5U467,,,9SFP,positive,True,True,False,404 fetching https://files.rcsb.org/download/9SFP.pdb: not found,False,,,,,M0,no_result,
+Q50LE5,True,552,True,100.0,1,True,Q50LE5,100.0,M4,6Z8D,positive,True,True,True,,True,100.0,1,True,Q50LE5,100.0,M4,6Z8D,positive,True,True,True,,True,True,100.0,6Z8D,100.0,M4,ok,positive
+B0TZW0,True,356,True,100.0,1,True,B0TZW0,99.71910112359551,M4,3R0K,positive,True,True,True,,True,100.0,1,True,B0TZW0,99.71910112359551,M4,3R0K,positive,True,True,True,,True,True,100.0,3R0K,99.71910112359551,M4,ok,positive
+P37580,True,315,True,92.6984126984127,1,True,P37580,100.0,M3,3HXP,positive,True,True,False,,True,92.6984126984127,1,True,P37580,100.0,M3,3HXP,positive,True,True,False,,False,True,92.6984126984127,3HXP,100.0,M3,ok,positive
+P9WJF5,True,375,False,100.0,2,True,P9WJF5,100.0,M3,8X5D,positive,True,True,False,,False,100.0,2,True,P9WJF5,100.0,M3,8X5D,positive,True,True,False,,True,True,100.0,8X5D,100.0,M4,ok,positive
+O30478,True,340,True,100.0,1,True,O30478,100.0,M4,5AG3,positive,True,True,True,,True,100.0,1,True,O30478,100.0,M4,5AG3,positive,True,True,True,,True,True,100.0,5AG3,100.0,M4,ok,positive
+P00563,True,381,True,100.0,1,True,P00563,99.4750656167979,M4,8CI4,positive,True,True,True,,True,100.0,1,True,P00563,99.4750656167979,M4,8CI4,positive,True,True,True,,True,True,100.0,8CI4,99.4750656167979,M4,ok,positive
+P76015,True,356,True,100.0,1,True,P76015,100.0,M4,1OI2,positive,True,True,True,,True,100.0,1,True,P76015,100.0,M4,1OI2,positive,True,True,True,,True,True,100.0,1OI2,100.0,M4,ok,positive
+P01871,True,474,True,100.0,1,True,P01871,100.0,M4,7XQ8,positive,True,True,True,,True,100.0,1,True,P01871,100.0,M4,7XQ8,positive,True,True,True,,True,True,100.0,7XQ8,100.0,M4,ok,positive
+P46237,True,429,True,95.8041958041958,1,True,P46237,99.7566909975669,M4,2OVW,positive,True,True,True,,True,95.8041958041958,1,True,P46237,99.7566909975669,M4,2OVW,positive,True,True,True,,True,True,95.8041958041958,2OVW,99.7566909975669,M4,ok,positive
+Q06696,True,566,True,100.0,3,True,Q06696,100.0,M4,1W7P,positive,True,True,True,,True,100.0,3,True,Q06696,100.0,M4,1W7P,positive,True,True,True,,True,True,100.0,1W7P,100.0,M4,ok,positive
+P04012,True,501,,,1,True,Q9W9C6,,,7EW5,negative,False,False,False,404 fetching https://files.rcsb.org/download/7EW5.pdb: not found,,,1,True,Q9W9C6,,,7EW5,negative,False,False,False,404 fetching https://files.rcsb.org/download/7EW5.pdb: not found,False,,,,,M0,no_result,
+Q6P5F7,True,524,True,100.0,1,True,Q6P5F7,99.80916030534351,M4,7RTW,positive,True,True,True,,True,100.0,1,True,Q6P5F7,99.80916030534351,M4,7RTW,positive,True,True,True,,True,True,100.0,7RTW,99.80916030534351,M4,ok,positive
+Q97W02,True,352,True,100.0,3,True,Q97W02,100.0,M4,1JX4,positive,True,True,True,,True,100.0,3,True,Q97W02,100.0,M4,1JX4,positive,True,True,True,,True,True,100.0,1JX4,100.0,M4,ok,positive
+W8JWW7,True,364,True,100.0,1,True,W8JWW7,99.72527472527473,M4,8A3N,positive,True,True,True,,True,100.0,1,True,W8JWW7,99.72527472527473,M4,8A3N,positive,True,True,True,,True,True,100.0,8A3N,99.72527472527473,M4,ok,positive
+Q9VB68,True,377,True,100.0,1,True,Q9VB68,100.0,M4,2XXL,positive,True,True,True,,True,100.0,1,True,Q9VB68,100.0,M4,2XXL,positive,True,True,True,,True,True,100.0,2XXL,100.0,M4,ok,positive
+Q06B74,True,397,True,94.96221662468514,1,True,Q06B74,98.93899204244032,M3,3NDA,positive,True,True,False,,True,94.96221662468514,1,True,Q06B74,98.93899204244032,M3,3NDA,positive,True,True,False,,False,True,94.96221662468514,3NDA,98.93899204244032,M3,ok,positive
+P97084,True,364,True,100.0,1,True,P97084,99.45054945054945,M4,1LC5,positive,True,True,True,,True,100.0,1,True,P97084,99.45054945054945,M4,1LC5,positive,True,True,True,,True,True,100.0,1LC5,99.45054945054945,M4,ok,positive
+P29208,True,320,True,100.0,1,True,P29208,100.0,M4,1FHU,positive,True,True,True,,True,100.0,1,True,P29208,100.0,M4,1FHU,positive,True,True,True,,True,True,100.0,1FHU,100.0,M4,ok,positive
+Q9NVX7,True,534,,,1,True,Q9NVX7,,,8VOJ,positive,True,True,False,404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found,,,1,True,Q9NVX7,,,8VOJ,positive,True,True,False,404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found,False,,,,,M0,no_result,
+Q8CHT0,True,562,True,100.0,1,True,Q8CHT0,96.44128113879003,M3,3V9J,positive,True,True,False,,True,100.0,1,True,Q8CHT0,96.44128113879003,M3,3V9J,positive,True,True,False,,False,True,100.0,3V9J,96.44128113879003,M3,ok,positive
+P9WPL7,True,400,True,100.0,1,True,P9WPL7,100.0,M4,8C9I,positive,True,True,True,,True,100.0,1,True,P9WPL7,100.0,M4,8C9I,positive,True,True,True,,True,True,100.0,8C9I,100.0,M4,ok,positive
+P0A1J1,True,403,False,100.0,1,True,P0A1J1,100.0,M3,6JZT,positive,True,True,False,,False,100.0,1,True,P0A1J1,100.0,M3,6JZT,positive,True,True,False,,True,True,100.0,6JZT,100.0,M4,ok,positive
+B4RP13,True,431,True,100.0,1,True,B4RP13,100.0,M4,6OTJ,positive,True,True,True,,True,100.0,1,True,B4RP13,100.0,M4,6OTJ,positive,True,True,True,,True,True,100.0,6OTJ,100.0,M4,ok,positive
+P08921,True,344,True,51.16279069767442,1,True,P08921,100.0,M2,1HNG,positive,True,True,False,,True,51.16279069767442,1,True,P08921,100.0,M2,1HNG,positive,True,True,False,,False,True,51.16279069767442,1HNG,100.0,M2,ok,positive
+Q9P104,True,306,True,33.66013071895425,1,True,Q9P104,100.0,M1,1J0W,positive,True,True,False,,True,33.66013071895425,1,True,Q9P104,100.0,M1,1J0W,positive,True,True,False,,False,True,33.66013071895425,1J0W,100.0,M1,ok,positive
+P26038,True,577,False,99.65337954939342,1,True,P15311,75.65217391304348,M2,4RM8,negative,False,False,False,,True,59.96533795493934,1,True,P26038,100.0,M2,1E5W,positive,True,True,False,,False,True,59.96533795493934,1E5W,100.0,M2,ok,positive
+P28700,True,467,False,98.92933618843684,1,True,P19793,96.32034632034632,M3,3DZU,negative,False,False,False,,False,98.92933618843684,1,True,P19793,96.32034632034632,M3,3DZU,negative,False,False,False,,False,False,98.92933618843684,3DZU,96.32034632034632,M3,ok,negative
+Q8NFU5,True,416,True,66.82692307692308,1,True,Q8NFU5,96.0431654676259,M2,6E7F,positive,True,True,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q58462,True,484,True,33.88429752066116,1,True,Q58462,100.0,M1,3EO4,positive,True,True,False,,True,33.88429752066116,1,True,Q58462,100.0,M1,3EO4,positive,True,True,False,,False,True,33.88429752066116,3EO4,100.0,M1,ok,positive
+P23093,True,340,False,94.41176470588235,3,True,P06915,94.39252336448598,M2,6X87,negative,False,False,False,,False,94.41176470588235,3,True,P06915,94.39252336448598,M2,6X87,negative,False,False,False,,False,False,94.41176470588235,6X87,94.39252336448598,M2,ok,negative
+P13473,True,410,False,97.5609756097561,2,True,P11279,39.25,M1,8FY5,negative,False,False,False,,True,10.24390243902439,1,True,P13473,100.0,M1,2MOF,positive,True,True,False,,False,True,10.24390243902439,2MOF,100.0,M1,ok,positive
+P70581,True,585,False,100.0,5,True,Q9BVL2,91.7948717948718,M2,5IJN,negative,False,False,False,,,,15,True,Q9BVL2,,,9A8T,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A8T.pdb: not found,False,True,15.897435897435898,2OSZ,98.9247311827957,M1,ok,positive
+Q96318,False,524,False,88.54961832061069,1,True,Q7XB53,63.793103448275865,M2,3KGL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8H1S0,False,317,False,90.85173501577287,1,True,Q9QXN5,47.22222222222222,M2,2HUO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6PD21,False,503,False,23.658051689860834,1,True,P42684,61.34453781512605,M1,2ECD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q96DC7,False,493,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O75387,False,559,False,97.13774597495528,1,True,Q8N370,63.16758747697974,M2,9JBS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8N2F6,False,343,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9DEX1,False,560,False,24.642857142857142,1,True,Q86VP1,61.594202898550726,M1,4NLH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8RWT8,False,514,False,87.93774319066148,1,True,Q9NP81,44.02654867256637,M2,7TZB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9HCS2,False,524,False,92.74809160305344,1,True,P15128,47.11934156378601,M2,6C93,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9H841,False,383,False,89.81723237597912,1,True,Q8N8Q9,32.26744186046512,M1,9Z6N,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9Y6M4,True,447,True,73.8255033557047,1,True,Q9Y6M4,100.0,M2,4G16,positive,True,True,False,,True,73.8255033557047,1,True,Q9Y6M4,100.0,M2,4G16,positive,True,True,False,,False,True,73.8255033557047,4G16,100.0,M2,ok,positive
+P02680,False,445,False,91.91011235955057,3,True,P02679,34.71882640586797,M1,3GHG,negative,False,False,False,,False,64.9438202247191,3,True,P02679,45.674740484429066,M2,3BVH,negative,False,False,False,,False,False,64.9438202247191,3BVH,45.674740484429066,M2,ok,negative
+O73564,False,575,False,51.47826086956522,1,True,Q9EB08,81.41891891891892,M2,6M78,negative,False,False,False,,False,9.91304347826087,1,True,Q9EB08,98.24561403508773,M1,6LXF,negative,False,False,False,,False,False,9.91304347826087,6LXF,98.24561403508773,M1,ok,negative
+Q9IGY7,False,355,False,38.59154929577465,1,True,Q67622,52.55474452554745,M1,6Q1M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q93YP7,False,407,False,72.97297297297297,1,True,Q9YBM8,34.343434343434346,M1,4OD4,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q94BV7,False,582,False,82.98969072164948,1,True,P32340,44.72049689440994,M2,4G6G,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9Y4P8,True,454,False,77.97356828193833,1,True,Q9Y4P8,99.43502824858757,M2,7F69,positive,True,True,False,,False,77.97356828193833,1,True,Q9Y4P8,99.43502824858757,M2,7F69,positive,True,True,False,,False,True,77.97356828193833,7F69,99.43502824858757,M2,ok,positive
+P60762,False,362,False,100.0,4,True,Q9UBU8,99.72375690607734,M3,8BPA,negative,False,False,False,,False,100.0,4,True,Q9UBU8,99.72375690607734,M3,8BPA,negative,False,False,False,,False,False,100.0,8BPA,99.72375690607734,M3,ok,negative
+P03092,False,372,,,3,True,A0A247D727,,,7K22,negative,False,False,False,404 fetching https://files.rcsb.org/download/7K22.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q53FZ2,False,586,False,96.24573378839591,1,True,Q08AH3,56.737588652482266,M2,2VZE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O43281,False,561,False,58.8235294117647,2,True,P56945,37.878787878787875,M1,3T6G,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9R0L1,False,492,False,21.341463414634145,1,True,Q9ULV5,100.0,M1,6J6V,negative,False,False,False,,False,21.341463414634145,1,True,Q9ULV5,100.0,M1,6J6V,negative,False,False,False,,False,False,21.341463414634145,6J6V,100.0,M1,ok,negative
+P19224,False,532,False,35.338345864661655,1,True,O75795,64.8936170212766,M1,7YAN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5F3B1,False,591,False,18.104906937394247,1,True,Q06455,98.13084112149532,M1,2PP4,negative,False,False,False,,False,18.104906937394247,1,True,Q06455,98.13084112149532,M1,2PP4,negative,False,False,False,,False,False,18.104906937394247,2PP4,98.13084112149532,M1,ok,negative
+Q9IBG0,False,387,False,82.17054263565892,3,True,P14635,24.842767295597483,M1,7NJ0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q84KJ3,False,584,False,64.8972602739726,2,True,Q2YDS1,37.99472295514512,M1,3EI1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8VD26,False,458,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P98182,False,395,False,47.59493670886076,3,True,Q07230,55.319148936170215,M2,2I13,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9LR97,False,373,False,64.07506702412869,1,True,A0A193DU83,42.25941422594142,M2,6L77,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9VNM1,False,485,False,80.0,4,True,P49146,38.91752577319588,M1,7X9B,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P50127,False,371,False,83.55795148247978,1,True,P14769,86.12903225806451,M2,1FG5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q64UR4,False,355,False,99.43661971830986,1,True,Q60I38,59.773371104815865,M2,5YB0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9XDN0,False,370,False,94.05405405405405,1,True,A0AAN0YM82,40.51724137931034,M2,3ZDR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8E4S2,False,468,False,100.0,1,True,P11546,94.44444444444444,M2,1PBG,negative,False,False,False,,False,100.0,1,True,P11546,94.44444444444444,M2,1PBG,negative,False,False,False,,False,False,100.0,1PBG,94.44444444444444,M2,ok,negative
+Q7VVF1,False,335,False,97.01492537313433,1,True,P12996,62.15384615384615,M2,1R30,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5HJZ9,False,451,False,97.11751662971176,1,True,P05648,64.15525114155251,M2,8BTG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q75BG6,False,305,False,37.049180327868854,1,True,Q56237,57.52212389380531,M1,4J7Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P41339,False,376,False,100.0,2,True,P10987,97.34042553191489,M3,4JHD,negative,False,False,False,,False,100.0,2,True,P10987,97.34042553191489,M3,4JHD,negative,False,False,False,,False,False,100.0,4JHD,97.34042553191489,M3,ok,negative
+P26150,False,373,False,64.6112600536193,1,True,Q15738,39.83402489626556,M1,6JKG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6FQH3,False,455,False,17.36263736263736,1,True,Q96EY1,77.21518987341773,M1,2DN9,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C1C9K9,False,418,False,98.80382775119617,1,True,Q8DRX2,72.39709443099274,M2,6MR3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4RPQ3,False,464,False,98.70689655172414,1,True,Q2SX36,53.930131004366814,M2,4G6Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q20YV7,False,398,False,94.72361809045226,1,True,P0A817,57.55968169761273,M2,1FUG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7VKY7,False,316,False,95.25316455696202,1,True,Q72LF3,23.920265780730897,M1,5B4E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P26284,False,390,False,97.94871794871794,1,True,P08559,94.24083769633508,M2,3EXE,negative,False,False,False,,False,97.94871794871794,1,True,P08559,94.24083769633508,M2,3EXE,negative,False,False,False,,False,False,97.94871794871794,3EXE,94.24083769633508,M2,ok,negative
+A5W794,False,363,False,100.0,1,True,B7UV40,91.46005509641873,M2,5Z9A,negative,False,False,False,,False,100.0,1,True,B7UV40,91.46005509641873,M2,5Z9A,negative,False,False,False,,False,False,100.0,5Z9A,91.46005509641873,M2,ok,negative
+Q49YY5,False,540,False,100.0,1,True,A0A132Z3A5,71.48148148148148,M2,9C0D,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6SVE7,False,334,False,99.40119760479043,1,True,B2FU10,65.96385542168674,M2,7K74,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6AXR4,False,537,False,94.41340782122904,1,True,P07686,76.33136094674556,M2,1NOU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q01Q15,False,357,False,97.75910364145658,1,True,Q9KNV2,38.96848137535817,M1,3OKF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8DVM9,False,416,False,99.75961538461539,1,True,Q9WYC9,47.71084337349398,M2,1O20,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7YJY4,False,507,False,100.0,1,True,P06450,92.70216962524655,M2,1FX0,negative,False,False,False,,False,100.0,1,True,P06450,92.70216962524655,M2,1FX0,negative,False,False,False,,False,False,100.0,1FX0,92.70216962524655,M2,ok,negative
+Q3B399,False,427,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C9E1R7,False,486,False,62.55144032921811,1,True,Q9DGB9,55.5921052631579,M2,2ERO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6NHL3,False,330,False,97.57575757575758,1,True,A5ZUL4,46.8944099378882,M2,8VCW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1C8V8,False,393,False,99.74554707379134,1,True,P33221,78.31632653061224,M2,1EYZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9UZC9,False,415,False,83.855421686747,1,True,Q8U1N9,67.24137931034483,M2,3DSC,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0PNR5,False,425,False,88.23529411764706,1,True,Q9KQL9,38.4,M1,7LWZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9I666,False,376,False,96.27659574468085,1,True,O43766,53.86740331491713,M2,8TSK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q06826,False,408,False,28.431372549019606,1,True,P12643,93.10344827586206,M1,1ES7,negative,False,False,False,,False,26.470588235294116,1,True,P12643,93.51851851851852,M1,6OMN,negative,False,False,False,,False,False,26.470588235294116,6OMN,93.51851851851852,M1,ok,negative
+Q6A9H8,False,505,False,81.58415841584159,1,True,Q5SHE9,52.18446601941748,M2,1UDX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9FLB0,False,593,,,25,True,G0RYG4,,,8I9Z,negative,False,False,False,404 fetching https://files.rcsb.org/download/8I9Z.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1IE45,False,391,False,99.74424552429667,1,True,Q88XB8,65.12820512820512,M2,7R3B,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6AW21,False,312,False,100.0,1,True,P61889,78.84615384615384,M2,2PWZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8A6K7,False,330,False,100.0,1,True,P00963,99.39393939393939,M3,11AS,negative,False,False,False,,False,100.0,1,True,P00963,99.39393939393939,M3,11AS,negative,False,False,False,,False,False,100.0,11AS,99.39393939393939,M3,ok,negative
+Q6GK92,False,518,False,56.17760617760618,2,True,Q2G1E0,39.175257731958766,M1,6LKH,negative,False,False,False,,False,56.17760617760618,2,True,Q2G1E0,39.175257731958766,M1,6LKH,negative,False,False,False,,False,False,56.17760617760618,6LKH,39.175257731958766,M1,ok,negative
+P0A6K9,False,407,False,92.87469287469287,1,True,Q818Z9,52.38095238095238,M2,3M8W,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q09623,False,499,False,24.448897795591183,1,True,P36406,64.75409836065573,M1,5VZV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q95GQ8,False,504,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4E5X0,False,370,False,98.64864864864865,10,True,P42641,55.342465753424655,M2,4CSU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0QKY2,False,303,False,97.6897689768977,1,True,P9WFI5,53.71621621621622,M2,6ID6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A1X9IRP7,False,419,False,96.4200477326969,1,True,A0A0H4SRM2,42.82178217821782,M2,9B99,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9QUS4,False,339,False,18.87905604719764,1,True,Q9Y5J3,84.375,M1,2DB7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O42855,False,303,,,1,True,A7UWX2,,,6YW5,negative,False,False,False,404 fetching https://files.rcsb.org/download/6YW5.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2RJR5,False,346,False,98.84393063583815,1,True,O32054,63.1578947368421,M2,1YY3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5YE43,False,326,False,98.15950920245399,1,True,Q9KAC3,41.5625,M2,2QGN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1CPG7,False,365,False,95.89041095890411,1,True,Q16539,52.57142857142857,M2,5O8V,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6ELV7,False,379,,,3,True,P24959,,,6Q9E,negative,False,False,False,404 fetching https://files.rcsb.org/download/6Q9E.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q21P75,False,485,False,89.89690721649484,2,True,Q8DNZ8,25.229357798165136,M1,6FQB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5XD20,False,448,False,97.32142857142857,1,True,P54263,50.91743119266055,M2,5ZG8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q18212,False,425,False,99.29411764705883,4,True,Q13838,77.01421800947867,M2,28XA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O48706,False,389,False,97.68637532133675,1,True,Q9S7T8,58.94736842105263,M2,3LE2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9KWW8,False,448,False,99.33035714285714,1,True,P04994,49.8876404494382,M2,8TXR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8JTH0,False,526,False,95.62737642585552,1,True,P08667,78.33001988071571,M2,8A1E,negative,False,False,False,,False,23.954372623574145,5,True,Q9QSP1,62.698412698412696,M1,38PM,negative,False,False,False,,False,False,23.954372623574145,38PM,62.698412698412696,M1,ok,negative
+Q9LNE4,False,345,False,91.8840579710145,1,True,A0A0H3AER7,37.85488958990536,M1,5EY7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q10412,False,403,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C4Q0P6,False,417,False,96.1630695443645,2,True,P43034,66.33416458852868,M2,8PQW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0TKW1,False,556,False,100.0,1,True,M4XND3,77.33812949640287,M2,9LQ0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O50311,False,469,False,96.58848614072495,1,True,A0QQW8,44.5916114790287,M2,9M8D,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9M5W0,False,368,False,74.72826086956522,1,True,O29535,40.36363636363637,M2,1SR8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1LBC1,False,503,False,100.0,1,True,Q9X1U7,99.80119284294234,M3,2R9V,negative,False,False,False,,False,100.0,1,True,Q9X1U7,99.80119284294234,M3,2R9V,negative,False,False,False,,False,False,100.0,2R9V,99.80119284294234,M3,ok,negative
+Q6GLB5,False,326,False,54.29447852760736,1,True,Q15717,94.35028248587571,M2,4ED5,negative,False,False,False,,False,54.29447852760736,1,True,Q15717,94.35028248587571,M2,4ED5,negative,False,False,False,,False,False,54.29447852760736,4ED5,94.35028248587571,M2,ok,negative
+A4WAF3,False,308,False,99.67532467532467,1,True,Q5KY26,41.693811074918564,M2,2PBY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6TNA5,False,595,False,96.47058823529412,1,True,A0AAN0YL29,33.97212543554007,M1,5U89,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1JL13,False,309,False,100.0,1,True,Q1CMW6,100.0,M3,4RPF,negative,False,False,False,,False,100.0,1,True,Q1CMW6,100.0,M3,4RPF,negative,False,False,False,,False,False,100.0,4RPF,100.0,M3,ok,negative
+A7HXW0,False,321,False,97.19626168224299,1,True,O43766,46.47435897435897,M2,8TSK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3BUJ8,False,350,False,95.14285714285714,1,True,Q9HZM7,51.951951951951955,M2,4JAY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5ZSA4,False,394,,,4,True,Q9HW00,,,25HR,negative,False,False,False,404 fetching https://files.rcsb.org/download/25HR.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1RFT1,False,414,False,98.55072463768116,1,True,Q8DF91,43.38235294117647,M2,3MVE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+H8ZPX1,False,497,False,93.96378269617706,1,True,F8G0P1,80.51391862955032,M2,7E7H,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P69826,False,462,,,1,True,P00550,,,9A2W,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A2W.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7M8W6,False,483,False,99.37888198757764,1,True,O25294,58.958333333333336,M2,4ZI6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P57830,False,420,False,99.28571428571429,1,True,P0A825,78.41726618705036,M2,1DFO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q47ZC3,False,373,False,97.05093833780161,1,True,B7UV40,69.88950276243094,M2,5Z9A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2JKL9,False,344,False,97.09302325581395,1,True,P0A7E1,57.78443113772455,M2,1F76,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4WC70,False,353,False,100.0,1,True,P06986,87.25212464589235,M2,1FG3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8F668,False,302,False,98.34437086092716,1,True,P33025,60.60606060606061,M2,4GIJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6CXI9,False,594,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6DIX1,False,405,False,91.85185185185185,1,True,Q9UGV2,62.903225806451616,M2,6L4B,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P08005,False,306,False,100.0,1,True,P0AFH2,96.07843137254902,M3,8Z21,negative,False,False,False,,False,100.0,1,True,P0AFH2,96.07843137254902,M3,8Z21,negative,False,False,False,,False,False,100.0,8Z21,96.07843137254902,M3,ok,negative
+Q3ILJ2,False,341,False,97.0674486803519,1,True,P39406,38.066465256797585,M1,2PJD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8NGJ2,False,314,False,99.68152866242038,5,True,,60.063897763578275,M2,8HTI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3ZZI5,False,420,False,95.23809523809524,1,True,B5HND8,34.25,M1,7M0O,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1VUJ4,False,345,False,98.55072463768116,1,True,P12996,60.88235294117647,M2,1R30,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1VB75,False,461,False,99.56616052060737,1,True,Q21A49,48.148148148148145,M2,5JFL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O06457,False,365,False,96.16438356164383,1,True,O66608,54.41595441595442,M2,2Z04,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6UTF8,False,338,,,43,True,Q8TZJ8,,,4V6U,negative,False,False,False,404 fetching https://files.rcsb.org/download/4V6U.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6GPU1,False,397,False,88.91687657430731,1,True,Q8WYN0,74.78753541076487,M2,2P82,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P50788,False,510,,,1,True,A0A2D3I4N0,,,7RYJ,negative,False,False,False,404 fetching https://files.rcsb.org/download/7RYJ.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P11344,False,533,False,82.5515947467167,1,True,P17643,46.13636363636363,M2,5M8Q,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q32RJ3,False,319,False,99.68652037617555,3,True,P16013,71.69811320754717,M2,7QRM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9F488,False,345,False,98.84057971014492,14,True,Q8YQ35,82.69794721407625,M2,7Y3F,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7UQD9,False,486,False,80.04115226337449,1,True,S4YJ13,27.506426735218508,M1,7E0M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O27083,False,302,False,81.45695364238411,1,True,O68098,36.99186991869919,M1,4X7G,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0BQN7,False,336,False,94.04761904761905,1,True,P77173,29.11392405063291,M1,9IUE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q24618,False,495,False,70.5050505050505,1,True,P28750,74.21203438395415,M2,5L80,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6EVZ4,False,393,,,18,True,Q9M3I5,,,9GRX,negative,False,False,False,404 fetching https://files.rcsb.org/download/9GRX.pdb: not found,,,18,True,Q9M3I5,,,9GRX,negative,False,False,False,404 fetching https://files.rcsb.org/download/9GRX.pdb: not found,False,,,,,M0,no_result,
+Q3JEB6,False,595,False,98.65546218487395,4,True,Q51422,64.05451448040886,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B8EAU2,False,484,False,81.61157024793388,1,True,Q81KU0,36.20253164556962,M1,2C5S,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P94441,False,396,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1JIM8,False,442,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7ZS06,False,443,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4ITJ9,False,412,False,99.51456310679612,1,True,Q7SIB6,92.92682926829268,M2,1KKJ,negative,False,False,False,,False,99.51456310679612,1,True,Q7SIB6,92.92682926829268,M2,1KKJ,negative,False,False,False,,False,False,99.51456310679612,1KKJ,92.92682926829268,M2,ok,negative
+Q3IQR5,False,422,False,99.28909952606635,1,True,Q8G2R2,47.7326968973747,M2,4G07,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P75485,False,309,,,1,True,B4RJW3,,,11WX,negative,False,False,False,404 fetching https://files.rcsb.org/download/11WX.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B9DM98,False,451,False,100.0,1,True,A0A0D6H967,87.58314855875831,M2,6GYZ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q54B59,False,369,False,89.97289972899729,1,True,A0A172J1V3,30.120481927710845,M1,6C5B,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C4KIV9,False,392,False,100.0,3,True,B8YB54,99.74489795918367,M3,2Y0S,negative,False,False,False,,False,100.0,3,True,B8YB54,99.74489795918367,M3,2Y0S,negative,False,False,False,,False,,,,,M0,no_result,
+Q6JIY5,False,306,False,23.529411764705884,1,True,P31271,90.27777777777777,M1,2L7Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B0U4R4,False,339,False,90.85545722713864,1,True,O67572,32.142857142857146,M1,4EHW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6YRL3,False,507,False,87.77120315581854,1,True,P05648,39.550561797752806,M1,8BTG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2YD61,False,476,False,93.0672268907563,1,True,P05648,46.50112866817156,M2,8BTG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9C6S4,False,482,False,90.66390041493776,1,True,P60063,26.773455377574372,M1,3LRB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5M7Q1,False,579,False,99.48186528497409,8,True,Q8NFG4,82.98611111111111,M2,6NZD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P39899,False,538,False,96.84014869888476,1,True,P00800,48.17658349328215,M2,5A3Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6C0L2,False,471,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2KAU6,False,341,False,99.41348973607037,1,True,P0CD76,36.57817109144543,M1,2IU8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0T846,False,505,False,100.0,1,True,P15723,99.8019801980198,M3,4X9E,negative,False,False,False,,False,100.0,1,True,P15723,99.8019801980198,M3,4X9E,negative,False,False,False,,False,False,100.0,4X9E,99.8019801980198,M3,ok,negative
+Q5M5T1,False,310,False,99.6774193548387,1,True,O68579,82.52427184466019,M2,1I74,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P74733,False,308,False,98.05194805194805,1,True,P13982,57.615894039735096,M2,8CRV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6G5Z1,False,570,False,50.87719298245614,2,True,Q03PY5,43.44827586206897,M2,4HUQ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0AYR3,False,489,,,16,True,A0A1S4D4H1,,,8W9Z,negative,False,False,False,404 fetching https://files.rcsb.org/download/8W9Z.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2SU89,False,317,False,99.6845425867508,1,True,O29482,56.32911392405063,M2,2CYB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q12167,False,365,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5WWA3,False,593,False,98.65092748735245,4,True,Q51422,59.65811965811966,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O34421,False,380,False,99.47368421052632,3,True,A0AC59FXD0,52.91005291005291,M2,5OL2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5FW56,False,369,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A023VXA2,False,349,False,97.99426934097421,1,True,,49.707602339181285,M2,9P41,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9K6H3,False,502,,,1,True,P37808,,,9A4E,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A4E.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q39KC4,False,359,False,98.8857938718663,1,True,U3KRF2,57.183098591549296,M2,3ZOK,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0AF22,False,406,False,99.75369458128078,1,True,Q9KQJ1,43.20987654320987,M2,1Z05,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B7M7C2,False,561,False,94.4741532976827,1,True,Q8L3K8,32.45283018867924,M1,8XW5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C3LQR1,False,438,False,93.15068493150685,1,True,Q5L3G9,39.46078431372549,M1,5IVL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C5BM95,False,363,False,99.17355371900827,1,True,P27248,60.833333333333336,M2,3A8I,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A172J1R7,False,541,False,99.81515711645102,1,True,A0A1L1QK39,62.03703703703704,M2,5M0Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2L938,False,329,,,12,True,Q9XQN8,,,8QMA,negative,False,False,False,404 fetching https://files.rcsb.org/download/8QMA.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O66621,False,304,False,100.0,1,True,P06983,53.28947368421053,M2,1AH5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O48049,False,370,False,99.45945945945945,3,True,P18946,60.32608695652174,M2,1BCC,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7W1P2,False,377,False,97.34748010610079,10,True,P42641,53.40599455040872,M2,4CSU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C8V3Y7,False,314,False,86.62420382165605,1,True,Q741V7,35.661764705882355,M1,3RD5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5FND3,False,495,False,97.17171717171718,1,True,Q9HVT8,56.34095634095634,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0TNN6,False,389,False,99.74293059125964,1,True,Q5E6G3,51.54639175257732,M2,5XI0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5F6X5,False,405,False,99.75308641975309,6,True,A5F5Y4,81.18811881188118,M2,7XK3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q85FU3,False,316,False,98.73417721518987,1,True,P73297,50.64102564102564,M2,8GZG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0RJN9,False,404,False,100.0,1,True,Q81KU0,99.75247524752476,M3,2C5S,negative,False,False,False,,False,100.0,1,True,Q81KU0,99.75247524752476,M3,2C5S,negative,False,False,False,,False,False,100.0,2C5S,99.75247524752476,M3,ok,negative
+P94868,False,437,False,99.31350114416476,1,True,A0A809N9N3,46.774193548387096,M2,4K7C,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4G8L8,False,319,False,90.59561128526646,1,True,P05654,46.02076124567474,M2,2AT2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q54VW1,False,563,False,80.46181172291297,1,True,P09620,41.94260485651214,M2,1AC5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q64T74,False,593,,,1,True,P37949,,,9A76,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q81A16,False,343,False,99.12536443148689,1,True,P0A452,69.41176470588235,M2,8AMD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q88P77,False,317,False,95.58359621451105,1,True,Q86W50,35.64356435643565,M1,6DU4,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A3NZL5,False,367,False,97.27520435967303,1,True,P17443,55.182072829131656,M2,1F0K,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+E1BNQ4,False,329,False,93.61702127659575,1,True,J9VIT7,47.72727272727273,M2,6EFW,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1S4U5,False,455,False,97.14285714285714,1,True,B2UQL7,52.94117647058823,M2,6T2B,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C6BEJ1,False,319,False,97.80564263322884,1,True,P60390,56.41025641025641,M2,3TKA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q04697,False,403,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5FH31,False,337,False,98.21958456973294,1,True,Q6N2U4,44.71299093655589,M2,5YGQ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8FQV1,False,570,False,97.19298245614036,1,True,Q2RM91,48.73646209386282,M2,4IOJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P50124,False,301,False,100.0,1,True,P27616,70.09966777408638,M2,1A48,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2L1U0,False,530,False,97.9245283018868,1,True,B4RJH7,73.02504816955684,M2,5TW7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P18728,False,516,False,36.82170542635659,3,True,Q07230,64.21052631578948,M1,2I13,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4GBY0,False,470,False,99.7872340425532,1,True,Q9IGQ6,88.4861407249467,M2,6LXI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8FJR2,False,331,False,100.0,1,True,P52697,99.09365558912387,M3,1RI6,negative,False,False,False,,False,100.0,1,True,P52697,99.09365558912387,M3,1RI6,negative,False,False,False,,False,False,100.0,1RI6,99.09365558912387,M3,ok,negative
+B3DRN4,False,521,False,96.54510556621881,1,True,P9WQN5,51.29224652087475,M2,7LJF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q764S0,False,337,False,98.21958456973294,1,True,P9WMK5,56.19335347432024,M2,4JN6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2KYC8,False,432,False,98.8425925925926,1,True,Q88E47,64.40281030444964,M2,3ZDS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7N8X6,False,388,False,99.74226804123711,1,True,Q8ZRZ3,60.98191214470284,M2,7A0W,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q4A604,False,464,False,99.35344827586206,2,True,Q71CG3,68.76355748373102,M2,2QE7,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A6U473,False,349,False,98.567335243553,1,True,P50740,42.44186046511628,M2,1P0K,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O66119,False,440,,,1,True,P11180,,,7UOM,negative,False,False,False,404 fetching https://files.rcsb.org/download/7UOM.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q4J711,False,356,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5R8F5,False,530,False,100.0,1,True,Q80ZG1,87.35849056603773,M2,6VU8,negative,False,False,False,,False,33.39622641509434,2,True,Q80ZG1,58.75706214689266,M1,8AHY,negative,False,False,False,,False,False,33.39622641509434,8AHY,58.75706214689266,M1,ok,negative
+D2NRH2,False,354,False,87.57062146892656,1,True,P9WJM7,39.354838709677416,M1,1OZP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O17503,False,375,False,100.0,1,True,P60710,95.46666666666667,M3,12RV,negative,False,False,False,,False,100.0,1,True,P60710,95.46666666666667,M3,12RV,negative,False,False,False,,False,False,100.0,12RV,95.46666666666667,M3,ok,negative
+P74227,False,399,False,99.74937343358395,1,True,P33171,87.1859296482412,M2,8YLY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9VKE1,False,401,False,99.25187032418953,1,True,G7CBN9,51.75879396984924,M2,4U7J,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0P3K5,False,504,False,100.0,1,True,P06450,77.57936507936508,M2,1FX0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0LQR9,False,371,,,2,True,P05651,,,9A5Q,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A5Q.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P20676,True,1076,True,100.0,2,True,P20676,100.0,M4,5OWU,positive,True,True,True,,True,100.0,2,True,P20676,100.0,M4,5OWU,positive,True,True,True,,True,True,100.0,5OWU,100.0,M4,ok,positive
+P58576,True,752,,,1,True,P58576,,,6JEO,positive,True,True,False,404 fetching https://files.rcsb.org/download/6JEO.pdb: not found,,,1,True,P58576,,,6JEO,positive,True,True,False,404 fetching https://files.rcsb.org/download/6JEO.pdb: not found,False,,,,,M0,no_result,
+P28340,True,1107,True,100.0,1,True,P28340,100.0,M4,6S1M,positive,True,True,True,,True,100.0,1,True,P28340,100.0,M4,6S1M,positive,True,True,True,,True,True,100.0,6S1M,100.0,M4,ok,positive
+P11388,True,1531,True,100.0,1,True,P11388,100.0,M4,6ZY5,positive,True,True,True,,True,100.0,1,True,P11388,100.0,M4,6ZY5,positive,True,True,True,,True,True,100.0,6ZY5,100.0,M4,ok,positive
+P37637,True,1037,True,100.0,1,True,P37637,100.0,M4,9LYJ,positive,True,True,True,,True,100.0,1,True,P37637,100.0,M4,9LYJ,positive,True,True,True,,True,True,100.0,9LYJ,100.0,M4,ok,positive
+P81156,True,605,True,97.02479338842976,1,True,P81156,100.0,M4,1GPE,positive,True,True,True,,True,97.02479338842976,1,True,P81156,100.0,M4,1GPE,positive,True,True,True,,True,True,97.02479338842976,1GPE,100.0,M4,ok,positive
+P21189,True,783,True,100.0,1,True,P21189,99.87228607918263,M4,1Q8I,positive,True,True,True,,True,100.0,1,True,P21189,99.87228607918263,M4,1Q8I,positive,True,True,True,,True,True,100.0,1Q8I,99.87228607918263,M4,ok,positive
+P16784,True,983,,,2,True,P16784,,,8TEP,positive,True,True,False,404 fetching https://files.rcsb.org/download/8TEP.pdb: not found,,,2,True,P16784,,,8TEP,positive,True,True,False,404 fetching https://files.rcsb.org/download/8TEP.pdb: not found,False,,,,,M0,no_result,
+Q8NFZ0,True,1043,True,93.19271332694152,3,True,Q8NFZ0,100.0,M3,9XZJ,positive,True,True,False,,True,93.19271332694152,3,True,Q8NFZ0,100.0,M3,9XZJ,positive,True,True,False,,False,True,93.19271332694152,9XZJ,100.0,M3,ok,positive
+Q9NRZ9,True,838,True,100.0,1,True,Q9NRZ9,100.0,M4,9Z04,positive,True,True,True,,True,100.0,1,True,Q9NRZ9,100.0,M4,9Z04,positive,True,True,True,,False,,,,,M0,no_result,
+O15360,True,1455,,,1,True,O15360,,,7KZP,positive,True,True,False,404 fetching https://files.rcsb.org/download/7KZP.pdb: not found,,,1,True,O15360,,,7KZP,positive,True,True,False,404 fetching https://files.rcsb.org/download/7KZP.pdb: not found,False,,,,,M0,no_result,
+Q96MR6,True,1250,,,80,True,Q96MR6,,,8J07,positive,True,True,False,404 fetching https://files.rcsb.org/download/8J07.pdb: not found,,,80,True,Q96MR6,,,8J07,positive,True,True,False,404 fetching https://files.rcsb.org/download/8J07.pdb: not found,False,,,,,M0,no_result,
+O94829,True,963,True,100.0,2,True,O94829,100.0,M4,2X19,positive,True,True,True,,True,100.0,2,True,O94829,100.0,M4,2X19,positive,True,True,True,,True,True,100.0,2X19,100.0,M4,ok,positive
+P07363,True,654,True,100.0,1,True,P07363,100.0,M4,6S1K,positive,True,True,True,,True,100.0,1,True,P07363,100.0,M4,6S1K,positive,True,True,True,,False,,,,,M0,no_result,
+Q02931,True,896,,,33,True,Q02931,,,6KE6,positive,True,True,False,404 fetching https://files.rcsb.org/download/6KE6.pdb: not found,,,33,True,Q02931,,,6KE6,positive,True,True,False,404 fetching https://files.rcsb.org/download/6KE6.pdb: not found,False,,,,,M0,no_result,
+Q06629,True,674,True,91.3946587537092,4,True,Q06629,20.616883116883116,M1,6Z6F,positive,True,True,False,,True,91.3946587537092,4,True,Q06629,20.616883116883116,M1,6Z6F,positive,True,True,False,,False,True,91.3946587537092,6Z6F,20.616883116883116,M1,ok,positive
+Q9Y2L1,True,958,True,100.0,10,True,Q9Y2L1,99.79123173277662,M4,6H25,positive,True,True,True,,True,100.0,10,True,Q9Y2L1,99.79123173277662,M4,6H25,positive,True,True,True,,True,True,100.0,6H25,99.79123173277662,M4,ok,positive
+Q01813,True,784,True,100.0,1,True,Q01813,100.0,M4,4XYJ,positive,True,True,True,,True,100.0,1,True,Q01813,100.0,M4,4XYJ,positive,True,True,True,,False,,,,,M0,no_result,
+P20585,True,1137,True,100.0,2,True,P20585,100.0,M4,8RZ7,positive,True,True,True,,True,100.0,2,True,P20585,100.0,M4,8RZ7,positive,True,True,True,,True,True,100.0,8RZ7,100.0,M4,ok,positive
+Q5SMH8,True,725,True,100.0,1,True,Q5SMH8,100.0,M4,3VIU,positive,True,True,True,,True,100.0,1,True,Q5SMH8,100.0,M4,3VIU,positive,True,True,True,,True,True,100.0,3VIU,100.0,M4,ok,positive
+Q9K0I2,True,794,True,100.0,1,True,Q9K0I2,100.0,M4,2OLS,positive,True,True,True,,True,100.0,1,True,Q9K0I2,100.0,M4,2OLS,positive,True,True,True,,True,True,100.0,2OLS,100.0,M4,ok,positive
+P54887,True,717,True,100.0,1,True,P54887,100.0,M4,8Y2H,positive,True,True,True,,True,100.0,1,True,P54887,100.0,M4,8Y2H,positive,True,True,True,,False,,,,,M0,no_result,
+P0C1D6,True,657,,,1,True,P0C1D6,,,6SX4,positive,True,True,False,404 fetching https://files.rcsb.org/download/6SX4.pdb: not found,,,1,True,P0C1D6,,,6SX4,positive,True,True,False,404 fetching https://files.rcsb.org/download/6SX4.pdb: not found,False,,,,,M0,no_result,
+Q7Z7L1,True,901,True,100.0,1,True,Q7Z7L1,100.0,M4,7ZEL,positive,True,True,True,,True,100.0,1,True,Q7Z7L1,100.0,M4,7ZEL,positive,True,True,True,,True,True,100.0,7ZEL,100.0,M4,ok,positive
+Q9NVU0,True,708,True,100.0,13,True,Q9NVU0,100.0,M4,7A6H,positive,True,True,True,,True,100.0,13,True,Q9NVU0,100.0,M4,7A6H,positive,True,True,True,,False,,,,,M0,no_result,
+Q8PUB8,True,621,True,100.0,2,True,Q8PUB8,100.0,M4,2Q2E,positive,True,True,True,,True,100.0,2,True,Q8PUB8,100.0,M4,2Q2E,positive,True,True,True,,True,True,100.0,2Q2E,100.0,M4,ok,positive
+Q14999,True,1698,True,100.0,1,True,Q14999,99.94110718492344,M4,7Z8B,positive,True,True,True,,True,100.0,1,True,Q14999,99.94110718492344,M4,7Z8B,positive,True,True,True,,True,True,100.0,7Z8B,99.94110718492344,M4,ok,positive
+P89440,True,702,True,100.0,7,True,P89440,100.0,M4,6M6G,positive,True,True,True,,True,100.0,7,True,P89440,100.0,M4,6M6G,positive,True,True,True,,False,,,,,M0,no_result,
+P16473,True,764,False,91.75392670157068,4,True,P16473,99.42938659058488,M3,7UTZ,positive,True,True,False,,False,91.75392670157068,4,True,P16473,99.42938659058488,M3,7UTZ,positive,True,True,False,,False,True,91.75392670157068,7UTZ,99.42938659058488,M3,ok,positive
+Q8VJU4,True,766,True,100.0,1,True,Q8VJU4,99.86945169712794,M4,6EDW,positive,True,True,True,,True,100.0,1,True,Q8VJU4,99.86945169712794,M4,6EDW,positive,True,True,True,,True,True,100.0,6EDW,99.86945169712794,M4,ok,positive
+P03747,True,794,,,3,True,P03747,,,6R21,positive,True,True,False,404 fetching https://files.rcsb.org/download/6R21.pdb: not found,,,3,True,P03747,,,6R21,positive,True,True,False,404 fetching https://files.rcsb.org/download/6R21.pdb: not found,False,,,,,M0,no_result,
+Q94A76,True,820,True,100.0,1,True,Q94A76,100.0,M4,8WFZ,positive,True,True,True,,True,100.0,1,True,Q94A76,100.0,M4,8WFZ,positive,True,True,True,,True,True,100.0,8WFZ,100.0,M4,ok,positive
+P55011,True,1212,True,100.0,1,True,P55011,100.0,M4,7D10,positive,True,True,True,,True,100.0,1,True,P55011,100.0,M4,7D10,positive,True,True,True,,True,True,100.0,7D10,100.0,M4,ok,positive
+Q60603,True,989,False,85.74317492416583,1,True,Q63472,99.41037735849056,M3,5K7L,negative,False,False,False,,False,72.09302325581395,1,True,Q63472,100.0,M2,8EOW,negative,False,False,False,,False,True,17.896865520728007,4LLO,100.0,M1,ok,positive
+Q9EPU5,True,655,False,47.63358778625954,1,True,O75509,83.33333333333333,M2,3U3P,negative,False,False,False,,True,35.57251908396947,1,True,Q9EPU5,54.506437768240346,M1,4YN0,positive,True,True,False,,False,True,35.57251908396947,4YN0,54.506437768240346,M1,ok,positive
+P13390,True,1396,True,30.587392550143267,1,True,P13390,99.76580796252928,M1,4UW8,positive,True,True,False,,True,30.587392550143267,1,True,P13390,99.76580796252928,M1,4UW8,positive,True,True,False,,False,True,30.587392550143267,4UW8,99.76580796252928,M1,ok,positive
+Q9Z183,True,666,False,99.24924924924925,1,True,Q9UM07,73.97881996974282,M2,3APM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P08018,True,668,False,44.01197604790419,1,True,Q02750,57.48299319727891,M2,3ORN,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P25220,True,993,False,44.008056394763344,1,True,P61825,99.31350114416476,M2,2GSY,negative,False,False,False,,False,44.008056394763344,1,True,P61825,99.31350114416476,M2,2GSY,negative,False,False,False,,False,,,,,M0,no_result,
+P49916,True,1009,True,57.383548067393455,1,True,P49916,100.0,M2,3L2P,positive,True,True,False,,True,57.383548067393455,1,True,P49916,100.0,M2,3L2P,positive,True,True,False,,False,True,57.383548067393455,3L2P,100.0,M2,ok,positive
+Q96JA1,True,1093,True,41.72003659652333,1,True,Q96JA1,99.12280701754386,M2,4U7L,positive,True,True,False,,True,41.72003659652333,1,True,Q96JA1,99.12280701754386,M2,4U7L,positive,True,True,False,,False,True,41.72003659652333,4U7L,99.12280701754386,M2,ok,positive
+Q62120,True,1132,False,43.90459363957597,1,True,O60674,92.95774647887323,M2,4Z32,negative,False,False,False,,False,43.90459363957597,1,True,O60674,92.95774647887323,M2,4Z32,negative,False,False,False,,False,True,26.236749116607776,4GL9,100.0,M1,ok,positive
+Q2G2U4,True,608,,,1,True,Q45614,,,9A5D,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A5D.pdb: not found,False,25.0,1,True,Q2G2U4,99.34210526315789,M1,5IS1,positive,True,True,False,,False,True,25.0,5IS1,99.34210526315789,M1,ok,positive
+O35615,True,995,True,12.763819095477388,1,True,O35615,100.0,M1,2MPL,positive,True,True,False,,True,12.763819095477388,1,True,O35615,100.0,M1,2MPL,positive,True,True,False,,False,True,12.763819095477388,2MPL,100.0,M1,ok,positive
+Q13233,True,1512,True,23.14814814814815,1,True,Q13233,100.0,M1,6WHB,positive,True,True,False,,True,23.14814814814815,1,True,Q13233,100.0,M1,6WHB,positive,True,True,False,,False,True,23.14814814814815,6WHB,100.0,M1,ok,positive
+A6NGG8,True,1288,True,12.111801242236025,1,True,A6NGG8,82.05128205128206,M1,7LXF,positive,True,True,False,,True,12.111801242236025,1,True,A6NGG8,82.05128205128206,M1,7LXF,positive,True,True,False,,False,True,12.111801242236025,7LXF,82.05128205128206,M1,ok,positive
+Q8BJS4,True,731,False,36.66210670314638,1,True,Q8BJS4,100.0,M1,5ED8,positive,True,True,False,,False,36.66210670314638,1,True,Q8BJS4,100.0,M1,5ED8,positive,True,True,False,,False,True,36.66210670314638,5ED8,100.0,M1,ok,positive
+Q5XKE0,True,1136,,,5,True,Q14896,,,8G4L,negative,False,False,False,404 fetching https://files.rcsb.org/download/8G4L.pdb: not found,False,10.387323943661972,1,True,Q14324,98.30508474576271,M1,2E7C,negative,False,False,False,,False,True,9.77112676056338,1X5Y,100.0,M1,ok,positive
+O15014,True,1411,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q13480,True,694,True,32.13256484149856,2,True,Q13480,52.91479820627803,M1,9QCD,positive,True,True,False,,True,32.13256484149856,2,True,Q13480,52.91479820627803,M1,9QCD,positive,True,True,False,,False,True,32.13256484149856,9QCD,52.91479820627803,M1,ok,positive
+Q86US8,True,1419,True,41.508104298801975,1,True,Q86US8,100.0,M2,4UM2,positive,True,True,False,,True,41.508104298801975,1,True,Q86US8,100.0,M2,4UM2,positive,True,True,False,,False,True,41.508104298801975,4UM2,100.0,M2,ok,positive
+P32797,True,924,True,25.216450216450216,1,True,P32797,99.57081545064378,M1,3OIP,positive,True,True,False,,True,25.216450216450216,1,True,P32797,99.57081545064378,M1,3OIP,positive,True,True,False,,False,True,25.216450216450216,3OIP,99.57081545064378,M1,ok,positive
+Q96QZ7,True,1491,True,8.651911468812877,1,True,Q96QZ7,100.0,M1,2KPK,positive,True,True,False,,True,8.651911468812877,1,True,Q96QZ7,100.0,M1,2KPK,positive,True,True,False,,False,True,8.651911468812877,2KPK,100.0,M1,ok,positive
+Q86UL8,True,1455,False,16.082474226804123,1,True,Q9WVQ1,98.2905982905983,M1,7YKF,negative,False,False,False,,False,16.082474226804123,1,True,Q9WVQ1,98.2905982905983,M1,7YKF,negative,False,False,False,,False,True,8.45360824742268,1UEQ,100.0,M1,ok,positive
+P07975,True,655,True,65.95419847328245,1,True,P07975,100.0,M2,1FLC,positive,True,True,False,,True,65.95419847328245,1,True,P07975,100.0,M2,1FLC,positive,True,True,False,,False,True,65.95419847328245,1FLC,100.0,M2,ok,positive
+Q9Y6X8,True,837,True,10.63321385902031,1,True,Q9Y6X8,100.0,M1,2DMP,positive,True,True,False,,True,10.63321385902031,1,True,Q9Y6X8,100.0,M1,2DMP,positive,True,True,False,,False,True,10.63321385902031,2DMP,100.0,M1,ok,positive
+B1ASB6,True,1015,True,14.58128078817734,1,True,B1ASB6,100.0,M1,8OU1,positive,True,True,False,,True,14.58128078817734,1,True,B1ASB6,100.0,M1,8OU1,positive,True,True,False,,False,True,14.58128078817734,8OU1,100.0,M1,ok,positive
+Q8WWQ0,True,1821,True,7.413509060955519,1,True,Q8WWQ0,100.0,M1,3MB3,positive,True,True,False,,True,7.413509060955519,1,True,Q8WWQ0,100.0,M1,3MB3,positive,True,True,False,,False,True,7.413509060955519,3MB3,100.0,M1,ok,positive
+Q5SPW0,True,977,True,14.431934493346981,1,True,Q5SPW0,100.0,M1,3N1B,positive,True,True,False,,True,14.431934493346981,1,True,Q5SPW0,100.0,M1,3N1B,positive,True,True,False,,False,True,14.431934493346981,3N1B,100.0,M1,ok,positive
+Q8NW39,True,895,True,68.8268156424581,3,True,Q2FXJ2,97.72727272727273,M2,9SZW,negative,False,False,False,,True,68.8268156424581,3,True,Q2FXJ2,97.72727272727273,M2,9SZW,negative,False,False,False,,False,True,39.88826815642458,9S3P,99.43977591036415,M1,ok,positive
+O54916,True,795,True,11.572327044025156,1,True,O54916,100.0,M1,1FI6,positive,True,True,False,,True,11.572327044025156,1,True,O54916,100.0,M1,1FI6,positive,True,True,False,,False,True,11.572327044025156,1FI6,100.0,M1,ok,positive
+P0C061,True,1098,,,1,True,P09095,,,9BFD,negative,False,False,False,404 fetching https://files.rcsb.org/download/9BFD.pdb: not found,False,51.183970856102,1,True,P0C062,99.644128113879,M2,5ISW,negative,False,False,False,,False,True,51.27504553734062,1AMU,99.82238010657194,M2,ok,positive
+O75146,True,1068,,,1,True,F1LML7,,,7OST,negative,False,False,False,404 fetching https://files.rcsb.org/download/7OST.pdb: not found,,,1,True,F1LML7,,,7OST,negative,False,False,False,404 fetching https://files.rcsb.org/download/7OST.pdb: not found,False,True,19.288389513108616,1R0D,100.0,M1,ok,positive
+Q24246,True,663,,,13,True,A0A4X1VH50,,,9DGR,negative,False,False,False,404 fetching https://files.rcsb.org/download/9DGR.pdb: not found,True,14.630467571644042,2,True,Q24246,80.41237113402062,M1,3L9K,positive,True,True,False,,False,True,14.630467571644042,3L9K,80.41237113402062,M1,ok,positive
+O60245,True,1069,False,42.84377923292797,1,True,Q08174,58.951965065502186,M2,6MGA,negative,False,False,False,,True,11.131898971000936,1,True,O60245,100.0,M1,2YST,positive,True,True,False,,False,True,11.131898971000936,2YST,100.0,M1,ok,positive
+P14738,True,1018,True,31.532416502946955,1,True,P14738,99.68847352024922,M1,4B5Z,positive,True,True,False,,True,31.532416502946955,1,True,P14738,99.68847352024922,M1,4B5Z,positive,True,True,False,,False,True,31.532416502946955,4B5Z,99.68847352024922,M1,ok,positive
+P04635,True,641,True,67.2386895475819,1,True,P04635,99.07192575406033,M2,2HIH,positive,True,True,False,,True,67.2386895475819,1,True,P04635,99.07192575406033,M2,2HIH,positive,True,True,False,,False,True,67.2386895475819,2HIH,99.07192575406033,M2,ok,positive
+Q6WKZ4,True,1283,True,13.639906469212782,2,True,Q6WKZ4,76.57142857142857,M1,4D0G,positive,True,True,False,,True,13.639906469212782,2,True,Q6WKZ4,76.57142857142857,M1,4D0G,positive,True,True,False,,False,True,13.639906469212782,4D0G,76.57142857142857,M1,ok,positive
+Q7Z3K3,True,1410,True,3.475177304964539,1,True,Q7Z3K3,100.0,M1,2E72,positive,True,True,False,,True,3.475177304964539,1,True,Q7Z3K3,100.0,M1,2E72,positive,True,True,False,,False,True,3.475177304964539,2E72,100.0,M1,ok,positive
+P07207,True,2703,True,8.842027376988531,1,True,P07207,99.581589958159,M1,1OT8,positive,True,True,False,,True,8.842027376988531,1,True,P07207,99.581589958159,M1,1OT8,positive,True,True,False,,False,True,8.842027376988531,1OT8,99.581589958159,M1,ok,positive
+O08838,True,683,False,35.43191800878477,1,True,P49418,99.58677685950413,M1,4ATM,negative,False,False,False,,False,35.43191800878477,1,True,P49418,99.58677685950413,M1,4ATM,negative,False,False,False,,False,False,35.43191800878477,4ATM,99.58677685950413,M1,ok,negative
+A8P0V4,True,726,False,56.47382920110193,1,True,A8P0V4,100.0,M2,6JT5,positive,True,True,False,,False,56.47382920110193,1,True,A8P0V4,100.0,M2,6JT5,positive,True,True,False,,False,True,56.47382920110193,6JT5,100.0,M2,ok,positive
+Q9P2M4,True,693,True,48.1962481962482,1,True,Q9P2M4,99.40119760479043,M2,2QQ8,positive,True,True,False,,True,48.1962481962482,1,True,Q9P2M4,99.40119760479043,M2,2QQ8,positive,True,True,False,,False,True,48.1962481962482,2QQ8,99.40119760479043,M2,ok,positive
+Q4YCF6,True,828,True,27.536231884057973,3,True,Q4YCF6,58.333333333333336,M1,7LR3,positive,True,True,False,,True,27.536231884057973,3,True,Q4YCF6,58.333333333333336,M1,7LR3,positive,True,True,False,,False,True,27.536231884057973,7LR3,58.333333333333336,M1,ok,positive
+Q66K79,False,652,False,66.25766871165644,1,True,P15169,54.861111111111114,M2,2NSM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9WTR8,False,1696,False,34.492924528301884,1,True,Q9UQ13,56.75213675213675,M1,7SD0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9V564,False,630,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8IYB4,False,626,False,58.30670926517572,1,True,Q8C437,98.9041095890411,M2,4EQF,negative,False,False,False,,False,58.30670926517572,1,True,Q8C437,98.9041095890411,M2,4EQF,negative,False,False,False,,False,False,58.30670926517572,4EQF,98.9041095890411,M2,ok,negative
+Q6IQ26,False,1287,False,29.836829836829835,2,True,Q6PAL8,97.65625,M1,3CWZ,negative,False,False,False,,False,29.836829836829835,2,True,Q6PAL8,97.65625,M1,3CWZ,negative,False,False,False,,False,False,29.836829836829835,3CWZ,97.65625,M1,ok,negative
+Q9D3S3,False,818,False,23.838630806845966,2,True,Q9Y4G2,68.2051282051282,M1,8JC5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8IXI1,True,618,False,96.27831715210355,1,True,Q8IXI2,61.1764705882353,M2,9E2P,negative,False,False,False,,True,30.58252427184466,1,True,Q8IXI1,96.29629629629629,M1,5KUT,positive,True,True,False,,False,True,30.58252427184466,5KUT,96.29629629629629,M1,ok,positive
+F4K410,False,675,False,88.29629629629629,1,True,H9L427,50.33557046979866,M2,8EWH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q80SX8,False,650,False,68.0,1,True,Q9H611,89.81900452488688,M2,5FHH,negative,False,False,False,,False,64.46153846153847,1,True,Q9H611,90.69212410501193,M2,9FB8,negative,False,False,False,,False,False,64.46153846153847,9FB8,90.69212410501193,M2,ok,negative
+Q6P9Q6,False,1216,False,9.62171052631579,1,True,Q63J95,83.76068376068376,M1,2KE0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P41950,False,1137,False,86.103781882146,1,True,Q99435,23.799795709908068,M1,10FT,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O75820,False,626,False,50.0,3,True,E9PYI1,62.30031948881789,M2,5V3M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q80U30,False,1036,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O08715,False,857,False,24.27071178529755,1,True,Q9Y2W6,62.98076923076923,M1,5J39,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q95ZQ4,False,626,False,88.49840255591054,1,True,P54646;Q13131,61.73285198555957,M2,5EZV,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q14574,False,896,,,2,True,Q02487,,,7A7D,negative,False,False,False,404 fetching https://files.rcsb.org/download/7A7D.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q640N3,False,1101,False,20.345140781108082,1,True,A7KAX9,73.21428571428571,M1,3IUG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A8I3NRY3,False,1543,False,24.95139338950097,1,True,Q9NZN5,98.44155844155844,M1,1TXD,negative,False,False,False,,False,24.95139338950097,1,True,Q9NZN5,98.44155844155844,M1,1TXD,negative,False,False,False,,False,False,24.95139338950097,1TXD,98.44155844155844,M1,ok,negative
+A0MD28,False,3838,False,11.490359562272017,1,True,J9XNG9,87.52834467120181,M1,6JDR,negative,False,False,False,,False,5.315268368942157,1,True,P0DJY0,100.0,M1,8EHN,negative,False,False,False,,False,False,5.315268368942157,8EHN,100.0,M1,ok,negative
+Q6ZTA4,True,783,True,22.988505747126435,1,True,Q6ZTA4,100.0,M1,7QS5,positive,True,True,False,,True,22.988505747126435,1,True,Q6ZTA4,100.0,M1,7QS5,positive,True,True,False,,False,True,22.988505747126435,7QS5,100.0,M1,ok,positive
+Q4QY64,False,1826,False,99.23329682365826,1,True,Q96QE3,70.86092715231788,M2,8UII,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9VA73,False,695,False,57.697841726618705,1,True,Q9UJS0,52.61845386533666,M2,4P5W,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q14CH0,False,825,False,35.878787878787875,1,True,Q5VUB5,54.054054054054056,M1,9Y63,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8NDA8,False,1641,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2KHT3,False,1053,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9ULD9,False,1512,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8CDP0,False,1006,False,51.29224652087475,1,True,Q8NDL9,45.542635658914726,M2,8V3M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8IUM7,False,802,False,47.63092269326683,2,True,Q8BGD7,42.931937172774866,M2,7XI4,negative,False,False,False,,False,47.63092269326683,2,True,Q8BGD7,42.931937172774866,M2,7XI4,negative,False,False,False,,False,False,47.63092269326683,7XI4,42.931937172774866,M2,ok,negative
+Q8IR79,False,1257,False,24.66189339697693,1,True,P53667,73.87096774193549,M1,3S95,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A2AHG0,False,700,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+D3YUB6,False,1751,,,1,True,Q9NVX7,,,8VOJ,negative,False,False,False,404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P31625,False,866,False,16.166281755196305,1,True,P31622,99.28571428571429,M1,2V4X,negative,False,False,False,,False,16.166281755196305,1,True,P31622,99.28571428571429,M1,2V4X,negative,False,False,False,,False,False,16.166281755196305,2V4X,99.28571428571429,M1,ok,negative
+P19109,False,719,False,62.30876216968011,1,True,Q92841,68.08035714285714,M2,6UV0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8L7S8,False,748,False,48.529411764705884,1,True,Q72GF3,58.40220385674931,M2,4KBF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6U841,False,1118,True,85.86762075134168,1,True,Q6U841,100.0,M3,9MIX,positive,True,True,False,,True,85.86762075134168,1,True,Q6U841,100.0,M3,9MIX,positive,True,True,False,,False,True,85.86762075134168,9MIX,100.0,M3,ok,positive
+Q9NZ53,False,605,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+F4IHS2,False,3574,False,,1,True,G0SHD8,,M1,23CP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q92954,False,1404,False,14.45868945868946,1,True,P04004,61.576354679802954,M1,6O5E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9R1C7,False,953,False,10.388247639034628,1,True,O75400,100.0,M1,8PXW,negative,False,False,False,,False,10.388247639034628,1,True,O75400,100.0,M1,8PXW,negative,False,False,False,,False,False,10.388247639034628,8PXW,100.0,M1,ok,negative
+Q5TI25,False,2988,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O61735,False,1027,False,37.3904576436222,7,True,O08785,47.395833333333336,M1,8OSJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P42066,False,670,,,1,True,P54418,,,9A4U,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A4U.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8S9M4,False,650,False,94.0,1,True,,48.44517184942717,M2,9KFX,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8RA71,False,869,False,97.23820483314154,1,True,P23909,40.710059171597635,M2,7OU2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8A7R4,False,615,False,100.0,1,True,P23367,99.83739837398375,M3,7P8V,negative,False,False,False,,False,100.0,1,True,P23367,99.83739837398375,M3,7P8V,negative,False,False,False,,False,False,100.0,7P8V,99.83739837398375,M3,ok,negative
+P57462,False,611,False,100.0,1,True,P0AAI3,83.9607201309329,M2,7VHP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0C0T2,False,885,False,52.090395480225986,1,True,,49.0238611713666,M2,6MOL,negative,False,False,False,,False,8.022598870056497,2,True,Q68DC2,91.54929577464789,M1,4NL9,negative,False,False,False,,False,False,8.022598870056497,4NL9,91.54929577464789,M1,ok,negative
+Q83KH0,False,677,False,81.38847858197931,1,True,P00959,99.45553539019964,M3,1F4L,negative,False,False,False,,False,81.38847858197931,1,True,P00959,99.45553539019964,M3,1F4L,negative,False,False,False,,False,False,81.38847858197931,1F4L,99.45553539019964,M3,ok,negative
+B8ZRA3,False,775,False,94.96774193548387,1,True,A0A4R3N9S6,27.581521739130434,M1,9VUQ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4WFL5,False,728,False,84.75274725274726,1,True,P07762,91.73419773095624,M2,1M7X,negative,False,False,False,,False,84.75274725274726,1,True,P07762,91.73419773095624,M2,1M7X,negative,False,False,False,,False,False,84.75274725274726,1M7X,91.73419773095624,M2,ok,negative
+Q7QH73,False,767,False,86.96219035202085,1,True,P05164,38.23088455772114,M1,5MFA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5XI52,False,782,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9HCJ2,True,640,True,68.59375,1,True,Q9HCJ2,96.58314350797266,M2,3ZYJ,positive,True,True,False,,True,68.59375,1,True,Q9HCJ2,96.58314350797266,M2,3ZYJ,positive,True,True,False,,False,True,68.59375,3ZYJ,96.58314350797266,M2,ok,positive
+Q8NFY9,False,601,False,94.67554076539102,1,True,Q8IY47,38.13708260105448,M1,8GQ6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8G0I7,False,812,False,96.30541871921183,1,True,P0A9M0,64.70588235294117,M2,6U5Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O13440,False,661,False,99.84871406959152,1,True,J9VFT1,72.87878787878788,M2,5IFI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q969R2,False,916,False,44.10480349344978,1,True,P22059,70.04950495049505,M2,7V62,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1A5G0,False,1452,False,18.801652892561982,1,True,Q7Z460,93.4065934065934,M1,4K92,negative,False,False,False,,False,18.801652892561982,1,True,Q7Z460,93.4065934065934,M1,4K92,negative,False,False,False,,False,False,18.801652892561982,4K92,93.4065934065934,M1,ok,negative
+Q5RFL7,False,731,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3B3Y0,False,761,False,93.95532194480946,1,True,Q5SMH8,49.23076923076923,M2,3VIU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P37224,False,623,False,88.60353130016051,1,True,P40927,44.02173913043478,M2,1GQ2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8F500,False,600,,,1,True,P37949,,,9A76,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1E5T3,False,861,False,96.16724738675958,1,True,Q9BX63,28.864734299516908,M1,9EJ9,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6F0L8,False,1254,False,94.73684210526316,3,True,P37871,55.55555555555556,M2,6WVJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3YUH3,False,615,False,100.0,1,True,P23367,99.51219512195122,M3,7P8V,negative,False,False,False,,False,100.0,1,True,P23367,99.51219512195122,M3,7P8V,negative,False,False,False,,False,False,100.0,7P8V,99.51219512195122,M3,ok,negative
+Q21988,False,824,False,93.20388349514563,1,True,Q8NB78,36.328125,M1,4FWE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9M7M1,False,738,False,24.796747967479675,1,True,P49333,83.06010928961749,M1,4PL9,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9VSA4,False,1405,False,12.882562277580071,4,True,Q96HA7,83.97790055248619,M1,5JA4,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9IFG8,False,637,False,95.44740973312402,1,True,Q9A6Q5,71.05263157894737,M2,3EPM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7H2D5,False,600,False,16.5,1,True,Q5KWH6,78.78787878787878,M1,1YD6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q54QA0,False,1022,False,34.44227005870842,1,True,P54278,61.07954545454545,M1,1H7S,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8CWY0,False,872,,,2,True,O34526,,,9A7X,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A7X.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O67037,False,1146,False,92.58289703315882,1,True,O51934,44.67483506126296,M2,4DDT,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q4L5W6,False,1438,,,1,True,A0AAP9BNN1,,,9QPC,negative,False,False,False,404 fetching https://files.rcsb.org/download/9QPC.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3JCX7,False,892,False,58.29596412556054,1,True,O67911,40.57692307692308,M2,3WFO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B1LFY1,False,620,False,90.48387096774194,1,True,P03819,99.64349376114082,M3,8BXG,negative,False,False,False,,False,90.48387096774194,1,True,P03819,99.64349376114082,M3,8BXG,negative,False,False,False,,False,False,90.48387096774194,8BXG,99.64349376114082,M3,ok,negative
+A0L667,False,607,False,96.70510708401977,4,True,Q51422,57.75127768313458,M2,4WJ3,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2AIF3,False,601,False,81.03161397670549,1,True,Q5JCX3,43.94250513347023,M2,4GA5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8N3K9,False,4069,False,4.595723765052838,1,True,Q96F44,98.93048128342247,M1,7QS1,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8Y915,False,601,False,59.56738768718802,1,True,A0A0J9X200,68.43575418994413,M2,4S1W,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9UT83,False,609,False,16.912972085385878,1,True,P11940,75.72815533980582,M1,2D9P,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8IV35,False,1049,,,126,True,A0AAA9SYX7,,,9FQR,negative,False,False,False,404 fetching https://files.rcsb.org/download/9FQR.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q34312,False,688,False,97.96511627906976,7,True,Q91VD9,36.646884272997035,M1,6G2J,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q00273,False,971,False,94.33573635427395,1,True,B7U676,28.930131004366814,M1,3J9D,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0C690,False,843,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P61701,False,875,,,2,True,O34526,,,9A7X,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A7X.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q12374,False,616,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6CWJ7,False,657,False,98.17351598173516,15,True,P32349,53.02325581395349,M2,5FJ8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C7J8E5,False,1218,False,93.43185550082102,1,True,Q93YQ1,71.8804920913884,M2,5WBI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P89453,False,1240,,,6,True,H9E937,,,9YC9,negative,False,False,False,404 fetching https://files.rcsb.org/download/9YC9.pdb: not found,,,6,True,H9E937,,,9YC9,negative,False,False,False,404 fetching https://files.rcsb.org/download/9YC9.pdb: not found,False,,,,,M0,no_result,
+Q8VDC0,False,902,False,91.68514412416852,1,True,A0ACH0F9X2,43.7726723095526,M2,6Q89,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8NWY9,False,698,False,100.0,1,True,Q8CST1,91.54727793696276,M2,5YJJ,negative,False,False,False,,False,100.0,1,True,Q8CST1,91.54727793696276,M2,5YJJ,negative,False,False,False,,False,,,,,M0,no_result,
+Q6CMM2,False,648,False,18.67283950617284,1,True,Q9Y6D9,76.03305785123968,M1,4DZO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P75080,False,1443,,,1,True,A0AAP9BNN1,,,9QPC,negative,False,False,False,404 fetching https://files.rcsb.org/download/9QPC.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9LRH7,False,764,False,99.60732984293193,1,True,A0A499QXI7,65.17739816031538,M2,8J5Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9KM59,False,620,False,97.74193548387096,1,True,P42212;Q9M7K4,31.848184818481847,M1,25EX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8F0E4,False,647,False,96.75425038639877,1,True,P77182,35.3035143769968,M1,3AWI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A7J6EK66,False,718,False,94.84679665738162,1,True,Q38854,86.49045521292217,M2,7BZX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9BCH4,False,1366,False,95.02196193265007,4,True,Q31N15,57.70416024653313,M2,8SYI,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A0A0D1DZV5,False,615,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P9WI28,False,618,False,49.676375404530745,2,True,P9WI31,38.11074918566775,M1,5XFS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q17FR9,False,937,False,81.53681963713981,3,True,Q9BXP5,24.73821989528796,M1,8PMP,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q18508,False,1784,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8KBI0,False,626,False,40.2555910543131,1,True,Q9RUN0,52.38095238095238,M2,8B0Q,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8NRZ4,False,610,False,97.37704918032787,1,True,Q9V011,36.53198653198653,M1,1RQG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O48724,False,807,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9L646,False,712,False,98.87640449438203,1,True,A0A3G6JS83,54.40340909090909,M2,9D3X,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q2GFV4,False,673,False,89.89598811292718,2,True,P23367,23.47107438016529,M1,5AKB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5L4X1,False,603,False,98.50746268656717,1,True,P9WIH3,54.377104377104374,M2,4R43,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q6CUV7,False,643,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q253F1,False,694,False,98.84726224783861,1,True,Q5SHN5,62.09912536443149,M2,1DAR,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5IZC5,False,620,False,97.58064516129032,1,True,P97784,90.24793388429752,M2,4K0R,negative,False,False,False,,False,82.25806451612904,1,True,A0A7K7GUF1,99.41176470588235,M3,9DC0,negative,False,False,False,,False,False,82.25806451612904,9DC0,99.41176470588235,M3,ok,negative
+A6M220,False,653,,,1,True,Q45597,,,9A7J,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A7J.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7VA04,False,691,,,65,True,P0A6M8,,,8Y5K,negative,False,False,False,404 fetching https://files.rcsb.org/download/8Y5K.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q83NC0,False,958,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9HV43,False,637,,,1,True,P0A6Y8,,,9A2I,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A2I.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A9ZLX4,False,1072,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q03PU9,False,1203,False,93.10058187863675,2,True,P37870,22.053571428571427,M1,6WVJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P27619,False,877,False,96.23717217787913,2,True,Q05193,70.260663507109,M2,4UUD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7PRA4,False,654,False,97.09480122324159,1,True,A8ITN7,48.818897637795274,M2,4UZY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7TJK8,False,872,False,96.3302752293578,20,True,P21372,60.833333333333336,M2,7OQB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P57146,False,1342,False,100.0,4,True,P0A8V2,83.0849478390462,M2,10MA,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7Y220,False,649,False,41.44838212634823,1,True,P19515,48.3271375464684,M2,1TGL,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1IDS5,False,948,False,99.0506329113924,1,True,B7MAI2,55.27156549520767,M2,6BOG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B2RRE7,False,1107,False,16.711833785004515,1,True,Q96G74,67.56756756756756,M1,3PFY,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4GAI2,False,645,False,97.51937984496124,1,True,P0A6U3,69.31637519872814,M2,3CES,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A8Y3R9,False,931,False,47.36842105263158,1,True,,47.61904761904762,M2,4R5D,negative_single_source,,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q75E32,False,838,False,14.081145584725537,1,True,Q6IN85,81.35593220338983,M1,6R8I,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9SJ56,False,680,False,9.852941176470589,1,True,O14770,85.07462686567165,M1,3K2A,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q14DH7,False,682,False,91.34897360703812,1,True,A8LRC0,54.89566613162119,M2,5GXD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0PV50,False,904,False,99.88938053097345,1,True,O15455,82.50276854928018,M2,7C76,negative,False,False,False,,False,5.530973451327434,1,True,O15455,100.0,M1,8AR1,negative,False,False,False,,False,False,5.530973451327434,8AR1,100.0,M1,ok,negative
+Q9PW38,False,736,False,100.0,1,True,Q03555,98.3695652173913,M3,9S3F,negative,False,False,False,,False,100.0,1,True,Q03555,98.3695652173913,M3,9S3F,negative,False,False,False,,False,False,100.0,9S3F,98.3695652173913,M3,ok,negative
+Q9CMZ1,False,1905,False,83.46456692913385,1,True,P76578,30.754716981132077,M1,4RTD,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P37984,False,795,False,100.0,2,True,P07395,83.64779874213836,M2,3PCO,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5I2M3,False,1030,False,77.86407766990291,1,True,Q2EEY0,86.28428927680798,M2,3WPB,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5ZJ85,False,684,False,99.85380116959064,22,True,O43395,94.5827232796486,M2,3JCR,negative,False,False,False,,False,99.85380116959064,22,True,O43395,94.5827232796486,M2,3JCR,negative,False,False,False,,False,False,99.85380116959064,3JCR,94.5827232796486,M2,ok,negative
+E1BFX5,False,1171,False,99.40222032450896,2,True,P38570,75.4295532646048,M2,8ZJF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A4WCC1,False,1040,False,100.0,1,True,P76398,90.09615384615384,M2,9LYQ,negative,False,False,False,,False,100.0,1,True,P76398,90.09615384615384,M2,9LYQ,negative,False,False,False,,False,False,100.0,9LYQ,90.09615384615384,M2,ok,negative
+C9K7C1,False,900,,,2,True,O30408,,,9BFD,negative,False,False,False,404 fetching https://files.rcsb.org/download/9BFD.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C6BV89,False,937,False,97.22518676627534,1,True,A0A0B6A6A8,49.28649835345774,M2,8C9E,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5DF93,False,770,False,33.246753246753244,1,True,Q86TB9,94.140625,M1,2XEQ,negative,False,False,False,,False,33.246753246753244,1,True,Q86TB9,94.140625,M1,2XEQ,negative,False,False,False,,False,False,33.246753246753244,2XEQ,94.140625,M1,ok,negative
+C5BBA5,False,616,False,90.58441558441558,1,True,P74689,46.774193548387096,M2,6NTE,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9ESC8,False,1160,False,24.482758620689655,1,True,Q9UHB7,97.53521126760563,M1,6R80,negative,False,False,False,,False,24.482758620689655,1,True,Q9UHB7,97.53521126760563,M1,6R80,negative,False,False,False,,False,False,24.482758620689655,6R80,97.53521126760563,M1,ok,negative
+A4JBA3,False,930,False,91.50537634408602,1,True,P10408,63.80728554641598,M2,2FSF,negative,False,False,False,,False,2.3655913978494625,1,True,,95.45454545454545,M1,1SX0,negative_single_source,,False,False,,False,False,2.3655913978494625,1SX0,95.45454545454545,M1,ok,negative_single_source
+Q8L7C2,False,1011,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9Z0V2,False,630,False,100.0,1,True,Q9NZV8,99.36507936507937,M3,7F3F,negative,False,False,False,,False,100.0,1,True,Q9NZV8,99.36507936507937,M3,7F3F,negative,False,False,False,,False,False,100.0,7F3F,99.36507936507937,M3,ok,negative
+Q31JC9,False,630,False,96.03174603174604,1,True,Q9A6Q5,71.2396694214876,M2,3EPM,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+C1DTW6,False,707,False,97.87835926449787,1,True,Q8CST1,52.74566473988439,M2,5YJJ,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q55G20,False,712,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8HY46,False,772,False,77.72020725388602,1,True,P43155,36.666666666666664,M1,1NM8,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q0ICF2,False,604,,,1,True,P37949,,,9A76,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8W4S4,False,821,,,15,True,Q8W4S4,,,36QU,positive,True,True,False,404 fetching https://files.rcsb.org/download/36QU.pdb: not found,,,15,True,Q8W4S4,,,36QU,positive,True,True,False,404 fetching https://files.rcsb.org/download/36QU.pdb: not found,False,,,,,M0,no_result,
+A0A3G1DJF3,False,2561,False,,1,True,Q9Y8A5,,M1,7CPX,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q386E7,False,602,False,74.08637873754152,1,True,Q2SWD3,35.65022421524664,M1,3UE9,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P16376,False,746,False,32.57372654155496,1,True,P24468,81.06995884773663,M1,3CJW,negative,False,False,False,,False,32.57372654155496,1,True,P24468,81.06995884773663,M1,3CJW,negative,False,False,False,,False,False,32.57372654155496,3CJW,81.06995884773663,M1,ok,negative
+Q10KY3,False,600,False,87.0,1,True,Q42479,42.72030651340996,M2,9VHU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q04Q66,False,704,False,95.5965909090909,1,True,Q8PMP0,46.65676077265973,M2,6WQ6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5DTM8,False,973,False,100.0,7,True,Q5VTR2,97.84172661870504,M3,8GUI,negative,False,False,False,,False,100.0,7,True,Q5VTR2,97.84172661870504,M3,8GUI,negative,False,False,False,,False,,,,,M0,no_result,
+Q8K387,False,813,False,96.55596555965559,1,True,Q9Y5T5,42.67515923566879,M2,8WG5,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B5ZAV3,False,673,,,2,True,O31498,,,9A6Z,negative,False,False,False,404 fetching https://files.rcsb.org/download/9A6Z.pdb: not found,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q8Q054,False,966,False,96.79089026915113,2,True,O58698,50.26737967914438,M2,1WZ2,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A7MZT3,False,686,False,80.17492711370262,1,True,P00959,77.45454545454545,M2,1F4L,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q5FQC8,False,921,False,91.31378935939196,1,True,P10408,59.45303210463734,M2,2FSF,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B4JHK2,False,623,,,,False,,,,,,,,,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q9VQ56,False,611,False,28.477905073649755,3,True,D9IWL3,60.3448275862069,M1,5V3G,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+O74633,False,1234,False,95.70502431118314,6,True,P22138,64.0982218458933,M2,4C2M,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q7VT71,False,725,False,99.17241379310344,1,True,Q9I636,68.42837273991655,M2,5OAS,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+B6IMM3,False,811,False,98.15043156596793,1,True,D0KWS7,46.608040201005025,M2,9RD0,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q1CDL3,False,727,False,84.73177441540578,1,True,P07762,72.72727272727273,M2,1M7X,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q3ST22,False,737,False,96.33649932157395,1,True,Q5SMH8,48.59154929577465,M2,3VIU,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+D3YXS5,False,1028,False,89.98054474708171,1,True,G5EFQ4,43.567567567567565,M2,7WRG,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+A1CEY6,False,823,False,39.3681652490887,2,True,A0A3S4CYR8,49.69135802469136,M1,6SEH,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+Q09JY9,False,1726,False,10.660486674391658,1,True,Q13796,91.30434782608695,M1,5F4Y,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+J4KNE4,False,810,False,40.370370370370374,1,True,P09959,51.37614678899082,M2,1SW6,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,
+P0DSR3,False,795,False,100.0,5,True,Q1PIU7,98.11320754716981,M3,6RFL,negative,False,False,False,,False,100.0,5,True,Q1PIU7,98.11320754716981,M3,6RFL,negative,False,False,False,,False,,,,,M0,no_result,
+P36774,False,827,False,93.71221281741234,1,True,P0A9M0,50.70967741935484,M2,6U5Z,negative,False,False,False,,,,,False,,,,,,,,,,False,,,,,M0,no_result,

@@ -1,0 +1,53 @@
+{
+  "seed": 20261001,
+  "target": 100,
+  "achieved": 100,
+  "elapsed_s": 728.3,
+  "stratum_counts": {
+    "short": 25,
+    "medium": 25,
+    "long": 25,
+    "very_long": 25
+  },
+  "category_counts": {
+    "exact_full_length": 13,
+    "fragment": 7,
+    "partial_missing_residue": 0,
+    "isoform_bearing": 16,
+    "paralogue_family": 28,
+    "no_structure": 79
+  },
+  "sampling_diagnostics": {
+    "sampling_notes": [
+      "short: random sample of 75 from 106685 reviewed entries (UniProt release 2026_03)",
+      "medium: random sample of 75 from 174714 reviewed entries (UniProt release 2026_03)",
+      "long: random sample of 75 from 209876 reviewed entries (UniProt release 2026_03)",
+      "very_long: random sample of 75 from 74190 reviewed entries (UniProt release 2026_03)"
+    ],
+    "distinct_organisms": 76,
+    "top_organism": "Homo sapiens",
+    "top_organism_fraction": 0.08,
+    "top_accession_prefixes": [
+      [
+        "Q9",
+        12
+      ],
+      [
+        "Q5",
+        8
+      ],
+      [
+        "Q0",
+        7
+      ],
+      [
+        "Q8",
+        6
+      ],
+      [
+        "P2",
+        5
+      ]
+    ]
+  }
+}

@@ -1,0 +1,926 @@
+accession_match,class,construction_note,coverage_percent,estimated_identity_construction_only,expected_max_m_level,expected_relationship,forced_pdb_id,forced_structure_accession,forced_structure_isoform_id,forced_structure_isoform_length,identity_percent,incorrectly_reached_m4,kmer_similarity_construction_only,mapping_level,partial_structure,query_accession,query_canonical_length,query_length,resolved_pdb_id,status,stayed_at_or_below_expected,subject_length
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.015 (construction-time estimate only)",31.595092024539877,0.417,M3,paralogue,,Q9UT83,,,57.28155339805825,False,0.0154,M1,False,Q6GLB5,,326,2D9P,ok,True,103
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.084 (construction-time estimate only)",,0.628,M3,paralogue,,Q8F500,,,,,0.0842,,,Q64T74,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",96.7032967032967,0.458,M3,paralogue,,Q87J80,,,37.121212121212125,False,0.0225,M1,False,Q7NRS0,,273,5D0N,ok,True,413
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.243 (construction-time estimate only)",100.0,0.791,M3,paralogue,,P61684,,,77.77777777777777,False,0.2432,M2,False,A8MLG4,,72,2N8N,ok,True,72
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.366 (construction-time estimate only)",,0.855,M3,paralogue,,P06398,,,,,0.3656,,,Q9QZ47,,,7UTI,fetch_error: 404 fetching https://files.rcsb.org/download/7UTI.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",53.5224153705398,0.441,M3,paralogue,,Q9WTR8,,,42.9059829059829,False,0.0192,M2,False,Q96JA1,,1093,7SD0,ok,True,585
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.088 (construction-time estimate only)",98.08811305070657,0.635,M3,paralogue,,P57146,,,44.32203389830509,False,0.0883,M2,False,Q03PU9,,1203,10MA,ok,True,1342
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.089 (construction-time estimate only)",97.61904761904762,0.635,M3,paralogue,,A4ITJ9,,,57.31707317073171,False,0.0885,M2,False,P57830,,420,1KKJ,ok,True,419
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",52.395209580838326,0.425,M3,paralogue,,Q13233,,,41.142857142857146,False,0.0167,M2,False,P08018,,668,6WHB,ok,True,350
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",,0.553,M3,paralogue,,P50788,,,,,0.0491,,,P04012,,,7RYJ,fetch_error: 404 fetching https://files.rcsb.org/download/7RYJ.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",94.20654911838791,0.41,M3,paralogue,,O48706,,,32.88770053475936,False,0.0143,M1,False,Q06B74,,397,3LE2,ok,True,393
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.072 (construction-time estimate only)",,0.605,M3,paralogue,,A5GIR9,,,,,0.0717,,,Q72IN1,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",,0.586,M3,paralogue,,A2BYN3,,,,,0.0628,,,Q4QMC3,,,7NHK,fetch_error: 404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",91.05058365758755,0.441,M3,paralogue,,B0CH29,,,35.8974358974359,False,0.0193,M1,False,G1TT27,,257,28YE,ok,True,276
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",97.70992366412214,0.43,M3,paralogue,,Q6G5Z1,,,32.421875,False,0.0174,M1,False,Q88RA1,,262,4HUQ,ok,True,279
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.078 (construction-time estimate only)",,0.616,M3,paralogue,,A4XQQ3,,,,,0.0775,,,B8E1G6,,,7UNR,fetch_error: 404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",96.30872483221476,0.455,M3,paralogue,,C6BEJ1,,,39.721254355400696,False,0.0219,M1,False,Q253Y0,,298,3TKA,ok,True,347
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.084 (construction-time estimate only)",6.908115358819584,0.627,M3,paralogue,,Q86UL8,,,95.14563106796116,False,0.084,M1,False,Q96QZ7,,1491,1UEP,ok,True,103
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",27.79552715654952,0.425,M3,paralogue,,Q9VQ56,,,77.01149425287356,False,0.0165,M1,False,O75820,,626,5V3G,ok,True,174
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",77.98295454545455,0.58,M3,paralogue,,A7MZT3,,,56.64845173041894,False,0.06,M2,False,Q04Q66,,704,1F4L,ok,True,551
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",88.36424957841484,0.443,M3,paralogue,,A7TJK8,,,23.282442748091604,False,0.0197,M1,False,Q9FLB0,,593,7OQB,ok,True,530
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.090 (construction-time estimate only)",,0.638,M3,paralogue,,Q9ULD9,,,,,0.0901,,,O15014,,,,no_forced_structure_resolved,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.091 (construction-time estimate only)",,0.639,M3,paralogue,,B7UJW3,,,,,0.0909,,,Q72IN1,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.085 (construction-time estimate only)",96.48241206030151,0.629,M3,paralogue,,B1IE45,,,56.25,False,0.0847,M2,False,Q20YV7,,398,7R3B,ok,True,401
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",90.40650406504065,0.484,M3,paralogue,,Q2GFV4,,,27.697841726618705,False,0.0283,M1,False,A8A7R4,,615,5AKB,ok,True,800
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.099 (construction-time estimate only)",,0.651,M3,paralogue,,Q0ICF2,,,,,0.0985,,,Q8F500,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.239 (construction-time estimate only)",,0.788,M3,paralogue,,Q0VMG1,,,,,0.2393,,,Q7MH90,,,6V39,fetch_error: 404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.024 (construction-time estimate only)",97.98994974874371,0.466,M3,paralogue,,Q6AQV6,,,43.07692307692308,False,0.0241,M2,False,Q7VMJ8,,199,5XJ5,ok,True,201
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.142 (construction-time estimate only)",,0.706,M3,paralogue,,Q9K6H3,,,,,0.1419,,,B1LBC1,,,9A4E,fetch_error: 404 fetching https://files.rcsb.org/download/9A4E.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.099 (construction-time estimate only)",,0.651,M3,paralogue,,B7UJW3,,,,,0.0988,,,B8E1G6,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",91.98184568835099,0.523,M3,paralogue,,Q14DH7,,,41.44736842105263,False,0.0389,M2,False,O13440,,661,5GXD,ok,True,630
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.364 (construction-time estimate only)",,0.855,M3,paralogue,,A2T357,,,,,0.3636,,,Q2LQ85,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",,0.586,M3,paralogue,,A2BYN3,,,,,0.0628,,,A1AGK8,,,7NHK,fetch_error: 404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",,0.587,M3,paralogue,,A5GIR9,,,,,0.0632,,,A4XQQ3,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",94.57579972183588,0.462,M3,paralogue,,A7TJK8,,,32.35294117647059,False,0.0233,M1,False,P19109,,719,7OQB,ok,True,849
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",95.91836734693878,0.441,M3,paralogue,,A5INE5,,,39.148936170212764,False,0.0192,M1,False,Q4ZLQ1,,245,1QO2,ok,True,241
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",76.83168316831683,0.525,M3,paralogue,,Q7W1P2,,,46.649484536082475,False,0.0395,M2,False,Q6A9H8,,505,4CSU,ok,True,390
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.128 (construction-time estimate only)",,0.691,M3,paralogue,,Q9K6H3,,,,,0.1283,,,Q7YJY4,,,9A4E,fetch_error: 404 fetching https://files.rcsb.org/download/9A4E.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",97.34513274336283,0.471,M3,paralogue,,Q73VJ7,,,42.72727272727273,False,0.0252,M2,False,Q9KPK8,,226,2ZHX,ok,True,238
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",100.0,0.58,M3,paralogue,,C1DTW6,,,91.54727793696276,False,0.0599,M2,False,Q8NWY9,,698,5YJJ,ok,True,713
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",100.0,0.521,M3,paralogue,,P98182,,,58.333333333333336,False,0.0382,M2,False,P18735,,168,2I13,ok,True,190
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",98.15950920245399,0.462,M3,paralogue,,P62368,,,35.625,False,0.0233,M1,False,Q6FAU4,,163,4C81,ok,True,184
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.037 (construction-time estimate only)",,0.518,M3,paralogue,,Q63507,,,,,0.0374,,,Q9T043,,,7QGG,fetch_error: 404 fetching https://files.rcsb.org/download/7QGG.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",99.19354838709677,0.522,M3,paralogue,,A5FUJ7,,,41.46341463414634,False,0.0386,M2,False,B1GYV6,,124,3MXU,ok,True,143
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",98.13664596273291,0.552,M3,paralogue,,B2FLW4,,,48.734177215189874,False,0.0487,M2,False,Q49WP9,,161,3X1J,ok,True,159
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",,0.534,M3,paralogue,,P61701,,,,,0.0423,,,Q8CWY0,,,9A7X,fetch_error: 404 fetching https://files.rcsb.org/download/9A7X.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.026 (construction-time estimate only)",,0.475,M3,paralogue,,Q89N76,,,,,0.0262,,,Q0HW75,,,,no_forced_structure_resolved,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.179 (construction-time estimate only)",100.0,0.743,M3,paralogue,,Q47ZC3,,,91.46005509641873,False,0.1793,M2,False,A5W794,,363,5Z9A,ok,True,363
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.064 (construction-time estimate only)",96.30541871921183,0.59,M3,paralogue,,P36774,,,64.70588235294117,False,0.0643,M2,False,Q8G0I7,,812,6U5Z,ok,True,784
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.189 (construction-time estimate only)",91.73553719008264,0.751,M3,paralogue,,Q8EUD6,,,21.62162162162162,False,0.1891,M1,False,Q63H66,,121,7OOC,ok,True,121
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.043 (construction-time estimate only)",97.63779527559055,0.535,M3,paralogue,,A5FUJ7,,,39.516129032258064,False,0.0426,M1,False,B7GF88,,127,3MXU,ok,True,143
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",31.387900355871885,0.409,M3,paralogue,,A8Y3R9,,,62.131519274376416,False,0.0141,M1,False,Q9VSA4,,1405,4R5D,ok,True,441
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.054 (construction-time estimate only)",100.0,0.566,M3,paralogue,,A5EW69,,,87.09677419354838,False,0.0542,M2,False,P04951,,248,8EES,ok,True,253
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",70.98591549295774,0.403,M3,paralogue,,Q8NFU5,,,39.682539682539684,False,0.0134,M1,False,P07250,,355,5W2G,ok,True,257
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.033 (construction-time estimate only)",96.27659574468085,0.503,M3,paralogue,,A7HXW0,,,53.86740331491713,False,0.0332,M2,False,B9I666,,376,8TSK,ok,True,368
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.258 (construction-time estimate only)",100.0,0.8,M3,paralogue,,A8G875,,,74.07407407407408,False,0.2581,M2,False,A9KU88,,81,1DCJ,ok,True,81
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",89.07563025210084,0.405,M3,paralogue,,Q14DH7,,,26.9811320754717,False,0.0136,M1,False,Q6TNA5,,595,5GXD,ok,True,630
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.043 (construction-time estimate only)",,0.536,M3,paralogue,,P06384,,,,,0.0431,,,A2S7I3,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.100 (construction-time estimate only)",,0.652,M3,paralogue,,B8E1G6,,,,,0.0996,,,Q72IN1,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.073 (construction-time estimate only)",,0.608,M3,paralogue,,B1ZNE2,,,,,0.0735,,,P46172,,,11BQ,fetch_error: 404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",,0.43,M3,paralogue,,Q7VA04,,,,,0.0174,,,F4K410,,,8Y5K,fetch_error: 404 fetching https://files.rcsb.org/download/8Y5K.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",75.21079258010118,0.432,M3,paralogue,,P19109,,,30.269058295964125,False,0.0177,M1,False,Q9FLB0,,593,6UV0,ok,True,448
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.030 (construction-time estimate only)",89.28571428571429,0.489,M3,paralogue,,A8Z325,,,28.0,False,0.0295,M1,False,Q72IN1,,140,4WCE,ok,True,144
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.034 (construction-time estimate only)",82.66666666666667,0.507,M3,paralogue,,Q2YMH2,,,31.451612903225808,False,0.0342,M1,False,B4EBH0,,150,28YE,ok,True,152
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",96.55172413793103,0.403,M3,paralogue,,Q93YP7,,,34.642857142857146,False,0.0133,M1,False,B7MJ30,,290,4OD4,ok,True,303
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",88.35616438356165,0.47,M3,paralogue,,P19109,,,39.01808785529716,False,0.0251,M1,False,C3LQR1,,438,6UV0,ok,True,448
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.051 (construction-time estimate only)",,0.559,M3,paralogue,,A5EXZ1,,,,,0.0514,,,B3Q856,,,6V39,fetch_error: 404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",96.72131147540983,0.434,M3,paralogue,,A4WCC1,,,33.00099700897308,False,0.018,M1,False,P37637,,1037,9LYQ,ok,True,1040
+,B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.852 (construction-time estimate only)",,0.979,M3,paralogue,,Q4QMC3,,,,,0.8519,,,A1AGK8,,,10FZ,fetch_error: 404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.088 (construction-time estimate only)",,0.634,M3,paralogue,,Q7VA04,,,,,0.0881,,,Q253F1,,,8Y5K,fetch_error: 404 fetching https://files.rcsb.org/download/8Y5K.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.041 (construction-time estimate only)",,0.529,M3,paralogue,,B5YTN0,,,,,0.0406,,,B0K5Q4,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.082 (construction-time estimate only)",,0.624,M3,paralogue,,Q7MTN7,,,,,0.0818,,,Q4FUD4,,,9I5V,fetch_error: 404 fetching https://files.rcsb.org/download/9I5V.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",97.27891156462584,0.481,M3,paralogue,,Q18GB1,,,49.65034965034965,False,0.0276,M2,False,Q97BK5,,147,2ZUA,ok,True,174
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.118 (construction-time estimate only)",98.86363636363636,0.678,M3,paralogue,,Q15VG2,,,80.07662835249042,False,0.118,M2,False,Q668W9,,264,1DJ0,ok,True,264
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",99.24528301886792,0.462,M3,paralogue,,B7H7H4,,,38.02281368821293,False,0.0233,M1,False,B5RBY7,,265,1C3Q,ok,True,284
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.036 (construction-time estimate only)",100.0,0.513,M3,paralogue,,Q5L3R1,,,0.0,False,0.0359,M1,False,B9KZV9,,117,3J3V,ok,True,119
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.036 (construction-time estimate only)",,0.514,M3,paralogue,,A5GIR9,,,,,0.0362,,,B8E1G6,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",94.23076923076923,0.42,M3,paralogue,,A4WC70,,,26.53061224489796,False,0.0157,M1,False,P97084,,364,1FG3,ok,True,356
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.072 (construction-time estimate only)",95.0,0.605,M3,paralogue,,Q7MH90,,,18.42105263157895,False,0.0719,M1,False,Q0SPR8,,80,9H90,ok,True,82
+False,B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.948 (construction-time estimate only)",100.0,0.993,M3,paralogue,,Q3YUH3,,,99.83739837398375,False,0.9485,M3,False,A8A7R4,,615,7P8V,ok,True,615
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",93.7007874015748,0.461,M3,paralogue,,Q4ZLQ1,,,25.210084033613445,False,0.023,M1,False,A6QCU4,,254,4WD0,ok,True,250
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.090 (construction-time estimate only)",,0.638,M3,paralogue,,Q63H66,,,,,0.0905,,,Q7MTN7,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.041 (construction-time estimate only)",100.0,0.528,M3,paralogue,,B0S1D8,,,51.724137931034484,False,0.0406,M2,False,Q895R1,,145,8Y1Q,ok,True,150
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.047 (construction-time estimate only)",,0.548,M3,paralogue,,A7GK37,,,,,0.0473,,,Q3APJ0,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+True,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.052 (construction-time estimate only)",100.0,0.561,M3,paralogue,,Q3ST22,,,100.0,True,0.052,M4,False,Q5SMH8,,725,3VIU,ok,False,725
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.037 (construction-time estimate only)",100.0,0.517,M3,paralogue,,Q6FAU4,,,38.81578947368421,False,0.0369,M1,False,Q8RQP5,,152,5B8F,ok,True,164
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.118 (construction-time estimate only)",94.22310756972112,0.678,M3,paralogue,,Q0P3K5,,,29.59830866807611,False,0.1184,M1,False,Q9K6H3,,502,1FX0,ok,True,498
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",100.0,0.403,M3,paralogue,,A7TJK8,,,0.0,False,0.0133,M1,False,O67037,,1146,7OQB,ok,True,1175
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",92.58373205741627,0.519,M3,paralogue,,A9BCH4,,,27.131782945736433,False,0.0376,M1,False,Q6F0L8,,1254,8SYI,ok,True,1318
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.157 (construction-time estimate only)",92.37288135593221,0.722,M3,paralogue,,Q8EUD6,,,22.93577981651376,False,0.1569,M1,False,Q4FUD4,,118,7OOC,ok,True,121
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.091 (construction-time estimate only)",94.140625,0.639,M3,paralogue,,Q7VKY7,,,28.21576763485477,False,0.0909,M1,False,B6J7A4,,256,5B4E,ok,True,329
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",88.58447488584476,0.457,M3,paralogue,,Q24SK9,,,36.08247422680412,False,0.0223,M1,False,A9ADM4,,219,1SUL,ok,True,195
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.031 (construction-time estimate only)",,0.496,M3,paralogue,,P06384,,,,,0.0311,,,B5XJ43,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.027 (construction-time estimate only)",,0.479,M3,paralogue,,Q2W9D1,,,,,0.0269,,,A5CXZ0,,,,no_forced_structure_resolved,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",47.59493670886076,0.461,M3,paralogue,,P18728,,,55.319148936170215,False,0.0231,M2,False,P98182,,395,2I13,ok,True,190
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.079 (construction-time estimate only)",,0.618,M3,paralogue,,B1ZNE2,,,,,0.0785,,,A0LIJ6,,,11BQ,fetch_error: 404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.109 (construction-time estimate only)",91.50537634408602,0.666,M3,paralogue,,Q5FQC8,,,63.80728554641598,False,0.1094,M2,False,A4JBA3,,930,2FSF,ok,True,853
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",97.11751662971176,0.43,M3,paralogue,,Q6YRL3,,,64.15525114155251,False,0.0173,M2,False,Q5HJZ9,,451,8BTG,ok,True,446
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.361 (construction-time estimate only)",,0.854,M3,paralogue,,Q5RFL7,,,,,0.3612,,,Q5XI52,,,,no_forced_structure_resolved,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.068 (construction-time estimate only)",,0.598,M3,paralogue,,A4XQQ3,,,,,0.0684,,,A8Z325,,,7UNR,fetch_error: 404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",,0.586,M3,paralogue,,B5YTN0,,,,,0.0628,,,B7IA28,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",98.81831610044313,0.581,M3,paralogue,,Q04Q66,,,57.847533632286996,False,0.0603,M2,False,Q83KH0,,677,6WQ6,ok,True,711
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",57.235772357723576,0.406,M3,paralogue,,Q54QA0,,,44.60227272727273,False,0.0138,M2,False,Q3YUH3,,615,1H7S,ok,True,365
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",99.20318725099601,0.527,M3,paralogue,,A6GZI2,,,45.381526104417674,False,0.04,M2,False,A3DBQ1,,251,7RPN,ok,True,252
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",76.83168316831683,0.534,M3,paralogue,,B4E5X0,,,46.649484536082475,False,0.0424,M2,False,Q6A9H8,,505,4CSU,ok,True,390
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",57.235772357723576,0.401,M3,paralogue,,Q54QA0,,,44.60227272727273,False,0.0131,M2,False,A8A7R4,,615,1H7S,ok,True,365
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.077 (construction-time estimate only)",,0.614,M3,paralogue,,B7UJW3,,,,,0.0766,,,A8Z325,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.134 (construction-time estimate only)",98.80952380952381,0.697,M3,paralogue,,B8EDV5,,,63.855421686746986,False,0.1338,M2,False,B3H2P8,,84,9O1A,ok,True,85
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",72.34401349072513,0.445,M3,paralogue,,C3LQR1,,,39.86013986013986,False,0.02,M1,False,Q9FLB0,,593,5IVL,ok,True,429
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.080 (construction-time estimate only)",98.41269841269842,0.62,M3,paralogue,,Q8EUD6,,,58.064516129032256,False,0.0796,M2,False,Q7MTN7,,126,7OOC,ok,True,124
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.094 (construction-time estimate only)",98.65546218487395,0.644,M3,paralogue,,A0L667,,,64.05451448040886,False,0.0939,M2,False,Q3JEB6,,595,4WJ3,ok,True,599
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",74.31838170624451,0.47,M3,paralogue,,Q8RA71,,,37.633136094674555,False,0.025,M1,False,P20585,,1137,7OU2,ok,True,859
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.210 (construction-time estimate only)",95.44740973312402,0.767,M3,paralogue,,Q31JC9,,,71.05263157894737,False,0.2097,M2,False,A9IFG8,,637,3EPM,ok,True,612
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.508 (construction-time estimate only)",100.0,0.906,M3,paralogue,,Q679B6,,,97.95918367346938,False,0.5079,M3,False,Q5Y4Q2,,98,5LDW,ok,True,98
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.046 (construction-time estimate only)",93.23308270676692,0.544,M3,paralogue,,B9DJH3,,,54.03225806451613,False,0.0456,M2,False,Q5F6Y8,,133,1ONL,ok,True,128
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.026 (construction-time estimate only)",82.87671232876713,0.473,M3,paralogue,,Q8L7S8,,,45.45454545454545,False,0.0256,M2,False,C3LQR1,,438,4KBF,ok,True,365
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",86.50442477876106,0.458,M3,paralogue,,Q5I2M3,,,30.17902813299233,False,0.0224,M1,False,Q0PV50,,904,3WPB,ok,True,802
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",96.3265306122449,0.424,M3,paralogue,,B9MDW3,,,34.74576271186441,False,0.0164,M1,False,Q4ZLQ1,,245,4EVZ,ok,True,258
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",,0.525,M3,paralogue,,Q1XDJ3,,,,,0.0395,,,Q4FUD4,,,10PX,fetch_error: 404 fetching https://files.rcsb.org/download/10PX.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",98.0,0.472,M3,paralogue,,B8ZUT0,,,42.17687074829932,False,0.0255,M2,False,O67367,,150,7Y7O,ok,True,162
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",,0.526,M3,paralogue,,Q7W3Z2,,,,,0.0398,,,Q2JUJ9,,,28NT,fetch_error: 404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",82.90734824281151,0.422,M3,paralogue,,Q10KY3,,,35.64547206165703,False,0.0161,M1,False,Q95ZQ4,,626,9VHU,ok,True,537
+False,B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.724 (construction-time estimate only)",99.73404255319149,0.957,M3,paralogue,,O17503,,,96.8,False,0.7239,M3,False,P41339,,376,12RV,ok,True,375
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.455 (construction-time estimate only)",100.0,0.889,M3,paralogue,,Q7MH90,,,90.66666666666667,False,0.4545,M2,False,B7NTQ7,,75,9H90,ok,True,75
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",97.11751662971176,0.522,M3,paralogue,,Q2YD61,,,64.15525114155251,False,0.0385,M2,False,Q5HJZ9,,451,8BTG,ok,True,446
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",,0.422,M3,paralogue,,Q0ICF2,,,,,0.0161,,,F4K410,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",98.63013698630137,0.519,M3,paralogue,,C9E1R7,,,70.83333333333333,False,0.0377,M2,False,P22827,,73,2ERO,ok,True,427
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.024 (construction-time estimate only)",88.78281622911695,0.466,M3,paralogue,,F4IHS2,,,21.774193548387096,False,0.0241,M1,False,Q9NRZ9,,838,23CP,ok,True,769
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",16.666666666666668,0.553,M3,paralogue,,O75820,,,0.0,False,0.049,M1,False,P18735,,168,5V3M,ok,True,28
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.058 (construction-time estimate only)",94.31438127090301,0.576,M3,paralogue,,B7JVV5,,,52.12765957446808,False,0.0581,M2,False,A1URL6,,299,4A5O,ok,True,286
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.057 (construction-time estimate only)",,0.574,M3,paralogue,,B2GHC3,,,,,0.0573,,,Q2SWG5,,,5LI0,fetch_error: 404 fetching https://files.rcsb.org/download/5LI0.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.032 (construction-time estimate only)",85.3932584269663,0.497,M3,paralogue,,B7HPK2,,,37.5,False,0.0315,M1,False,B8ZUT0,,178,7Y7O,ok,True,162
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.057 (construction-time estimate only)",100.0,0.573,M3,paralogue,,Q168B1,,,64.0552995391705,False,0.0568,M2,False,A8F6A5,,217,1VPX,ok,True,230
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.032 (construction-time estimate only)",95.70552147239263,0.498,M3,paralogue,,B2FLW4,,,46.794871794871796,False,0.0316,M2,False,Q92PY8,,163,3X1J,ok,True,159
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.053 (construction-time estimate only)",,0.562,M3,paralogue,,Q1XDJ3,,,,,0.0526,,,Q63H66,,,10PX,fetch_error: 404 fetching https://files.rcsb.org/download/10PX.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",93.9209726443769,0.431,M3,paralogue,,Q85FU3,,,37.86407766990291,False,0.0176,M1,False,Q2L938,,329,8GZG,ok,True,328
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.078 (construction-time estimate only)",93.95532194480946,0.616,M3,paralogue,,Q3ST22,,,49.23076923076923,False,0.0776,M2,False,Q3B3Y0,,761,3VIU,ok,True,725
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.120 (construction-time estimate only)",98.81889763779527,0.68,M3,paralogue,,B9MDW3,,,66.53386454183267,False,0.1197,M2,False,A6QCU4,,254,4EVZ,ok,True,258
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",50.62586926286509,0.483,M3,paralogue,,Q8L7S8,,,48.07692307692308,False,0.0279,M2,False,P19109,,719,4KBF,ok,True,365
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.138 (construction-time estimate only)",99.2063492063492,0.702,M3,paralogue,,B7GF88,,,52.8,False,0.1382,M2,False,B9DJH3,,126,3A7A,ok,True,128
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",99.21875,0.532,M3,paralogue,,B7GF88,,,75.59055118110236,False,0.0418,M2,False,Q8ZHI7,,128,3A7A,ok,True,128
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",47.16981132075472,0.428,M3,paralogue,,Q5I2M3,,,47.5,False,0.0171,M2,False,Q9WTR8,,1696,3WPB,ok,True,802
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.142 (construction-time estimate only)",,0.706,M3,paralogue,,Q63H66,,,,,0.1422,,,Q4FUD4,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",,0.445,M3,paralogue,,P89453,,,,,0.0199,,,P28340,,,9YC9,fetch_error: 404 fetching https://files.rcsb.org/download/9YC9.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.210 (construction-time estimate only)",92.1875,0.768,M3,paralogue,,Q5L3R1,,,23.728813559322035,False,0.21,M1,False,Q1JNZ0,,128,3J3V,ok,True,122
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",73.10155535224153,0.457,M3,paralogue,,Q5I2M3,,,34.668335419274094,False,0.0223,M1,False,Q96JA1,,1093,3WPB,ok,True,802
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",79.49367088607595,0.462,M3,paralogue,,O75820,,,36.62420382165605,False,0.0232,M1,False,P98182,,395,5V3M,ok,True,314
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.625 (construction-time estimate only)",,0.936,M3,paralogue,,Q2KHT3,,,,,0.6246,,,Q80U30,,,,no_forced_structure_resolved,,
+,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.098 (construction-time estimate only)",,0.65,M3,paralogue,,Q0ICF2,,,,,0.0979,,,Q64T74,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+False,B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.015 (construction-time estimate only)",90.64171122994652,0.412,M3,paralogue,,A7TJK8,,,26.696165191740413,False,0.0147,M1,False,Q8L7S8,,748,7OQB,ok,True,849
+True,B2_fragment,SIFTS coverage 0.386 < 0.70,38.63636363636363,,M3,fragment,,,,,97.05882352941177,False,,M1,True,P03170,,88,1QLO,ok,True,34
+True,B2_fragment,SIFTS coverage 0.607 < 0.70,27.77777777777778,,M3,fragment,,,,,100.0,False,,M1,True,P01315,,108,1B17,ok,True,30
+True,B2_fragment,SIFTS coverage 0.598 < 0.70,59.75609756097561,,M3,fragment,,,,,100.0,False,,M2,True,P9WJ87,,82,7WJ0,ok,True,52
+True,B2_fragment,SIFTS coverage 0.48 < 0.70,30.06993006993007,,M3,fragment,,,,,100.0,False,,M1,True,P21741,,143,1MKC,ok,True,43
+True,B2_fragment,SIFTS coverage 0.594 < 0.70,93.75,,M3,fragment,,,,,20.0,False,,M1,False,Q00433,,128,1QGW,ok,True,177
+True,B2_fragment,SIFTS coverage 0.286 < 0.70,34.74178403755869,,M3,fragment,,,,,93.24324324324324,False,,M1,False,O88878,,213,1WFL,ok,True,74
+True,B2_fragment,SIFTS coverage 0.249 < 0.70,23.45679012345679,,M3,fragment,,,,,100.0,False,,M1,True,P16563,,243,2A05,ok,True,57
+True,B2_fragment,SIFTS coverage 0.611 < 0.70,64.57142857142857,,M3,fragment,,,,,94.69026548672566,False,,M2,False,Q8VY88,,175,8K48,ok,True,113
+False,B2_fragment,SIFTS coverage 0.355 < 0.70,38.113207547169814,,M3,fragment,,,,,99.00990099009901,False,,M1,False,Q9UKW6,,265,1WWX,ok,True,107
+True,B2_fragment,SIFTS coverage 0.258 < 0.70,86.26373626373626,,M3,fragment,,,,,26.751592356687897,False,,M1,False,P02643,,182,1A2X,ok,True,159
+True,B2_fragment,SIFTS coverage 0.644 < 0.70,95.260663507109,,M3,fragment,,,,,19.402985074626866,False,,M1,False,P35625,,211,3CKI,ok,True,256
+True,B2_fragment,SIFTS coverage 0.393 < 0.70,39.70037453183521,,M3,fragment,,,,,100.0,False,,M1,True,O35906,,267,9J1N,ok,True,106
+True,B2_fragment,SIFTS coverage 0.543 < 0.70,50.185873605947954,,M3,fragment,,,,,98.51851851851852,False,,M2,True,O95297,,269,6IGO,ok,True,135
+True,B2_fragment,SIFTS coverage 0.23 < 0.70,21.07843137254902,,M3,fragment,,,,,100.0,False,,M1,True,P02877,,204,1HEV,ok,True,43
+True,B2_fragment,SIFTS coverage 0.056 < 0.70,86.61710037174721,,M3,fragment,,,,,24.463519313304722,False,,M1,False,Q8WUU5,,269,8Q1S,ok,True,255
+True,B2_fragment,SIFTS coverage 0.547 < 0.70,28.197674418604652,,M3,fragment,,,,,100.0,False,,M1,True,P08921,,344,1A64,ok,True,97
+True,B2_fragment,SIFTS coverage 0.327 < 0.70,33.66013071895425,,M3,fragment,,,,,100.0,False,,M1,True,Q9P104,,306,1J0W,ok,True,103
+True,B2_fragment,SIFTS coverage 0.6 < 0.70,59.96533795493934,,M3,fragment,,,,,100.0,False,,M2,True,P26038,,577,1E5W,ok,True,346
+True,B2_fragment,SIFTS coverage 0.516 < 0.70,50.32119914346895,,M3,fragment,,,,,44.255319148936174,False,,M2,False,P28700,,467,1DKF,ok,True,235
+True,B2_fragment,SIFTS coverage 0.608 < 0.70,61.77884615384615,,M3,fragment,,,,,99.61089494163424,False,,M2,True,Q8NFU5,,416,5W2G,ok,True,257
+True,B2_fragment,SIFTS coverage 0.333 < 0.70,33.88429752066116,,M3,fragment,,,,,100.0,False,,M1,True,Q58462,,484,3EO4,ok,True,164
+False,B2_fragment,SIFTS coverage 0.05 < 0.70,63.23529411764706,,M3,fragment,,,,,30.232558139534884,False,,M1,False,P23093,,340,6X8P,ok,True,219
+True,B2_fragment,SIFTS coverage 0.11 < 0.70,10.24390243902439,,M3,fragment,,,,,100.0,False,,M1,True,P13473,,410,2MOF,ok,True,42
+True,B2_fragment,SIFTS coverage 0.154 < 0.70,15.897435897435898,,M3,fragment,,,,,98.9247311827957,False,,M1,True,P70581,,585,2OSZ,ok,True,93
+True,B2_fragment,SIFTS coverage 0.175 < 0.70,16.177957532861477,,M3,fragment,,,,,100.0,False,,M1,True,Q60603,,989,4F8A,ok,True,160
+True,B2_fragment,SIFTS coverage 0.292 < 0.70,35.57251908396947,,M3,fragment,,,,,54.506437768240346,False,,M1,False,Q9EPU5,,655,4YN0,ok,True,233
+False,B2_fragment,SIFTS coverage 0.306 < 0.70,21.060171919770774,,M3,fragment,,,,,100.0,False,,M1,False,P13390,,1396,4UW7,ok,True,294
+True,B2_fragment,SIFTS coverage 0.02 < 0.70,35.885885885885884,,M3,fragment,,,,,53.55648535564853,False,,M1,False,Q9Z183,,666,6MKD,ok,True,239
+True,B2_fragment,SIFTS coverage 0.018 < 0.70,10.479041916167665,,M3,fragment,,,,,80.0,False,,M1,False,P08018,,668,2VKN,ok,True,70
+True,B2_fragment,SIFTS coverage 0.14 < 0.70,13.997985901309164,,M3,fragment,,,,,100.0,False,,M1,True,P25220,,993,2R18,ok,True,139
+True,B2_fragment,SIFTS coverage 0.572 < 0.70,20.614469772051535,,M3,fragment,,,,,100.0,False,,M1,True,P49916,,1009,10YE,ok,True,208
+True,B2_fragment,SIFTS coverage 0.429 < 0.70,41.72003659652333,,M3,fragment,,,,,99.12280701754386,False,,M2,True,Q96JA1,,1093,4U7L,ok,True,456
+False,B2_fragment,SIFTS coverage 0.262 < 0.70,9.80565371024735,,M3,fragment,,,,,92.7927927927928,False,,M1,False,Q62120,,1132,2HDX,ok,True,111
+False,B2_fragment,SIFTS coverage 0.247 < 0.70,25.0,,M3,fragment,,,,,99.34210526315789,False,,M1,False,Q2G2U4,,608,5IS1,ok,True,152
+True,B2_fragment,SIFTS coverage 0.128 < 0.70,3.5175879396984926,,M3,fragment,,,,,100.0,False,,M1,True,O35615,,995,1SRK,ok,True,35
+True,B2_fragment,SIFTS coverage 0.229 < 0.70,23.14814814814815,,M3,fragment,,,,,100.0,False,,M1,True,Q13233,,1512,6WHB,ok,True,350
+True,B2_fragment,SIFTS coverage 0.028 < 0.70,12.111801242236025,,M3,fragment,,,,,82.05128205128206,False,,M1,False,A6NGG8,,1288,7LXF,ok,True,156
+False,B2_fragment,SIFTS coverage 0.358 < 0.70,36.66210670314638,,M3,fragment,,,,,100.0,False,,M1,False,Q8BJS4,,731,5ED8,ok,True,268
+True,B2_fragment,SIFTS coverage 0.086 < 0.70,9.77112676056338,,M3,fragment,,,,,100.0,False,,M1,True,Q5XKE0,,1136,1X5Y,ok,True,111
+True,B2_fragment,SIFTS coverage 0.012 < 0.70,50.88589652728561,,M3,fragment,,,,,42.89693593314763,False,,M2,False,O15014,,1411,8PK5,ok,True,718
+True,B2_fragment,SIFTS coverage 0.097 < 0.70,15.561959654178674,,M3,fragment,,,,,71.29629629629629,False,,M1,False,Q13480,,694,4QSY,ok,True,108
+True,B2_fragment,SIFTS coverage 0.414 < 0.70,13.10782241014799,,M3,fragment,,,,,100.0,False,,M1,True,Q86US8,,1419,2DOK,ok,True,186
+True,B2_fragment,SIFTS coverage 0.251 < 0.70,21.536796536796537,,M3,fragment,,,,,100.0,False,,M1,True,P32797,,924,1KXL,ok,True,199
+True,B2_fragment,SIFTS coverage 0.085 < 0.70,26.626425217974514,,M3,fragment,,,,,61.9647355163728,False,,M1,False,Q96QZ7,,1491,1WBP,ok,True,397
+True,B2_fragment,SIFTS coverage 0.076 < 0.70,7.079037800687285,,M3,fragment,,,,,100.0,False,,M1,True,Q86UL8,,1455,1UEP,ok,True,103
+True,B2_fragment,SIFTS coverage 0.674 < 0.70,65.95419847328245,,M3,fragment,,,,,100.0,False,,M2,True,P07975,,655,1FLC,ok,True,432
+True,B2_fragment,SIFTS coverage 0.091 < 0.70,10.63321385902031,,M3,fragment,,,,,100.0,False,,M1,True,Q9Y6X8,,837,2DMP,ok,True,89
+True,B2_fragment,SIFTS coverage 0.142 < 0.70,14.58128078817734,,M3,fragment,,,,,100.0,False,,M1,True,B1ASB6,,1015,8OU1,ok,True,148
+True,B2_fragment,SIFTS coverage 0.073 < 0.70,7.413509060955519,,M3,fragment,,,,,100.0,False,,M1,True,Q8WWQ0,,1821,3MB3,ok,True,135
+True,B2_fragment,SIFTS coverage 0.142 < 0.70,14.431934493346981,,M3,fragment,,,,,100.0,False,,M1,True,Q5SPW0,,977,3N1B,ok,True,141
+True,B2_fragment,SIFTS coverage 0.398 < 0.70,8.71508379888268,,M3,fragment,,,,,100.0,False,,M1,True,Q8NW39,,895,2LHR,ok,True,78
+True,B2_fragment,SIFTS coverage 0.116 < 0.70,11.572327044025156,,M3,fragment,,,,,100.0,False,,M1,True,O54916,,795,1FI6,ok,True,92
+False,B2_fragment,SIFTS coverage 0.506 < 0.70,51.27504553734062,,M3,fragment,,,,,99.82238010657194,False,,M2,False,P0C061,,1098,1AMU,ok,True,563
+True,B2_fragment,SIFTS coverage 0.188 < 0.70,19.288389513108616,,M3,fragment,,,,,100.0,False,,M1,True,O75146,,1068,1R0D,ok,True,206
+True,B2_fragment,SIFTS coverage 0.057 < 0.70,13.423831070889895,,M3,fragment,,,,,82.02247191011236,False,,M1,False,Q24246,,663,2P2T,ok,True,89
+True,B2_fragment,SIFTS coverage 0.108 < 0.70,11.131898971000936,,M3,fragment,,,,,100.0,False,,M1,True,O60245,,1069,2YST,ok,True,119
+True,B2_fragment,SIFTS coverage 0.323 < 0.70,9.135559921414538,,M3,fragment,,,,,75.26881720430107,False,,M1,False,P14738,,1018,2RKY,ok,True,93
+True,B2_fragment,SIFTS coverage 0.697 < 0.70,67.2386895475819,,M3,fragment,,,,,99.07192575406033,False,,M2,True,P04635,,641,2HIH,ok,True,431
+True,B2_fragment,SIFTS coverage 0.053 < 0.70,13.639906469212782,,M3,fragment,,,,,76.57142857142857,False,,M1,False,Q6WKZ4,,1283,4D0G,ok,True,175
+True,B2_fragment,SIFTS coverage 0.026 < 0.70,3.475177304964539,,M3,fragment,,,,,100.0,False,,M1,True,Q7Z3K3,,1410,2E72,ok,True,49
+True,B2_fragment,SIFTS coverage 0.09 < 0.70,8.842027376988531,,M3,fragment,,,,,99.581589958159,False,,M1,True,P07207,,2703,1OT8,ok,True,239
+True,B2_fragment,SIFTS coverage 0.015 < 0.70,36.603221083455345,,M3,fragment,,,,,54.4,False,,M1,False,O08838,,683,2VJ0,ok,True,250
+False,B2_fragment,SIFTS coverage 0.579 < 0.70,56.47382920110193,,M3,fragment,,,,,100.0,False,,M2,False,A8P0V4,,726,6JT5,ok,True,410
+True,B2_fragment,SIFTS coverage 0.456 < 0.70,48.1962481962482,,M3,fragment,,,,,99.40119760479043,False,,M2,True,Q9P2M4,,693,2QQ8,ok,True,334
+True,B2_fragment,SIFTS coverage 0.147 < 0.70,27.536231884057973,,M3,fragment,,,,,58.333333333333336,False,,M1,False,Q4YCF6,,828,7LR3,ok,True,228
+True,B2_fragment,SIFTS coverage 0.291 < 0.70,30.58252427184466,,M3,fragment,,,,,96.29629629629629,False,,M1,True,Q8IXI1,,618,5KUT,ok,True,189
+True,B2_fragment,SIFTS coverage 0.227 < 0.70,22.988505747126435,,M3,fragment,,,,,100.0,False,,M1,True,Q6ZTA4,,783,7QS5,ok,True,180
+True,B2_fragment,SIFTS coverage 0.671 < 0.70,68.59375,,M3,fragment,,,,,96.58314350797266,False,,M2,True,Q9HCJ2,,640,3ZYJ,ok,True,440
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P9WLI6,,,,,,,,Q32RJ3,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",43.576826196473554,,M1,unrelated,,A0A023VXA2,,,51.15606936416185,False,,M2,False,Q9K0I2,,794,9P41,ok,False,346
+False,B4_unrelated,"uniformly random pairing, negative control",97.6,,M1,unrelated,,Q8NGJ2,,,15.573770491803279,False,,M1,False,P9WNB4,,125,8HTI,ok,True,138
+False,B4_unrelated,"uniformly random pairing, negative control",81.81818181818181,,M1,unrelated,,A9AB65,,,33.333333333333336,False,,M1,False,C3MXG6,,88,6K0A,ok,True,95
+False,B4_unrelated,"uniformly random pairing, negative control",68.25842696629213,,M1,unrelated,,P60762,,,33.74485596707819,False,,M1,False,Q9L646,,712,8BPA,ok,True,488
+False,B4_unrelated,"uniformly random pairing, negative control",93.76083188908146,,M1,unrelated,,Q5DTM8,,,25.32347504621072,False,,M1,False,P26038,,577,8GUI,ok,True,975
+False,B4_unrelated,"uniformly random pairing, negative control",20.395738203957382,,M1,unrelated,,O95297,,,67.16417910447761,False,,M1,False,P0C1D6,,657,6IGO,ok,True,135
+False,B4_unrelated,"uniformly random pairing, negative control",18.807339449541285,,M1,unrelated,,Q6CMM2,,,75.60975609756098,False,,M1,False,P07363,,654,4DZO,ok,True,123
+False,B4_unrelated,"uniformly random pairing, negative control",82.78765201122545,,M1,unrelated,,D3YXS5,,,27.90960451977401,False,,M1,False,O60245,,1069,7WRG,ok,True,960
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q6F1Y0,,,,,,,,A9KU88,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",93.65079365079364,,M1,unrelated,,P26284,,,22.88135593220339,False,,M1,False,A8H0V1,,126,3EXE,ok,True,329
+False,B4_unrelated,"uniformly random pairing, negative control",92.0,,M1,unrelated,,Q90665,,,25.36231884057971,False,,M1,False,A5GIR9,,150,1OLZ,ok,True,663
+False,B4_unrelated,"uniformly random pairing, negative control",53.037608486017355,,M1,unrelated,,Q83KH0,,,43.81818181818182,False,,M2,False,P37637,,1037,1F4L,ok,False,551
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P46172,,,,,,,,P9WGH5,,,10FZ,fetch_error: 404 fetching https://files.rcsb.org/download/10FZ.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",95.23809523809524,,M1,unrelated,,B4RPQ3,,,27.5,False,,M1,False,B3H2P8,,84,4G6Z,ok,True,490
+False,B4_unrelated,"uniformly random pairing, negative control",92.38095238095238,,M1,unrelated,,A8FCH9,,,22.68041237113402,False,,M1,False,Q07337,,210,3BL5,ok,True,219
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q0ICF2,,,,,,,,Q9IBG0,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",71.54471544715447,,M1,unrelated,,Q6YRL3,,,31.363636363636363,False,,M1,False,A0A0D1DZV5,,615,8BTG,ok,True,446
+False,B4_unrelated,"uniformly random pairing, negative control",98.0,,M1,unrelated,,Q18GB1,,,22.448979591836736,False,,M1,False,Q02R72,,50,2ZUA,ok,True,174
+False,B4_unrelated,"uniformly random pairing, negative control",90.38461538461539,,M1,unrelated,,Q2KYC8,,,21.27659574468085,False,,M1,False,Q5U467,,468,3ZDS,ok,True,433
+False,B4_unrelated,"uniformly random pairing, negative control",8.564231738035264,,M1,unrelated,,P03170,,,91.17647058823529,False,,M1,False,Q06B74,,397,1QLO,ok,True,34
+False,B4_unrelated,"uniformly random pairing, negative control",87.18381112984822,,M1,unrelated,,Q8CHT0,,,24.177949709864603,False,,M1,False,Q5WWA3,,593,3V9J,ok,True,563
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8VD26,,,,,,,,P27619,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",67.7115987460815,,M1,unrelated,,P23093,,,34.72222222222222,False,,M1,False,C6BEJ1,,319,6X8P,ok,True,219
+False,B4_unrelated,"uniformly random pairing, negative control",16.69242658423493,,M1,unrelated,,Q13480,,,75.92592592592592,False,,M1,False,Q8F0E4,,647,4QSY,ok,True,108
+False,B4_unrelated,"uniformly random pairing, negative control",97.08029197080292,,M1,unrelated,,P97084,,,21.05263157894737,False,,M1,False,B5XJ43,,137,1LC5,ok,True,364
+False,B4_unrelated,"uniformly random pairing, negative control",94.73684210526316,,M1,unrelated,,Q5F6X5,,,21.428571428571427,False,,M1,False,O02772,,133,7XK3,ok,True,198
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q7MTN7,,,,,,,,Q5SMH8,,,9I5V,fetch_error: 404 fetching https://files.rcsb.org/download/9I5V.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.62087912087912,,M1,unrelated,,P31408,,,21.58920539730135,False,,M1,False,A4WFL5,,728,6XBW,ok,True,838
+False,B4_unrelated,"uniformly random pairing, negative control",65.49295774647888,,M1,unrelated,,P43687,,,30.107526881720432,False,,M1,False,B7UJW3,,142,3A01,ok,True,93
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q10412,,,,,,,,H8ZPX1,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",62.979683972911964,,M1,unrelated,,P37580,,,35.483870967741936,False,,M1,False,A7ZS06,,443,3G9Q,ok,True,279
+False,B4_unrelated,"uniformly random pairing, negative control",94.64285714285714,,M1,unrelated,,A1URL6,,,20.754716981132077,False,,M1,False,Q6BY86,,56,3P2O,ok,True,285
+False,B4_unrelated,"uniformly random pairing, negative control",78.91891891891892,,M1,unrelated,,B7HE40,,,26.027397260273972,False,,M1,False,Q9I4D4,,185,2DBO,ok,True,148
+False,B4_unrelated,"uniformly random pairing, negative control",46.68769716088328,,M1,unrelated,,P02517,,,45.945945945945944,False,,M2,False,Q8H1S0,,317,7PE3,ok,False,148
+False,B4_unrelated,"uniformly random pairing, negative control",35.87223587223587,,M1,unrelated,,Q5WF65,,,54.794520547945204,False,,M1,False,P0A6K9,,407,5CJ9,ok,True,146
+False,B4_unrelated,"uniformly random pairing, negative control",86.34146341463415,,M1,unrelated,,P0DSR3,,,24.858757062146893,False,,M1,False,Q9UT72,,205,6RFL,ok,True,185
+False,B4_unrelated,"uniformly random pairing, negative control",88.96551724137932,,M1,unrelated,,P76520,,,29.45736434108527,False,,M1,False,Q895R1,,145,6UXT,ok,True,186
+False,B4_unrelated,"uniformly random pairing, negative control",94.84536082474227,,M1,unrelated,,B0RDY8,,,13.043478260869565,False,,M1,False,Q6MX18,,97,6YE5,ok,True,118
+False,B4_unrelated,"uniformly random pairing, negative control",91.04477611940298,,M1,unrelated,,A6SVE7,,,24.59016393442623,False,,M1,False,P50120,,134,7K74,ok,True,342
+False,B4_unrelated,"uniformly random pairing, negative control",92.53246753246754,,M1,unrelated,,Q3JEB6,,,22.45614035087719,False,,M1,False,P74733,,308,4WJ3,ok,True,481
+False,B4_unrelated,"uniformly random pairing, negative control",96.07843137254902,,M1,unrelated,,Q9R1C7,,,20.408163265306122,False,,M1,False,G1SYU7,,51,8PXW,ok,True,99
+False,B4_unrelated,"uniformly random pairing, negative control",94.75218658892128,,M1,unrelated,,Q8NRZ4,,,20.615384615384617,False,,M1,False,Q81A16,,343,1RQG,ok,True,722
+False,B4_unrelated,"uniformly random pairing, negative control",93.36492890995261,,M1,unrelated,,O75146,,,22.33502538071066,False,,M1,False,P35625,,211,1R0D,ok,True,206
+False,B4_unrelated,"uniformly random pairing, negative control",19.285714285714285,,M1,unrelated,,O33347,,,69.44444444444444,False,,M1,False,Q9DEX1,,560,3G5O,ok,True,108
+False,B4_unrelated,"uniformly random pairing, negative control",28.11641954969797,,M1,unrelated,,B8EDV5,,,62.890625,False,,M1,False,Q8WWQ0,,1821,9O1A,ok,True,513
+False,B4_unrelated,"uniformly random pairing, negative control",40.38657171922686,,M1,unrelated,,Q96QZ7,,,51.385390428211586,False,,M2,False,P16784,,983,1WBP,ok,False,397
+False,B4_unrelated,"uniformly random pairing, negative control",86.70886075949367,,M1,unrelated,,A3CPV8,,,26.277372262773724,False,,M1,False,Q81MX1,,158,3D5L,ok,True,221
+False,B4_unrelated,"uniformly random pairing, negative control",52.328159645232816,,M1,unrelated,,Q9I106,,,41.94915254237288,False,,M2,False,Q5HJZ9,,451,2H0I,ok,False,237
+False,B4_unrelated,"uniformly random pairing, negative control",19.860627177700348,,M1,unrelated,,C0HLB0,,,57.89473684210526,False,,M1,False,Q8D3J4,,287,5M4V,ok,True,57
+False,B4_unrelated,"uniformly random pairing, negative control",25.1900108577633,,M1,unrelated,,Q8P589,,,67.24137931034483,False,,M1,False,Q5FQC8,,921,1W66,ok,True,232
+False,B4_unrelated,"uniformly random pairing, negative control",95.29411764705883,,M1,unrelated,,Q9LNE4,,,19.753086419753085,False,,M1,False,P58062,,85,5EY7,ok,True,323
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q46DC5,,,,,,,,Q8NL19,,,9O17,fetch_error: 404 fetching https://files.rcsb.org/download/9O17.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",44.23676012461059,,M1,unrelated,,A8F7D4,,,48.59154929577465,False,,M2,False,A7HXW0,,321,1TZT,ok,False,142
+False,B4_unrelated,"uniformly random pairing, negative control",56.47482014388489,,M1,unrelated,,P67091,,,41.40127388535032,False,,M2,False,Q87J80,,278,4R2L,ok,False,158
+False,B4_unrelated,"uniformly random pairing, negative control",30.147058823529413,,M1,unrelated,,Q8EQV8,,,53.65853658536585,False,,M1,False,Q9SJ56,,680,2F9Z,ok,True,205
+False,B4_unrelated,"uniformly random pairing, negative control",92.3076923076923,,M1,unrelated,,B9DM98,,,29.166666666666668,False,,M1,False,B3H0R2,,208,6GYZ,ok,True,455
+False,B4_unrelated,"uniformly random pairing, negative control",78.04154302670624,,M1,unrelated,,P16114,,,28.136882129277566,False,,M1,False,Q5FH31,,337,6XIU,ok,True,265
+False,B4_unrelated,"uniformly random pairing, negative control",77.90697674418605,,M1,unrelated,,P02680,,,28.171641791044777,False,,M1,False,Q34312,,688,3GHG,ok,True,562
+False,B4_unrelated,"uniformly random pairing, negative control",46.6798810703667,,M1,unrelated,,B5RGH7,,,46.92144373673036,False,,M2,False,P49916,,1009,5JTL,ok,False,471
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2L938,,,,,,,,Q3IQR5,,,8QMA,fetch_error: 404 fetching https://files.rcsb.org/download/8QMA.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",96.94656488549619,,M1,unrelated,,Q9HCS2,,,21.25984251968504,False,,M1,False,Q2GEC5,,131,6C93,ok,True,497
+False,B4_unrelated,"uniformly random pairing, negative control",84.18972332015811,,M1,unrelated,,B3DRN4,,,30.985915492957748,False,,M1,False,P06398,,253,7LJF,ok,True,601
+False,B4_unrelated,"uniformly random pairing, negative control",98.48484848484848,,M1,unrelated,,A8G875,,,20.0,False,,M1,False,Q2JI03,,66,1DCJ,ok,True,81
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9CQ06,,,,,,,,F1NLH9,,,9E9C,fetch_error: 404 fetching https://files.rcsb.org/download/9E9C.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",92.32954545454545,,M1,unrelated,,Q9HCJ2,,,20.923076923076923,False,,M1,False,Q97W02,,352,3ZYJ,ok,True,426
+False,B4_unrelated,"uniformly random pairing, negative control",96.47887323943662,,M1,unrelated,,P94868,,,22.62773722627737,False,,M1,False,P27684,,142,4K7C,ok,True,446
+False,B4_unrelated,"uniformly random pairing, negative control",26.5,,M1,unrelated,,O35906,,,64.15094339622641,False,,M1,False,P9WPL7,,400,9J1N,ok,True,106
+False,B4_unrelated,"uniformly random pairing, negative control",34.507678410117435,,M1,unrelated,,Q8IUM7,,,54.973821989528794,False,,M1,False,P28340,,1107,7XI4,ok,True,383
+False,B4_unrelated,"uniformly random pairing, negative control",56.92934782608695,,M1,unrelated,,A4ITJ9,,,39.618138424821005,False,,M1,False,Q9PW38,,736,1KKJ,ok,True,419
+False,B4_unrelated,"uniformly random pairing, negative control",52.41935483870968,,M1,unrelated,,Q94AR6,,,43.07692307692308,False,,M2,False,A6QES8,,124,8XUF,ok,False,65
+False,B4_unrelated,"uniformly random pairing, negative control",62.945736434108525,,M1,unrelated,,Q9VA73,,,37.93103448275862,False,,M1,False,A4GAI2,,645,4P5W,ok,True,411
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q1JNZ0,,,,,,,,Q30QW4,,,5MYJ,fetch_error: 404 fetching https://files.rcsb.org/download/5MYJ.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",83.81877022653721,,M1,unrelated,,Q8R0F8,,,25.096525096525095,False,,M1,False,P75485,,309,6SBI,ok,True,265
+False,B4_unrelated,"uniformly random pairing, negative control",59.21052631578947,,M1,unrelated,,Q55G18,,,38.73015873015873,False,,M1,False,P19224,,532,8QYJ,ok,True,316
+False,B4_unrelated,"uniformly random pairing, negative control",93.18181818181819,,M1,unrelated,,B9MDW3,,,24.390243902439025,False,,M1,False,Q0K643,,132,4EVZ,ok,True,258
+False,B4_unrelated,"uniformly random pairing, negative control",87.96296296296296,,M1,unrelated,,A0A8I3NRY3,,,28.42105263157895,False,,M1,False,P01315,,108,1TXD,ok,True,385
+False,B4_unrelated,"uniformly random pairing, negative control",73.07692307692308,,M1,unrelated,,O88878,,,33.333333333333336,False,,M1,False,B3DFP2,,78,1WFL,ok,True,74
+False,B4_unrelated,"uniformly random pairing, negative control",79.84496124031008,,M1,unrelated,,A4YWD8,,,32.03883495145631,False,,M1,False,D9IWE0,,129,28OA,ok,True,142
+False,B4_unrelated,"uniformly random pairing, negative control",90.9090909090909,,M1,unrelated,,A8FQV1,,,25.357142857142858,False,,M1,False,A4WAF3,,308,4IOJ,ok,True,559
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q3B380,,,,,,,,P0CI86,,,9I5T,fetch_error: 404 fetching https://files.rcsb.org/download/9I5T.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",92.3076923076923,,M1,unrelated,,Q3MAP3,,,22.22222222222222,False,,M1,False,P16103,,156,7LJP,ok,True,161
+False,B4_unrelated,"uniformly random pairing, negative control",33.993399339933994,,M1,unrelated,,Q9UT83,,,60.19417475728155,False,,M1,False,O42855,,303,2D9P,ok,True,103
+False,B4_unrelated,"uniformly random pairing, negative control",17.37012987012987,,M1,unrelated,,Q6GHU0,,,73.83177570093459,False,,M1,False,C5BBA5,,616,2O7K,ok,True,107
+False,B4_unrelated,"uniformly random pairing, negative control",89.33333333333333,,M1,unrelated,,P61803,,,22.388059701492537,False,,M1,False,B4EBH0,,150,6S7O,ok,True,149
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9KDD7,,,,,,,,Q8KBI0,,,9A7T,fetch_error: 404 fetching https://files.rcsb.org/download/9A7T.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.92546583850931,,M1,unrelated,,Q8KZP5,,,27.7027027027027,False,,M1,False,Q3YV49,,161,2OG1,ok,True,286
+False,B4_unrelated,"uniformly random pairing, negative control",94.32624113475177,,M1,unrelated,,A4GBY0,,,23.30827067669173,False,,M1,False,B2IIJ6,,141,6LXI,ok,True,216
+False,B4_unrelated,"uniformly random pairing, negative control",32.83018867924528,,M1,unrelated,,A4TJK8,,,57.8544061302682,False,,M1,False,P37984,,795,4GEK,ok,True,261
+False,B4_unrelated,"uniformly random pairing, negative control",92.45283018867924,,M1,unrelated,,Q6DIX1,,,20.408163265306122,False,,M1,False,Q8EE77,,212,6L4B,ok,True,375
+False,B4_unrelated,"uniformly random pairing, negative control",89.47368421052632,,M1,unrelated,,A4JBA3,,,22.328931572629052,False,,M1,False,A8Y3R9,,931,2FSF,ok,True,853
+False,B4_unrelated,"uniformly random pairing, negative control",16.582914572864322,,M1,unrelated,,Q98F04,,,71.51515151515152,False,,M1,False,O35615,,995,1F3Y,ok,True,165
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P03092,,,,,,,,C3MR79,,,7K22,fetch_error: 404 fetching https://files.rcsb.org/download/7K22.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",93.79014989293361,,M1,unrelated,,Q3YUH3,,,20.77625570776256,False,,M1,False,P28700,,467,7P8V,ok,True,615
+False,B4_unrelated,"uniformly random pairing, negative control",93.93939393939394,,M1,unrelated,,P11344,,,24.193548387096776,False,,M1,False,P0C0M1,,66,5M8Q,ok,True,446
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,O80674,,,,,,,,Q640N3,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",42.52199413489736,,M1,unrelated,,Q0JMY8,,,49.6551724137931,False,,M2,False,Q3ILJ2,,341,5XFH,ok,False,145
+False,B4_unrelated,"uniformly random pairing, negative control",33.6986301369863,,M1,unrelated,,Q09623,,,52.03252032520325,False,,M1,False,O06457,,365,5VZV,ok,True,123
+False,B4_unrelated,"uniformly random pairing, negative control",25.94397076735688,,M1,unrelated,,A9MUK6,,,63.38028169014085,False,,M1,False,Q8W4S4,,821,1K4K,ok,True,213
+False,B4_unrelated,"uniformly random pairing, negative control",93.12227074235808,,M1,unrelated,,P41950,,,21.922626025791324,False,,M1,False,Q969R2,,916,10FT,ok,True,1011
+False,B4_unrelated,"uniformly random pairing, negative control",84.366576819407,,M1,unrelated,,B0U4R4,,,24.600638977635782,False,,M1,False,P50127,,371,4EHW,ok,True,317
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B5ZAV3,,,,,,,,A3NWL9,,,9A6Z,fetch_error: 404 fetching https://files.rcsb.org/download/9A6Z.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.86175115207374,,M1,unrelated,,Q8BJS4,,,23.076923076923077,False,,M1,False,Q168B1,,217,5ED8,ok,True,268
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,O66119,,,,,,,,O17503,,,7UOM,fetch_error: 404 fetching https://files.rcsb.org/download/7UOM.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2LSG3,,,,,,,,Q8TDS4,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",93.26923076923077,,M1,unrelated,,B1LFY1,,,23.195876288659793,False,,M1,False,A0LIJ6,,208,8BXG,ok,True,561
+False,B4_unrelated,"uniformly random pairing, negative control",94.87179487179488,,M1,unrelated,,Q9CMZ1,,,20.945945945945947,False,,M1,False,Q8E4S2,,468,4RTD,ok,True,1639
+False,B4_unrelated,"uniformly random pairing, negative control",62.083333333333336,,M1,unrelated,,Q7SXX7,,,36.241610738255034,False,,M1,False,A3MNG2,,240,3TOW,ok,True,152
+False,B4_unrelated,"uniformly random pairing, negative control",92.95039164490862,,M1,unrelated,,Q2YD61,,,19.662921348314608,False,,M1,False,Q9H841,,383,8BTG,ok,True,446
+False,B4_unrelated,"uniformly random pairing, negative control",81.66666666666667,,M1,unrelated,,Q2JT68,,,24.489795918367346,False,,M1,False,P52725,,60,6HUM,ok,True,70
+False,B4_unrelated,"uniformly random pairing, negative control",89.01098901098901,,M1,unrelated,,Q1CEB6,,,20.987654320987655,False,,M1,False,P54962,,182,5U93,ok,True,172
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q04PU0,,,,,,,,P54887,,,8CRX,fetch_error: 404 fetching https://files.rcsb.org/download/8CRX.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q3KCB7,,,,,,,,O48706,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",80.21390374331551,,M1,unrelated,,O26776,,,28.0,False,,M1,False,P00375,,187,1W94,ok,True,156
+False,B4_unrelated,"uniformly random pairing, negative control",10.969976905311778,,M1,unrelated,,P48326,,,87.36842105263158,False,,M1,False,P31625,,866,3ZIH,ok,True,95
+False,B4_unrelated,"uniformly random pairing, negative control",94.90445859872611,,M1,unrelated,,O30478,,,26.174496644295303,False,,M1,False,Q03PZ7,,157,5A3K,ok,True,340
+False,B4_unrelated,"uniformly random pairing, negative control",67.52577319587628,,M1,unrelated,,B7N2X1,,,34.35114503816794,False,,M1,False,Q7N8X6,,388,1K82,ok,True,268
+False,B4_unrelated,"uniformly random pairing, negative control",84.91879350348027,,M1,unrelated,,P41339,,,24.043715846994534,False,,M1,False,B4RP13,,431,4JHD,ok,True,384
+False,B4_unrelated,"uniformly random pairing, negative control",14.30921052631579,,M1,unrelated,,Q9VQ56,,,72.98850574712644,False,,M1,False,Q6P9Q6,,1216,5V3G,ok,True,174
+False,B4_unrelated,"uniformly random pairing, negative control",4.083094555873926,,M1,unrelated,,Q0J8G8,,,98.24561403508773,False,,M1,False,P13390,,1396,7NB0,ok,True,57
+False,B4_unrelated,"uniformly random pairing, negative control",56.1576354679803,,M1,unrelated,,Q5N384,,,41.00877192982456,False,,M2,False,Q8G0I7,,812,8TXR,ok,False,456
+False,B4_unrelated,"uniformly random pairing, negative control",90.38817005545286,,M1,unrelated,,B6IMM3,,,25.562372188139058,False,,M1,False,A0A172J1R7,,541,9RD0,ok,True,551
+False,B4_unrelated,"uniformly random pairing, negative control",20.03968253968254,,M1,unrelated,,P54230,,,68.31683168316832,False,,M1,False,Q0P3K5,,504,1KWI,ok,True,101
+False,B4_unrelated,"uniformly random pairing, negative control",88.70967741935483,,M1,unrelated,,Q764S0,,,29.09090909090909,False,,M1,False,Q8EUD6,,124,4JN6,ok,True,306
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8M9Y6,,,,,,,,Q12167,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",94.11764705882354,,M1,unrelated,,Q386E7,,,21.25,False,,M1,False,B2GHC3,,85,3UE9,ok,True,452
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B8E1G6,,,,,,,,B7K6S6,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",93.10344827586206,,M1,unrelated,,Q3BUJ8,,,25.0,False,,M1,False,C6D9B8,,116,4JAY,ok,True,340
+False,B4_unrelated,"uniformly random pairing, negative control",36.21495327102804,,M1,unrelated,,P37802,,,50.32258064516129,False,,M1,False,B9KK24,,428,1WYM,ok,True,155
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q4UN64,,,,,,,,A6WHC9,,,8RD8,fetch_error: 404 fetching https://files.rcsb.org/download/8RD8.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",17.623762376237625,,M1,unrelated,,B8I574,,,77.52808988764045,False,,M1,False,Q0T846,,505,3ZK1,ok,True,89
+False,B4_unrelated,"uniformly random pairing, negative control",96.29629629629629,,M1,unrelated,,P55011,,,24.03846153846154,False,,M1,False,Q6TDU1,,216,6PZT,ok,True,1212
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q64T74,,,,,,,,Q24SK9,,,9A76,fetch_error: 404 fetching https://files.rcsb.org/download/9A76.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.81632653061224,,M1,unrelated,,Q5I2M3,,,23.876404494382022,False,,M1,False,C4KIV9,,392,3WPB,ok,True,802
+False,B4_unrelated,"uniformly random pairing, negative control",87.83783783783784,,M1,unrelated,,Q6FAU4,,,26.153846153846153,False,,M1,False,A9VTK5,,148,5B8F,ok,True,164
+False,B4_unrelated,"uniformly random pairing, negative control",87.46518105849582,,M1,unrelated,,Q6NHL3,,,23.248407643312103,False,,M1,False,Q39KC4,,359,8VCW,ok,True,327
+False,B4_unrelated,"uniformly random pairing, negative control",98.07692307692308,,M1,unrelated,,P0AF22,,,22.22222222222222,False,,M1,False,B7HPK2,,156,1Z05,ok,True,429
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q0SPR8,,,,,,,,Q95GQ8,,,7NHN,fetch_error: 404 fetching https://files.rcsb.org/download/7NHN.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",43.687150837988824,,M1,unrelated,,Q9VNM1,,,47.05882352941177,False,,M2,False,Q8NW39,,895,7X9B,ok,False,391
+False,B4_unrelated,"uniformly random pairing, negative control",94.01709401709402,,M1,unrelated,,Q10KY3,,,21.818181818181817,False,,M1,False,B9KZV9,,117,9VHU,ok,True,537
+False,B4_unrelated,"uniformly random pairing, negative control",73.19034852546918,,M1,unrelated,,A1UUB8,,,33.333333333333336,False,,M1,False,Q9LR97,,373,6WQM,ok,True,289
+False,B4_unrelated,"uniformly random pairing, negative control",99.04761904761905,,M1,unrelated,,Q1C8V8,,,28.846153846153847,False,,M1,False,B7IA28,,105,1EYZ,ok,True,392
+False,B4_unrelated,"uniformly random pairing, negative control",95.5223880597015,,M1,unrelated,,Q7YJY4,,,23.4375,False,,M1,False,Q6QLR2,,67,1FX0,ok,True,498
+False,B4_unrelated,"uniformly random pairing, negative control",16.894977168949772,,M1,unrelated,,Q62120,,,76.57657657657657,False,,M1,False,Q6CWJ7,,657,2HDX,ok,True,111
+False,B4_unrelated,"uniformly random pairing, negative control",4.777777777777778,,M1,unrelated,,P0DMY1,,,93.02325581395348,False,,M1,False,C9K7C1,,900,1BDS,ok,True,43
+False,B4_unrelated,"uniformly random pairing, negative control",96.42857142857143,,M1,unrelated,,Q21P75,,,21.296296296296298,False,,M1,False,Q8EGD7,,112,6FQB,ok,True,260
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q72IN1,,,,,,,,A4ITP1,,,4V4I,fetch_error: 404 fetching https://files.rcsb.org/download/4V4I.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",98.14814814814815,,M1,unrelated,,P22827,,,15.09433962264151,False,,M1,False,Q68RV8,,54,9LT3,ok,True,73
+False,B4_unrelated,"uniformly random pairing, negative control",43.89359129383313,,M1,unrelated,,P07250,,,48.209366391184574,False,,M2,False,P36774,,827,2IEW,ok,False,363
+False,B4_unrelated,"uniformly random pairing, negative control",76.62337662337663,,M1,unrelated,,Q8XV20,,,33.898305084745765,False,,M1,False,P08228,,154,9H91,ok,True,150
+False,B4_unrelated,"uniformly random pairing, negative control",6.125696101829753,,M1,unrelated,,P17486,,,93.50649350649351,False,,M1,False,Q8IR79,,1257,4UUS,ok,True,77
+False,B4_unrelated,"uniformly random pairing, negative control",29.74910394265233,,M1,unrelated,,Q9K3V1,,,60.6425702811245,False,,M1,False,Q9Y6X8,,837,9EOL,ok,True,251
+False,B4_unrelated,"uniformly random pairing, negative control",93.19727891156462,,M1,unrelated,,P0DH98,,,20.437956204379564,False,,M1,False,Q5JE20,,147,4AQR,ok,True,149
+False,B4_unrelated,"uniformly random pairing, negative control",92.70588235294117,,M1,unrelated,,P81156,,,24.365482233502537,False,,M1,False,A0PNR5,,425,1GPE,ok,True,587
+False,B4_unrelated,"uniformly random pairing, negative control",21.940928270042193,,M1,unrelated,,Q71YI9,,,72.59615384615384,False,,M1,False,Q1IDS5,,948,3TAU,ok,True,208
+False,B4_unrelated,"uniformly random pairing, negative control",73.04347826086956,,M1,unrelated,,B5RBY7,,,33.73015873015873,False,,M1,False,Q9F488,,345,6JYY,ok,True,257
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q7WHP3,,,,,,,,Q8WUU5,,,7UNR,fetch_error: 404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",41.791044776119406,,M1,unrelated,,P19109,,,49.330357142857146,False,,M2,False,A9ZLX4,,1072,6UV0,ok,False,448
+False,B4_unrelated,"uniformly random pairing, negative control",54.08653846153846,,M1,unrelated,,A4GAG3,,,41.77777777777778,False,,M2,False,Q8NFU5,,416,9GHL,ok,False,225
+False,B4_unrelated,"uniformly random pairing, negative control",94.03669724770643,,M1,unrelated,,Q80SX8,,,22.926829268292682,False,,M1,False,Q9KSN0,,218,5FHH,ok,True,442
+False,B4_unrelated,"uniformly random pairing, negative control",9.655172413793103,,M1,unrelated,,P56375,,,84.6938775510204,False,,M1,False,B1ASB6,,1015,1APS,ok,True,98
+False,B4_unrelated,"uniformly random pairing, negative control",91.82389937106919,,M1,unrelated,,B6EI95,,,19.863013698630137,False,,M1,False,Q06394,,159,9FXK,ok,True,155
+False,B4_unrelated,"uniformly random pairing, negative control",93.15352697095436,,M1,unrelated,,Q14DH7,,,24.053452115812917,False,,M1,False,Q9C6S4,,482,5GXD,ok,True,630
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P14817,,,,,,,,Q86UA6,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.00255754475704,,M1,unrelated,,Q3B3Y0,,,25.57471264367816,False,,M1,False,B1IE45,,391,3VIU,ok,True,725
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q96MR6,,,,,,,,B7M7C2,,,8J07,fetch_error: 404 fetching https://files.rcsb.org/download/8J07.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",18.05111821086262,,M1,unrelated,,Q6AYE8,,,74.33628318584071,False,,M1,False,Q95ZQ4,,626,2ASK,ok,True,113
+False,B4_unrelated,"uniformly random pairing, negative control",27.94943820224719,,M1,unrelated,,Q16Y34,,,45.7286432160804,False,,M1,False,Q55G20,,712,3VWD,ok,True,201
+False,B4_unrelated,"uniformly random pairing, negative control",30.580357142857142,,M1,unrelated,,C3PHK4,,,58.394160583941606,False,,M1,False,Q5XD20,,448,3TZU,ok,True,137
+False,B4_unrelated,"uniformly random pairing, negative control",79.91718426501035,,M1,unrelated,,B7UQD9,,,29.015544041450777,False,,M1,False,Q7M8W6,,483,7E0M,ok,True,391
+False,B4_unrelated,"uniformly random pairing, negative control",49.91680532445923,,M1,unrelated,,A4G8L8,,,43.0,False,,M2,False,B2AIF3,,601,2AT2,ok,False,300
+False,B4_unrelated,"uniformly random pairing, negative control",92.3913043478261,,M1,unrelated,,B4TI40,,,22.352941176470587,False,,M1,False,A9L9E3,,92,5TSA,ok,True,309
+False,B4_unrelated,"uniformly random pairing, negative control",91.46341463414635,,M1,unrelated,,Q1CC00,,,26.666666666666668,False,,M1,False,P9WJ87,,82,1EIZ,ok,True,180
+False,B4_unrelated,"uniformly random pairing, negative control",21.81500872600349,,M1,unrelated,,O08838,,,67.6,False,,M1,False,O67037,,1146,2VJ0,ok,True,250
+False,B4_unrelated,"uniformly random pairing, negative control",25.66628041714948,,M1,unrelated,,B4SGR7,,,64.55981941309255,False,,M1,False,Q09JY9,,1726,1YYF,ok,True,443
+False,B4_unrelated,"uniformly random pairing, negative control",100.0,,M1,unrelated,,O07624,,,22.93577981651376,False,,M1,False,P52855,,109,1R0U,ok,True,148
+False,B4_unrelated,"uniformly random pairing, negative control",92.15686274509804,,M1,unrelated,,O73564,,,22.340425531914892,False,,M1,False,P02877,,204,6M78,ok,True,296
+False,B4_unrelated,"uniformly random pairing, negative control",86.61417322834646,,M1,unrelated,,Q2FS96,,,30.0,False,,M1,False,B7GF88,,127,1FXK,ok,True,133
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B3Q856,,,,,,,,Q8Y915,,,28NT,fetch_error: 404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P33750,,,,,,,,Q9LRH7,,,5WLC,fetch_error: 404 fetching https://files.rcsb.org/download/5WLC.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,C1CL62,,,,,,,,O67367,,,8RDW,fetch_error: 404 fetching https://files.rcsb.org/download/8RDW.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.625,,M1,unrelated,,Q9M7M1,,,24.137931034482758,False,,M1,False,Q4JAP5,,128,4PL9,ok,True,183
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q4L5W6,,,,,,,,B1JL13,,,9QPC,fetch_error: 404 fetching https://files.rcsb.org/download/9QPC.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.79591836734694,,M1,unrelated,,Q9KPK8,,,23.863636363636363,False,,M1,False,Q9FMS7,,196,2JHQ,ok,True,226
+False,B4_unrelated,"uniformly random pairing, negative control",12.457912457912458,,M1,unrelated,,P28674,,,78.37837837837837,False,,M1,False,A5CXZ0,,297,1F8P,ok,True,37
+False,B4_unrelated,"uniformly random pairing, negative control",47.67255216693419,,M1,unrelated,,P0A1J1,,,46.127946127946124,False,,M2,False,B4JHK2,,623,1WLG,ok,False,299
+False,B4_unrelated,"uniformly random pairing, negative control",97.19626168224299,,M1,unrelated,,Q9VB68,,,23.076923076923077,False,,M1,False,B0K5Q4,,107,2XXL,ok,True,408
+False,B4_unrelated,"uniformly random pairing, negative control",91.89189189189189,,M1,unrelated,,P36233,,,17.058823529411764,False,,M1,False,B3A0Q4,,185,1BMO,ok,True,233
+False,B4_unrelated,"uniformly random pairing, negative control",15.025906735751295,,M1,unrelated,,Q06826,,,74.13793103448276,False,,M1,False,Q8HY46,,772,1ES7,ok,True,116
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q02931,,,,,,,,Q3JCX7,,,5WLC,fetch_error: 404 fetching https://files.rcsb.org/download/5WLC.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.97560975609755,,M1,unrelated,,Q0PV50,,,24.664879356568363,False,,M1,False,P13473,,410,7C76,ok,True,597
+False,B4_unrelated,"uniformly random pairing, negative control",86.08695652173913,,M1,unrelated,,B8F668,,,27.77777777777778,False,,M1,False,P69417,,230,4GIJ,ok,True,335
+False,B4_unrelated,"uniformly random pairing, negative control",91.39784946236558,,M1,unrelated,,A1VUJ4,,,25.88235294117647,False,,M1,False,Q9CDE7,,93,1R30,ok,True,369
+False,B4_unrelated,"uniformly random pairing, negative control",91.42857142857143,,M1,unrelated,,A1CPG7,,,24.479166666666668,False,,M1,False,B1ZNE2,,210,5O8V,ok,True,360
+False,B4_unrelated,"uniformly random pairing, negative control",79.46768060836501,,M1,unrelated,,Q05033,,,28.708133971291865,False,,M1,False,Q15VG2,,263,2MAF,ok,True,238
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2W9D1,,,,,,,,Q8PVA5,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.98039215686275,,M1,unrelated,,A9BCH4,,,23.70689655172414,False,,M1,False,P50788,,510,8SYI,ok,True,624
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B0UHX7,,,,,,,,Q83NC0,,,4V6F,fetch_error: 404 fetching https://files.rcsb.org/download/4V6F.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",27.547169811320753,,M1,unrelated,,P68871,,,65.75342465753425,False,,M1,False,Q2L1U0,,530,1A00,ok,True,146
+False,B4_unrelated,"uniformly random pairing, negative control",94.4,,M1,unrelated,,Q0TKW1,,,22.033898305084747,False,,M1,False,B8GEC0,,125,9LQ0,ok,True,580
+False,B4_unrelated,"uniformly random pairing, negative control",17.79788838612368,,M1,unrelated,,Q8L8C0,,,72.03389830508475,False,,M1,False,Q24246,,663,1R94,ok,True,118
+False,B4_unrelated,"uniformly random pairing, negative control",95.28301886792453,,M1,unrelated,,Q96JA1,,,22.277227722772277,False,,M1,False,O34994,,212,4U7L,ok,True,456
+False,B4_unrelated,"uniformly random pairing, negative control",91.5057915057915,,M1,unrelated,,Q9UZC9,,,27.0042194092827,False,,M1,False,O25963,,259,3DSC,ok,True,349
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A8MA81,,,,,,,,Q1B628,,,9E6Q,fetch_error: 404 fetching https://files.rcsb.org/download/9E6Q.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",43.35443037974684,,M1,unrelated,,A5U942,,,42.33576642335766,False,,M2,False,Q85FU3,,316,5YRX,ok,False,139
+False,B4_unrelated,"uniformly random pairing, negative control",49.074975657254136,,M1,unrelated,,Q8JTH0,,,38.492063492063494,False,,M1,False,O61735,,1027,8A1E,ok,True,505
+False,B4_unrelated,"uniformly random pairing, negative control",47.2972972972973,,M1,unrelated,,Q6WKZ4,,,46.857142857142854,False,,M2,False,Q9XDN0,,370,4D0G,ok,False,175
+False,B4_unrelated,"uniformly random pairing, negative control",28.88888888888889,,M1,unrelated,,P42830,,,61.53846153846154,False,,M1,False,B8GMY8,,270,2MGS,ok,True,78
+False,B4_unrelated,"uniformly random pairing, negative control",87.55186721991701,,M1,unrelated,,Q7MH90,,,24.644549763033176,False,,M1,False,A5INE5,,241,9H90,ok,True,232
+False,B4_unrelated,"uniformly random pairing, negative control",96.15384615384616,,M1,unrelated,,A8MI61,,,25.0,False,,M1,False,B5YTN0,,104,5WAT,ok,True,315
+False,B4_unrelated,"uniformly random pairing, negative control",91.05263157894737,,M1,unrelated,,P04635,,,22.54335260115607,False,,M1,False,Q2KY81,,190,2HIH,ok,True,431
+False,B4_unrelated,"uniformly random pairing, negative control",70.95709570957095,,M1,unrelated,,P0CK66,,,32.093023255813954,False,,M1,False,A0QKY2,,303,2W69,ok,True,216
+False,B4_unrelated,"uniformly random pairing, negative control",97.01492537313433,,M1,unrelated,,Q91642,,,22.307692307692307,False,,M1,False,P06384,,134,7C9B,ok,True,242
+False,B4_unrelated,"uniformly random pairing, negative control",70.87378640776699,,M1,unrelated,,P69055,,,33.39041095890411,False,,M1,False,Q21988,,824,1NEK,ok,True,588
+False,B4_unrelated,"uniformly random pairing, negative control",66.12021857923497,,M1,unrelated,,Q4QY64,,,34.710743801652896,False,,M1,False,Q8IVW8,,549,8UII,ok,True,363
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,E9RFT2,,,,,,,,Q8QV69,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",97.61904761904762,,M1,unrelated,,A2SU89,,,24.390243902439025,False,,M1,False,A5EXZ1,,84,2CYB,ok,True,323
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9HWE4,,,,,,,,Q8NWY9,,,7UNR,fetch_error: 404 fetching https://files.rcsb.org/download/7UNR.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q04E44,,,,,,,,Q17YX5,,,8UU8,fetch_error: 404 fetching https://files.rcsb.org/download/8UU8.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",88.48314606741573,,M1,unrelated,,O48528,,,25.07936507936508,False,,M1,False,P76015,,356,8BEF,ok,True,325
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,O15360,,,,,,,,A6UTF8,,,7KZP,fetch_error: 404 fetching https://files.rcsb.org/download/7KZP.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",86.92307692307692,,M1,unrelated,,Q46HP4,,,26.548672566371682,False,,M1,False,Q7MYG5,,130,5XBH,ok,True,195
+False,B4_unrelated,"uniformly random pairing, negative control",93.15068493150685,,M1,unrelated,,Q06696,,,27.941176470588236,False,,M1,False,O07227,,73,1U5T,ok,True,169
+False,B4_unrelated,"uniformly random pairing, negative control",8.652482269503546,,M1,unrelated,,P0CG56,,,86.06557377049181,False,,M1,False,Q7Z3K3,,1410,3R0L,ok,True,122
+False,B4_unrelated,"uniformly random pairing, negative control",65.23297491039426,,M1,unrelated,,P62368,,,33.51648351648352,False,,M1,False,Q9KEE9,,279,4C81,ok,True,184
+False,B4_unrelated,"uniformly random pairing, negative control",93.08510638297872,,M1,unrelated,,A6U473,,,22.857142857142858,False,,M1,False,P46656,,188,1P0K,ok,True,349
+False,B4_unrelated,"uniformly random pairing, negative control",21.946440235140432,,M1,unrelated,,P08005,,,69.64285714285714,False,,M1,False,P11388,,1531,8Z21,ok,True,336
+False,B4_unrelated,"uniformly random pairing, negative control",17.688513037350248,,M1,unrelated,,A3DBQ1,,,71.31474103585657,False,,M1,False,Q86US8,,1419,4Y8F,ok,True,251
+False,B4_unrelated,"uniformly random pairing, negative control",97.14285714285714,,M1,unrelated,,P39899,,,32.35294117647059,False,,M1,False,Q31U54,,70,5A3Y,ok,True,548
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q4J711,,,,,,,,O13440,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P0C690,,,,,,,,D0NB65,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8NDA8,,,,,,,,A0A7J6EK66,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",19.84732824427481,,M1,unrelated,,Q66G78,,,68.26923076923077,False,,M1,False,Q6P5F7,,524,1CMA,ok,True,104
+False,B4_unrelated,"uniformly random pairing, negative control",91.41414141414141,,M1,unrelated,,B0BQN7,,,23.204419889502763,False,,M1,False,Q1GUJ1,,198,9IUE,ok,True,226
+False,B4_unrelated,"uniformly random pairing, negative control",94.8051948051948,,M1,unrelated,,Q7VMJ8,,,20.54794520547945,False,,M1,False,A2RMG0,,77,5XJ5,ok,True,201
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q80U30,,,,,,,,Q9VSA4,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",26.300148588410103,,M1,unrelated,,A5I7J6,,,65.53672316384181,False,,M1,False,Q2GFV4,,673,1C04,ok,True,177
+False,B4_unrelated,"uniformly random pairing, negative control",92.3076923076923,,M1,unrelated,,Q3ZBX9,,,27.083333333333332,False,,M1,False,P20406,,52,6KVD,ok,True,106
+False,B4_unrelated,"uniformly random pairing, negative control",92.06106870229007,,M1,unrelated,,O15014,,,22.22222222222222,False,,M1,False,P07975,,655,8PK5,ok,True,718
+False,B4_unrelated,"uniformly random pairing, negative control",87.75510204081633,,M1,unrelated,,A6GZI2,,,26.74418604651163,False,,M1,False,Q5Y4Q2,,98,7RPN,ok,True,252
+False,B4_unrelated,"uniformly random pairing, negative control",14.2975893599335,,M1,unrelated,,P9WFG7,,,81.3953488372093,False,,M1,False,Q03PU9,,1203,2FR2,ok,True,172
+False,B4_unrelated,"uniformly random pairing, negative control",77.35849056603773,,M1,unrelated,,Q8PUB8,,,29.10569105691057,False,,M1,False,O54916,,795,2Q2E,ok,True,621
+False,B4_unrelated,"uniformly random pairing, negative control",92.90953545232274,,M1,unrelated,,Q8K387,,,20.657894736842106,False,,M1,False,Q9D3S3,,818,8WG5,ok,True,823
+False,B4_unrelated,"uniformly random pairing, negative control",74.24242424242425,,M1,unrelated,,Q49YY5,,,29.499072356215212,False,,M1,False,A8P0V4,,726,9C0D,ok,True,541
+False,B4_unrelated,"uniformly random pairing, negative control",93.50649350649351,,M1,unrelated,,Q06629,,,18.51851851851852,False,,M1,False,Q9Z5B6,,231,6Z6F,ok,True,543
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P0AAY4,,,,,,,,Q9NRZ9,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.1891891891892,,M1,unrelated,,B5YE43,,,27.272727272727273,False,,M1,False,Q5M2K4,,111,2QGN,ok,True,322
+False,B4_unrelated,"uniformly random pairing, negative control",89.42307692307692,,M1,unrelated,,Q6GLB5,,,23.655913978494624,False,,M1,False,Q45391,,104,4ED5,ok,True,177
+False,B4_unrelated,"uniformly random pairing, negative control",31.2788906009245,,M1,unrelated,,Q60652,,,51.724137931034484,False,,M1,False,Q7Y220,,649,3C8J,ok,True,203
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9T043,,,,,,,,C6DJT9,,,9H3G,fetch_error: 404 fetching https://files.rcsb.org/download/9H3G.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",55.96707818930041,,M1,unrelated,,B0JLR5,,,36.029411764705884,False,,M1,False,P16563,,243,1ZKO,ok,True,136
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9HV43,,,,,,,,Q7PRA4,,,9A2I,fetch_error: 404 fetching https://files.rcsb.org/download/9A2I.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",57.57575757575758,,M1,unrelated,,Q8RQP5,,,34.21052631578947,False,,M1,False,Q5UJG3,,264,1IV1,ok,True,152
+False,B4_unrelated,"uniformly random pairing, negative control",93.81443298969072,,M1,unrelated,,A0A0A8X5N4,,,20.87912087912088,False,,M1,False,P0C5S3,,194,2VPW,ok,True,195
+False,B4_unrelated,"uniformly random pairing, negative control",100.0,,M1,unrelated,,Q679B6,,,0.0,False,,M1,False,O53943,,300,5LDW,ok,True,300
+False,B4_unrelated,"uniformly random pairing, negative control",50.99431818181818,,M1,unrelated,,Q8ZHI7,,,45.12534818941504,False,,M2,False,Q04Q66,,704,3A8I,ok,False,364
+False,B4_unrelated,"uniformly random pairing, negative control",32.70377733598409,,M1,unrelated,,Q7VKY7,,,56.23100303951368,False,,M1,False,Q8CDP0,,1006,5B4E,ok,True,329
+False,B4_unrelated,"uniformly random pairing, negative control",92.52747252747253,,M1,unrelated,,Q8NFY9,,,21.377672209026127,False,,M1,False,A1S4U5,,455,8GQ6,ok,True,623
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8CWY0,,,,,,,,Q9CKW8,,,9A7X,fetch_error: 404 fetching https://files.rcsb.org/download/9A7X.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",82.3943661971831,,M1,unrelated,,Q6PD21,,,21.367521367521366,False,,M1,False,A4XQQ3,,142,2ECD,ok,True,119
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q7CFT2,,,,,,,,Q6AW21,,,11BQ,fetch_error: 404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",50.12987012987013,,M1,unrelated,,P0A9S1,,,40.15544041450777,False,,M2,False,B5DF93,,770,1RRM,ok,False,386
+False,B4_unrelated,"uniformly random pairing, negative control",54.30809399477807,,M1,unrelated,,Q6A9H8,,,43.26923076923077,False,,M2,False,Q8VJU4,,766,1UDX,ok,False,416
+False,B4_unrelated,"uniformly random pairing, negative control",83.52941176470588,,M1,unrelated,,Q46XD7,,,32.394366197183096,False,,M1,False,B2THN1,,85,4F3Y,ok,True,272
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P69826,,,,,,,,Q5M5T1,,,9A2W,fetch_error: 404 fetching https://files.rcsb.org/download/9A2W.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q63H66,,,,,,,,P29208,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",88.96551724137932,,M1,unrelated,,Q47ZC3,,,27.906976744186046,False,,M1,False,A8Z325,,145,5Z9A,ok,True,363
+False,B4_unrelated,"uniformly random pairing, negative control",16.822429906542055,,M1,unrelated,,B8ZUT0,,,76.54320987654322,False,,M1,False,O94829,,963,7Y7O,ok,True,162
+False,B4_unrelated,"uniformly random pairing, negative control",84.05797101449275,,M1,unrelated,,Q8S5M8,,,24.137931034482758,False,,M1,False,A2S7I3,,138,8QBN,ok,True,121
+False,B4_unrelated,"uniformly random pairing, negative control",98.33333333333333,,M1,unrelated,,C1KVV7,,,25.423728813559322,False,,M1,False,A6SXP7,,60,1NRI,ok,True,306
+False,B4_unrelated,"uniformly random pairing, negative control",89.6103896103896,,M1,unrelated,,D2NRH2,,,33.333333333333336,False,,M1,False,A2S759,,77,1OZP,ok,True,318
+False,B4_unrelated,"uniformly random pairing, negative control",41.72185430463576,,M1,unrelated,,Q948Z4,,,41.26984126984127,False,,M2,False,Q6ITC7,,151,5E5Q,ok,False,63
+False,B4_unrelated,"uniformly random pairing, negative control",63.727959697733,,M1,unrelated,,A5EW69,,,35.17786561264822,False,,M1,False,Q6GPU1,,397,8EES,ok,True,253
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,O31920,,,,,,,,B7H7H4,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.97289972899729,,M1,unrelated,,Q3ZZI5,,,22.59036144578313,False,,M1,False,Q5FW56,,369,7M0O,ok,True,410
+False,B4_unrelated,"uniformly random pairing, negative control",90.3954802259887,,M1,unrelated,,B0CH29,,,28.125,False,,M1,False,O94588,,177,28YE,ok,True,178
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q3ZXB8,,,,,,,,P18528,,,7NHK,fetch_error: 404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",45.32520325203252,,M1,unrelated,,A9ADM4,,,46.18834080717489,False,,M2,False,Q9R0L1,,492,4DHE,ok,False,223
+False,B4_unrelated,"uniformly random pairing, negative control",89.47368421052632,,M1,unrelated,,P57830,,,22.941176470588236,False,,M1,False,P70368,,190,1DFO,ok,True,417
+False,B4_unrelated,"uniformly random pairing, negative control",57.25714285714286,,M1,unrelated,,Q94BV7,,,39.12175648702595,False,,M1,False,P61701,,875,4G6G,ok,True,502
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9QZ47,,,,,,,,Q2LQ85,,,7UTI,fetch_error: 404 fetching https://files.rcsb.org/download/7UTI.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",20.656370656370655,,M1,unrelated,,Q9UKW6,,,70.09345794392523,False,,M1,False,Q6GK92,,518,1WWX,ok,True,107
+False,B4_unrelated,"uniformly random pairing, negative control",9.002677376171352,,M1,unrelated,,Q8DD17,,,83.64312267657992,False,,M1,False,Q5TI25,,2988,1VK6,ok,True,269
+False,B4_unrelated,"uniformly random pairing, negative control",98.15950920245399,,M1,unrelated,,E1BFX5,,,20.625,False,,M1,False,Q92PY8,,163,8ZJF,ok,True,826
+False,B4_unrelated,"uniformly random pairing, negative control",92.70833333333333,,M1,unrelated,,B2KEK3,,,39.325842696629216,False,,M1,False,A1E9T3,,96,3J3V,ok,True,95
+False,B4_unrelated,"uniformly random pairing, negative control",73.22970639032815,,M1,unrelated,,P04012,,,29.4811320754717,False,,M1,False,Q5M7Q1,,579,2R5K,ok,True,424
+False,B4_unrelated,"uniformly random pairing, negative control",95.65217391304348,,M1,unrelated,,P46237,,,19.09090909090909,False,,M1,False,B7NSA5,,115,1OVW,ok,True,398
+False,B4_unrelated,"uniformly random pairing, negative control",74.14634146341463,,M1,unrelated,,Q5IZC5,,,30.92105263157895,False,,M1,False,Q94A76,,820,4K0R,ok,True,617
+False,B4_unrelated,"uniformly random pairing, negative control",95.26627218934911,,M1,unrelated,,P23106,,,22.981366459627328,False,,M1,False,Q65942,,169,2D0D,ok,True,282
+False,B4_unrelated,"uniformly random pairing, negative control",46.50349650349651,,M1,unrelated,,Q9IGY7,,,51.8796992481203,False,,M2,False,P16094,,286,6Q1M,ok,False,137
+False,B4_unrelated,"uniformly random pairing, negative control",39.81481481481482,,M1,unrelated,,P67645,,,50.498338870431894,False,,M1,False,Q13233,,1512,1KF6,ok,True,602
+False,B4_unrelated,"uniformly random pairing, negative control",25.15991471215352,,M1,unrelated,,Q75E32,,,62.71186440677966,False,,M1,False,O50311,,469,6R8I,ok,True,118
+False,B4_unrelated,"uniformly random pairing, negative control",88.4297520661157,,M1,unrelated,,Q6IQ26,,,23.98753894080997,False,,M1,False,A5W794,,363,3CWZ,ok,True,384
+False,B4_unrelated,"uniformly random pairing, negative control",90.74626865671642,,M1,unrelated,,A7MZT3,,,23.68421052631579,False,,M1,False,Q7VVF1,,335,1F4L,ok,True,551
+False,B4_unrelated,"uniformly random pairing, negative control",93.47826086956522,,M1,unrelated,,Q84KJ3,,,21.92691029900332,False,,M1,False,Q8Q054,,966,3EI1,ok,True,1158
+False,B4_unrelated,"uniformly random pairing, negative control",85.2589641434263,,M1,unrelated,,Q7VT71,,,27.102803738317757,False,,M1,False,Q9K6H3,,502,5OAS,ok,True,728
+False,B4_unrelated,"uniformly random pairing, negative control",95.41284403669725,,M1,unrelated,,Q6F0L8,,,25.48076923076923,False,,M1,False,Q90165,,218,6WVJ,ok,True,314
+False,B4_unrelated,"uniformly random pairing, negative control",92.74447949526814,,M1,unrelated,,Q54VW1,,,21.768707482993197,False,,M1,False,Q88P77,,317,1AC5,ok,True,483
+False,B4_unrelated,"uniformly random pairing, negative control",31.645569620253166,,M1,unrelated,,B0S1D8,,,62.666666666666664,False,,M1,False,P01871,,474,8Y1Q,ok,True,150
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q6CXI9,,,,,,,,Q4YCF6,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.41095890410959,,M1,unrelated,,Q04679,,,22.727272727272727,False,,M1,False,P20896,,292,7E1Z,ok,True,303
+False,B4_unrelated,"uniformly random pairing, negative control",82.41379310344827,,M1,unrelated,,A6USK6,,,28.03347280334728,False,,M1,False,B7MJ30,,290,4RC1,ok,True,242
+False,B4_unrelated,"uniformly random pairing, negative control",91.28205128205128,,M1,unrelated,,B1LBC1,,,24.719101123595507,False,,M1,False,O60125,,195,2R9V,ok,True,515
+False,B4_unrelated,"uniformly random pairing, negative control",89.14285714285714,,M1,unrelated,,Q9KM59,,,25.0,False,,M1,False,Q8VY88,,175,25EX,ok,True,1153
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q5RFL7,,,,,,,,O08715,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",62.89592760180995,,M1,unrelated,,Q97BK5,,,33.81294964028777,False,,M1,False,Q83FQ7,,221,3VVT,ok,True,139
+False,B4_unrelated,"uniformly random pairing, negative control",25.49800796812749,,M1,unrelated,,Q9QUS4,,,65.625,False,,M1,False,B4TFC5,,251,2DB7,ok,True,64
+False,B4_unrelated,"uniformly random pairing, negative control",95.79439252336448,,M1,unrelated,,Q9ESC8,,,19.51219512195122,False,,M1,False,Q63507,,214,6R80,ok,True,284
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P14115,,,,,,,,C8V3Y7,,,6SWA,fetch_error: 404 fetching https://files.rcsb.org/download/6SWA.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",15.25974025974026,,M1,unrelated,,Q5SPW0,,,75.88652482269504,False,,M1,False,P32797,,924,3N1B,ok,True,141
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,G1TT27,,,,,,,,Q253Y0,,,3JAG,fetch_error: 404 fetching https://files.rcsb.org/download/3JAG.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.40625,,M1,unrelated,,A1A0A9,,,23.931623931623932,False,,M1,False,O60783,,128,4GMK,ok,True,228
+False,B4_unrelated,"uniformly random pairing, negative control",30.578512396694215,,M1,unrelated,,B9F2L1,,,59.45945945945946,False,,M1,False,B8EAU2,,484,3DO8,ok,True,148
+False,B4_unrelated,"uniformly random pairing, negative control",89.51612903225806,,M1,unrelated,,O75387,,,25.225225225225227,False,,M1,False,Q66S61,,248,9JBS,ok,True,569
+False,B4_unrelated,"uniformly random pairing, negative control",85.18518518518519,,M1,unrelated,,P43001,,,24.456521739130434,False,,M1,False,P23284,,216,1RW5,ok,True,199
+False,B4_unrelated,"uniformly random pairing, negative control",87.90849673202614,,M1,unrelated,,A2RJR5,,,24.1635687732342,False,,M1,False,Q6JIY5,,306,1YY3,ok,True,346
+False,B4_unrelated,"uniformly random pairing, negative control",15.602836879432624,,M1,unrelated,,A8A7R4,,,0.0,False,,M1,False,O49606,,141,7P8V,ok,True,22
+False,B4_unrelated,"uniformly random pairing, negative control",73.10924369747899,,M1,unrelated,,O48049,,,31.724137931034484,False,,M1,False,Q6TNA5,,595,1BCC,ok,True,446
+False,B4_unrelated,"uniformly random pairing, negative control",41.26984126984127,,M1,unrelated,,A8AQN6,,,53.84615384615385,False,,M2,False,Q2YMH2,,189,3EFG,ok,False,78
+False,B4_unrelated,"uniformly random pairing, negative control",98.30508474576271,,M1,unrelated,,Q54B59,,,19.82758620689655,False,,M1,False,Q4FUD4,,118,6C5B,ok,True,341
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9ULD9,,,,,,,,Q73VJ7,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.34653465346534,,M1,unrelated,,Q7Z7L1,,,24.65753424657534,False,,M1,False,A0RJN9,,404,7ZEL,ok,True,929
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q1XDJ3,,,,,,,,P57462,,,10PX,fetch_error: 404 fetching https://files.rcsb.org/download/10PX.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",74.45652173913044,,M1,unrelated,,Q00273,,,28.154327424400417,False,,M1,False,A6NGG8,,1288,3J9D,ok,True,961
+False,B4_unrelated,"uniformly random pairing, negative control",18.78787878787879,,M1,unrelated,,Q8CF98,,,72.90322580645162,False,,M1,False,Q14CH0,,825,4YLI,ok,True,155
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P02841,,,,,,,,Q5ZJ85,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q7W3Z2,,,,,,,,B4TCZ1,,,28NT,fetch_error: 404 fetching https://files.rcsb.org/download/28NT.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",51.926977687626774,,M1,unrelated,,P04951,,,41.40625,False,,M2,False,Q96DC7,,493,1VH1,ok,False,256
+False,B4_unrelated,"uniformly random pairing, negative control",40.80834419817471,,M1,unrelated,,O66621,,,54.31309904153355,False,,M2,False,Q7QH73,,767,1AH5,ok,False,313
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q5T752,,,,,,,,Q04697,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",63.405797101449274,,M1,unrelated,,Q9Y6M4,,,34.857142857142854,False,,M1,False,Q50LE5,,552,2CHL,ok,True,351
+False,B4_unrelated,"uniformly random pairing, negative control",64.70588235294117,,M1,unrelated,,A7H2D5,,,37.37373737373738,False,,M1,False,Q9I1M3,,153,1YD6,ok,True,99
+False,B4_unrelated,"uniformly random pairing, negative control",45.66326530612245,,M1,unrelated,,Q64UR4,,,47.486033519553075,False,,M2,False,Q01813,,784,5YB0,ok,False,358
+False,B4_unrelated,"uniformly random pairing, negative control",90.02695417789758,,M1,unrelated,,F4K410,,,26.347305389221557,False,,M1,False,A0LQR9,,371,8EWH,ok,True,607
+False,B4_unrelated,"uniformly random pairing, negative control",94.67213114754098,,M1,unrelated,,Q9Y4P8,,,25.10822510822511,False,,M1,False,P76010,,244,7F69,ok,True,354
+False,B4_unrelated,"uniformly random pairing, negative control",92.62295081967213,,M1,unrelated,,B2JKL9,,,23.893805309734514,False,,M1,False,A9WJ69,,244,1F76,ok,True,336
+False,B4_unrelated,"uniformly random pairing, negative control",86.66666666666667,,M1,unrelated,,B4E5X0,,,30.76923076923077,False,,M1,False,Q1R9W7,,90,4CSU,ok,True,94
+False,B4_unrelated,"uniformly random pairing, negative control",87.46594005449592,,M1,unrelated,,Q8RA71,,,29.595015576323988,False,,M1,False,A3NZL5,,367,7OU2,ok,True,859
+False,B4_unrelated,"uniformly random pairing, negative control",52.51256281407035,,M1,unrelated,,A9AAG9,,,44.01913875598086,False,,M2,False,Q20YV7,,398,1XI3,ok,False,215
+False,B4_unrelated,"uniformly random pairing, negative control",28.26086956521739,,M1,unrelated,,Q9NVX7,,,57.69230769230769,False,,M1,False,A9M5W0,,368,2EQX,ok,True,105
+False,B4_unrelated,"uniformly random pairing, negative control",38.431372549019606,,M1,unrelated,,Q1CDT5,,,47.95918367346939,False,,M1,False,P0AET9,,255,1ETY,ok,True,98
+False,B4_unrelated,"uniformly random pairing, negative control",93.75,,M1,unrelated,,A0A3G1DJF3,,,30.476190476190474,False,,M1,False,Q97Q59,,112,7CPX,ok,True,3046
+False,B4_unrelated,"uniformly random pairing, negative control",96.72131147540983,,M1,unrelated,,P02344,,,20.338983050847457,False,,M1,False,P0C1Z0,,61,4QJN,ok,True,98
+False,B4_unrelated,"uniformly random pairing, negative control",96.07843137254902,,M1,unrelated,,B0RQK3,,,19.387755102040817,False,,M1,False,Q72WF4,,102,9GHL,ok,True,225
+False,B4_unrelated,"uniformly random pairing, negative control",39.354838709677416,,M1,unrelated,,P50124,,,52.78688524590164,False,,M1,False,B8ZRA3,,775,1A48,ok,True,306
+False,B4_unrelated,"uniformly random pairing, negative control",36.177474402730375,,M1,unrelated,,Q5F3B1,,,55.660377358490564,False,,M1,False,Q8NXZ3,,293,2PP4,ok,True,107
+False,B4_unrelated,"uniformly random pairing, negative control",32.55813953488372,,M1,unrelated,,C5BM95,,,57.417582417582416,False,,M1,False,Q6U841,,1118,3A8I,ok,True,364
+False,B4_unrelated,"uniformly random pairing, negative control",91.89189189189189,,M1,unrelated,,P07207,,,29.41176470588235,False,,M1,False,B9DYB4,,111,1OT8,ok,True,239
+False,B4_unrelated,"uniformly random pairing, negative control",98.44961240310077,,M1,unrelated,,B7N2J8,,,18.11023622047244,False,,M1,False,Q5HU29,,129,1VK6,ok,True,269
+False,B4_unrelated,"uniformly random pairing, negative control",92.23300970873787,,M1,unrelated,,Q8TWR5,,,24.210526315789473,False,,M1,False,Q4QMC3,,103,2D74,ok,True,148
+False,B4_unrelated,"uniformly random pairing, negative control",92.90322580645162,,M1,unrelated,,C6BV89,,,25.694444444444443,False,,M1,False,B2IA65,,155,8C9E,ok,True,921
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q03429,,,,,,,,P9WJF5,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",63.20754716981132,,M1,unrelated,,Q5F6Y8,,,36.11940298507463,False,,M1,False,Q5R8F5,,530,3A7A,ok,True,337
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P19348,,,,,,,,A0A075B6H9,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B7LSP9,,,,,,,,C3KTD5,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",40.5688622754491,,M1,unrelated,,B3PK21,,,49.07749077490775,False,,M2,False,P08018,,668,2F9T,ok,False,271
+False,B4_unrelated,"uniformly random pairing, negative control",93.10344827586206,,M1,unrelated,,P0C061,,,25.925925925925927,False,,M1,False,P58752,,58,1AMU,ok,True,563
+False,B4_unrelated,"uniformly random pairing, negative control",94.11764705882354,,M1,unrelated,,Q54QA0,,,22.65625,False,,M1,False,A3N475,,136,1H7S,ok,True,365
+False,B4_unrelated,"uniformly random pairing, negative control",94.76439790575917,,M1,unrelated,,W8JWW7,,,19.88950276243094,False,,M1,False,A7NBY0,,191,8A3N,ok,True,365
+False,B4_unrelated,"uniformly random pairing, negative control",14.599824098504838,,M1,unrelated,,Q0BIL0,,,79.51807228915662,False,,M1,False,P20585,,1137,1N0E,ok,True,166
+False,B4_unrelated,"uniformly random pairing, negative control",48.095238095238095,,M1,unrelated,,Q93YP7,,,44.884488448844884,False,,M2,False,Q9Z0V2,,630,4OD4,ok,False,303
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P64502,,,,,,,,A2T357,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",36.36363636363637,,M1,unrelated,,Q0ACB4,,,57.69230769230769,False,,M1,False,B4SU91,,286,4WJ3,ok,True,104
+False,B4_unrelated,"uniformly random pairing, negative control",94.11764705882354,,M1,unrelated,,Q60603,,,34.375,False,,M1,False,A7N1W2,,68,4F8A,ok,True,160
+False,B4_unrelated,"uniformly random pairing, negative control",69.89966555183946,,M1,unrelated,,A8IMX7,,,33.014354066985646,False,,M1,False,Q0TG68,,299,3BL5,ok,True,219
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9SL15,,,,,,,,P14113,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",57.55395683453237,,M1,unrelated,,A3QB39,,,40.833333333333336,False,,M2,False,C4Q0P6,,417,2BKV,ok,False,242
+False,B4_unrelated,"uniformly random pairing, negative control",95.51282051282051,,M1,unrelated,,Q8TV83,,,20.13422818791946,False,,M1,False,A9M5Q4,,156,1GPW,ok,True,201
+False,B4_unrelated,"uniformly random pairing, negative control",91.2751677852349,,M1,unrelated,,O34421,,,22.058823529411764,False,,M1,False,O28372,,149,5OL2,ok,True,260
+False,B4_unrelated,"uniformly random pairing, negative control",56.94656488549618,,M1,unrelated,,B2KAU6,,,38.06970509383378,False,,M1,False,Q9EPU5,,655,2IU8,ok,True,374
+False,B4_unrelated,"uniformly random pairing, negative control",57.3346116970278,,M1,unrelated,,A0L667,,,39.79933110367893,False,,M1,False,Q8NFZ0,,1043,4WJ3,ok,True,599
+False,B4_unrelated,"uniformly random pairing, negative control",52.244897959183675,,M1,unrelated,,B9DJH3,,,49.21875,False,,M2,False,Q4ZLQ1,,245,1ONL,ok,False,128
+False,B4_unrelated,"uniformly random pairing, negative control",93.41772151898734,,M1,unrelated,,Q53FZ2,,,21.13821138211382,False,,M1,False,P98182,,395,2VZE,ok,True,570
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A1JIM8,,,,,,,,Q8N3K9,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",95.65217391304348,,M1,unrelated,,Q8RWT8,,,22.727272727272727,False,,M1,False,Q49WP9,,161,7TZB,ok,True,484
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P53168,,,,,,,,Q5ZSA4,,,8Q84,fetch_error: 404 fetching https://files.rcsb.org/download/8Q84.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",62.6865671641791,,M1,unrelated,,B0TZW0,,,36.77248677248677,False,,M1,False,Q5L4X1,,603,3R0K,ok,True,379
+False,B4_unrelated,"uniformly random pairing, negative control",89.36170212765957,,M1,unrelated,,Q9I8G4,,,25.238095238095237,False,,M1,False,Q9YC02,,235,31FW,ok,True,244
+False,B4_unrelated,"uniformly random pairing, negative control",32.441471571906355,,M1,unrelated,,P08921,,,61.855670103092784,False,,M1,False,A0KBG7,,299,1A64,ok,True,97
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q7VA04,,,,,,,,B9I666,,,8Y5K,fetch_error: 404 fetching https://files.rcsb.org/download/8Y5K.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",35.62300319488818,,M1,unrelated,,Q9QBY9,,,53.36322869955157,False,,M1,False,Q8IYB4,,626,7D7S,ok,True,223
+False,B4_unrelated,"uniformly random pairing, negative control",89.38356164383562,,M1,unrelated,,Q24618,,,24.521072796934867,False,,M1,False,B7JVV5,,292,5L80,ok,True,353
+False,B4_unrelated,"uniformly random pairing, negative control",90.12345679012346,,M1,unrelated,,A0MD28,,,25.114155251141554,False,,M1,False,Q7V8F6,,243,6JDR,ok,True,441
+False,B4_unrelated,"uniformly random pairing, negative control",63.81578947368421,,M1,unrelated,,Q6LYE5,,,42.2680412371134,False,,M2,False,Q0HW75,,152,3A5C,ok,False,104
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B6DCV1,,,,,,,,O27083,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",2.322327923894796,,M1,unrelated,,A8MLG4,,,98.79518072289157,False,,M1,False,F4IHS2,,3574,6C00,ok,True,83
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q6EVZ4,,,,,,,,Q12374,,,9GRX,fetch_error: 404 fetching https://files.rcsb.org/download/9GRX.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",36.447166921898926,,M1,unrelated,,Q9Z183,,,51.260504201680675,False,,M1,False,A6M220,,653,6MKD,ok,True,239
+False,B4_unrelated,"uniformly random pairing, negative control",92.13973799126637,,M1,unrelated,,P26150,,,20.85308056872038,False,,M1,False,Q9JL99,,229,6JKG,ok,True,245
+False,B4_unrelated,"uniformly random pairing, negative control",88.85941644562334,,M1,unrelated,,Q91WE3,,,22.686567164179106,False,,M1,False,Q7W1P2,,377,6AHR,ok,True,363
+False,B4_unrelated,"uniformly random pairing, negative control",90.69767441860465,,M1,unrelated,,B6J7A4,,,23.58974358974359,False,,M1,False,P67870,,215,3VRH,ok,True,310
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2JUJ9,,,,,,,,Q00433,,,4V61,fetch_error: 404 fetching https://files.rcsb.org/download/4V61.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",95.6043956043956,,M1,unrelated,,Q8VDC0,,,24.137931034482758,False,,M1,False,A6TFP8,,91,6Q89,ok,True,877
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A9NEE6,,,,,,,,P82126,,,7JIL,fetch_error: 404 fetching https://files.rcsb.org/download/7JIL.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",66.66666666666667,,M1,unrelated,,P89440,,,27.678571428571427,False,,M1,False,P18735,,168,6M6G,ok,True,112
+False,B4_unrelated,"uniformly random pairing, negative control",96.11650485436893,,M1,unrelated,,B5YWW4,,,23.232323232323232,False,,M1,False,A1AGK8,,103,8S8U,ok,True,190
+False,B4_unrelated,"uniformly random pairing, negative control",99.0909090909091,,M1,unrelated,,C1C9K9,,,24.770642201834864,False,,M1,False,A9MVV4,,110,6MR3,ok,True,418
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B7NTQ7,,,,,,,,Q70LC7,,,11BQ,fetch_error: 404 fetching https://files.rcsb.org/download/11BQ.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2I2Q5,,,,,,,,Q1KVW5,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",11.19751166407465,,M1,unrelated,,P61684,,,81.94444444444444,False,,M1,False,Q6CUV7,,643,2N8N,ok,True,72
+False,B4_unrelated,"uniformly random pairing, negative control",90.9090909090909,,M1,unrelated,,C1DTW6,,,28.333333333333332,False,,M1,False,Q2G079,,132,5YJJ,ok,True,713
+False,B4_unrelated,"uniformly random pairing, negative control",19.402985074626866,,M1,unrelated,,B1IDW7,,,75.52447552447552,False,,M1,False,Q3ST22,,737,1YBX,ok,True,143
+False,B4_unrelated,"uniformly random pairing, negative control",84.52380952380952,,M1,unrelated,,P07291,,,28.169014084507044,False,,M1,False,Q9CNN6,,168,1B7T,ok,True,156
+False,B4_unrelated,"uniformly random pairing, negative control",27.290076335877863,,M1,unrelated,,A5FUJ7,,,58.74125874125874,False,,M1,False,Q96318,,524,3MXU,ok,True,143
+False,B4_unrelated,"uniformly random pairing, negative control",45.5709711846318,,M1,unrelated,,C9E1R7,,,41.4519906323185,False,,M2,False,Q17FR9,,937,2ERO,ok,False,427
+False,B4_unrelated,"uniformly random pairing, negative control",56.838905775075986,,M1,unrelated,,Q9YDV3,,,39.57219251336898,False,,M1,False,E1BNQ4,,329,2DVK,ok,True,188
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P58576,,,,,,,,P0C0T2,,,6JEO,fetch_error: 404 fetching https://files.rcsb.org/download/6JEO.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q65189,,,,,,,,C0JAQ5,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A0A144LVM3,,,,,,,,Q6AXR4,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",15.819531696173614,,M1,unrelated,,P36573,,,76.53429602888086,False,,M1,False,D3YUB6,,1751,4HL0,ok,True,278
+False,B4_unrelated,"uniformly random pairing, negative control",71.52777777777777,,M1,unrelated,,P9WI28,,,33.00970873786408,False,,M1,False,Q8VY86,,144,5XFS,ok,True,104
+False,B4_unrelated,"uniformly random pairing, negative control",85.0,,M1,unrelated,,A9IFG8,,,27.205882352941178,False,,M1,False,P47779,,160,3EPM,ok,True,612
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q3B399,,,,,,,,P08063,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q6C0L2,,,,,,,,Q6G9U3,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",89.77777777777777,,M1,unrelated,,A4WUS5,,,19.801980198019802,False,,M1,False,Q9Y3A3,,225,2F1D,ok,True,207
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P64525,,,,,,,,Q6XR72,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",75.58859975216852,,M1,unrelated,,Q31JC9,,,29.672131147540984,False,,M1,False,O48724,,807,3EPM,ok,True,612
+False,B4_unrelated,"uniformly random pairing, negative control",97.27272727272727,,M1,unrelated,,Q8FJR2,,,24.299065420560748,False,,M1,False,Q57G77,,110,1RI6,ok,True,343
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P75080,,,,,,,,A8F6A5,,,9QPC,fetch_error: 404 fetching https://files.rcsb.org/download/9QPC.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.0,,M1,unrelated,,P10217,,,23.333333333333332,False,,M1,False,A2AHG0,,700,6M5R,ok,True,694
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P0CA93,,,,,,,,Q9FLB0,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",37.411764705882355,,M1,unrelated,,B2FLW4,,,58.490566037735846,False,,M1,False,Q18212,,425,3X1J,ok,True,159
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2SWG5,,,,,,,,P04871,,,9I5T,fetch_error: 404 fetching https://files.rcsb.org/download/9I5T.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",41.952506596306065,,M1,unrelated,,P02643,,,42.76729559748428,False,,M2,False,Q6ELV7,,379,1A2X,ok,False,159
+False,B4_unrelated,"uniformly random pairing, negative control",9.669811320754716,,M1,unrelated,,Q58462,,,81.70731707317073,False,,M1,False,Q9WTR8,,1696,3EO4,ok,True,164
+False,B4_unrelated,"uniformly random pairing, negative control",84.01826484018265,,M1,unrelated,,P74227,,,28.532608695652176,False,,M1,False,C3LQR1,,438,8YLY,ok,True,408
+False,B4_unrelated,"uniformly random pairing, negative control",92.7710843373494,,M1,unrelated,,Q1CDL3,,,23.376623376623378,False,,M1,False,P0CAL4,,83,1M7X,ok,True,617
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A7ZMI4,,,,,,,,A7TJK8,,,10QM,fetch_error: 404 fetching https://files.rcsb.org/download/10QM.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.78082191780823,,M1,unrelated,,Q0TNN6,,,26.865671641791046,False,,M1,False,O31796,,73,5XI0,ok,True,400
+False,B4_unrelated,"uniformly random pairing, negative control",12.891207153502236,,M1,unrelated,,P0A6D8,,,86.1271676300578,False,,M1,False,P57146,,1342,1KAG,ok,True,173
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q556Y1,,,,,,,,P47498,,,9EHO,fetch_error: 404 fetching https://files.rcsb.org/download/9EHO.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q89N76,,,,,,,,P21189,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",93.77289377289377,,M1,unrelated,,P47039,,,25.0,False,,M1,False,Q7NRS0,,273,3B46,ok,True,447
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q0AYR3,,,,,,,,B2RRE7,,,8W9Z,fetch_error: 404 fetching https://files.rcsb.org/download/8W9Z.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q2KHT3,,,,,,,,Q4A604,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P64465,,,,,,,,A1AML8,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",87.90322580645162,,M1,unrelated,,Q72WV8,,,29.357798165137616,False,,M1,False,B1GYV6,,124,1DIV,ok,True,149
+False,B4_unrelated,"uniformly random pairing, negative control",19.881305637982194,,M1,unrelated,,Q6AQV6,,,71.14427860696517,False,,M1,False,Q8L7C2,,1011,5XJ5,ok,True,201
+False,B4_unrelated,"uniformly random pairing, negative control",100.0,,M1,unrelated,,B1VB75,,,24.742268041237114,False,,M1,False,A1SMW2,,97,5JFL,ok,True,524
+False,B4_unrelated,"uniformly random pairing, negative control",92.48826291079813,,M1,unrelated,,A8A6K7,,,23.85786802030457,False,,M1,False,Q5PM99,,213,11AS,ok,True,330
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q3APJ0,,,,,,,,P21741,,,3J9W,fetch_error: 404 fetching https://files.rcsb.org/download/3J9W.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9FUJ9,,,,,,,,A7GK37,,,,no_forced_structure_resolved,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A8A952,,,,,,,,Q86UL8,,,8HKX,fetch_error: 404 fetching https://files.rcsb.org/download/8HKX.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",86.26609442060087,,M1,unrelated,,A9VKE1,,,29.850746268656717,False,,M1,False,Q8WWA1,,233,4U7J,ok,True,408
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q14574,,,,,,,,Q1RFT1,,,7A7D,fetch_error: 404 fetching https://files.rcsb.org/download/7A7D.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.57239057239057,,M1,unrelated,,Q5FND3,,,23.42007434944238,False,,M1,False,B1IQQ4,,297,4WJ3,ok,True,481
+False,B4_unrelated,"uniformly random pairing, negative control",62.64462809917355,,M1,unrelated,,P00563,,,34.300791556728235,False,,M1,False,Q9NZ53,,605,1U6R,ok,True,380
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P9WF14,,,,,,,,Q5XI52,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.0,,M1,unrelated,,J4KNE4,,,28.571428571428573,False,,M1,False,Q8YQ66,,100,1SW6,ok,True,327
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,A2BYN3,,,,,,,,P42066,,,7NHK,fetch_error: 404 fetching https://files.rcsb.org/download/7NHK.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",65.59766763848397,,M1,unrelated,,A5GAC6,,,36.44444444444444,False,,M1,False,Q8N2F6,,343,6JXN,ok,True,231
+False,B4_unrelated,"uniformly random pairing, negative control",74.8898678414097,,M1,unrelated,,Q5FVI9,,,31.764705882352942,False,,M1,False,F1QUP1,,227,5GTJ,ok,True,181
+False,B4_unrelated,"uniformly random pairing, negative control",31.30016051364366,,M1,unrelated,,Q2YSF8,,,60.51282051282051,False,,M1,False,P37224,,623,5DL1,ok,True,195
+False,B4_unrelated,"uniformly random pairing, negative control",93.84615384615384,,M1,unrelated,,Q9Y2L1,,,20.0,False,,M1,False,Q8S9M4,,650,6D6Q,ok,True,761
+False,B4_unrelated,"uniformly random pairing, negative control",96.32352941176471,,M1,unrelated,,O32277,,,18.3206106870229,False,,M1,False,B7UPJ2,,136,2FPN,ok,True,216
+False,B4_unrelated,"uniformly random pairing, negative control",95.77464788732394,,M1,unrelated,,O43281,,,23.529411764705884,False,,M1,False,P00711,,142,3T6G,ok,True,229
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q9V564,,,,,,,,Q88RA1,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",91.04477611940298,,M1,unrelated,,O44786,,,22.950819672131146,False,,M1,False,P14108,,67,8VJ2,ok,True,136
+False,B4_unrelated,"uniformly random pairing, negative control",87.15277777777777,,M1,unrelated,,A1A5G0,,,26.693227091633467,False,,M1,False,Q8IRJ8,,288,4K92,ok,True,273
+False,B4_unrelated,"uniformly random pairing, negative control",40.0,,M1,unrelated,,P29603,,,43.93939393939394,False,,M2,False,B5ZXA0,,165,1SIZ,ok,False,66
+False,B4_unrelated,"uniformly random pairing, negative control",24.807692307692307,,M1,unrelated,,A6QCU4,,,65.89147286821705,False,,M1,False,A4WCC1,,1040,4EVZ,ok,True,258
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P82767,,,,,,,,Q0JEF5,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",82.92682926829268,,M1,unrelated,,Q14999,,,25.49019607843137,False,,M1,False,Q48EE6,,123,2JNG,ok,True,105
+False,B4_unrelated,"uniformly random pairing, negative control",89.73214285714286,,M1,unrelated,,Q253F1,,,24.62686567164179,False,,M1,False,A9KWW8,,448,1DAR,ok,True,691
+False,B4_unrelated,"uniformly random pairing, negative control",92.3076923076923,,M1,unrelated,,Q66K79,,,25.757575757575758,False,,M1,False,P25140,,143,2NSM,ok,True,439
+False,B4_unrelated,"uniformly random pairing, negative control",89.54248366013071,,M1,unrelated,,B0RQ28,,,22.62773722627737,False,,M1,False,Q9P104,,306,4Z7R,ok,True,299
+False,B4_unrelated,"uniformly random pairing, negative control",31.62134944612286,,M1,unrelated,,O75820,,,54.140127388535035,False,,M1,False,P25220,,993,5V3M,ok,True,314
+False,B4_unrelated,"uniformly random pairing, negative control",64.23357664233576,,M1,unrelated,,P0DXI0,,,35.22727272727273,False,,M1,False,Q9Z2S7,,137,5ME5,ok,True,90
+False,B4_unrelated,"uniformly random pairing, negative control",94.8905109489051,,M1,unrelated,,O95749,,,20.76923076923077,False,,M1,False,Q9PTA5,,137,2Q80,ok,True,301
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8IV35,,,,,,,,Q6FQH3,,,9FQR,fetch_error: 404 fetching https://files.rcsb.org/download/9FQR.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",18.12297734627832,,M1,unrelated,,Q75BG6,,,76.78571428571429,False,,M1,False,Q8IXI1,,618,4J7Z,ok,True,113
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8PU76,,,,,,,,P94441,,,9NRI,fetch_error: 404 fetching https://files.rcsb.org/download/9NRI.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,B2V6N5,,,,,,,,Q5XKE0,,,6N2Y,fetch_error: 404 fetching https://files.rcsb.org/download/6N2Y.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q0VMG1,,,,,,,,B4UDP2,,,6V39,fetch_error: 404 fetching https://files.rcsb.org/download/6V39.pdb: not found,,
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,O47491,,,,,,,,Q9NVU0,,,8UGH,fetch_error: 404 fetching https://files.rcsb.org/download/8UGH.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",90.0,,M1,unrelated,,C1DKD3,,,25.925925925925927,False,,M1,False,W4VS70,,90,1I7F,ok,True,292
+False,B4_unrelated,"uniformly random pairing, negative control",45.666666666666664,,M1,unrelated,,C4L7T8,,,47.44525547445255,False,,M2,False,Q8F500,,600,9H91,ok,False,274
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,P89453,,,,,,,,P16376,,,9YC9,fetch_error: 404 fetching https://files.rcsb.org/download/9YC9.pdb: not found,,
+False,B4_unrelated,"uniformly random pairing, negative control",40.896358543417364,,M1,unrelated,,P62806,,,0.0,False,,M1,False,Q01Q15,,357,1F66,ok,True,146
+False,B4_unrelated,"uniformly random pairing, negative control",91.47727272727273,,M1,unrelated,,Q9MS76,,,24.84472049689441,False,,M1,False,P81662,,176,9K7V,ok,True,212
+False,B4_unrelated,"uniformly random pairing, negative control",88.08290155440415,,M1,unrelated,,Q6G5Z1,,,21.764705882352942,False,,M1,False,Q9JK95,,193,4HUQ,ok,True,174
+False,B4_unrelated,"uniformly random pairing, negative control",89.66789667896678,,M1,unrelated,,Q8EUC3,,,22.633744855967077,False,,M1,False,Q14773,,271,7OOD,ok,True,287
+False,B4_unrelated,"uniformly random pairing, negative control",5.381165919282512,,M1,unrelated,,P20676,,,98.95833333333333,False,,M1,False,Q18508,,1784,4C31,ok,True,96
+False,B4_unrelated,"uniformly random pairing, negative control",30.1007556675063,,M1,unrelated,,P16473,,,61.92468619246862,False,,M1,False,P03747,,794,2XWT,ok,True,239
+False,B4_unrelated,"uniformly random pairing, negative control",26.666666666666668,,M1,unrelated,,Q9UAD0,,,47.22222222222222,False,,M1,False,Q9U7D1,,135,1SIS,ok,True,36
+False,B4_unrelated,"uniformly random pairing, negative control",72.4179829890644,,M1,unrelated,,A6SUD8,,,31.879194630872483,False,,M1,False,A1CEY6,,823,4WJ3,ok,True,599
+False,B4_unrelated,"uniformly random pairing, negative control",89.05109489051095,,M1,unrelated,,A0A1X9IRP7,,,28.688524590163933,False,,M1,False,Q8GWT5,,137,9B99,ok,True,733
+,B4_unrelated,"uniformly random pairing, negative control",,,M1,unrelated,,Q8YQ06,,,,,,,,O03700,,,,no_forced_structure_resolved,,
+False,B4_unrelated,"uniformly random pairing, negative control",25.82972582972583,,M1,unrelated,,Q6ZTA4,,,62.56983240223464,False,,M1,False,Q9P2M4,,693,7QS5,ok,True,180
+False,B4_unrelated,"uniformly random pairing, negative control",10.801393728222996,,M1,unrelated,,P14738,,,80.64516129032258,False,,M1,False,Q1E5T3,,861,2RKY,ok,True,93
+False,B4_unrelated,"uniformly random pairing, negative control",95.08196721311475,,M1,unrelated,,C7J8E5,,,22.413793103448278,False,,M1,False,A0A0A7XNA3,,183,5WBI,ok,True,1287
+False,B4_unrelated,"uniformly random pairing, negative control",80.46875,,M1,unrelated,,B0BNR3,,,28.155339805825243,False,,M1,False,Q6T6T3,,128,7AFI,ok,True,129
+False,B4_unrelated,"uniformly random pairing, negative control",94.8051948051948,,M1,unrelated,,A4WC70,,,27.397260273972602,False,,M1,False,O74966,,77,1FG3,ok,True,356
+False,B4_unrelated,"uniformly random pairing, negative control",20.952380952380953,,M1,unrelated,,P18728,,,0.0,False,,M1,False,Q7MSS9,,105,2I13,ok,True,22
+False,B4_unrelated,"uniformly random pairing, negative control",87.5,,M1,unrelated,,Q8DVM9,,,32.38095238095238,False,,M1,False,Q5L3R1,,120,1O20,ok,True,427
+False,B4_unrelated,"uniformly random pairing, negative control",92.3076923076923,,M1,unrelated,,P70581,,,22.61904761904762,False,,M1,False,P13960,,91,2OSZ,ok,True,93
+False,B4_unrelated,"uniformly random pairing, negative control",27.272727272727273,,M1,unrelated,,Q92954,,,60.294117647058826,False,,M1,False,Q8L7S8,,748,6O5E,ok,True,204
+False,B4_unrelated,"uniformly random pairing, negative control",89.58333333333333,,M1,unrelated,,B7LM45,,,20.930232558139537,False,,M1,False,A1JPP0,,192,7AWT,ok,True,180
+False,B4_unrelated,"uniformly random pairing, negative control",43.421052631578945,,M1,unrelated,,Q668W9,,,45.45454545454545,False,,M2,False,Q2G2U4,,608,1DJ0,ok,False,264
+False,B4_unrelated,"uniformly random pairing, negative control",12.80388978930308,,M1,unrelated,,Q8XBT3,,,82.27848101265823,False,,M1,False,O74633,,1234,4R2L,ok,True,158
+True,B3_wrong_isoform,query is canonical isoform of P21741; structure forced to a real structure of isoform P21741-2 instead,30.06993006993007,,M3,wrong_isoform,,,P21741-2,87,100.0,False,,M1,True,P21741,143,143,1MKC,ok,True,43
+,B3_wrong_isoform,query is canonical isoform of Q9Z2S7; structure forced to a real structure of isoform Q9Z2S7-2 instead,,,M3,wrong_isoform,,,Q9Z2S7-2,80,,,,,,Q9Z2S7,137,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9Z2S7; structure forced to a real structure of isoform Q9Z2S7-3 instead,,,M3,wrong_isoform,,,Q9Z2S7-3,201,,,,,,Q9Z2S7,137,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q04679; structure forced to a real structure of isoform Q04679-2 instead,,,M3,wrong_isoform,,,Q04679-2,64,,,,,,Q04679,66,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8VY86; structure forced to a real structure of isoform Q8VY86-2 instead,,,M3,wrong_isoform,,,Q8VY86-2,141,,,,,,Q8VY86,144,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9SL15; structure forced to a real structure of isoform Q9SL15-2 instead,,,M3,wrong_isoform,,,Q9SL15-2,138,,,,,,Q9SL15,145,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9SL15; structure forced to a real structure of isoform Q9SL15-3 instead,,,M3,wrong_isoform,,,Q9SL15-3,125,,,,,,Q9SL15,145,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of Q9Y3A3; structure forced to a real structure of isoform Q9Y3A3-2 instead,100.0,,M3,wrong_isoform,,,Q9Y3A3-2,193,100.0,True,,M4,False,Q9Y3A3,225,225,7K36,ok,False,225
+True,B3_wrong_isoform,query is canonical isoform of Q9Y3A3; structure forced to a real structure of isoform Q9Y3A3-3 instead,72.0,,M3,wrong_isoform,,,Q9Y3A3-3,204,98.76543209876543,False,,M2,True,Q9Y3A3,225,225,5YF4,ok,True,162
+True,B3_wrong_isoform,query is canonical isoform of O95749; structure forced to a real structure of isoform O95749-2 instead,100.0,,M3,wrong_isoform,,,O95749-2,246,100.0,True,,M4,False,O95749,300,300,2Q80,ok,False,301
+True,B3_wrong_isoform,query is canonical isoform of O48528; structure forced to a real structure of isoform O48528-2 instead,100.0,,M3,wrong_isoform,,,O48528-2,173,100.0,True,,M4,False,O48528,159,159,8BEF,ok,False,159
+False,B3_wrong_isoform,query is canonical isoform of Q9UKW6; structure forced to a real structure of isoform Q9UKW6-2 instead,38.113207547169814,,M3,wrong_isoform,,,Q9UKW6-2,255,99.00990099009901,False,,M1,False,Q9UKW6,265,265,1WWX,ok,True,107
+,B3_wrong_isoform,query is canonical isoform of Q9UKW6; structure forced to a real structure of isoform Q9UKW6-3 instead,,,M3,wrong_isoform,,,Q9UKW6-3,138,,,,,,Q9UKW6,265,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of O35906; structure forced to a real structure of isoform O35906-2 instead,39.70037453183521,,M3,wrong_isoform,,,O35906-2,285,100.0,False,,M1,True,O35906,267,267,9J1N,ok,True,106
+True,B3_wrong_isoform,query is canonical isoform of O35906; structure forced to a real structure of isoform O35906-3 instead,39.70037453183521,,M3,wrong_isoform,,,O35906-3,268,100.0,False,,M1,True,O35906,267,267,9J1N,ok,True,106
+True,B3_wrong_isoform,query is canonical isoform of O95297; structure forced to a real structure of isoform O95297-2 instead,50.185873605947954,,M3,wrong_isoform,,,O95297-2,268,98.51851851851852,False,,M2,True,O95297,269,269,6IGO,ok,True,135
+True,B3_wrong_isoform,query is canonical isoform of O95297; structure forced to a real structure of isoform O95297-3 instead,50.185873605947954,,M3,wrong_isoform,,,O95297-3,209,98.51851851851852,False,,M2,True,O95297,269,269,6IGO,ok,True,135
+,B3_wrong_isoform,query is canonical isoform of Q9JL99; structure forced to a real structure of isoform Q9JL99-2 instead,,,M3,wrong_isoform,,,Q9JL99-2,197,,,,,,Q9JL99,229,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8WWA1; structure forced to a real structure of isoform Q8WWA1-2 instead,,,M3,wrong_isoform,,,Q8WWA1-2,203,,,,,,Q8WWA1,233,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8WWA1; structure forced to a real structure of isoform Q8WWA1-3 instead,,,M3,wrong_isoform,,,Q8WWA1-3,157,,,,,,Q8WWA1,233,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9QZ47; structure forced to a real structure of isoform Q9QZ47-2 instead,,,M3,wrong_isoform,,,Q9QZ47-2,268,,,,,,Q9QZ47,272,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9QZ47; structure forced to a real structure of isoform Q9QZ47-3 instead,,,M3,wrong_isoform,,,Q9QZ47-3,263,,,,,,Q9QZ47,272,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of P37802; structure forced to a real structure of isoform P37802-2 instead,77.8894472361809,,M3,wrong_isoform,,,P37802-2,220,96.12903225806451,False,,M2,True,P37802,199,199,1WYM,ok,True,155
+False,B3_wrong_isoform,query is canonical isoform of P06398; structure forced to a real structure of isoform P06398-2 instead,21.73913043478261,,M3,wrong_isoform,,,P06398-2,249,100.0,False,,M1,False,P06398,253,253,2Z5H,ok,True,55
+False,B3_wrong_isoform,query is canonical isoform of P06398; structure forced to a real structure of isoform P06398-3 instead,71.54150197628458,,M3,wrong_isoform,,,P06398-3,253,34.25414364640884,False,,M1,False,P06398,253,253,1YTZ,ok,True,182
+False,B3_wrong_isoform,query is canonical isoform of P69417; structure forced to a real structure of isoform P21527-1 instead,52.608695652173914,,M3,wrong_isoform,,,P21527-1,121,48.760330578512395,False,,M2,False,P69417,230,230,9RVE,ok,True,130
+,B3_wrong_isoform,query is canonical isoform of Q8IRJ8; structure forced to a real structure of isoform Q8IRJ8-2 instead,,,M3,wrong_isoform,,,Q8IRJ8-2,288,,,,,,Q8IRJ8,288,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q86UA6; structure forced to a real structure of isoform Q86UA6-2 instead,20.54794520547945,,M3,wrong_isoform,,,Q86UA6-2,172,100.0,False,,M1,False,Q86UA6,219,219,9N87,ok,True,45
+False,B3_wrong_isoform,query is canonical isoform of Q86UA6; structure forced to a real structure of isoform Q86UA6-3 instead,20.54794520547945,,M3,wrong_isoform,,,Q86UA6-3,142,100.0,False,,M1,False,Q86UA6,219,219,9N87,ok,True,45
+False,B3_wrong_isoform,query is canonical isoform of P0CK66; structure forced to a real structure of isoform Q30NP4-1 instead,9.523809523809524,,M3,wrong_isoform,,,Q30NP4-1,716,0.0,False,,M1,False,P0CK66,252,252,9V44,ok,True,24
+,B3_wrong_isoform,query is canonical isoform of P17486; structure forced to a real structure of isoform P17486-2 instead,,,M3,wrong_isoform,,,P17486-2,219,,,,,,P17486,223,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P17486; structure forced to a real structure of isoform P17486-3 instead,,,M3,wrong_isoform,,,P17486-3,222,,,,,,P17486,223,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P14817; structure forced to a real structure of isoform P14817-2 instead,,,M3,wrong_isoform,,,P14817-2,95,,,,,,P14817,209,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P20896; structure forced to a real structure of isoform P20896-2 instead,,,M3,wrong_isoform,,,P20896-2,245,,,,,,P20896,292,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q16Y34; structure forced to a real structure of isoform Q16Y34-2 instead,,,M3,wrong_isoform,,,Q16Y34-2,205,,,,,,Q16Y34,272,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q14773; structure forced to a real structure of isoform Q14773-2 instead,,,M3,wrong_isoform,,,Q14773-2,237,,,,,,Q14773,271,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q14773; structure forced to a real structure of isoform Q14773-3 instead,,,M3,wrong_isoform,,,Q14773-3,272,,,,,,Q14773,271,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of Q6XR72; structure forced to a real structure of isoform Q6XR72-4 instead,100.0,,M3,wrong_isoform,,,Q6XR72-4,485,100.0,True,,M4,False,Q6XR72,485,485,9KVX,ok,False,485
+True,B3_wrong_isoform,query is canonical isoform of Q6XR72; structure forced to a real structure of isoform Q6XR72-2 instead,100.0,,M3,wrong_isoform,,,Q6XR72-2,240,100.0,True,,M4,False,Q6XR72,485,485,9KVX,ok,False,485
+True,B3_wrong_isoform,query is canonical isoform of P01871; structure forced to a real structure of isoform P01871-2 instead,100.0,,M3,wrong_isoform,,,P01871-2,474,100.0,True,,M4,False,P01871,474,474,7XQ8,ok,False,614
+True,B3_wrong_isoform,query is canonical isoform of Q6P5F7; structure forced to a real structure of isoform Q6P5F7-2 instead,100.0,,M3,wrong_isoform,,,Q6P5F7-2,479,99.80916030534351,True,,M4,False,Q6P5F7,524,524,7RTW,ok,False,528
+True,B3_wrong_isoform,query is canonical isoform of Q9VB68; structure forced to a real structure of isoform Q9VB68-2 instead,100.0,,M3,wrong_isoform,,,Q9VB68-2,335,100.0,True,,M4,False,Q9VB68,377,377,2XXL,ok,False,408
+,B3_wrong_isoform,query is canonical isoform of Q9NVX7; structure forced to a real structure of isoform Q9NVX7-2 instead,,,M3,wrong_isoform,,,Q9NVX7-2,534,,,,,,Q9NVX7,534,,8VOJ,fetch_error: 404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found,,
+,B3_wrong_isoform,query is canonical isoform of Q9NVX7; structure forced to a real structure of isoform Q9NVX7-3 instead,,,M3,wrong_isoform,,,Q9NVX7-3,543,,,,,,Q9NVX7,534,,8VOJ,fetch_error: 404 fetching https://files.rcsb.org/download/8VOJ.pdb: not found,,
+True,B3_wrong_isoform,query is canonical isoform of Q9P104; structure forced to a real structure of isoform Q9P104-2 instead,33.66013071895425,,M3,wrong_isoform,,,Q9P104-2,198,100.0,False,,M1,True,Q9P104,306,306,1J0W,ok,True,103
+,B3_wrong_isoform,query is canonical isoform of P13473; structure forced to a real structure of isoform P13473-2 instead,,,M3,wrong_isoform,,,P13473-2,410,,,,,,P13473,410,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P13473; structure forced to a real structure of isoform P13473-3 instead,,,M3,wrong_isoform,,,P13473-3,411,,,,,,P13473,410,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P70581; structure forced to a real structure of isoform P70581-2 instead,,,M3,wrong_isoform,,,P70581-2,513,,,,,,P70581,585,,9A8T,fetch_error: 404 fetching https://files.rcsb.org/download/9A8T.pdb: not found,,
+,B3_wrong_isoform,query is canonical isoform of P70581; structure forced to a real structure of isoform P70581-3 instead,,,M3,wrong_isoform,,,P70581-3,208,,,,,,P70581,585,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q96318; structure forced to a real structure of isoform Q96318-2 instead,,,M3,wrong_isoform,,,Q96318-2,221,,,,,,Q96318,524,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q96318; structure forced to a real structure of isoform Q96318-3 instead,,,M3,wrong_isoform,,,Q96318-3,396,,,,,,Q96318,524,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8H1S0; structure forced to a real structure of isoform Q8H1S0-2 instead,,,M3,wrong_isoform,,,Q8H1S0-2,318,,,,,,Q8H1S0,317,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q6PD21; structure forced to a real structure of isoform Q6PD21-2 instead,,,M3,wrong_isoform,,,Q6PD21-2,217,,,,,,Q6PD21,503,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q96DC7; structure forced to a real structure of isoform Q96DC7-2 instead,,,M3,wrong_isoform,,,Q96DC7-2,499,,,,,,Q96DC7,493,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O75387; structure forced to a real structure of isoform O75387-2 instead,,,M3,wrong_isoform,,,O75387-2,560,,,,,,O75387,559,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8N2F6; structure forced to a real structure of isoform Q8N2F6-2 instead,,,M3,wrong_isoform,,,Q8N2F6-2,308,,,,,,Q8N2F6,343,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8N2F6; structure forced to a real structure of isoform Q8N2F6-3 instead,,,M3,wrong_isoform,,,Q8N2F6-3,284,,,,,,Q8N2F6,343,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9DEX1; structure forced to a real structure of isoform Q9DEX1-2 instead,,,M3,wrong_isoform,,,Q9DEX1-2,547,,,,,,Q9DEX1,560,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8RWT8; structure forced to a real structure of isoform Q8RWT8-2 instead,,,M3,wrong_isoform,,,Q8RWT8-2,512,,,,,,Q8RWT8,514,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9HCS2; structure forced to a real structure of isoform Q9HCS2-2 instead,,,M3,wrong_isoform,,,Q9HCS2-2,102,,,,,,Q9HCS2,524,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9H841; structure forced to a real structure of isoform Q9H841-2 instead,,,M3,wrong_isoform,,,Q9H841-2,383,,,,,,Q9H841,383,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of Q9Y6M4; structure forced to a real structure of isoform Q9Y6M4-2 instead,73.8255033557047,,M3,wrong_isoform,,,Q9Y6M4-2,455,100.0,False,,M2,True,Q9Y6M4,447,447,4G16,ok,True,330
+True,B3_wrong_isoform,query is canonical isoform of Q9Y6M4; structure forced to a real structure of isoform Q9Y6M4-3 instead,73.8255033557047,,M3,wrong_isoform,,,Q9Y6M4-3,423,100.0,False,,M2,True,Q9Y6M4,447,447,4G16,ok,True,330
+,B3_wrong_isoform,query is canonical isoform of P02680; structure forced to a real structure of isoform P02680-2 instead,,,M3,wrong_isoform,,,P02680-2,437,,,,,,P02680,445,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O73564; structure forced to a real structure of isoform O72157-1 instead,,,M3,wrong_isoform,,,O72157-1,962,,,,,,O73564,575,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9IGY7; structure forced to a real structure of isoform Q9IGY6-1 instead,,,M3,wrong_isoform,,,Q9IGY6-1,272,,,,,,Q9IGY7,355,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q9Y4P8; structure forced to a real structure of isoform Q9Y4P8-2 instead,77.97356828193833,,M3,wrong_isoform,,,Q9Y4P8-2,425,99.43502824858757,False,,M2,False,Q9Y4P8,454,454,7F69,ok,True,354
+False,B3_wrong_isoform,query is canonical isoform of Q9Y4P8; structure forced to a real structure of isoform Q9Y4P8-3 instead,77.97356828193833,,M3,wrong_isoform,,,Q9Y4P8-3,384,99.43502824858757,False,,M2,False,Q9Y4P8,454,454,7F69,ok,True,354
+False,B3_wrong_isoform,query is canonical isoform of P60762; structure forced to a real structure of isoform P60762-2 instead,47.790055248618785,,M3,wrong_isoform,,,P60762-2,323,100.0,False,,M2,False,P60762,362,362,2AQL,ok,True,173
+,B3_wrong_isoform,query is canonical isoform of P03092; structure forced to a real structure of isoform P03098-1 instead,,,M3,wrong_isoform,,,P03098-1,345,,,,,,P03092,372,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P03092; structure forced to a real structure of isoform P03098-2 instead,,,M3,wrong_isoform,,,P03098-2,221,,,,,,P03092,372,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q53FZ2; structure forced to a real structure of isoform Q53FZ2-2 instead,,,M3,wrong_isoform,,,Q53FZ2-2,438,,,,,,Q53FZ2,586,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O43281; structure forced to a real structure of isoform O43281-2 instead,,,M3,wrong_isoform,,,O43281-2,468,,,,,,O43281,561,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O43281; structure forced to a real structure of isoform O43281-3 instead,,,M3,wrong_isoform,,,O43281-3,392,,,,,,O43281,561,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q9R0L1; structure forced to a real structure of isoform Q9R0L1-2 instead,21.341463414634145,,M3,wrong_isoform,,,Q9R0L1-2,462,100.0,False,,M1,False,Q9R0L1,492,492,6J6V,ok,True,105
+,B3_wrong_isoform,query is canonical isoform of P19224; structure forced to a real structure of isoform P19224-2 instead,,,M3,wrong_isoform,,,P19224-2,265,,,,,,P19224,532,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P19224; structure forced to a real structure of isoform P19224-3 instead,,,M3,wrong_isoform,,,P19224-3,443,,,,,,P19224,532,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q5F3B1; structure forced to a real structure of isoform Q5F3B1-2 instead,17.766497461928935,,M3,wrong_isoform,,,Q5F3B1-2,617,98.0952380952381,False,,M1,False,Q5F3B1,591,591,2H7B,ok,True,105
+,B3_wrong_isoform,query is canonical isoform of Q9IBG0; structure forced to a real structure of isoform Q9IBG0-2 instead,,,M3,wrong_isoform,,,Q9IBG0-2,359,,,,,,Q9IBG0,387,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q84KJ3; structure forced to a real structure of isoform Q84KJ3-2 instead,,,M3,wrong_isoform,,,Q84KJ3-2,583,,,,,,Q84KJ3,584,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8VD26; structure forced to a real structure of isoform Q8VD26-2 instead,,,M3,wrong_isoform,,,Q8VD26-2,453,,,,,,Q8VD26,458,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8VD26; structure forced to a real structure of isoform Q8VD26-3 instead,,,M3,wrong_isoform,,,Q8VD26-3,240,,,,,,Q8VD26,458,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P98182; structure forced to a real structure of isoform P98182-2 instead,,,M3,wrong_isoform,,,P98182-2,394,,,,,,P98182,395,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P98182; structure forced to a real structure of isoform P98182-3 instead,,,M3,wrong_isoform,,,P98182-3,394,,,,,,P98182,395,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9LR97; structure forced to a real structure of isoform Q9LR97-2 instead,,,M3,wrong_isoform,,,Q9LR97-2,368,,,,,,Q9LR97,373,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9LR97; structure forced to a real structure of isoform Q9LR97-3 instead,,,M3,wrong_isoform,,,Q9LR97-3,343,,,,,,Q9LR97,373,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9VNM1; structure forced to a real structure of isoform Q9VNM1-2 instead,,,M3,wrong_isoform,,,Q9VNM1-2,458,,,,,,Q9VNM1,485,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9VNM1; structure forced to a real structure of isoform Q9VNM1-3 instead,,,M3,wrong_isoform,,,Q9VNM1-3,466,,,,,,Q9VNM1,485,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P50127; structure forced to a real structure of isoform P50127-2 instead,,,M3,wrong_isoform,,,P50127-2,359,,,,,,P50127,371,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of P11388; structure forced to a real structure of isoform P11388-2 instead,100.0,,M3,wrong_isoform,,,P11388-2,1557,100.0,True,,M4,False,P11388,1531,1531,6ZY5,ok,False,1531
+True,B3_wrong_isoform,query is canonical isoform of P11388; structure forced to a real structure of isoform P11388-3 instead,100.0,,M3,wrong_isoform,,,P11388-3,1567,100.0,True,,M4,False,P11388,1531,1531,6ZY5,ok,False,1531
+True,B3_wrong_isoform,query is canonical isoform of Q8NFZ0; structure forced to a real structure of isoform Q8NFZ0-2 instead,93.19271332694152,,M3,wrong_isoform,,,Q8NFZ0-2,1094,100.0,False,,M3,False,Q8NFZ0,1043,1043,9XZJ,ok,True,972
+True,B3_wrong_isoform,query is canonical isoform of Q9NRZ9; structure forced to a real structure of isoform Q9NRZ9-2 instead,100.0,,M3,wrong_isoform,,,Q9NRZ9-2,822,100.0,True,,M4,False,Q9NRZ9,838,838,9Z04,ok,False,838
+True,B3_wrong_isoform,query is canonical isoform of Q9NRZ9; structure forced to a real structure of isoform Q9NRZ9-3 instead,100.0,,M3,wrong_isoform,,,Q9NRZ9-3,806,100.0,True,,M4,False,Q9NRZ9,838,838,9Z04,ok,False,838
+,B3_wrong_isoform,query is canonical isoform of O15360; structure forced to a real structure of isoform O15360-2 instead,,,M3,wrong_isoform,,,O15360-2,297,,,,,,O15360,1455,,7KZP,fetch_error: 404 fetching https://files.rcsb.org/download/7KZP.pdb: not found,,
+,B3_wrong_isoform,query is canonical isoform of O15360; structure forced to a real structure of isoform O15360-3 instead,,,M3,wrong_isoform,,,O15360-3,1424,,,,,,O15360,1455,,7KZP,fetch_error: 404 fetching https://files.rcsb.org/download/7KZP.pdb: not found,,
+,B3_wrong_isoform,query is canonical isoform of Q96MR6; structure forced to a real structure of isoform Q96MR6-2 instead,,,M3,wrong_isoform,,,Q96MR6-2,698,,,,,,Q96MR6,1250,,8J07,fetch_error: 404 fetching https://files.rcsb.org/download/8J07.pdb: not found,,
+True,B3_wrong_isoform,query is canonical isoform of P07363; structure forced to a real structure of isoform P07363-2 instead,100.0,,M3,wrong_isoform,,,P07363-2,557,100.0,True,,M4,False,P07363,654,654,6S1K,ok,False,654
+,B3_wrong_isoform,query is canonical isoform of Q9Y2L1; structure forced to a real structure of isoform Q9Y2L1-2 instead,,,M3,wrong_isoform,,,Q9Y2L1-2,928,,,,,,Q9Y2L1,958,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of Q01813; structure forced to a real structure of isoform Q01813-2 instead,100.0,,M3,wrong_isoform,,,Q01813-2,776,100.0,True,,M4,False,Q01813,784,784,4XYJ,ok,False,812
+True,B3_wrong_isoform,query is canonical isoform of Q9NVU0; structure forced to a real structure of isoform Q9NVU0-2 instead,94.0677966101695,,M3,wrong_isoform,,,Q9NVU0-2,666,100.0,False,,M3,False,Q9NVU0,708,708,9FSO,ok,True,666
+True,B3_wrong_isoform,query is canonical isoform of Q9NVU0; structure forced to a real structure of isoform Q9NVU0-3 instead,100.0,,M3,wrong_isoform,,,Q9NVU0-3,654,100.0,True,,M4,False,Q9NVU0,708,708,7A6H,ok,False,708
+True,B3_wrong_isoform,query is canonical isoform of Q14999; structure forced to a real structure of isoform Q14999-2 instead,100.0,,M3,wrong_isoform,,,Q14999-2,1782,99.94110718492344,True,,M4,False,Q14999,1698,1698,7Z8B,ok,False,1700
+False,B3_wrong_isoform,query is canonical isoform of P16473; structure forced to a real structure of isoform P16473-2 instead,91.75392670157068,,M3,wrong_isoform,,,P16473-2,253,99.42938659058488,False,,M3,False,P16473,764,764,7UTZ,ok,True,701
+True,B3_wrong_isoform,query is canonical isoform of P16473; structure forced to a real structure of isoform P16473-3 instead,31.282722513089006,,M3,wrong_isoform,,,P16473-3,274,100.0,False,,M1,True,P16473,764,764,2XWT,ok,True,239
+True,B3_wrong_isoform,query is canonical isoform of P55011; structure forced to a real structure of isoform P55011-3 instead,100.0,,M3,wrong_isoform,,,P55011-3,1196,100.0,True,,M4,False,P55011,1212,1212,7D10,ok,False,1212
+True,B3_wrong_isoform,query is canonical isoform of P49916; structure forced to a real structure of isoform P49916-2 instead,57.383548067393455,,M3,wrong_isoform,,,P49916-2,949,100.0,False,,M2,True,P49916,1009,1009,3L2P,ok,True,579
+True,B3_wrong_isoform,query is canonical isoform of P49916; structure forced to a real structure of isoform P49916-3 instead,57.383548067393455,,M3,wrong_isoform,,,P49916-3,922,100.0,False,,M2,True,P49916,1009,1009,3L2P,ok,True,579
+,B3_wrong_isoform,query is canonical isoform of Q96JA1; structure forced to a real structure of isoform Q96JA1-2 instead,,,M3,wrong_isoform,,,Q96JA1-2,1070,,,,,,Q96JA1,1093,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q8BJS4; structure forced to a real structure of isoform Q8BJS4-2 instead,36.66210670314638,,M3,wrong_isoform,,,Q8BJS4-2,729,100.0,False,,M1,False,Q8BJS4,731,731,5ED8,ok,True,268
+False,B3_wrong_isoform,query is canonical isoform of Q8BJS4; structure forced to a real structure of isoform Q8BJS4-3 instead,36.66210670314638,,M3,wrong_isoform,,,Q8BJS4-3,699,100.0,False,,M1,False,Q8BJS4,731,731,5ED8,ok,True,268
+,B3_wrong_isoform,query is canonical isoform of O15014; structure forced to a real structure of isoform O15014-2 instead,,,M3,wrong_isoform,,,O15014-2,250,,,,,,O15014,1411,,,no_forced_structure_resolved,,
+True,B3_wrong_isoform,query is canonical isoform of Q13480; structure forced to a real structure of isoform Q13480-2 instead,32.13256484149856,,M3,wrong_isoform,,,Q13480-2,724,52.91479820627803,False,,M1,False,Q13480,694,694,9QCD,ok,True,223
+True,B3_wrong_isoform,query is canonical isoform of Q86US8; structure forced to a real structure of isoform Q86US8-2 instead,13.10782241014799,,M3,wrong_isoform,,,Q86US8-2,330,100.0,False,,M1,True,Q86US8,1419,1419,2DOK,ok,True,186
+True,B3_wrong_isoform,query is canonical isoform of Q86US8; structure forced to a real structure of isoform Q86US8-3 instead,41.508104298801975,,M3,wrong_isoform,,,Q86US8-3,511,100.0,False,,M2,True,Q86US8,1419,1419,4UM2,ok,True,589
+True,B3_wrong_isoform,query is canonical isoform of Q96QZ7; structure forced to a real structure of isoform Q96QZ7-2 instead,8.651911468812877,,M3,wrong_isoform,,,Q96QZ7-2,1462,100.0,False,,M1,True,Q96QZ7,1491,1491,2KPK,ok,True,129
+True,B3_wrong_isoform,query is canonical isoform of Q96QZ7; structure forced to a real structure of isoform Q96QZ7-3 instead,8.651911468812877,,M3,wrong_isoform,,,Q96QZ7-3,1256,100.0,False,,M1,True,Q96QZ7,1491,1491,2KPK,ok,True,129
+False,B3_wrong_isoform,query is canonical isoform of Q86UL8; structure forced to a real structure of isoform Q86UL8-2 instead,16.082474226804123,,M3,wrong_isoform,,,Q86UL8-2,1441,98.2905982905983,False,,M1,False,Q86UL8,1455,1455,7YKF,ok,True,234
+True,B3_wrong_isoform,query is canonical isoform of Q5SPW0; structure forced to a real structure of isoform Q5SPW0-2 instead,14.431934493346981,,M3,wrong_isoform,,,Q5SPW0-2,965,100.0,False,,M1,True,Q5SPW0,977,977,3N1B,ok,True,141
+True,B3_wrong_isoform,query is canonical isoform of O54916; structure forced to a real structure of isoform O54916-2 instead,11.572327044025156,,M3,wrong_isoform,,,O54916-2,210,100.0,False,,M1,True,O54916,795,795,1FI6,ok,True,92
+True,B3_wrong_isoform,query is canonical isoform of O54916; structure forced to a real structure of isoform O54916-3 instead,11.572327044025156,,M3,wrong_isoform,,,O54916-3,716,100.0,False,,M1,True,O54916,795,795,1FI6,ok,True,92
+,B3_wrong_isoform,query is canonical isoform of O75146; structure forced to a real structure of isoform O75146-2 instead,,,M3,wrong_isoform,,,O75146-2,615,,,,,,O75146,1068,,7OST,fetch_error: 404 fetching https://files.rcsb.org/download/7OST.pdb: not found,,
+True,B3_wrong_isoform,query is canonical isoform of Q24246; structure forced to a real structure of isoform Q24246-11 instead,14.630467571644042,,M3,wrong_isoform,,,Q24246-11,663,80.41237113402062,False,,M1,False,Q24246,663,663,3L9K,ok,True,97
+True,B3_wrong_isoform,query is canonical isoform of Q24246; structure forced to a real structure of isoform Q24246-2 instead,14.630467571644042,,M3,wrong_isoform,,,Q24246-2,634,80.41237113402062,False,,M1,False,Q24246,663,663,3L9K,ok,True,97
+True,B3_wrong_isoform,query is canonical isoform of O60245; structure forced to a real structure of isoform O60245-2 instead,11.131898971000936,,M3,wrong_isoform,,,O60245-2,1072,100.0,False,,M1,True,O60245,1069,1069,2YST,ok,True,119
+True,B3_wrong_isoform,query is canonical isoform of Q6WKZ4; structure forced to a real structure of isoform Q6WKZ4-4 instead,13.639906469212782,,M3,wrong_isoform,,,Q6WKZ4-4,1283,76.57142857142857,False,,M1,False,Q6WKZ4,1283,1283,4D0G,ok,True,175
+True,B3_wrong_isoform,query is canonical isoform of Q6WKZ4; structure forced to a real structure of isoform Q6WKZ4-3 instead,13.639906469212782,,M3,wrong_isoform,,,Q6WKZ4-3,649,76.57142857142857,False,,M1,False,Q6WKZ4,1283,1283,4D0G,ok,True,175
+True,B3_wrong_isoform,query is canonical isoform of Q7Z3K3; structure forced to a real structure of isoform Q7Z3K3-2 instead,3.475177304964539,,M3,wrong_isoform,,,Q7Z3K3-2,1357,100.0,False,,M1,True,Q7Z3K3,1410,1410,2E72,ok,True,49
+True,B3_wrong_isoform,query is canonical isoform of Q7Z3K3; structure forced to a real structure of isoform Q7Z3K3-3 instead,3.475177304964539,,M3,wrong_isoform,,,Q7Z3K3-3,1366,100.0,False,,M1,True,Q7Z3K3,1410,1410,2E72,ok,True,49
+True,B3_wrong_isoform,query is canonical isoform of Q9P2M4; structure forced to a real structure of isoform Q9P2M4-2 instead,48.1962481962482,,M3,wrong_isoform,,,Q9P2M4-2,413,99.40119760479043,False,,M2,True,Q9P2M4,693,693,2QQ8,ok,True,334
+,B3_wrong_isoform,query is canonical isoform of Q66K79; structure forced to a real structure of isoform Q66K79-2 instead,,,M3,wrong_isoform,,,Q66K79-2,641,,,,,,Q66K79,652,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q66K79; structure forced to a real structure of isoform Q66K79-3 instead,,,M3,wrong_isoform,,,Q66K79-3,515,,,,,,Q66K79,652,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9WTR8; structure forced to a real structure of isoform Q9WTR8-2 instead,,,M3,wrong_isoform,,,Q9WTR8-2,1221,,,,,,Q9WTR8,1696,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9V564; structure forced to a real structure of isoform Q9V564-2 instead,,,M3,wrong_isoform,,,Q9V564-2,333,,,,,,Q9V564,630,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q8IYB4; structure forced to a real structure of isoform Q8IYB4-2 instead,58.30670926517572,,M3,wrong_isoform,,,Q8IYB4-2,624,98.9041095890411,False,,M2,False,Q8IYB4,626,626,4EQF,ok,True,365
+False,B3_wrong_isoform,query is canonical isoform of Q8IYB4; structure forced to a real structure of isoform Q8IYB4-3 instead,58.30670926517572,,M3,wrong_isoform,,,Q8IYB4-3,591,98.9041095890411,False,,M2,False,Q8IYB4,626,626,4EQF,ok,True,365
+False,B3_wrong_isoform,query is canonical isoform of Q6IQ26; structure forced to a real structure of isoform Q6IQ26-2 instead,29.836829836829835,,M3,wrong_isoform,,,Q6IQ26-2,1241,97.65625,False,,M1,False,Q6IQ26,1287,1287,3CWZ,ok,True,384
+,B3_wrong_isoform,query is canonical isoform of Q9D3S3; structure forced to a real structure of isoform Q9D3S3-3 instead,,,M3,wrong_isoform,,,Q9D3S3-3,476,,,,,,Q9D3S3,818,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8IXI1; structure forced to a real structure of isoform Q8IXI1-2 instead,,,M3,wrong_isoform,,,Q8IXI1-2,213,,,,,,Q8IXI1,618,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q80SX8; structure forced to a real structure of isoform Q80SX8-2 instead,64.3076923076923,,M3,wrong_isoform,,,Q80SX8-2,272,90.66985645933015,False,,M2,False,Q80SX8,650,650,6HPH,ok,True,418
+,B3_wrong_isoform,query is canonical isoform of Q80SX8; structure forced to a real structure of isoform Q80SX8-3 instead,,,M3,wrong_isoform,,,Q80SX8-3,584,,,,,,Q80SX8,650,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q6P9Q6; structure forced to a real structure of isoform Q6P9Q6-2 instead,,,M3,wrong_isoform,,,Q6P9Q6-2,1255,,,,,,Q6P9Q6,1216,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P41950; structure forced to a real structure of isoform P41950-2 instead,,,M3,wrong_isoform,,,P41950-2,1081,,,,,,P41950,1137,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P41950; structure forced to a real structure of isoform P41950-3 instead,,,M3,wrong_isoform,,,P41950-3,1075,,,,,,P41950,1137,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O75820; structure forced to a real structure of isoform O75820-2 instead,,,M3,wrong_isoform,,,O75820-2,612,,,,,,O75820,626,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O75820; structure forced to a real structure of isoform O75820-3 instead,,,M3,wrong_isoform,,,O75820-3,531,,,,,,O75820,626,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q80U30; structure forced to a real structure of isoform Q80U30-2 instead,,,M3,wrong_isoform,,,Q80U30-2,1034,,,,,,Q80U30,1036,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q80U30; structure forced to a real structure of isoform Q80U30-3 instead,,,M3,wrong_isoform,,,Q80U30-3,912,,,,,,Q80U30,1036,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O08715; structure forced to a real structure of isoform O08715-2 instead,,,M3,wrong_isoform,,,O08715-2,544,,,,,,O08715,857,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O08715; structure forced to a real structure of isoform O08715-3 instead,,,M3,wrong_isoform,,,O08715-3,577,,,,,,O08715,857,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q95ZQ4; structure forced to a real structure of isoform Q95ZQ4-2 instead,,,M3,wrong_isoform,,,Q95ZQ4-2,624,,,,,,Q95ZQ4,626,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q95ZQ4; structure forced to a real structure of isoform Q95ZQ4-3 instead,,,M3,wrong_isoform,,,Q95ZQ4-3,562,,,,,,Q95ZQ4,626,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q14574; structure forced to a real structure of isoform Q14574-2 instead,,,M3,wrong_isoform,,,Q14574-2,839,,,,,,Q14574,896,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q640N3; structure forced to a real structure of isoform Q640N3-2 instead,,,M3,wrong_isoform,,,Q640N3-2,1093,,,,,,Q640N3,1101,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of A0A8I3NRY3; structure forced to a real structure of isoform A0A8I3NRY3-2 instead,24.95139338950097,,M3,wrong_isoform,,,A0A8I3NRY3-2,1524,98.44155844155844,False,,M1,False,A0A8I3NRY3,1543,1543,1TXD,ok,True,385
+False,B3_wrong_isoform,query is canonical isoform of A0MD28; structure forced to a real structure of isoform A0MD28-2 instead,5.315268368942157,,M3,wrong_isoform,,,A0MD28-2,2379,100.0,False,,M1,False,A0MD28,3838,3838,8EHN,ok,True,204
+False,B3_wrong_isoform,query is canonical isoform of A0MD28; structure forced to a real structure of isoform P0DJY0-1 instead,5.315268368942157,,M3,wrong_isoform,,,P0DJY0-1,1268,100.0,False,,M1,False,A0MD28,3838,3838,8EHN,ok,True,204
+True,B3_wrong_isoform,query is canonical isoform of Q6ZTA4; structure forced to a real structure of isoform Q6ZTA4-3 instead,22.988505747126435,,M3,wrong_isoform,,,Q6ZTA4-3,783,100.0,False,,M1,True,Q6ZTA4,783,783,7QS5,ok,True,180
+True,B3_wrong_isoform,query is canonical isoform of Q6ZTA4; structure forced to a real structure of isoform Q6ZTA4-2 instead,22.988505747126435,,M3,wrong_isoform,,,Q6ZTA4-2,721,100.0,False,,M1,True,Q6ZTA4,783,783,7QS5,ok,True,180
+,B3_wrong_isoform,query is canonical isoform of Q4QY64; structure forced to a real structure of isoform Q4QY64-2 instead,,,M3,wrong_isoform,,,Q4QY64-2,814,,,,,,Q4QY64,1826,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9VA73; structure forced to a real structure of isoform Q9VA73-2 instead,,,M3,wrong_isoform,,,Q9VA73-2,682,,,,,,Q9VA73,695,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9VA73; structure forced to a real structure of isoform Q9VA73-3 instead,,,M3,wrong_isoform,,,Q9VA73-3,679,,,,,,Q9VA73,695,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q14CH0; structure forced to a real structure of isoform Q14CH0-2 instead,,,M3,wrong_isoform,,,Q14CH0-2,821,,,,,,Q14CH0,825,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8NDA8; structure forced to a real structure of isoform Q8NDA8-2 instead,,,M3,wrong_isoform,,,Q8NDA8-2,1147,,,,,,Q8NDA8,1641,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8NDA8; structure forced to a real structure of isoform Q8NDA8-3 instead,,,M3,wrong_isoform,,,Q8NDA8-3,615,,,,,,Q8NDA8,1641,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q2KHT3; structure forced to a real structure of isoform Q2KHT3-2 instead,,,M3,wrong_isoform,,,Q2KHT3-2,906,,,,,,Q2KHT3,1053,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q2KHT3; structure forced to a real structure of isoform Q2KHT3-3 instead,,,M3,wrong_isoform,,,Q2KHT3-3,140,,,,,,Q2KHT3,1053,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9ULD9; structure forced to a real structure of isoform Q9ULD9-2 instead,,,M3,wrong_isoform,,,Q9ULD9-2,1085,,,,,,Q9ULD9,1512,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8CDP0; structure forced to a real structure of isoform Q8CDP0-2 instead,,,M3,wrong_isoform,,,Q8CDP0-2,861,,,,,,Q8CDP0,1006,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8CDP0; structure forced to a real structure of isoform Q8CDP0-3 instead,,,M3,wrong_isoform,,,Q8CDP0-3,1001,,,,,,Q8CDP0,1006,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q8IUM7; structure forced to a real structure of isoform Q8IUM7-3 instead,48.37905236907731,,M3,wrong_isoform,,,Q8IUM7-3,234,41.49484536082474,False,,M2,False,Q8IUM7,802,802,7XI3,ok,True,390
+,B3_wrong_isoform,query is canonical isoform of Q8IR79; structure forced to a real structure of isoform Q8IR79-2 instead,,,M3,wrong_isoform,,,Q8IR79-2,1235,,,,,,Q8IR79,1257,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8IR79; structure forced to a real structure of isoform Q8IR79-3 instead,,,M3,wrong_isoform,,,Q8IR79-3,1052,,,,,,Q8IR79,1257,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of A2AHG0; structure forced to a real structure of isoform A2AHG0-2 instead,,,M3,wrong_isoform,,,A2AHG0-2,586,,,,,,A2AHG0,700,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of A2AHG0; structure forced to a real structure of isoform A2AHG0-3 instead,,,M3,wrong_isoform,,,A2AHG0-3,591,,,,,,A2AHG0,700,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of D3YUB6; structure forced to a real structure of isoform D3YUB6-2 instead,,,M3,wrong_isoform,,,D3YUB6-2,1751,,,,,,D3YUB6,1751,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of D3YUB6; structure forced to a real structure of isoform D3YUB6-3 instead,,,M3,wrong_isoform,,,D3YUB6-3,1750,,,,,,D3YUB6,1751,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of P31625; structure forced to a real structure of isoform P31622-1 instead,16.166281755196305,,M3,wrong_isoform,,,P31622-1,612,99.28571428571429,False,,M1,False,P31625,866,866,2V4X,ok,True,140
+False,B3_wrong_isoform,query is canonical isoform of P31625; structure forced to a real structure of isoform P31623-1 instead,16.166281755196305,,M3,wrong_isoform,,,P31623-1,1726,99.28571428571429,False,,M1,False,P31625,866,866,2V4X,ok,True,140
+,B3_wrong_isoform,query is canonical isoform of P19109; structure forced to a real structure of isoform P19109-2 instead,,,M3,wrong_isoform,,,P19109-2,578,,,,,,P19109,719,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P19109; structure forced to a real structure of isoform P19109-3 instead,,,M3,wrong_isoform,,,P19109-3,575,,,,,,P19109,719,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8L7S8; structure forced to a real structure of isoform Q8L7S8-2 instead,,,M3,wrong_isoform,,,Q8L7S8-2,747,,,,,,Q8L7S8,748,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q6U841; structure forced to a real structure of isoform Q6U841-2 instead,,,M3,wrong_isoform,,,Q6U841-2,1088,,,,,,Q6U841,1118,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q6U841; structure forced to a real structure of isoform Q6U841-3 instead,,,M3,wrong_isoform,,,Q6U841-3,1099,,,,,,Q6U841,1118,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q9NZ53; structure forced to a real structure of isoform Q9NZ53-2 instead,,,M3,wrong_isoform,,,Q9NZ53-2,529,,,,,,Q9NZ53,605,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of F4IHS2; structure forced to a real structure of isoform F4IHS2-2 instead,,,M3,wrong_isoform,,,F4IHS2-2,3543,,,,,,F4IHS2,3574,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of F4IHS2; structure forced to a real structure of isoform F4IHS2-3 instead,,,M3,wrong_isoform,,,F4IHS2-3,3529,,,,,,F4IHS2,3574,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q92954; structure forced to a real structure of isoform Q92954-2 instead,,,M3,wrong_isoform,,,Q92954-2,1363,,,,,,Q92954,1404,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q92954; structure forced to a real structure of isoform Q92954-3 instead,,,M3,wrong_isoform,,,Q92954-3,1311,,,,,,Q92954,1404,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q9R1C7; structure forced to a real structure of isoform Q9R1C7-2 instead,10.388247639034628,,M3,wrong_isoform,,,Q9R1C7-2,911,100.0,False,,M1,False,Q9R1C7,953,953,8PXW,ok,True,99
+,B3_wrong_isoform,query is canonical isoform of Q5TI25; structure forced to a real structure of isoform Q5TI25-2 instead,,,M3,wrong_isoform,,,Q5TI25-2,921,,,,,,Q5TI25,2988,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O61735; structure forced to a real structure of isoform O61735-2 instead,,,M3,wrong_isoform,,,O61735-2,1023,,,,,,O61735,1027,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of O61735; structure forced to a real structure of isoform O61735-3 instead,,,M3,wrong_isoform,,,O61735-3,961,,,,,,O61735,1027,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8NFY9; structure forced to a real structure of isoform Q8NFY9-2 instead,,,M3,wrong_isoform,,,Q8NFY9-2,159,,,,,,Q8NFY9,601,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q969R2; structure forced to a real structure of isoform Q969R2-2 instead,,,M3,wrong_isoform,,,Q969R2-2,915,,,,,,Q969R2,916,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q969R2; structure forced to a real structure of isoform Q969R2-3 instead,,,M3,wrong_isoform,,,Q969R2-3,750,,,,,,Q969R2,916,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8IV35; structure forced to a real structure of isoform Q8IV35-2 instead,,,M3,wrong_isoform,,,Q8IV35-2,522,,,,,,Q8IV35,1049,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q8IV35; structure forced to a real structure of isoform Q8IV35-3 instead,,,M3,wrong_isoform,,,Q8IV35-3,697,,,,,,Q8IV35,1049,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q5IZC5; structure forced to a real structure of isoform Q5IZC5-2 instead,82.25806451612904,,M3,wrong_isoform,,,Q5IZC5-2,587,99.41176470588235,False,,M3,False,Q5IZC5,620,620,9DC0,ok,True,515
+,B3_wrong_isoform,query is canonical isoform of A9ZLX4; structure forced to a real structure of isoform A9ZLX4-2 instead,,,M3,wrong_isoform,,,A9ZLX4-2,602,,,,,,A9ZLX4,1072,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of A9ZLX4; structure forced to a real structure of isoform A9ZLX4-3 instead,,,M3,wrong_isoform,,,A9ZLX4-3,294,,,,,,A9ZLX4,1072,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P27619; structure forced to a real structure of isoform P27619-2 instead,,,M3,wrong_isoform,,,P27619-2,830,,,,,,P27619,877,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of Q14DH7; structure forced to a real structure of isoform Q14DH7-2 instead,,,M3,wrong_isoform,,,Q14DH7-2,497,,,,,,Q14DH7,682,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P16376; structure forced to a real structure of isoform P16375-1 instead,,,M3,wrong_isoform,,,P16375-1,543,,,,,,P16376,746,,,no_forced_structure_resolved,,
+,B3_wrong_isoform,query is canonical isoform of P16376; structure forced to a real structure of isoform P16375-2 instead,,,M3,wrong_isoform,,,P16375-2,281,,,,,,P16376,746,,,no_forced_structure_resolved,,
+False,B3_wrong_isoform,query is canonical isoform of Q5DTM8; structure forced to a real structure of isoform Q5DTM8-2 instead,7.708119218910586,,M3,wrong_isoform,,,Q5DTM8-2,823,100.0,False,,M1,False,Q5DTM8,973,973,5TRB,ok,True,75
+,B3_wrong_isoform,query is canonical isoform of Q8K387; structure forced to a real structure of isoform Q8K387-2 instead,,,M3,wrong_isoform,,,Q8K387-2,765,,,,,,Q8K387,813,,,no_forced_structure_resolved,,

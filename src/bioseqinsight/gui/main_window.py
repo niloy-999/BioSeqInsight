@@ -122,7 +122,9 @@ class BioSeqInsightApp(ttk.Frame):
         if not path:
             return
         try:
-            self.project = Project.create(path, name=Path(path).name, settings=self.settings, overwrite=True)
+            self.project = Project.create(
+                path, name=Path(path).name, settings=self.settings, overwrite=True
+            )
         except ProjectError as exc:
             messagebox.showerror(APP_TITLE, str(exc))
             return
@@ -160,9 +162,7 @@ class BioSeqInsightApp(ttk.Frame):
 
     def show_cache(self) -> None:
         stats = self.manager.cache_stats()
-        messagebox.showinfo(
-            APP_TITLE, "\n".join(f"{key}: {value}" for key, value in stats.items())
-        )
+        messagebox.showinfo(APP_TITLE, "\n".join(f"{key}: {value}" for key, value in stats.items()))
 
     def clear_cache(self) -> None:
         if messagebox.askyesno(APP_TITLE, "Delete every cached response?"):
@@ -179,7 +179,11 @@ class BioSeqInsightApp(ttk.Frame):
 
         text.insert(
             "1.0",
-            json.dumps({"source": self.settings.source, **self.settings.to_dict()}, indent=2, sort_keys=True),
+            json.dumps(
+                {"source": self.settings.source, **self.settings.to_dict()},
+                indent=2,
+                sort_keys=True,
+            ),
         )
         text.configure(state="disabled")
         ttk.Label(

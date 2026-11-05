@@ -24,9 +24,8 @@ import socket
 import time
 import urllib.error
 import urllib.request
-from collections.abc import Callable, Iterable
 from dataclasses import dataclass, field
-from typing import Protocol
+from typing import Callable, Iterable, Protocol
 
 from .. import __version__
 from .errors import TransportError
@@ -109,7 +108,7 @@ class UrllibTransport:
                 headers={k.lower(): v for k, v in (exc.headers or {}).items()},
                 elapsed_s=time.perf_counter() - started,
             )
-        except TimeoutError as exc:
+        except (socket.timeout, TimeoutError) as exc:
             raise TransportError(f"Timed out after {timeout:.0f}s", url=url, timeout=True) from exc
         except urllib.error.URLError as exc:
             reason = getattr(exc, "reason", exc)
@@ -126,11 +125,10 @@ class RequestsTransport:
 
     def __init__(self) -> None:
         try:
-            import requests
+            import requests  # noqa: PLC0415 - optional dependency probed at runtime
         except ImportError as exc:  # pragma: no cover - exercised only without requests
             raise TransportError(
-                "The 'requests' package is not installed. "
-                "Install it, or use UrllibTransport."
+                "The 'requests' package is not installed. " "Install it, or use UrllibTransport."
             ) from exc
         self._requests = requests
         self._session = requests.Session()
@@ -252,12 +250,12 @@ def default_transport() -> Transport:
 
 
 __all__ = [
-    "USER_AGENT",
     "FakeTransport",
     "RequestsTransport",
     "Response",
     "ScriptedResponse",
     "Transport",
     "UrllibTransport",
+    "USER_AGENT",
     "default_transport",
 ]

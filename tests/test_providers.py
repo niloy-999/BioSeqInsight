@@ -78,8 +78,14 @@ class TestAlphaFoldProvider:
 
     def _api_payload(self, accession: str, pdb_url: str, entry_id: str | None = None) -> str:
         return json.dumps(
-            [{"entryId": entry_id or f"AF-{accession}-F1", "uniprotAccession": accession,
-              "pdbUrl": pdb_url, "latestVersion": 4}]
+            [
+                {
+                    "entryId": entry_id or f"AF-{accession}-F1",
+                    "uniprotAccession": accession,
+                    "pdbUrl": pdb_url,
+                    "latestVersion": 4,
+                }
+            ]
         )
 
     def test_successful_retrieval(self, tmp_settings, ubiquitin_pdb):
@@ -101,17 +107,13 @@ class TestAlphaFoldProvider:
     def test_404_from_the_prediction_api_is_a_coverage_gap_not_a_service_failure(
         self, tmp_settings
     ):
-        transport = FakeTransport(
-            {"api/prediction/P00720": [ScriptedResponse(404, "no model")]}
-        )
+        transport = FakeTransport({"api/prediction/P00720": [ScriptedResponse(404, "no model")]})
         result = self._provider(transport, tmp_settings).retrieve("P00720", accession="P00720")
         assert result.status is RetrievalStatus.NOT_FOUND
         assert "coverage gap" in result.error
 
     def test_empty_prediction_list_is_a_coverage_gap(self, tmp_settings):
-        transport = FakeTransport(
-            {"api/prediction/P00720": [ScriptedResponse(200, "[]")]}
-        )
+        transport = FakeTransport({"api/prediction/P00720": [ScriptedResponse(200, "[]")]})
         result = self._provider(transport, tmp_settings).retrieve("P00720", accession="P00720")
         assert result.status is RetrievalStatus.NOT_FOUND
 
@@ -172,9 +174,7 @@ class TestAlphaFoldProvider:
         assert result.recovered is True
 
     def test_malformed_api_response_is_a_service_failure(self, tmp_settings):
-        transport = FakeTransport(
-            {"api/prediction/P0CG48": [ScriptedResponse(200, "not json")]}
-        )
+        transport = FakeTransport({"api/prediction/P0CG48": [ScriptedResponse(200, "not json")]})
         result = self._provider(transport, tmp_settings).retrieve("P0CG48", accession="P0CG48")
         assert result.status is RetrievalStatus.SERVICE_ERROR
 
@@ -378,7 +378,9 @@ class TestUniProtClient:
                 "primaryAccession": "P0CG48",
                 "sequence": {"value": UBIQUITIN},
                 "organism": {"scientificName": "Homo sapiens"},
-                "proteinDescription": {"recommendedName": {"fullName": {"value": "Polyubiquitin-C"}}},
+                "proteinDescription": {
+                    "recommendedName": {"fullName": {"value": "Polyubiquitin-C"}}
+                },
                 "uniProtKBCrossReferences": [{"database": "PDB", "id": "1UBQ"}],
             }
         )
@@ -393,9 +395,7 @@ class TestUniProtClient:
 
 class TestStructureManager:
     def _manager(self, transport, settings):
-        return StructureManager(
-            settings, make_client(transport), ResponseCache(settings.cache_dir)
-        )
+        return StructureManager(settings, make_client(transport), ResponseCache(settings.cache_dir))
 
     def test_accession_query_resolves_to_an_exact_match(self, tmp_settings, working_transport):
         outcome = self._manager(working_transport, tmp_settings).retrieve("P0CG48")
@@ -514,13 +514,17 @@ class TestStructureResultRecovered:
 
     def _attempt(self, attempt=1, status_code=200, error=None) -> AttemptRecord:
         return AttemptRecord(
-            attempt=attempt, url="https://example.org", status_code=status_code,
-            error=error, elapsed_s=0.01,
+            attempt=attempt,
+            url="https://example.org",
+            status_code=status_code,
+            error=error,
+            elapsed_s=0.01,
         )
 
     def _result(self, attempts, status=RetrievalStatus.OK) -> StructureResult:
-        return StructureResult(source="test", query="q", query_type="sequence",
-                                status=status, attempts=attempts)
+        return StructureResult(
+            source="test", query="q", query_type="sequence", status=status, attempts=attempts
+        )
 
     def test_a_single_successful_attempt_is_not_recovered(self):
         assert self._result([self._attempt()]).recovered is False
@@ -532,13 +536,17 @@ class TestStructureResultRecovered:
         assert self._result([self._attempt(1), self._attempt(1)]).recovered is False
 
     def test_a_failed_attempt_followed_by_success_is_recovered(self):
-        attempts = [self._attempt(1, status_code=503, error="service unavailable"),
-                    self._attempt(2, status_code=200)]
+        attempts = [
+            self._attempt(1, status_code=503, error="service unavailable"),
+            self._attempt(2, status_code=200),
+        ]
         assert self._result(attempts).recovered is True
 
     def test_an_error_without_a_status_code_still_counts_as_a_failure(self):
-        attempts = [self._attempt(1, status_code=None, error="timeout after 5s"),
-                    self._attempt(2, status_code=200)]
+        attempts = [
+            self._attempt(1, status_code=None, error="timeout after 5s"),
+            self._attempt(2, status_code=200),
+        ]
         assert self._result(attempts).recovered is True
 
     def test_a_failed_result_is_never_recovered_even_with_failed_attempts(self):

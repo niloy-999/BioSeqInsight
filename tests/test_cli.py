@@ -13,9 +13,7 @@ import pytest
 
 from bioseqinsight.cli import main
 
-UBIQUITIN = (
-    "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
-)
+UBIQUITIN = "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
 DNA = "ATG" + "GCTAGCTTACCGATGGC" * 4 + "TAA"
 
 
@@ -97,9 +95,13 @@ class TestBatchCommand:
         fasta = tmp_path / "in.fasta"
         fasta.write_text(f">dna1\n{DNA}\n>prot1\n{UBIQUITIN}\n")
         prefix = tmp_path / "out"
-        assert run(
-            ["batch", str(fasta), "--out-prefix", str(prefix), "--formats", "csv,json"], tmp_path
-        ) == 0
+        assert (
+            run(
+                ["batch", str(fasta), "--out-prefix", str(prefix), "--formats", "csv,json"],
+                tmp_path,
+            )
+            == 0
+        )
         assert Path(f"{prefix}.csv").is_file()
         payload = json.loads(Path(f"{prefix}.json").read_text())
         assert payload["summary"]["total"] == 2
@@ -133,14 +135,22 @@ class TestProjectCommand:
         project = tmp_path / "p"
         assert run(["project", "create", str(project), "--name", "demo"], tmp_path) == 0
         assert run(["project", "info", str(project)], tmp_path) == 0
-        assert run(["project", "export", str(project), "--out", str(tmp_path / "p.zip")], tmp_path) == 0
+        assert (
+            run(["project", "export", str(project), "--out", str(tmp_path / "p.zip")], tmp_path)
+            == 0
+        )
         assert (tmp_path / "p.zip").is_file()
 
     def test_import_round_trip(self, tmp_path):
         project = tmp_path / "p"
         run(["project", "create", str(project), "--name", "demo"], tmp_path)
         run(["project", "export", str(project), "--out", str(tmp_path / "p.zip")], tmp_path)
-        assert run(["project", "import", str(tmp_path / "p.zip"), str(tmp_path / "restored")], tmp_path) == 0
+        assert (
+            run(
+                ["project", "import", str(tmp_path / "p.zip"), str(tmp_path / "restored")], tmp_path
+            )
+            == 0
+        )
 
     def test_info_on_a_non_project_is_a_user_error(self, tmp_path):
         assert run(["project", "info", str(tmp_path)], tmp_path) == 2

@@ -11,11 +11,10 @@ corresponding script in `../scripts/`.
 | `coverage_summary.json` | test suite with coverage | no |
 | `structure_benchmark_2026-09-23_summary.json` | `run_structure_benchmark.py` | **yes** — the citable live result |
 
-## The live structure benchmark: four runs, an audit trail
+## The live structure benchmark: five runs, an audit trail, now closed
 
 Runs are kept in order because each run after the first exists *because* the
-run before it surfaced a real defect. Read them together and the history is
-the evidence that these figures were checked, not asserted.
+run before it surfaced a real defect — until the fifth, which surfaced none.
 
 1. **`structure_benchmark_2026-09-21_prefix_summary.json`** — before any
    fix. AlphaFold retrieval: **0%** (a hard-coded, stale model-version
@@ -24,49 +23,54 @@ the evidence that these figures were checked, not asserted.
 2. **`structure_benchmark_2026-09-22_postfix_summary_superseded.json`** —
    after the AlphaFold provider fix. AlphaFold retrieval: **98.5%**,
    confirming that fix, but `recovered_after_failure` reads 67/67 —
-   every successful retrieval flagged as a recovery, which turned out to be
    a second, unrelated defect in `StructureResult.recovered` (2.0.1, item 2).
 3. **`structure_benchmark_2026-09-23_summary.json`** — after the 2.0.1
-   fixes. AlphaFold 98.6% (68/69), `recovered_after_failure` a plausible 0.
-   Its raw output also showed ESM Atlas's `invalid_input` category (length-
-   limit refusals) missing from the summary entirely, fixed and
-   back-annotated onto this file (2.0.1, item 4).
-4. **`structure_benchmark_2026-09-23b_summary.json`** — a second,
-   independent run the same day, on 2.0.1. AlphaFold 97.1% (67/69, one more
-   transient `service_error` than run 3 — ordinary day-to-day network
-   variance, correctly categorised). This run's raw `best_mapping_
-   distribution` summed to 68 against 69 resolved candidates: the one
-   protein that got no usable structure from any provider was silently
-   absent from the table instead of counted as M0 (2.0.2, item 1). Corrected
-   by hand in the committed file; see its `note` for exactly what was fixed
-   and what was already correct.
+   fixes. AlphaFold 98.6% (68/69). Raw output was missing the
+   `invalid_input` category for ESM Atlas, back-annotated (2.0.1, item 4).
+4. **`structure_benchmark_2026-09-23b_summary.json`** — a second run the
+   same day, still on 2.0.1. AlphaFold 97.1% (67/69, one more transient
+   `service_error` — ordinary variance). `best_mapping_distribution` summed
+   to 68 against 69 resolved: one genuinely-M0 protein was silently absent
+   from the table instead of counted, corrected by hand (2.0.2, item 1).
+5. **`structure_benchmark_2026-09-23c_summary.json` — THE CITABLE RESULT.**
+   A third run the same day, on 2.0.2. AlphaFold 98.6% (68/69), overall
+   exact-mapping rate 98.6%, any-structure rate 100%. **Every field is
+   native — nothing added, corrected, or back-annotated.** Every
+   `accounting_check` reads `"ok"` on its own; `best_mapping_distribution`
+   sums to `resolved` on its own; strata `exact_matches` (16+22+30=68)
+   independently cross-validates against `best_mapping_distribution.M4`
+   (68). This is the first run in the sequence that needed no correction at
+   all, which is what makes it the one to put in the manuscript.
 
-**This is the file to cite going forward, once produced:** a fresh run on
-2.0.2 or later, where every field is native rather than hand-reconciled.
-None of the four runs above needed a number changed — only added, corrected,
-or annotated for a reporting gap — but a clean 2.0.2+ run is still the
-right one to put in a manuscript rather than an annotated older one.
+**The audit trail is closed as of run 5.** A future re-run is still worth
+doing closer to submission for a fresh timestamp, but the defect-finding
+part of this process — the reason four earlier runs exist — is done: two
+real provider/model defects (items 1-2, 2.0.1) and two real
+benchmark-reporting defects (item 4, 2.0.1; item 1, 2.0.2) were found this
+way, none of them reachable from the offline test suite alone, all of them
+now covered by regression tests so they cannot recur silently.
 
 ```bash
 python benchmarks/scripts/run_structure_benchmark.py \
     --out benchmarks/results/structure_benchmark_$(date +%F)
 ```
 
-## Checklist for any new run before citing it
+## Checklist for any future run before citing it
 
-Every one of these failed at some point during the sequence above — that's
-why each is here:
+Every one of these failed at some point during runs 1-4 above — that's why
+each is here, and why run 5 passing all of them is what ends the audit:
 
 - Every `per_provider.<name>.accounting_check` reads `"ok"`.
 - `sum(best_mapping_distribution.values()) == resolved`.
+- Strata `exact_matches` sums to `best_mapping_distribution["M4"]`.
 - `recovered_after_failure` is small relative to `retrieved` for every
   provider — equal to it, as happened once, is the specific pattern that
   caught the `StructureResult.recovered` defect.
 - `software_version` in the file matches the version whose fixes you intend
   to be citing (`CHANGELOG.md`).
 - `attempted_success_rate_percent` and `success_rate_percent` are both
-  present for every provider and you know which one you mean when you write
-  the number down — they answer different questions (2.0.2, item 2).
+  present and you know which one you mean when you write the number down —
+  they answer different questions (2.0.2, item 2).
 
 ## Note on the coverage figure
 

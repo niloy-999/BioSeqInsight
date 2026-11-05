@@ -40,7 +40,7 @@ def check(name: str):
     def wrap(function):
         try:
             function()
-        except Exception as exc:
+        except Exception as exc:  # noqa: BLE001 - reported, not raised
             FAILED.append((name, f"{type(exc).__name__}: {exc}"))
             print(f"  FAIL  {name}")
             if "-v" in sys.argv:

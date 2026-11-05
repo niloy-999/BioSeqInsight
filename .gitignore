@@ -21,7 +21,8 @@ coverage.xml
 Thumbs.db
 
 # Runtime output: regenerate, do not commit
-structures/
+/structures/
+/validation/structures/
 *.log
 logs/
 .bioseqinsight/
@@ -30,14 +31,9 @@ logs/
 # published ones; dated runs stay local.
 benchmarks/results/*_20*.csv
 benchmarks/results/*_20*.json
+!benchmarks/results/*_summary*.json
 
 # Generated coverage report
 coverage.json
-.venv/
-__pycache__/
-*.egg-info/
-.DS_Store
 validation/work/
 *.bak
-.coverage
-htmlcov/

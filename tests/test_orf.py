@@ -85,9 +85,9 @@ class TestUnterminated:
 
     def test_unterminated_orfs_can_be_excluded(self):
         sequence = "ATG" + "AAA" * 12
-        assert find_orfs(
-            sequence, min_aa=5, include_reverse=False, include_unterminated=False
-        ) == []
+        assert (
+            find_orfs(sequence, min_aa=5, include_reverse=False, include_unterminated=False) == []
+        )
 
 
 class TestAlternativeStarts:
@@ -97,9 +97,7 @@ class TestAlternativeStarts:
 
     def test_alternative_starts_can_be_enabled(self):
         sequence = "GTG" + "AAA" * 10 + "TAA"
-        orfs = find_orfs(
-            sequence, min_aa=5, include_reverse=False, table=11, require_atg=False
-        )
+        orfs = find_orfs(sequence, min_aa=5, include_reverse=False, table=11, require_atg=False)
         assert orfs and orfs[0].protein.startswith("M")
 
     def test_longest_orf_helper(self):

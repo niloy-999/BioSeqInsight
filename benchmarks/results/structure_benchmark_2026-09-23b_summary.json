@@ -1,0 +1,68 @@
+{
+  "software_version": "2.0.1",
+  "generated_at": "2026-09-23T10:48:55+00:00",
+  "note": "A second, independent live run on the same day as structure_benchmark_2026-09-23_summary.json, captured with software_version 2.0.1 (the best_mapping_distribution and attempted_success_rate_percent fixes in CHANGELOG.md 2.0.2 postdate this run). Its raw best_mapping_distribution read {M0:0, M1:0, M2:0, M3:1, M4:67}, summing to 68 against 69 resolved candidates -- one protein that received no usable structure from any provider was silently absent from the table instead of being counted as M0, which is exactly the defect item 1 in 2.0.2 fixes. The corrected distribution below (M0:1) is reconstructed by hand from the arithmetic (resolved - M1 - M2 - M3 - M4), which is the only correction needed; every other field in this file is the provider's unedited output and was already internally consistent (each per_provider.accounting_check was 'ok'). exact_mapping_rate_percent and any_structure_rate_percent were correct in the raw output too, since neither is derived from distribution['M0']. attempted_success_rate_percent did not exist in the script version that produced this run and has been added by hand from the same reconciliation logic now built into the script. A fresh run on 2.0.2 will populate every field natively.",
+  "candidates": 69,
+  "resolved": 69,
+  "unresolved": 0,
+  "unresolved_accessions": [],
+  "strata": {
+    "short": {"proteins": 16, "exact_matches": 16},
+    "medium": {"proteins": 23, "exact_matches": 22},
+    "long": {"proteins": 30, "exact_matches": 29}
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 69,
+      "retrieved": 67,
+      "success_rate_percent": 97.1,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 97.1,
+      "not_found": 1,
+      "timeouts": 0,
+      "service_errors": 1,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 0.443,
+      "exact_matches": 67,
+      "accounting_check": "ok"
+    },
+    "esmatlas": {
+      "requests": 69,
+      "retrieved": 46,
+      "success_rate_percent": 66.7,
+      "attempted_requests": 46,
+      "attempted_success_rate_percent": 100.0,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 23,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 2.327,
+      "exact_matches": 0,
+      "accounting_check": "ok"
+    },
+    "rcsb": {
+      "requests": 69,
+      "retrieved": 58,
+      "success_rate_percent": 84.1,
+      "attempted_requests": 69,
+      "attempted_success_rate_percent": 84.1,
+      "not_found": 6,
+      "timeouts": 0,
+      "service_errors": 5,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 5.013,
+      "exact_matches": 39,
+      "accounting_check": "ok"
+    }
+  },
+  "best_mapping_distribution": {"M0": 1, "M1": 0, "M2": 0, "M3": 1, "M4": 67},
+  "exact_mapping_rate_percent": 97.1,
+  "any_structure_rate_percent": 98.6,
+  "wall_clock_s": 772.3
+}

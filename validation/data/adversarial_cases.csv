@@ -1,0 +1,926 @@
+class,construction_note,estimated_identity_construction_only,expected_max_m_level,expected_relationship,forced_pdb_id,forced_structure_accession,forced_structure_isoform_id,forced_structure_isoform_length,kmer_similarity_construction_only,query_accession,query_canonical_length
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.015 (construction-time estimate only)",0.417,M3,paralogue,,Q9UT83,,,0.0154,Q6GLB5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.084 (construction-time estimate only)",0.628,M3,paralogue,,Q8F500,,,0.0842,Q64T74,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.458,M3,paralogue,,Q87J80,,,0.0225,Q7NRS0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.243 (construction-time estimate only)",0.791,M3,paralogue,,P61684,,,0.2432,A8MLG4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.366 (construction-time estimate only)",0.855,M3,paralogue,,P06398,,,0.3656,Q9QZ47,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",0.441,M3,paralogue,,Q9WTR8,,,0.0192,Q96JA1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.088 (construction-time estimate only)",0.635,M3,paralogue,,P57146,,,0.0883,Q03PU9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.089 (construction-time estimate only)",0.635,M3,paralogue,,A4ITJ9,,,0.0885,P57830,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.425,M3,paralogue,,Q13233,,,0.0167,P08018,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",0.553,M3,paralogue,,P50788,,,0.0491,P04012,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",0.41,M3,paralogue,,O48706,,,0.0143,Q06B74,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.072 (construction-time estimate only)",0.605,M3,paralogue,,A5GIR9,,,0.0717,Q72IN1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",0.586,M3,paralogue,,A2BYN3,,,0.0628,Q4QMC3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",0.441,M3,paralogue,,B0CH29,,,0.0193,G1TT27,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.43,M3,paralogue,,Q6G5Z1,,,0.0174,Q88RA1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.078 (construction-time estimate only)",0.616,M3,paralogue,,A4XQQ3,,,0.0775,B8E1G6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",0.455,M3,paralogue,,C6BEJ1,,,0.0219,Q253Y0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.084 (construction-time estimate only)",0.627,M3,paralogue,,Q86UL8,,,0.084,Q96QZ7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.425,M3,paralogue,,Q9VQ56,,,0.0165,O75820,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",0.58,M3,paralogue,,A7MZT3,,,0.06,Q04Q66,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",0.443,M3,paralogue,,A7TJK8,,,0.0197,Q9FLB0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.090 (construction-time estimate only)",0.638,M3,paralogue,,Q9ULD9,,,0.0901,O15014,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.091 (construction-time estimate only)",0.639,M3,paralogue,,B7UJW3,,,0.0909,Q72IN1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.085 (construction-time estimate only)",0.629,M3,paralogue,,B1IE45,,,0.0847,Q20YV7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",0.484,M3,paralogue,,Q2GFV4,,,0.0283,A8A7R4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.099 (construction-time estimate only)",0.651,M3,paralogue,,Q0ICF2,,,0.0985,Q8F500,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.239 (construction-time estimate only)",0.788,M3,paralogue,,Q0VMG1,,,0.2393,Q7MH90,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.024 (construction-time estimate only)",0.466,M3,paralogue,,Q6AQV6,,,0.0241,Q7VMJ8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.142 (construction-time estimate only)",0.706,M3,paralogue,,Q9K6H3,,,0.1419,B1LBC1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.099 (construction-time estimate only)",0.651,M3,paralogue,,B7UJW3,,,0.0988,B8E1G6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",0.523,M3,paralogue,,Q14DH7,,,0.0389,O13440,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.364 (construction-time estimate only)",0.855,M3,paralogue,,A2T357,,,0.3636,Q2LQ85,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",0.586,M3,paralogue,,A2BYN3,,,0.0628,A1AGK8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",0.587,M3,paralogue,,A5GIR9,,,0.0632,A4XQQ3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.462,M3,paralogue,,A7TJK8,,,0.0233,P19109,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.019 (construction-time estimate only)",0.441,M3,paralogue,,A5INE5,,,0.0192,Q4ZLQ1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",0.525,M3,paralogue,,Q7W1P2,,,0.0395,Q6A9H8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.128 (construction-time estimate only)",0.691,M3,paralogue,,Q9K6H3,,,0.1283,Q7YJY4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",0.471,M3,paralogue,,Q73VJ7,,,0.0252,Q9KPK8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",0.58,M3,paralogue,,C1DTW6,,,0.0599,Q8NWY9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",0.521,M3,paralogue,,P98182,,,0.0382,P18735,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.462,M3,paralogue,,P62368,,,0.0233,Q6FAU4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.037 (construction-time estimate only)",0.518,M3,paralogue,,Q63507,,,0.0374,Q9T043,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",0.522,M3,paralogue,,A5FUJ7,,,0.0386,B1GYV6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",0.552,M3,paralogue,,B2FLW4,,,0.0487,Q49WP9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",0.534,M3,paralogue,,P61701,,,0.0423,Q8CWY0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.026 (construction-time estimate only)",0.475,M3,paralogue,,Q89N76,,,0.0262,Q0HW75,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.179 (construction-time estimate only)",0.743,M3,paralogue,,Q47ZC3,,,0.1793,A5W794,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.064 (construction-time estimate only)",0.59,M3,paralogue,,P36774,,,0.0643,Q8G0I7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.189 (construction-time estimate only)",0.751,M3,paralogue,,Q8EUD6,,,0.1891,Q63H66,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.043 (construction-time estimate only)",0.535,M3,paralogue,,A5FUJ7,,,0.0426,B7GF88,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",0.409,M3,paralogue,,A8Y3R9,,,0.0141,Q9VSA4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.054 (construction-time estimate only)",0.566,M3,paralogue,,A5EW69,,,0.0542,P04951,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",0.403,M3,paralogue,,Q8NFU5,,,0.0134,P07250,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.033 (construction-time estimate only)",0.503,M3,paralogue,,A7HXW0,,,0.0332,B9I666,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.258 (construction-time estimate only)",0.8,M3,paralogue,,A8G875,,,0.2581,A9KU88,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",0.405,M3,paralogue,,Q14DH7,,,0.0136,Q6TNA5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.043 (construction-time estimate only)",0.536,M3,paralogue,,P06384,,,0.0431,A2S7I3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.100 (construction-time estimate only)",0.652,M3,paralogue,,B8E1G6,,,0.0996,Q72IN1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.073 (construction-time estimate only)",0.608,M3,paralogue,,B1ZNE2,,,0.0735,P46172,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.43,M3,paralogue,,Q7VA04,,,0.0174,F4K410,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",0.432,M3,paralogue,,P19109,,,0.0177,Q9FLB0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.030 (construction-time estimate only)",0.489,M3,paralogue,,A8Z325,,,0.0295,Q72IN1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.034 (construction-time estimate only)",0.507,M3,paralogue,,Q2YMH2,,,0.0342,B4EBH0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",0.403,M3,paralogue,,Q93YP7,,,0.0133,B7MJ30,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",0.47,M3,paralogue,,P19109,,,0.0251,C3LQR1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.051 (construction-time estimate only)",0.559,M3,paralogue,,A5EXZ1,,,0.0514,B3Q856,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",0.434,M3,paralogue,,A4WCC1,,,0.018,P37637,
+B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.852 (construction-time estimate only)",0.979,M3,paralogue,,Q4QMC3,,,0.8519,A1AGK8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.088 (construction-time estimate only)",0.634,M3,paralogue,,Q7VA04,,,0.0881,Q253F1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.041 (construction-time estimate only)",0.529,M3,paralogue,,B5YTN0,,,0.0406,B0K5Q4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.082 (construction-time estimate only)",0.624,M3,paralogue,,Q7MTN7,,,0.0818,Q4FUD4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",0.481,M3,paralogue,,Q18GB1,,,0.0276,Q97BK5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.118 (construction-time estimate only)",0.678,M3,paralogue,,Q15VG2,,,0.118,Q668W9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.462,M3,paralogue,,B7H7H4,,,0.0233,B5RBY7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.036 (construction-time estimate only)",0.513,M3,paralogue,,Q5L3R1,,,0.0359,B9KZV9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.036 (construction-time estimate only)",0.514,M3,paralogue,,A5GIR9,,,0.0362,B8E1G6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",0.42,M3,paralogue,,A4WC70,,,0.0157,P97084,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.072 (construction-time estimate only)",0.605,M3,paralogue,,Q7MH90,,,0.0719,Q0SPR8,
+B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.948 (construction-time estimate only)",0.993,M3,paralogue,,Q3YUH3,,,0.9485,A8A7R4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.461,M3,paralogue,,Q4ZLQ1,,,0.023,A6QCU4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.090 (construction-time estimate only)",0.638,M3,paralogue,,Q63H66,,,0.0905,Q7MTN7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.041 (construction-time estimate only)",0.528,M3,paralogue,,B0S1D8,,,0.0406,Q895R1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.047 (construction-time estimate only)",0.548,M3,paralogue,,A7GK37,,,0.0473,Q3APJ0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.052 (construction-time estimate only)",0.561,M3,paralogue,,Q3ST22,,,0.052,Q5SMH8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.037 (construction-time estimate only)",0.517,M3,paralogue,,Q6FAU4,,,0.0369,Q8RQP5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.118 (construction-time estimate only)",0.678,M3,paralogue,,Q0P3K5,,,0.1184,Q9K6H3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",0.403,M3,paralogue,,A7TJK8,,,0.0133,O67037,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",0.519,M3,paralogue,,A9BCH4,,,0.0376,Q6F0L8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.157 (construction-time estimate only)",0.722,M3,paralogue,,Q8EUD6,,,0.1569,Q4FUD4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.091 (construction-time estimate only)",0.639,M3,paralogue,,Q7VKY7,,,0.0909,B6J7A4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",0.457,M3,paralogue,,Q24SK9,,,0.0223,A9ADM4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.031 (construction-time estimate only)",0.496,M3,paralogue,,P06384,,,0.0311,B5XJ43,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.027 (construction-time estimate only)",0.479,M3,paralogue,,Q2W9D1,,,0.0269,A5CXZ0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.461,M3,paralogue,,P18728,,,0.0231,P98182,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.079 (construction-time estimate only)",0.618,M3,paralogue,,B1ZNE2,,,0.0785,A0LIJ6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.109 (construction-time estimate only)",0.666,M3,paralogue,,Q5FQC8,,,0.1094,A4JBA3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.43,M3,paralogue,,Q6YRL3,,,0.0173,Q5HJZ9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.361 (construction-time estimate only)",0.854,M3,paralogue,,Q5RFL7,,,0.3612,Q5XI52,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.068 (construction-time estimate only)",0.598,M3,paralogue,,A4XQQ3,,,0.0684,A8Z325,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.063 (construction-time estimate only)",0.586,M3,paralogue,,B5YTN0,,,0.0628,B7IA28,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.060 (construction-time estimate only)",0.581,M3,paralogue,,Q04Q66,,,0.0603,Q83KH0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.014 (construction-time estimate only)",0.406,M3,paralogue,,Q54QA0,,,0.0138,Q3YUH3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",0.527,M3,paralogue,,A6GZI2,,,0.04,A3DBQ1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",0.534,M3,paralogue,,B4E5X0,,,0.0424,Q6A9H8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.013 (construction-time estimate only)",0.401,M3,paralogue,,Q54QA0,,,0.0131,A8A7R4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.077 (construction-time estimate only)",0.614,M3,paralogue,,B7UJW3,,,0.0766,A8Z325,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.134 (construction-time estimate only)",0.697,M3,paralogue,,B8EDV5,,,0.1338,B3H2P8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",0.445,M3,paralogue,,C3LQR1,,,0.02,Q9FLB0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.080 (construction-time estimate only)",0.62,M3,paralogue,,Q8EUD6,,,0.0796,Q7MTN7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.094 (construction-time estimate only)",0.644,M3,paralogue,,A0L667,,,0.0939,Q3JEB6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",0.47,M3,paralogue,,Q8RA71,,,0.025,P20585,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.210 (construction-time estimate only)",0.767,M3,paralogue,,Q31JC9,,,0.2097,A9IFG8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.508 (construction-time estimate only)",0.906,M3,paralogue,,Q679B6,,,0.5079,Q5Y4Q2,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.046 (construction-time estimate only)",0.544,M3,paralogue,,B9DJH3,,,0.0456,Q5F6Y8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.026 (construction-time estimate only)",0.473,M3,paralogue,,Q8L7S8,,,0.0256,C3LQR1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",0.458,M3,paralogue,,Q5I2M3,,,0.0224,Q0PV50,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",0.424,M3,paralogue,,B9MDW3,,,0.0164,Q4ZLQ1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",0.525,M3,paralogue,,Q1XDJ3,,,0.0395,Q4FUD4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.025 (construction-time estimate only)",0.472,M3,paralogue,,B8ZUT0,,,0.0255,O67367,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.040 (construction-time estimate only)",0.526,M3,paralogue,,Q7W3Z2,,,0.0398,Q2JUJ9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",0.422,M3,paralogue,,Q10KY3,,,0.0161,Q95ZQ4,
+B5_high_identity_wrong_entity,"shared Pfam family, k-mer Jaccard 0.724 (construction-time estimate only)",0.957,M3,paralogue,,O17503,,,0.7239,P41339,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.455 (construction-time estimate only)",0.889,M3,paralogue,,Q7MH90,,,0.4545,B7NTQ7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.039 (construction-time estimate only)",0.522,M3,paralogue,,Q2YD61,,,0.0385,Q5HJZ9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.016 (construction-time estimate only)",0.422,M3,paralogue,,Q0ICF2,,,0.0161,F4K410,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.038 (construction-time estimate only)",0.519,M3,paralogue,,C9E1R7,,,0.0377,P22827,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.024 (construction-time estimate only)",0.466,M3,paralogue,,F4IHS2,,,0.0241,Q9NRZ9,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.049 (construction-time estimate only)",0.553,M3,paralogue,,O75820,,,0.049,P18735,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.058 (construction-time estimate only)",0.576,M3,paralogue,,B7JVV5,,,0.0581,A1URL6,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.057 (construction-time estimate only)",0.574,M3,paralogue,,B2GHC3,,,0.0573,Q2SWG5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.032 (construction-time estimate only)",0.497,M3,paralogue,,B7HPK2,,,0.0315,B8ZUT0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.057 (construction-time estimate only)",0.573,M3,paralogue,,Q168B1,,,0.0568,A8F6A5,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.032 (construction-time estimate only)",0.498,M3,paralogue,,B2FLW4,,,0.0316,Q92PY8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.053 (construction-time estimate only)",0.562,M3,paralogue,,Q1XDJ3,,,0.0526,Q63H66,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.018 (construction-time estimate only)",0.431,M3,paralogue,,Q85FU3,,,0.0176,Q2L938,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.078 (construction-time estimate only)",0.616,M3,paralogue,,Q3ST22,,,0.0776,Q3B3Y0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.120 (construction-time estimate only)",0.68,M3,paralogue,,B9MDW3,,,0.1197,A6QCU4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.028 (construction-time estimate only)",0.483,M3,paralogue,,Q8L7S8,,,0.0279,P19109,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.138 (construction-time estimate only)",0.702,M3,paralogue,,B7GF88,,,0.1382,B9DJH3,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.042 (construction-time estimate only)",0.532,M3,paralogue,,B7GF88,,,0.0418,Q8ZHI7,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.017 (construction-time estimate only)",0.428,M3,paralogue,,Q5I2M3,,,0.0171,Q9WTR8,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.142 (construction-time estimate only)",0.706,M3,paralogue,,Q63H66,,,0.1422,Q4FUD4,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.020 (construction-time estimate only)",0.445,M3,paralogue,,P89453,,,0.0199,P28340,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.210 (construction-time estimate only)",0.768,M3,paralogue,,Q5L3R1,,,0.21,Q1JNZ0,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.022 (construction-time estimate only)",0.457,M3,paralogue,,Q5I2M3,,,0.0223,Q96JA1,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.023 (construction-time estimate only)",0.462,M3,paralogue,,O75820,,,0.0232,P98182,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.625 (construction-time estimate only)",0.936,M3,paralogue,,Q2KHT3,,,0.6246,Q80U30,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.098 (construction-time estimate only)",0.65,M3,paralogue,,Q0ICF2,,,0.0979,Q64T74,
+B1_wrong_paralogue,"shared Pfam family, k-mer Jaccard 0.015 (construction-time estimate only)",0.412,M3,paralogue,,A7TJK8,,,0.0147,Q8L7S8,
+B2_fragment,SIFTS coverage 0.386 < 0.70,,M3,fragment,,,,,,P03170,
+B2_fragment,SIFTS coverage 0.607 < 0.70,,M3,fragment,,,,,,P01315,
+B2_fragment,SIFTS coverage 0.598 < 0.70,,M3,fragment,,,,,,P9WJ87,
+B2_fragment,SIFTS coverage 0.48 < 0.70,,M3,fragment,,,,,,P21741,
+B2_fragment,SIFTS coverage 0.594 < 0.70,,M3,fragment,,,,,,Q00433,
+B2_fragment,SIFTS coverage 0.286 < 0.70,,M3,fragment,,,,,,O88878,
+B2_fragment,SIFTS coverage 0.249 < 0.70,,M3,fragment,,,,,,P16563,
+B2_fragment,SIFTS coverage 0.611 < 0.70,,M3,fragment,,,,,,Q8VY88,
+B2_fragment,SIFTS coverage 0.355 < 0.70,,M3,fragment,,,,,,Q9UKW6,
+B2_fragment,SIFTS coverage 0.258 < 0.70,,M3,fragment,,,,,,P02643,
+B2_fragment,SIFTS coverage 0.644 < 0.70,,M3,fragment,,,,,,P35625,
+B2_fragment,SIFTS coverage 0.393 < 0.70,,M3,fragment,,,,,,O35906,
+B2_fragment,SIFTS coverage 0.543 < 0.70,,M3,fragment,,,,,,O95297,
+B2_fragment,SIFTS coverage 0.23 < 0.70,,M3,fragment,,,,,,P02877,
+B2_fragment,SIFTS coverage 0.056 < 0.70,,M3,fragment,,,,,,Q8WUU5,
+B2_fragment,SIFTS coverage 0.547 < 0.70,,M3,fragment,,,,,,P08921,
+B2_fragment,SIFTS coverage 0.327 < 0.70,,M3,fragment,,,,,,Q9P104,
+B2_fragment,SIFTS coverage 0.6 < 0.70,,M3,fragment,,,,,,P26038,
+B2_fragment,SIFTS coverage 0.516 < 0.70,,M3,fragment,,,,,,P28700,
+B2_fragment,SIFTS coverage 0.608 < 0.70,,M3,fragment,,,,,,Q8NFU5,
+B2_fragment,SIFTS coverage 0.333 < 0.70,,M3,fragment,,,,,,Q58462,
+B2_fragment,SIFTS coverage 0.05 < 0.70,,M3,fragment,,,,,,P23093,
+B2_fragment,SIFTS coverage 0.11 < 0.70,,M3,fragment,,,,,,P13473,
+B2_fragment,SIFTS coverage 0.154 < 0.70,,M3,fragment,,,,,,P70581,
+B2_fragment,SIFTS coverage 0.175 < 0.70,,M3,fragment,,,,,,Q60603,
+B2_fragment,SIFTS coverage 0.292 < 0.70,,M3,fragment,,,,,,Q9EPU5,
+B2_fragment,SIFTS coverage 0.306 < 0.70,,M3,fragment,,,,,,P13390,
+B2_fragment,SIFTS coverage 0.02 < 0.70,,M3,fragment,,,,,,Q9Z183,
+B2_fragment,SIFTS coverage 0.018 < 0.70,,M3,fragment,,,,,,P08018,
+B2_fragment,SIFTS coverage 0.14 < 0.70,,M3,fragment,,,,,,P25220,
+B2_fragment,SIFTS coverage 0.572 < 0.70,,M3,fragment,,,,,,P49916,
+B2_fragment,SIFTS coverage 0.429 < 0.70,,M3,fragment,,,,,,Q96JA1,
+B2_fragment,SIFTS coverage 0.262 < 0.70,,M3,fragment,,,,,,Q62120,
+B2_fragment,SIFTS coverage 0.247 < 0.70,,M3,fragment,,,,,,Q2G2U4,
+B2_fragment,SIFTS coverage 0.128 < 0.70,,M3,fragment,,,,,,O35615,
+B2_fragment,SIFTS coverage 0.229 < 0.70,,M3,fragment,,,,,,Q13233,
+B2_fragment,SIFTS coverage 0.028 < 0.70,,M3,fragment,,,,,,A6NGG8,
+B2_fragment,SIFTS coverage 0.358 < 0.70,,M3,fragment,,,,,,Q8BJS4,
+B2_fragment,SIFTS coverage 0.086 < 0.70,,M3,fragment,,,,,,Q5XKE0,
+B2_fragment,SIFTS coverage 0.012 < 0.70,,M3,fragment,,,,,,O15014,
+B2_fragment,SIFTS coverage 0.097 < 0.70,,M3,fragment,,,,,,Q13480,
+B2_fragment,SIFTS coverage 0.414 < 0.70,,M3,fragment,,,,,,Q86US8,
+B2_fragment,SIFTS coverage 0.251 < 0.70,,M3,fragment,,,,,,P32797,
+B2_fragment,SIFTS coverage 0.085 < 0.70,,M3,fragment,,,,,,Q96QZ7,
+B2_fragment,SIFTS coverage 0.076 < 0.70,,M3,fragment,,,,,,Q86UL8,
+B2_fragment,SIFTS coverage 0.674 < 0.70,,M3,fragment,,,,,,P07975,
+B2_fragment,SIFTS coverage 0.091 < 0.70,,M3,fragment,,,,,,Q9Y6X8,
+B2_fragment,SIFTS coverage 0.142 < 0.70,,M3,fragment,,,,,,B1ASB6,
+B2_fragment,SIFTS coverage 0.073 < 0.70,,M3,fragment,,,,,,Q8WWQ0,
+B2_fragment,SIFTS coverage 0.142 < 0.70,,M3,fragment,,,,,,Q5SPW0,
+B2_fragment,SIFTS coverage 0.398 < 0.70,,M3,fragment,,,,,,Q8NW39,
+B2_fragment,SIFTS coverage 0.116 < 0.70,,M3,fragment,,,,,,O54916,
+B2_fragment,SIFTS coverage 0.506 < 0.70,,M3,fragment,,,,,,P0C061,
+B2_fragment,SIFTS coverage 0.188 < 0.70,,M3,fragment,,,,,,O75146,
+B2_fragment,SIFTS coverage 0.057 < 0.70,,M3,fragment,,,,,,Q24246,
+B2_fragment,SIFTS coverage 0.108 < 0.70,,M3,fragment,,,,,,O60245,
+B2_fragment,SIFTS coverage 0.323 < 0.70,,M3,fragment,,,,,,P14738,
+B2_fragment,SIFTS coverage 0.697 < 0.70,,M3,fragment,,,,,,P04635,
+B2_fragment,SIFTS coverage 0.053 < 0.70,,M3,fragment,,,,,,Q6WKZ4,
+B2_fragment,SIFTS coverage 0.026 < 0.70,,M3,fragment,,,,,,Q7Z3K3,
+B2_fragment,SIFTS coverage 0.09 < 0.70,,M3,fragment,,,,,,P07207,
+B2_fragment,SIFTS coverage 0.015 < 0.70,,M3,fragment,,,,,,O08838,
+B2_fragment,SIFTS coverage 0.579 < 0.70,,M3,fragment,,,,,,A8P0V4,
+B2_fragment,SIFTS coverage 0.456 < 0.70,,M3,fragment,,,,,,Q9P2M4,
+B2_fragment,SIFTS coverage 0.147 < 0.70,,M3,fragment,,,,,,Q4YCF6,
+B2_fragment,SIFTS coverage 0.291 < 0.70,,M3,fragment,,,,,,Q8IXI1,
+B2_fragment,SIFTS coverage 0.227 < 0.70,,M3,fragment,,,,,,Q6ZTA4,
+B2_fragment,SIFTS coverage 0.671 < 0.70,,M3,fragment,,,,,,Q9HCJ2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P9WLI6,,,,Q32RJ3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A023VXA2,,,,Q9K0I2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8NGJ2,,,,P9WNB4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9AB65,,,,C3MXG6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P60762,,,,Q9L646,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5DTM8,,,,P26038,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O95297,,,,P0C1D6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6CMM2,,,,P07363,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,D3YXS5,,,,O60245,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6F1Y0,,,,A9KU88,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P26284,,,,A8H0V1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q90665,,,,A5GIR9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q83KH0,,,,P37637,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P46172,,,,P9WGH5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B4RPQ3,,,,B3H2P8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8FCH9,,,,Q07337,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0ICF2,,,,Q9IBG0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6YRL3,,,,A0A0D1DZV5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q18GB1,,,,Q02R72,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2KYC8,,,,Q5U467,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P03170,,,,Q06B74,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8CHT0,,,,Q5WWA3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8VD26,,,,P27619,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P23093,,,,C6BEJ1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q13480,,,,Q8F0E4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P97084,,,,B5XJ43,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5F6X5,,,,O02772,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7MTN7,,,,Q5SMH8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P31408,,,,A4WFL5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P43687,,,,B7UJW3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q10412,,,,H8ZPX1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P37580,,,,A7ZS06,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1URL6,,,,Q6BY86,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7HE40,,,,Q9I4D4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P02517,,,,Q8H1S0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5WF65,,,,P0A6K9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0DSR3,,,,Q9UT72,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P76520,,,,Q895R1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0RDY8,,,,Q6MX18,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6SVE7,,,,P50120,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3JEB6,,,,P74733,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9R1C7,,,,G1SYU7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8NRZ4,,,,Q81A16,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O75146,,,,P35625,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O33347,,,,Q9DEX1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B8EDV5,,,,Q8WWQ0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q96QZ7,,,,P16784,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A3CPV8,,,,Q81MX1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9I106,,,,Q5HJZ9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C0HLB0,,,,Q8D3J4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8P589,,,,Q5FQC8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9LNE4,,,,P58062,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q46DC5,,,,Q8NL19,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8F7D4,,,,A7HXW0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P67091,,,,Q87J80,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8EQV8,,,,Q9SJ56,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B9DM98,,,,B3H0R2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P16114,,,,Q5FH31,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P02680,,,,Q34312,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B5RGH7,,,,P49916,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2L938,,,,Q3IQR5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9HCS2,,,,Q2GEC5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B3DRN4,,,,P06398,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8G875,,,,Q2JI03,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9CQ06,,,,F1NLH9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9HCJ2,,,,Q97W02,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P94868,,,,P27684,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O35906,,,,P9WPL7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8IUM7,,,,P28340,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4ITJ9,,,,Q9PW38,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q94AR6,,,,A6QES8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9VA73,,,,A4GAI2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1JNZ0,,,,Q30QW4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8R0F8,,,,P75485,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q55G18,,,,P19224,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B9MDW3,,,,Q0K643,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A8I3NRY3,,,,P01315,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O88878,,,,B3DFP2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4YWD8,,,,D9IWE0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8FQV1,,,,A4WAF3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3B380,,,,P0CI86,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3MAP3,,,,P16103,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9UT83,,,,O42855,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6GHU0,,,,C5BBA5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P61803,,,,B4EBH0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9KDD7,,,,Q8KBI0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8KZP5,,,,Q3YV49,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4GBY0,,,,B2IIJ6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4TJK8,,,,P37984,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6DIX1,,,,Q8EE77,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4JBA3,,,,A8Y3R9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q98F04,,,,O35615,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P03092,,,,C3MR79,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3YUH3,,,,P28700,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P11344,,,,P0C0M1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O80674,,,,Q640N3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0JMY8,,,,Q3ILJ2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q09623,,,,O06457,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9MUK6,,,,Q8W4S4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P41950,,,,Q969R2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0U4R4,,,,P50127,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B5ZAV3,,,,A3NWL9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8BJS4,,,,Q168B1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O66119,,,,O17503,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2LSG3,,,,Q8TDS4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B1LFY1,,,,A0LIJ6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9CMZ1,,,,Q8E4S2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7SXX7,,,,A3MNG2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2YD61,,,,Q9H841,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2JT68,,,,P52725,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1CEB6,,,,P54962,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q04PU0,,,,P54887,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3KCB7,,,,O48706,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O26776,,,,P00375,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P48326,,,,P31625,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O30478,,,,Q03PZ7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7N2X1,,,,Q7N8X6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P41339,,,,B4RP13,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9VQ56,,,,Q6P9Q6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0J8G8,,,,P13390,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5N384,,,,Q8G0I7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B6IMM3,,,,A0A172J1R7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P54230,,,,Q0P3K5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q764S0,,,,Q8EUD6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8M9Y6,,,,Q12167,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q386E7,,,,B2GHC3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B8E1G6,,,,B7K6S6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3BUJ8,,,,C6D9B8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P37802,,,,B9KK24,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q4UN64,,,,A6WHC9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B8I574,,,,Q0T846,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P55011,,,,Q6TDU1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q64T74,,,,Q24SK9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5I2M3,,,,C4KIV9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6FAU4,,,,A9VTK5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6NHL3,,,,Q39KC4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0AF22,,,,B7HPK2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0SPR8,,,,Q95GQ8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9VNM1,,,,Q8NW39,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q10KY3,,,,B9KZV9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1UUB8,,,,Q9LR97,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1C8V8,,,,B7IA28,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7YJY4,,,,Q6QLR2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q62120,,,,Q6CWJ7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0DMY1,,,,C9K7C1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q21P75,,,,Q8EGD7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q72IN1,,,,A4ITP1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P22827,,,,Q68RV8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P07250,,,,P36774,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8XV20,,,,P08228,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P17486,,,,Q8IR79,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9K3V1,,,,Q9Y6X8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0DH98,,,,Q5JE20,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P81156,,,,A0PNR5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q71YI9,,,,Q1IDS5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B5RBY7,,,,Q9F488,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7WHP3,,,,Q8WUU5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P19109,,,,A9ZLX4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4GAG3,,,,Q8NFU5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q80SX8,,,,Q9KSN0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P56375,,,,B1ASB6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B6EI95,,,,Q06394,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q14DH7,,,,Q9C6S4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P14817,,,,Q86UA6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3B3Y0,,,,B1IE45,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q96MR6,,,,B7M7C2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6AYE8,,,,Q95ZQ4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q16Y34,,,,Q55G20,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C3PHK4,,,,Q5XD20,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7UQD9,,,,Q7M8W6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4G8L8,,,,B2AIF3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B4TI40,,,,A9L9E3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1CC00,,,,P9WJ87,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O08838,,,,O67037,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B4SGR7,,,,Q09JY9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O07624,,,,P52855,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O73564,,,,P02877,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2FS96,,,,B7GF88,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B3Q856,,,,Q8Y915,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P33750,,,,Q9LRH7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C1CL62,,,,O67367,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9M7M1,,,,Q4JAP5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q4L5W6,,,,B1JL13,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9KPK8,,,,Q9FMS7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P28674,,,,A5CXZ0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0A1J1,,,,B4JHK2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9VB68,,,,B0K5Q4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P36233,,,,B3A0Q4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q06826,,,,Q8HY46,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q02931,,,,Q3JCX7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0PV50,,,,P13473,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B8F668,,,,P69417,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1VUJ4,,,,Q9CDE7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1CPG7,,,,B1ZNE2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q05033,,,,Q15VG2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2W9D1,,,,Q8PVA5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9BCH4,,,,P50788,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0UHX7,,,,Q83NC0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P68871,,,,Q2L1U0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0TKW1,,,,B8GEC0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8L8C0,,,,Q24246,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q96JA1,,,,O34994,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9UZC9,,,,O25963,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8MA81,,,,Q1B628,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A5U942,,,,Q85FU3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8JTH0,,,,O61735,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6WKZ4,,,,Q9XDN0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P42830,,,,B8GMY8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7MH90,,,,A5INE5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8MI61,,,,B5YTN0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P04635,,,,Q2KY81,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0CK66,,,,A0QKY2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q91642,,,,P06384,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P69055,,,,Q21988,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q4QY64,,,,Q8IVW8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,E9RFT2,,,,Q8QV69,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A2SU89,,,,A5EXZ1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9HWE4,,,,Q8NWY9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q04E44,,,,Q17YX5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O48528,,,,P76015,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O15360,,,,A6UTF8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q46HP4,,,,Q7MYG5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q06696,,,,O07227,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0CG56,,,,Q7Z3K3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P62368,,,,Q9KEE9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6U473,,,,P46656,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P08005,,,,P11388,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A3DBQ1,,,,Q86US8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P39899,,,,Q31U54,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q4J711,,,,O13440,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0C690,,,,D0NB65,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8NDA8,,,,A0A7J6EK66,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q66G78,,,,Q6P5F7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0BQN7,,,,Q1GUJ1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7VMJ8,,,,A2RMG0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q80U30,,,,Q9VSA4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A5I7J6,,,,Q2GFV4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3ZBX9,,,,P20406,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O15014,,,,P07975,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6GZI2,,,,Q5Y4Q2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P9WFG7,,,,Q03PU9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8PUB8,,,,O54916,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8K387,,,,Q9D3S3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q49YY5,,,,A8P0V4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q06629,,,,Q9Z5B6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0AAY4,,,,Q9NRZ9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B5YE43,,,,Q5M2K4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6GLB5,,,,Q45391,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q60652,,,,Q7Y220,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9T043,,,,C6DJT9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0JLR5,,,,P16563,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9HV43,,,,Q7PRA4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8RQP5,,,,Q5UJG3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A0A8X5N4,,,,P0C5S3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q679B6,,,,O53943,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8ZHI7,,,,Q04Q66,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7VKY7,,,,Q8CDP0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8NFY9,,,,A1S4U5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8CWY0,,,,Q9CKW8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6PD21,,,,A4XQQ3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7CFT2,,,,Q6AW21,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0A9S1,,,,B5DF93,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6A9H8,,,,Q8VJU4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q46XD7,,,,B2THN1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P69826,,,,Q5M5T1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q63H66,,,,P29208,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q47ZC3,,,,A8Z325,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B8ZUT0,,,,O94829,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8S5M8,,,,A2S7I3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C1KVV7,,,,A6SXP7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,D2NRH2,,,,A2S759,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q948Z4,,,,Q6ITC7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A5EW69,,,,Q6GPU1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O31920,,,,B7H7H4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3ZZI5,,,,Q5FW56,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0CH29,,,,O94588,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3ZXB8,,,,P18528,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9ADM4,,,,Q9R0L1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P57830,,,,P70368,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q94BV7,,,,P61701,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9QZ47,,,,Q2LQ85,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9UKW6,,,,Q6GK92,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8DD17,,,,Q5TI25,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,E1BFX5,,,,Q92PY8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B2KEK3,,,,A1E9T3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P04012,,,,Q5M7Q1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P46237,,,,B7NSA5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5IZC5,,,,Q94A76,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P23106,,,,Q65942,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9IGY7,,,,P16094,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P67645,,,,Q13233,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q75E32,,,,O50311,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6IQ26,,,,A5W794,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A7MZT3,,,,Q7VVF1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q84KJ3,,,,Q8Q054,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7VT71,,,,Q9K6H3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6F0L8,,,,Q90165,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q54VW1,,,,Q88P77,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0S1D8,,,,P01871,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6CXI9,,,,Q4YCF6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q04679,,,,P20896,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6USK6,,,,B7MJ30,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B1LBC1,,,,O60125,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9KM59,,,,Q8VY88,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5RFL7,,,,O08715,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q97BK5,,,,Q83FQ7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9QUS4,,,,B4TFC5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9ESC8,,,,Q63507,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P14115,,,,C8V3Y7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5SPW0,,,,P32797,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,G1TT27,,,,Q253Y0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1A0A9,,,,O60783,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B9F2L1,,,,B8EAU2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O75387,,,,Q66S61,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P43001,,,,P23284,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A2RJR5,,,,Q6JIY5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8A7R4,,,,O49606,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O48049,,,,Q6TNA5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8AQN6,,,,Q2YMH2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q54B59,,,,Q4FUD4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9ULD9,,,,Q73VJ7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7Z7L1,,,,A0RJN9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1XDJ3,,,,P57462,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q00273,,,,A6NGG8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8CF98,,,,Q14CH0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P02841,,,,Q5ZJ85,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7W3Z2,,,,B4TCZ1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P04951,,,,Q96DC7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O66621,,,,Q7QH73,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5T752,,,,Q04697,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9Y6M4,,,,Q50LE5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A7H2D5,,,,Q9I1M3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q64UR4,,,,Q01813,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,F4K410,,,,A0LQR9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9Y4P8,,,,P76010,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B2JKL9,,,,A9WJ69,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B4E5X0,,,,Q1R9W7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8RA71,,,,A3NZL5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9AAG9,,,,Q20YV7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9NVX7,,,,A9M5W0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1CDT5,,,,P0AET9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A3G1DJF3,,,,Q97Q59,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P02344,,,,P0C1Z0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0RQK3,,,,Q72WF4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P50124,,,,B8ZRA3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5F3B1,,,,Q8NXZ3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C5BM95,,,,Q6U841,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P07207,,,,B9DYB4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7N2J8,,,,Q5HU29,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8TWR5,,,,Q4QMC3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C6BV89,,,,B2IA65,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q03429,,,,P9WJF5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5F6Y8,,,,Q5R8F5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P19348,,,,A0A075B6H9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7LSP9,,,,C3KTD5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B3PK21,,,,P08018,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0C061,,,,P58752,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q54QA0,,,,A3N475,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,W8JWW7,,,,A7NBY0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0BIL0,,,,P20585,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q93YP7,,,,Q9Z0V2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P64502,,,,A2T357,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0ACB4,,,,B4SU91,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q60603,,,,A7N1W2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8IMX7,,,,Q0TG68,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9SL15,,,,P14113,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A3QB39,,,,C4Q0P6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8TV83,,,,A9M5Q4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O34421,,,,O28372,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B2KAU6,,,,Q9EPU5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0L667,,,,Q8NFZ0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B9DJH3,,,,Q4ZLQ1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q53FZ2,,,,P98182,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1JIM8,,,,Q8N3K9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8RWT8,,,,Q49WP9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P53168,,,,Q5ZSA4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0TZW0,,,,Q5L4X1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9I8G4,,,,Q9YC02,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P08921,,,,A0KBG7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q7VA04,,,,B9I666,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9QBY9,,,,Q8IYB4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q24618,,,,B7JVV5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0MD28,,,,Q7V8F6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6LYE5,,,,Q0HW75,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B6DCV1,,,,O27083,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8MLG4,,,,F4IHS2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6EVZ4,,,,Q12374,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9Z183,,,,A6M220,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P26150,,,,Q9JL99,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q91WE3,,,,Q7W1P2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B6J7A4,,,,P67870,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2JUJ9,,,,Q00433,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8VDC0,,,,A6TFP8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9NEE6,,,,P82126,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P89440,,,,P18735,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B5YWW4,,,,A1AGK8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C1C9K9,,,,A9MVV4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7NTQ7,,,,Q70LC7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2I2Q5,,,,Q1KVW5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P61684,,,,Q6CUV7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C1DTW6,,,,Q2G079,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B1IDW7,,,,Q3ST22,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P07291,,,,Q9CNN6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A5FUJ7,,,,Q96318,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C9E1R7,,,,Q17FR9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9YDV3,,,,E1BNQ4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P58576,,,,P0C0T2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q65189,,,,C0JAQ5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A144LVM3,,,,Q6AXR4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P36573,,,,D3YUB6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P9WI28,,,,Q8VY86,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9IFG8,,,,P47779,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3B399,,,,P08063,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6C0L2,,,,Q6G9U3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4WUS5,,,,Q9Y3A3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P64525,,,,Q6XR72,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q31JC9,,,,O48724,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8FJR2,,,,Q57G77,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P75080,,,,A8F6A5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P10217,,,,A2AHG0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0CA93,,,,Q9FLB0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B2FLW4,,,,Q18212,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2SWG5,,,,P04871,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P02643,,,,Q6ELV7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q58462,,,,Q9WTR8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P74227,,,,C3LQR1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q1CDL3,,,,P0CAL4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A7ZMI4,,,,A7TJK8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0TNN6,,,,O31796,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0A6D8,,,,P57146,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q556Y1,,,,P47498,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q89N76,,,,P21189,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P47039,,,,Q7NRS0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0AYR3,,,,B2RRE7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2KHT3,,,,Q4A604,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P64465,,,,A1AML8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q72WV8,,,,B1GYV6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6AQV6,,,,Q8L7C2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B1VB75,,,,A1SMW2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8A6K7,,,,Q5PM99,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q3APJ0,,,,P21741,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9FUJ9,,,,A7GK37,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A8A952,,,,Q86UL8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A9VKE1,,,,Q8WWA1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q14574,,,,Q1RFT1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5FND3,,,,B1IQQ4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P00563,,,,Q9NZ53,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P9WF14,,,,Q5XI52,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,J4KNE4,,,,Q8YQ66,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A2BYN3,,,,P42066,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A5GAC6,,,,Q8N2F6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q5FVI9,,,,F1QUP1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q2YSF8,,,,P37224,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9Y2L1,,,,Q8S9M4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O32277,,,,B7UPJ2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O43281,,,,P00711,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9V564,,,,Q88RA1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O44786,,,,P14108,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A1A5G0,,,,Q8IRJ8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P29603,,,,B5ZXA0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6QCU4,,,,A4WCC1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P82767,,,,Q0JEF5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q14999,,,,Q48EE6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q253F1,,,,A9KWW8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q66K79,,,,P25140,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0RQ28,,,,Q9P104,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O75820,,,,P25220,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P0DXI0,,,,Q9Z2S7,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O95749,,,,Q9PTA5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8IV35,,,,Q6FQH3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q75BG6,,,,Q8IXI1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8PU76,,,,P94441,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B2V6N5,,,,Q5XKE0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q0VMG1,,,,B4UDP2,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,O47491,,,,Q9NVU0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C1DKD3,,,,W4VS70,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C4L7T8,,,,Q8F500,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P89453,,,,P16376,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P62806,,,,Q01Q15,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9MS76,,,,P81662,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6G5Z1,,,,Q9JK95,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8EUC3,,,,Q14773,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P20676,,,,Q18508,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P16473,,,,P03747,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q9UAD0,,,,Q9U7D1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A6SUD8,,,,A1CEY6,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A0A1X9IRP7,,,,Q8GWT5,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8YQ06,,,,O03700,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q6ZTA4,,,,Q9P2M4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P14738,,,,Q1E5T3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,C7J8E5,,,,A0A0A7XNA3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B0BNR3,,,,Q6T6T3,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,A4WC70,,,,O74966,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P18728,,,,Q7MSS9,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8DVM9,,,,Q5L3R1,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,P70581,,,,P13960,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q92954,,,,Q8L7S8,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,B7LM45,,,,A1JPP0,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q668W9,,,,Q2G2U4,
+B4_unrelated,"uniformly random pairing, negative control",,M1,unrelated,,Q8XBT3,,,,O74633,
+B3_wrong_isoform,query is canonical isoform of P21741; structure forced to a real structure of isoform P21741-2 instead,,M3,wrong_isoform,,,P21741-2,87,,P21741,143
+B3_wrong_isoform,query is canonical isoform of Q9Z2S7; structure forced to a real structure of isoform Q9Z2S7-2 instead,,M3,wrong_isoform,,,Q9Z2S7-2,80,,Q9Z2S7,137
+B3_wrong_isoform,query is canonical isoform of Q9Z2S7; structure forced to a real structure of isoform Q9Z2S7-3 instead,,M3,wrong_isoform,,,Q9Z2S7-3,201,,Q9Z2S7,137
+B3_wrong_isoform,query is canonical isoform of Q04679; structure forced to a real structure of isoform Q04679-2 instead,,M3,wrong_isoform,,,Q04679-2,64,,Q04679,66
+B3_wrong_isoform,query is canonical isoform of Q8VY86; structure forced to a real structure of isoform Q8VY86-2 instead,,M3,wrong_isoform,,,Q8VY86-2,141,,Q8VY86,144
+B3_wrong_isoform,query is canonical isoform of Q9SL15; structure forced to a real structure of isoform Q9SL15-2 instead,,M3,wrong_isoform,,,Q9SL15-2,138,,Q9SL15,145
+B3_wrong_isoform,query is canonical isoform of Q9SL15; structure forced to a real structure of isoform Q9SL15-3 instead,,M3,wrong_isoform,,,Q9SL15-3,125,,Q9SL15,145
+B3_wrong_isoform,query is canonical isoform of Q9Y3A3; structure forced to a real structure of isoform Q9Y3A3-2 instead,,M3,wrong_isoform,,,Q9Y3A3-2,193,,Q9Y3A3,225
+B3_wrong_isoform,query is canonical isoform of Q9Y3A3; structure forced to a real structure of isoform Q9Y3A3-3 instead,,M3,wrong_isoform,,,Q9Y3A3-3,204,,Q9Y3A3,225
+B3_wrong_isoform,query is canonical isoform of O95749; structure forced to a real structure of isoform O95749-2 instead,,M3,wrong_isoform,,,O95749-2,246,,O95749,300
+B3_wrong_isoform,query is canonical isoform of O48528; structure forced to a real structure of isoform O48528-2 instead,,M3,wrong_isoform,,,O48528-2,173,,O48528,159
+B3_wrong_isoform,query is canonical isoform of Q9UKW6; structure forced to a real structure of isoform Q9UKW6-2 instead,,M3,wrong_isoform,,,Q9UKW6-2,255,,Q9UKW6,265
+B3_wrong_isoform,query is canonical isoform of Q9UKW6; structure forced to a real structure of isoform Q9UKW6-3 instead,,M3,wrong_isoform,,,Q9UKW6-3,138,,Q9UKW6,265
+B3_wrong_isoform,query is canonical isoform of O35906; structure forced to a real structure of isoform O35906-2 instead,,M3,wrong_isoform,,,O35906-2,285,,O35906,267
+B3_wrong_isoform,query is canonical isoform of O35906; structure forced to a real structure of isoform O35906-3 instead,,M3,wrong_isoform,,,O35906-3,268,,O35906,267
+B3_wrong_isoform,query is canonical isoform of O95297; structure forced to a real structure of isoform O95297-2 instead,,M3,wrong_isoform,,,O95297-2,268,,O95297,269
+B3_wrong_isoform,query is canonical isoform of O95297; structure forced to a real structure of isoform O95297-3 instead,,M3,wrong_isoform,,,O95297-3,209,,O95297,269
+B3_wrong_isoform,query is canonical isoform of Q9JL99; structure forced to a real structure of isoform Q9JL99-2 instead,,M3,wrong_isoform,,,Q9JL99-2,197,,Q9JL99,229
+B3_wrong_isoform,query is canonical isoform of Q8WWA1; structure forced to a real structure of isoform Q8WWA1-2 instead,,M3,wrong_isoform,,,Q8WWA1-2,203,,Q8WWA1,233
+B3_wrong_isoform,query is canonical isoform of Q8WWA1; structure forced to a real structure of isoform Q8WWA1-3 instead,,M3,wrong_isoform,,,Q8WWA1-3,157,,Q8WWA1,233
+B3_wrong_isoform,query is canonical isoform of Q9QZ47; structure forced to a real structure of isoform Q9QZ47-2 instead,,M3,wrong_isoform,,,Q9QZ47-2,268,,Q9QZ47,272
+B3_wrong_isoform,query is canonical isoform of Q9QZ47; structure forced to a real structure of isoform Q9QZ47-3 instead,,M3,wrong_isoform,,,Q9QZ47-3,263,,Q9QZ47,272
+B3_wrong_isoform,query is canonical isoform of P37802; structure forced to a real structure of isoform P37802-2 instead,,M3,wrong_isoform,,,P37802-2,220,,P37802,199
+B3_wrong_isoform,query is canonical isoform of P06398; structure forced to a real structure of isoform P06398-2 instead,,M3,wrong_isoform,,,P06398-2,249,,P06398,253
+B3_wrong_isoform,query is canonical isoform of P06398; structure forced to a real structure of isoform P06398-3 instead,,M3,wrong_isoform,,,P06398-3,253,,P06398,253
+B3_wrong_isoform,query is canonical isoform of P69417; structure forced to a real structure of isoform P21527-1 instead,,M3,wrong_isoform,,,P21527-1,121,,P69417,230
+B3_wrong_isoform,query is canonical isoform of Q8IRJ8; structure forced to a real structure of isoform Q8IRJ8-2 instead,,M3,wrong_isoform,,,Q8IRJ8-2,288,,Q8IRJ8,288
+B3_wrong_isoform,query is canonical isoform of Q86UA6; structure forced to a real structure of isoform Q86UA6-2 instead,,M3,wrong_isoform,,,Q86UA6-2,172,,Q86UA6,219
+B3_wrong_isoform,query is canonical isoform of Q86UA6; structure forced to a real structure of isoform Q86UA6-3 instead,,M3,wrong_isoform,,,Q86UA6-3,142,,Q86UA6,219
+B3_wrong_isoform,query is canonical isoform of P0CK66; structure forced to a real structure of isoform Q30NP4-1 instead,,M3,wrong_isoform,,,Q30NP4-1,716,,P0CK66,252
+B3_wrong_isoform,query is canonical isoform of P17486; structure forced to a real structure of isoform P17486-2 instead,,M3,wrong_isoform,,,P17486-2,219,,P17486,223
+B3_wrong_isoform,query is canonical isoform of P17486; structure forced to a real structure of isoform P17486-3 instead,,M3,wrong_isoform,,,P17486-3,222,,P17486,223
+B3_wrong_isoform,query is canonical isoform of P14817; structure forced to a real structure of isoform P14817-2 instead,,M3,wrong_isoform,,,P14817-2,95,,P14817,209
+B3_wrong_isoform,query is canonical isoform of P20896; structure forced to a real structure of isoform P20896-2 instead,,M3,wrong_isoform,,,P20896-2,245,,P20896,292
+B3_wrong_isoform,query is canonical isoform of Q16Y34; structure forced to a real structure of isoform Q16Y34-2 instead,,M3,wrong_isoform,,,Q16Y34-2,205,,Q16Y34,272
+B3_wrong_isoform,query is canonical isoform of Q14773; structure forced to a real structure of isoform Q14773-2 instead,,M3,wrong_isoform,,,Q14773-2,237,,Q14773,271
+B3_wrong_isoform,query is canonical isoform of Q14773; structure forced to a real structure of isoform Q14773-3 instead,,M3,wrong_isoform,,,Q14773-3,272,,Q14773,271
+B3_wrong_isoform,query is canonical isoform of Q6XR72; structure forced to a real structure of isoform Q6XR72-4 instead,,M3,wrong_isoform,,,Q6XR72-4,485,,Q6XR72,485
+B3_wrong_isoform,query is canonical isoform of Q6XR72; structure forced to a real structure of isoform Q6XR72-2 instead,,M3,wrong_isoform,,,Q6XR72-2,240,,Q6XR72,485
+B3_wrong_isoform,query is canonical isoform of P01871; structure forced to a real structure of isoform P01871-2 instead,,M3,wrong_isoform,,,P01871-2,474,,P01871,474
+B3_wrong_isoform,query is canonical isoform of Q6P5F7; structure forced to a real structure of isoform Q6P5F7-2 instead,,M3,wrong_isoform,,,Q6P5F7-2,479,,Q6P5F7,524
+B3_wrong_isoform,query is canonical isoform of Q9VB68; structure forced to a real structure of isoform Q9VB68-2 instead,,M3,wrong_isoform,,,Q9VB68-2,335,,Q9VB68,377
+B3_wrong_isoform,query is canonical isoform of Q9NVX7; structure forced to a real structure of isoform Q9NVX7-2 instead,,M3,wrong_isoform,,,Q9NVX7-2,534,,Q9NVX7,534
+B3_wrong_isoform,query is canonical isoform of Q9NVX7; structure forced to a real structure of isoform Q9NVX7-3 instead,,M3,wrong_isoform,,,Q9NVX7-3,543,,Q9NVX7,534
+B3_wrong_isoform,query is canonical isoform of Q9P104; structure forced to a real structure of isoform Q9P104-2 instead,,M3,wrong_isoform,,,Q9P104-2,198,,Q9P104,306
+B3_wrong_isoform,query is canonical isoform of P13473; structure forced to a real structure of isoform P13473-2 instead,,M3,wrong_isoform,,,P13473-2,410,,P13473,410
+B3_wrong_isoform,query is canonical isoform of P13473; structure forced to a real structure of isoform P13473-3 instead,,M3,wrong_isoform,,,P13473-3,411,,P13473,410
+B3_wrong_isoform,query is canonical isoform of P70581; structure forced to a real structure of isoform P70581-2 instead,,M3,wrong_isoform,,,P70581-2,513,,P70581,585
+B3_wrong_isoform,query is canonical isoform of P70581; structure forced to a real structure of isoform P70581-3 instead,,M3,wrong_isoform,,,P70581-3,208,,P70581,585
+B3_wrong_isoform,query is canonical isoform of Q96318; structure forced to a real structure of isoform Q96318-2 instead,,M3,wrong_isoform,,,Q96318-2,221,,Q96318,524
+B3_wrong_isoform,query is canonical isoform of Q96318; structure forced to a real structure of isoform Q96318-3 instead,,M3,wrong_isoform,,,Q96318-3,396,,Q96318,524
+B3_wrong_isoform,query is canonical isoform of Q8H1S0; structure forced to a real structure of isoform Q8H1S0-2 instead,,M3,wrong_isoform,,,Q8H1S0-2,318,,Q8H1S0,317
+B3_wrong_isoform,query is canonical isoform of Q6PD21; structure forced to a real structure of isoform Q6PD21-2 instead,,M3,wrong_isoform,,,Q6PD21-2,217,,Q6PD21,503
+B3_wrong_isoform,query is canonical isoform of Q96DC7; structure forced to a real structure of isoform Q96DC7-2 instead,,M3,wrong_isoform,,,Q96DC7-2,499,,Q96DC7,493
+B3_wrong_isoform,query is canonical isoform of O75387; structure forced to a real structure of isoform O75387-2 instead,,M3,wrong_isoform,,,O75387-2,560,,O75387,559
+B3_wrong_isoform,query is canonical isoform of Q8N2F6; structure forced to a real structure of isoform Q8N2F6-2 instead,,M3,wrong_isoform,,,Q8N2F6-2,308,,Q8N2F6,343
+B3_wrong_isoform,query is canonical isoform of Q8N2F6; structure forced to a real structure of isoform Q8N2F6-3 instead,,M3,wrong_isoform,,,Q8N2F6-3,284,,Q8N2F6,343
+B3_wrong_isoform,query is canonical isoform of Q9DEX1; structure forced to a real structure of isoform Q9DEX1-2 instead,,M3,wrong_isoform,,,Q9DEX1-2,547,,Q9DEX1,560
+B3_wrong_isoform,query is canonical isoform of Q8RWT8; structure forced to a real structure of isoform Q8RWT8-2 instead,,M3,wrong_isoform,,,Q8RWT8-2,512,,Q8RWT8,514
+B3_wrong_isoform,query is canonical isoform of Q9HCS2; structure forced to a real structure of isoform Q9HCS2-2 instead,,M3,wrong_isoform,,,Q9HCS2-2,102,,Q9HCS2,524
+B3_wrong_isoform,query is canonical isoform of Q9H841; structure forced to a real structure of isoform Q9H841-2 instead,,M3,wrong_isoform,,,Q9H841-2,383,,Q9H841,383
+B3_wrong_isoform,query is canonical isoform of Q9Y6M4; structure forced to a real structure of isoform Q9Y6M4-2 instead,,M3,wrong_isoform,,,Q9Y6M4-2,455,,Q9Y6M4,447
+B3_wrong_isoform,query is canonical isoform of Q9Y6M4; structure forced to a real structure of isoform Q9Y6M4-3 instead,,M3,wrong_isoform,,,Q9Y6M4-3,423,,Q9Y6M4,447
+B3_wrong_isoform,query is canonical isoform of P02680; structure forced to a real structure of isoform P02680-2 instead,,M3,wrong_isoform,,,P02680-2,437,,P02680,445
+B3_wrong_isoform,query is canonical isoform of O73564; structure forced to a real structure of isoform O72157-1 instead,,M3,wrong_isoform,,,O72157-1,962,,O73564,575
+B3_wrong_isoform,query is canonical isoform of Q9IGY7; structure forced to a real structure of isoform Q9IGY6-1 instead,,M3,wrong_isoform,,,Q9IGY6-1,272,,Q9IGY7,355
+B3_wrong_isoform,query is canonical isoform of Q9Y4P8; structure forced to a real structure of isoform Q9Y4P8-2 instead,,M3,wrong_isoform,,,Q9Y4P8-2,425,,Q9Y4P8,454
+B3_wrong_isoform,query is canonical isoform of Q9Y4P8; structure forced to a real structure of isoform Q9Y4P8-3 instead,,M3,wrong_isoform,,,Q9Y4P8-3,384,,Q9Y4P8,454
+B3_wrong_isoform,query is canonical isoform of P60762; structure forced to a real structure of isoform P60762-2 instead,,M3,wrong_isoform,,,P60762-2,323,,P60762,362
+B3_wrong_isoform,query is canonical isoform of P03092; structure forced to a real structure of isoform P03098-1 instead,,M3,wrong_isoform,,,P03098-1,345,,P03092,372
+B3_wrong_isoform,query is canonical isoform of P03092; structure forced to a real structure of isoform P03098-2 instead,,M3,wrong_isoform,,,P03098-2,221,,P03092,372
+B3_wrong_isoform,query is canonical isoform of Q53FZ2; structure forced to a real structure of isoform Q53FZ2-2 instead,,M3,wrong_isoform,,,Q53FZ2-2,438,,Q53FZ2,586
+B3_wrong_isoform,query is canonical isoform of O43281; structure forced to a real structure of isoform O43281-2 instead,,M3,wrong_isoform,,,O43281-2,468,,O43281,561
+B3_wrong_isoform,query is canonical isoform of O43281; structure forced to a real structure of isoform O43281-3 instead,,M3,wrong_isoform,,,O43281-3,392,,O43281,561
+B3_wrong_isoform,query is canonical isoform of Q9R0L1; structure forced to a real structure of isoform Q9R0L1-2 instead,,M3,wrong_isoform,,,Q9R0L1-2,462,,Q9R0L1,492
+B3_wrong_isoform,query is canonical isoform of P19224; structure forced to a real structure of isoform P19224-2 instead,,M3,wrong_isoform,,,P19224-2,265,,P19224,532
+B3_wrong_isoform,query is canonical isoform of P19224; structure forced to a real structure of isoform P19224-3 instead,,M3,wrong_isoform,,,P19224-3,443,,P19224,532
+B3_wrong_isoform,query is canonical isoform of Q5F3B1; structure forced to a real structure of isoform Q5F3B1-2 instead,,M3,wrong_isoform,,,Q5F3B1-2,617,,Q5F3B1,591
+B3_wrong_isoform,query is canonical isoform of Q9IBG0; structure forced to a real structure of isoform Q9IBG0-2 instead,,M3,wrong_isoform,,,Q9IBG0-2,359,,Q9IBG0,387
+B3_wrong_isoform,query is canonical isoform of Q84KJ3; structure forced to a real structure of isoform Q84KJ3-2 instead,,M3,wrong_isoform,,,Q84KJ3-2,583,,Q84KJ3,584
+B3_wrong_isoform,query is canonical isoform of Q8VD26; structure forced to a real structure of isoform Q8VD26-2 instead,,M3,wrong_isoform,,,Q8VD26-2,453,,Q8VD26,458
+B3_wrong_isoform,query is canonical isoform of Q8VD26; structure forced to a real structure of isoform Q8VD26-3 instead,,M3,wrong_isoform,,,Q8VD26-3,240,,Q8VD26,458
+B3_wrong_isoform,query is canonical isoform of P98182; structure forced to a real structure of isoform P98182-2 instead,,M3,wrong_isoform,,,P98182-2,394,,P98182,395
+B3_wrong_isoform,query is canonical isoform of P98182; structure forced to a real structure of isoform P98182-3 instead,,M3,wrong_isoform,,,P98182-3,394,,P98182,395
+B3_wrong_isoform,query is canonical isoform of Q9LR97; structure forced to a real structure of isoform Q9LR97-2 instead,,M3,wrong_isoform,,,Q9LR97-2,368,,Q9LR97,373
+B3_wrong_isoform,query is canonical isoform of Q9LR97; structure forced to a real structure of isoform Q9LR97-3 instead,,M3,wrong_isoform,,,Q9LR97-3,343,,Q9LR97,373
+B3_wrong_isoform,query is canonical isoform of Q9VNM1; structure forced to a real structure of isoform Q9VNM1-2 instead,,M3,wrong_isoform,,,Q9VNM1-2,458,,Q9VNM1,485
+B3_wrong_isoform,query is canonical isoform of Q9VNM1; structure forced to a real structure of isoform Q9VNM1-3 instead,,M3,wrong_isoform,,,Q9VNM1-3,466,,Q9VNM1,485
+B3_wrong_isoform,query is canonical isoform of P50127; structure forced to a real structure of isoform P50127-2 instead,,M3,wrong_isoform,,,P50127-2,359,,P50127,371
+B3_wrong_isoform,query is canonical isoform of P11388; structure forced to a real structure of isoform P11388-2 instead,,M3,wrong_isoform,,,P11388-2,1557,,P11388,1531
+B3_wrong_isoform,query is canonical isoform of P11388; structure forced to a real structure of isoform P11388-3 instead,,M3,wrong_isoform,,,P11388-3,1567,,P11388,1531
+B3_wrong_isoform,query is canonical isoform of Q8NFZ0; structure forced to a real structure of isoform Q8NFZ0-2 instead,,M3,wrong_isoform,,,Q8NFZ0-2,1094,,Q8NFZ0,1043
+B3_wrong_isoform,query is canonical isoform of Q9NRZ9; structure forced to a real structure of isoform Q9NRZ9-2 instead,,M3,wrong_isoform,,,Q9NRZ9-2,822,,Q9NRZ9,838
+B3_wrong_isoform,query is canonical isoform of Q9NRZ9; structure forced to a real structure of isoform Q9NRZ9-3 instead,,M3,wrong_isoform,,,Q9NRZ9-3,806,,Q9NRZ9,838
+B3_wrong_isoform,query is canonical isoform of O15360; structure forced to a real structure of isoform O15360-2 instead,,M3,wrong_isoform,,,O15360-2,297,,O15360,1455
+B3_wrong_isoform,query is canonical isoform of O15360; structure forced to a real structure of isoform O15360-3 instead,,M3,wrong_isoform,,,O15360-3,1424,,O15360,1455
+B3_wrong_isoform,query is canonical isoform of Q96MR6; structure forced to a real structure of isoform Q96MR6-2 instead,,M3,wrong_isoform,,,Q96MR6-2,698,,Q96MR6,1250
+B3_wrong_isoform,query is canonical isoform of P07363; structure forced to a real structure of isoform P07363-2 instead,,M3,wrong_isoform,,,P07363-2,557,,P07363,654
+B3_wrong_isoform,query is canonical isoform of Q9Y2L1; structure forced to a real structure of isoform Q9Y2L1-2 instead,,M3,wrong_isoform,,,Q9Y2L1-2,928,,Q9Y2L1,958
+B3_wrong_isoform,query is canonical isoform of Q01813; structure forced to a real structure of isoform Q01813-2 instead,,M3,wrong_isoform,,,Q01813-2,776,,Q01813,784
+B3_wrong_isoform,query is canonical isoform of Q9NVU0; structure forced to a real structure of isoform Q9NVU0-2 instead,,M3,wrong_isoform,,,Q9NVU0-2,666,,Q9NVU0,708
+B3_wrong_isoform,query is canonical isoform of Q9NVU0; structure forced to a real structure of isoform Q9NVU0-3 instead,,M3,wrong_isoform,,,Q9NVU0-3,654,,Q9NVU0,708
+B3_wrong_isoform,query is canonical isoform of Q14999; structure forced to a real structure of isoform Q14999-2 instead,,M3,wrong_isoform,,,Q14999-2,1782,,Q14999,1698
+B3_wrong_isoform,query is canonical isoform of P16473; structure forced to a real structure of isoform P16473-2 instead,,M3,wrong_isoform,,,P16473-2,253,,P16473,764
+B3_wrong_isoform,query is canonical isoform of P16473; structure forced to a real structure of isoform P16473-3 instead,,M3,wrong_isoform,,,P16473-3,274,,P16473,764
+B3_wrong_isoform,query is canonical isoform of P55011; structure forced to a real structure of isoform P55011-3 instead,,M3,wrong_isoform,,,P55011-3,1196,,P55011,1212
+B3_wrong_isoform,query is canonical isoform of P49916; structure forced to a real structure of isoform P49916-2 instead,,M3,wrong_isoform,,,P49916-2,949,,P49916,1009
+B3_wrong_isoform,query is canonical isoform of P49916; structure forced to a real structure of isoform P49916-3 instead,,M3,wrong_isoform,,,P49916-3,922,,P49916,1009
+B3_wrong_isoform,query is canonical isoform of Q96JA1; structure forced to a real structure of isoform Q96JA1-2 instead,,M3,wrong_isoform,,,Q96JA1-2,1070,,Q96JA1,1093
+B3_wrong_isoform,query is canonical isoform of Q8BJS4; structure forced to a real structure of isoform Q8BJS4-2 instead,,M3,wrong_isoform,,,Q8BJS4-2,729,,Q8BJS4,731
+B3_wrong_isoform,query is canonical isoform of Q8BJS4; structure forced to a real structure of isoform Q8BJS4-3 instead,,M3,wrong_isoform,,,Q8BJS4-3,699,,Q8BJS4,731
+B3_wrong_isoform,query is canonical isoform of O15014; structure forced to a real structure of isoform O15014-2 instead,,M3,wrong_isoform,,,O15014-2,250,,O15014,1411
+B3_wrong_isoform,query is canonical isoform of Q13480; structure forced to a real structure of isoform Q13480-2 instead,,M3,wrong_isoform,,,Q13480-2,724,,Q13480,694
+B3_wrong_isoform,query is canonical isoform of Q86US8; structure forced to a real structure of isoform Q86US8-2 instead,,M3,wrong_isoform,,,Q86US8-2,330,,Q86US8,1419
+B3_wrong_isoform,query is canonical isoform of Q86US8; structure forced to a real structure of isoform Q86US8-3 instead,,M3,wrong_isoform,,,Q86US8-3,511,,Q86US8,1419
+B3_wrong_isoform,query is canonical isoform of Q96QZ7; structure forced to a real structure of isoform Q96QZ7-2 instead,,M3,wrong_isoform,,,Q96QZ7-2,1462,,Q96QZ7,1491
+B3_wrong_isoform,query is canonical isoform of Q96QZ7; structure forced to a real structure of isoform Q96QZ7-3 instead,,M3,wrong_isoform,,,Q96QZ7-3,1256,,Q96QZ7,1491
+B3_wrong_isoform,query is canonical isoform of Q86UL8; structure forced to a real structure of isoform Q86UL8-2 instead,,M3,wrong_isoform,,,Q86UL8-2,1441,,Q86UL8,1455
+B3_wrong_isoform,query is canonical isoform of Q5SPW0; structure forced to a real structure of isoform Q5SPW0-2 instead,,M3,wrong_isoform,,,Q5SPW0-2,965,,Q5SPW0,977
+B3_wrong_isoform,query is canonical isoform of O54916; structure forced to a real structure of isoform O54916-2 instead,,M3,wrong_isoform,,,O54916-2,210,,O54916,795
+B3_wrong_isoform,query is canonical isoform of O54916; structure forced to a real structure of isoform O54916-3 instead,,M3,wrong_isoform,,,O54916-3,716,,O54916,795
+B3_wrong_isoform,query is canonical isoform of O75146; structure forced to a real structure of isoform O75146-2 instead,,M3,wrong_isoform,,,O75146-2,615,,O75146,1068
+B3_wrong_isoform,query is canonical isoform of Q24246; structure forced to a real structure of isoform Q24246-11 instead,,M3,wrong_isoform,,,Q24246-11,663,,Q24246,663
+B3_wrong_isoform,query is canonical isoform of Q24246; structure forced to a real structure of isoform Q24246-2 instead,,M3,wrong_isoform,,,Q24246-2,634,,Q24246,663
+B3_wrong_isoform,query is canonical isoform of O60245; structure forced to a real structure of isoform O60245-2 instead,,M3,wrong_isoform,,,O60245-2,1072,,O60245,1069
+B3_wrong_isoform,query is canonical isoform of Q6WKZ4; structure forced to a real structure of isoform Q6WKZ4-4 instead,,M3,wrong_isoform,,,Q6WKZ4-4,1283,,Q6WKZ4,1283
+B3_wrong_isoform,query is canonical isoform of Q6WKZ4; structure forced to a real structure of isoform Q6WKZ4-3 instead,,M3,wrong_isoform,,,Q6WKZ4-3,649,,Q6WKZ4,1283
+B3_wrong_isoform,query is canonical isoform of Q7Z3K3; structure forced to a real structure of isoform Q7Z3K3-2 instead,,M3,wrong_isoform,,,Q7Z3K3-2,1357,,Q7Z3K3,1410
+B3_wrong_isoform,query is canonical isoform of Q7Z3K3; structure forced to a real structure of isoform Q7Z3K3-3 instead,,M3,wrong_isoform,,,Q7Z3K3-3,1366,,Q7Z3K3,1410
+B3_wrong_isoform,query is canonical isoform of Q9P2M4; structure forced to a real structure of isoform Q9P2M4-2 instead,,M3,wrong_isoform,,,Q9P2M4-2,413,,Q9P2M4,693
+B3_wrong_isoform,query is canonical isoform of Q66K79; structure forced to a real structure of isoform Q66K79-2 instead,,M3,wrong_isoform,,,Q66K79-2,641,,Q66K79,652
+B3_wrong_isoform,query is canonical isoform of Q66K79; structure forced to a real structure of isoform Q66K79-3 instead,,M3,wrong_isoform,,,Q66K79-3,515,,Q66K79,652
+B3_wrong_isoform,query is canonical isoform of Q9WTR8; structure forced to a real structure of isoform Q9WTR8-2 instead,,M3,wrong_isoform,,,Q9WTR8-2,1221,,Q9WTR8,1696
+B3_wrong_isoform,query is canonical isoform of Q9V564; structure forced to a real structure of isoform Q9V564-2 instead,,M3,wrong_isoform,,,Q9V564-2,333,,Q9V564,630
+B3_wrong_isoform,query is canonical isoform of Q8IYB4; structure forced to a real structure of isoform Q8IYB4-2 instead,,M3,wrong_isoform,,,Q8IYB4-2,624,,Q8IYB4,626
+B3_wrong_isoform,query is canonical isoform of Q8IYB4; structure forced to a real structure of isoform Q8IYB4-3 instead,,M3,wrong_isoform,,,Q8IYB4-3,591,,Q8IYB4,626
+B3_wrong_isoform,query is canonical isoform of Q6IQ26; structure forced to a real structure of isoform Q6IQ26-2 instead,,M3,wrong_isoform,,,Q6IQ26-2,1241,,Q6IQ26,1287
+B3_wrong_isoform,query is canonical isoform of Q9D3S3; structure forced to a real structure of isoform Q9D3S3-3 instead,,M3,wrong_isoform,,,Q9D3S3-3,476,,Q9D3S3,818
+B3_wrong_isoform,query is canonical isoform of Q8IXI1; structure forced to a real structure of isoform Q8IXI1-2 instead,,M3,wrong_isoform,,,Q8IXI1-2,213,,Q8IXI1,618
+B3_wrong_isoform,query is canonical isoform of Q80SX8; structure forced to a real structure of isoform Q80SX8-2 instead,,M3,wrong_isoform,,,Q80SX8-2,272,,Q80SX8,650
+B3_wrong_isoform,query is canonical isoform of Q80SX8; structure forced to a real structure of isoform Q80SX8-3 instead,,M3,wrong_isoform,,,Q80SX8-3,584,,Q80SX8,650
+B3_wrong_isoform,query is canonical isoform of Q6P9Q6; structure forced to a real structure of isoform Q6P9Q6-2 instead,,M3,wrong_isoform,,,Q6P9Q6-2,1255,,Q6P9Q6,1216
+B3_wrong_isoform,query is canonical isoform of P41950; structure forced to a real structure of isoform P41950-2 instead,,M3,wrong_isoform,,,P41950-2,1081,,P41950,1137
+B3_wrong_isoform,query is canonical isoform of P41950; structure forced to a real structure of isoform P41950-3 instead,,M3,wrong_isoform,,,P41950-3,1075,,P41950,1137
+B3_wrong_isoform,query is canonical isoform of O75820; structure forced to a real structure of isoform O75820-2 instead,,M3,wrong_isoform,,,O75820-2,612,,O75820,626
+B3_wrong_isoform,query is canonical isoform of O75820; structure forced to a real structure of isoform O75820-3 instead,,M3,wrong_isoform,,,O75820-3,531,,O75820,626
+B3_wrong_isoform,query is canonical isoform of Q80U30; structure forced to a real structure of isoform Q80U30-2 instead,,M3,wrong_isoform,,,Q80U30-2,1034,,Q80U30,1036
+B3_wrong_isoform,query is canonical isoform of Q80U30; structure forced to a real structure of isoform Q80U30-3 instead,,M3,wrong_isoform,,,Q80U30-3,912,,Q80U30,1036
+B3_wrong_isoform,query is canonical isoform of O08715; structure forced to a real structure of isoform O08715-2 instead,,M3,wrong_isoform,,,O08715-2,544,,O08715,857
+B3_wrong_isoform,query is canonical isoform of O08715; structure forced to a real structure of isoform O08715-3 instead,,M3,wrong_isoform,,,O08715-3,577,,O08715,857
+B3_wrong_isoform,query is canonical isoform of Q95ZQ4; structure forced to a real structure of isoform Q95ZQ4-2 instead,,M3,wrong_isoform,,,Q95ZQ4-2,624,,Q95ZQ4,626
+B3_wrong_isoform,query is canonical isoform of Q95ZQ4; structure forced to a real structure of isoform Q95ZQ4-3 instead,,M3,wrong_isoform,,,Q95ZQ4-3,562,,Q95ZQ4,626
+B3_wrong_isoform,query is canonical isoform of Q14574; structure forced to a real structure of isoform Q14574-2 instead,,M3,wrong_isoform,,,Q14574-2,839,,Q14574,896
+B3_wrong_isoform,query is canonical isoform of Q640N3; structure forced to a real structure of isoform Q640N3-2 instead,,M3,wrong_isoform,,,Q640N3-2,1093,,Q640N3,1101
+B3_wrong_isoform,query is canonical isoform of A0A8I3NRY3; structure forced to a real structure of isoform A0A8I3NRY3-2 instead,,M3,wrong_isoform,,,A0A8I3NRY3-2,1524,,A0A8I3NRY3,1543
+B3_wrong_isoform,query is canonical isoform of A0MD28; structure forced to a real structure of isoform A0MD28-2 instead,,M3,wrong_isoform,,,A0MD28-2,2379,,A0MD28,3838
+B3_wrong_isoform,query is canonical isoform of A0MD28; structure forced to a real structure of isoform P0DJY0-1 instead,,M3,wrong_isoform,,,P0DJY0-1,1268,,A0MD28,3838
+B3_wrong_isoform,query is canonical isoform of Q6ZTA4; structure forced to a real structure of isoform Q6ZTA4-3 instead,,M3,wrong_isoform,,,Q6ZTA4-3,783,,Q6ZTA4,783
+B3_wrong_isoform,query is canonical isoform of Q6ZTA4; structure forced to a real structure of isoform Q6ZTA4-2 instead,,M3,wrong_isoform,,,Q6ZTA4-2,721,,Q6ZTA4,783
+B3_wrong_isoform,query is canonical isoform of Q4QY64; structure forced to a real structure of isoform Q4QY64-2 instead,,M3,wrong_isoform,,,Q4QY64-2,814,,Q4QY64,1826
+B3_wrong_isoform,query is canonical isoform of Q9VA73; structure forced to a real structure of isoform Q9VA73-2 instead,,M3,wrong_isoform,,,Q9VA73-2,682,,Q9VA73,695
+B3_wrong_isoform,query is canonical isoform of Q9VA73; structure forced to a real structure of isoform Q9VA73-3 instead,,M3,wrong_isoform,,,Q9VA73-3,679,,Q9VA73,695
+B3_wrong_isoform,query is canonical isoform of Q14CH0; structure forced to a real structure of isoform Q14CH0-2 instead,,M3,wrong_isoform,,,Q14CH0-2,821,,Q14CH0,825
+B3_wrong_isoform,query is canonical isoform of Q8NDA8; structure forced to a real structure of isoform Q8NDA8-2 instead,,M3,wrong_isoform,,,Q8NDA8-2,1147,,Q8NDA8,1641
+B3_wrong_isoform,query is canonical isoform of Q8NDA8; structure forced to a real structure of isoform Q8NDA8-3 instead,,M3,wrong_isoform,,,Q8NDA8-3,615,,Q8NDA8,1641
+B3_wrong_isoform,query is canonical isoform of Q2KHT3; structure forced to a real structure of isoform Q2KHT3-2 instead,,M3,wrong_isoform,,,Q2KHT3-2,906,,Q2KHT3,1053
+B3_wrong_isoform,query is canonical isoform of Q2KHT3; structure forced to a real structure of isoform Q2KHT3-3 instead,,M3,wrong_isoform,,,Q2KHT3-3,140,,Q2KHT3,1053
+B3_wrong_isoform,query is canonical isoform of Q9ULD9; structure forced to a real structure of isoform Q9ULD9-2 instead,,M3,wrong_isoform,,,Q9ULD9-2,1085,,Q9ULD9,1512
+B3_wrong_isoform,query is canonical isoform of Q8CDP0; structure forced to a real structure of isoform Q8CDP0-2 instead,,M3,wrong_isoform,,,Q8CDP0-2,861,,Q8CDP0,1006
+B3_wrong_isoform,query is canonical isoform of Q8CDP0; structure forced to a real structure of isoform Q8CDP0-3 instead,,M3,wrong_isoform,,,Q8CDP0-3,1001,,Q8CDP0,1006
+B3_wrong_isoform,query is canonical isoform of Q8IUM7; structure forced to a real structure of isoform Q8IUM7-3 instead,,M3,wrong_isoform,,,Q8IUM7-3,234,,Q8IUM7,802
+B3_wrong_isoform,query is canonical isoform of Q8IR79; structure forced to a real structure of isoform Q8IR79-2 instead,,M3,wrong_isoform,,,Q8IR79-2,1235,,Q8IR79,1257
+B3_wrong_isoform,query is canonical isoform of Q8IR79; structure forced to a real structure of isoform Q8IR79-3 instead,,M3,wrong_isoform,,,Q8IR79-3,1052,,Q8IR79,1257
+B3_wrong_isoform,query is canonical isoform of A2AHG0; structure forced to a real structure of isoform A2AHG0-2 instead,,M3,wrong_isoform,,,A2AHG0-2,586,,A2AHG0,700
+B3_wrong_isoform,query is canonical isoform of A2AHG0; structure forced to a real structure of isoform A2AHG0-3 instead,,M3,wrong_isoform,,,A2AHG0-3,591,,A2AHG0,700
+B3_wrong_isoform,query is canonical isoform of D3YUB6; structure forced to a real structure of isoform D3YUB6-2 instead,,M3,wrong_isoform,,,D3YUB6-2,1751,,D3YUB6,1751
+B3_wrong_isoform,query is canonical isoform of D3YUB6; structure forced to a real structure of isoform D3YUB6-3 instead,,M3,wrong_isoform,,,D3YUB6-3,1750,,D3YUB6,1751
+B3_wrong_isoform,query is canonical isoform of P31625; structure forced to a real structure of isoform P31622-1 instead,,M3,wrong_isoform,,,P31622-1,612,,P31625,866
+B3_wrong_isoform,query is canonical isoform of P31625; structure forced to a real structure of isoform P31623-1 instead,,M3,wrong_isoform,,,P31623-1,1726,,P31625,866
+B3_wrong_isoform,query is canonical isoform of P19109; structure forced to a real structure of isoform P19109-2 instead,,M3,wrong_isoform,,,P19109-2,578,,P19109,719
+B3_wrong_isoform,query is canonical isoform of P19109; structure forced to a real structure of isoform P19109-3 instead,,M3,wrong_isoform,,,P19109-3,575,,P19109,719
+B3_wrong_isoform,query is canonical isoform of Q8L7S8; structure forced to a real structure of isoform Q8L7S8-2 instead,,M3,wrong_isoform,,,Q8L7S8-2,747,,Q8L7S8,748
+B3_wrong_isoform,query is canonical isoform of Q6U841; structure forced to a real structure of isoform Q6U841-2 instead,,M3,wrong_isoform,,,Q6U841-2,1088,,Q6U841,1118
+B3_wrong_isoform,query is canonical isoform of Q6U841; structure forced to a real structure of isoform Q6U841-3 instead,,M3,wrong_isoform,,,Q6U841-3,1099,,Q6U841,1118
+B3_wrong_isoform,query is canonical isoform of Q9NZ53; structure forced to a real structure of isoform Q9NZ53-2 instead,,M3,wrong_isoform,,,Q9NZ53-2,529,,Q9NZ53,605
+B3_wrong_isoform,query is canonical isoform of F4IHS2; structure forced to a real structure of isoform F4IHS2-2 instead,,M3,wrong_isoform,,,F4IHS2-2,3543,,F4IHS2,3574
+B3_wrong_isoform,query is canonical isoform of F4IHS2; structure forced to a real structure of isoform F4IHS2-3 instead,,M3,wrong_isoform,,,F4IHS2-3,3529,,F4IHS2,3574
+B3_wrong_isoform,query is canonical isoform of Q92954; structure forced to a real structure of isoform Q92954-2 instead,,M3,wrong_isoform,,,Q92954-2,1363,,Q92954,1404
+B3_wrong_isoform,query is canonical isoform of Q92954; structure forced to a real structure of isoform Q92954-3 instead,,M3,wrong_isoform,,,Q92954-3,1311,,Q92954,1404
+B3_wrong_isoform,query is canonical isoform of Q9R1C7; structure forced to a real structure of isoform Q9R1C7-2 instead,,M3,wrong_isoform,,,Q9R1C7-2,911,,Q9R1C7,953
+B3_wrong_isoform,query is canonical isoform of Q5TI25; structure forced to a real structure of isoform Q5TI25-2 instead,,M3,wrong_isoform,,,Q5TI25-2,921,,Q5TI25,2988
+B3_wrong_isoform,query is canonical isoform of O61735; structure forced to a real structure of isoform O61735-2 instead,,M3,wrong_isoform,,,O61735-2,1023,,O61735,1027
+B3_wrong_isoform,query is canonical isoform of O61735; structure forced to a real structure of isoform O61735-3 instead,,M3,wrong_isoform,,,O61735-3,961,,O61735,1027
+B3_wrong_isoform,query is canonical isoform of Q8NFY9; structure forced to a real structure of isoform Q8NFY9-2 instead,,M3,wrong_isoform,,,Q8NFY9-2,159,,Q8NFY9,601
+B3_wrong_isoform,query is canonical isoform of Q969R2; structure forced to a real structure of isoform Q969R2-2 instead,,M3,wrong_isoform,,,Q969R2-2,915,,Q969R2,916
+B3_wrong_isoform,query is canonical isoform of Q969R2; structure forced to a real structure of isoform Q969R2-3 instead,,M3,wrong_isoform,,,Q969R2-3,750,,Q969R2,916
+B3_wrong_isoform,query is canonical isoform of Q8IV35; structure forced to a real structure of isoform Q8IV35-2 instead,,M3,wrong_isoform,,,Q8IV35-2,522,,Q8IV35,1049
+B3_wrong_isoform,query is canonical isoform of Q8IV35; structure forced to a real structure of isoform Q8IV35-3 instead,,M3,wrong_isoform,,,Q8IV35-3,697,,Q8IV35,1049
+B3_wrong_isoform,query is canonical isoform of Q5IZC5; structure forced to a real structure of isoform Q5IZC5-2 instead,,M3,wrong_isoform,,,Q5IZC5-2,587,,Q5IZC5,620
+B3_wrong_isoform,query is canonical isoform of A9ZLX4; structure forced to a real structure of isoform A9ZLX4-2 instead,,M3,wrong_isoform,,,A9ZLX4-2,602,,A9ZLX4,1072
+B3_wrong_isoform,query is canonical isoform of A9ZLX4; structure forced to a real structure of isoform A9ZLX4-3 instead,,M3,wrong_isoform,,,A9ZLX4-3,294,,A9ZLX4,1072
+B3_wrong_isoform,query is canonical isoform of P27619; structure forced to a real structure of isoform P27619-2 instead,,M3,wrong_isoform,,,P27619-2,830,,P27619,877
+B3_wrong_isoform,query is canonical isoform of Q14DH7; structure forced to a real structure of isoform Q14DH7-2 instead,,M3,wrong_isoform,,,Q14DH7-2,497,,Q14DH7,682
+B3_wrong_isoform,query is canonical isoform of P16376; structure forced to a real structure of isoform P16375-1 instead,,M3,wrong_isoform,,,P16375-1,543,,P16376,746
+B3_wrong_isoform,query is canonical isoform of P16376; structure forced to a real structure of isoform P16375-2 instead,,M3,wrong_isoform,,,P16375-2,281,,P16376,746
+B3_wrong_isoform,query is canonical isoform of Q5DTM8; structure forced to a real structure of isoform Q5DTM8-2 instead,,M3,wrong_isoform,,,Q5DTM8-2,823,,Q5DTM8,973
+B3_wrong_isoform,query is canonical isoform of Q8K387; structure forced to a real structure of isoform Q8K387-2 instead,,M3,wrong_isoform,,,Q8K387-2,765,,Q8K387,813

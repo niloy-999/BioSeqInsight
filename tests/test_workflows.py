@@ -157,9 +157,7 @@ class TestExport:
         assert "M4" in html and "M0" in html
 
     def test_html_escapes_user_supplied_identifiers(self, tmp_settings):
-        rows, _ = BatchRunner(tmp_settings).run(
-            [FastaRecord("<script>alert(1)</script>", "", DNA)]
-        )
+        rows, _ = BatchRunner(tmp_settings).run([FastaRecord("<script>alert(1)</script>", "", DNA)])
         assert "<script>alert(1)</script>" not in build_html_report(rows)
 
     def test_csv_file_is_written(self, tmp_settings, tmp_path):

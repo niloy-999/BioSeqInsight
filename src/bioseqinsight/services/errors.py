@@ -29,7 +29,9 @@ class TransportError(BioSeqInsightError):
 class HTTPStatusError(BioSeqInsightError):
     """The server answered, but with a status code we cannot use."""
 
-    def __init__(self, status_code: int, message: str = "", *, url: str | None = None, body: str = ""):
+    def __init__(
+        self, status_code: int, message: str = "", *, url: str | None = None, body: str = ""
+    ):
         super().__init__(message or f"HTTP {status_code}")
         self.status_code = status_code
         self.url = url
@@ -75,13 +77,13 @@ PERMANENT_STATUS = frozenset({400, 401, 403, 404, 405, 410, 422})
 
 
 __all__ = [
-    "PERMANENT_STATUS",
-    "RETRYABLE_STATUS",
     "BioSeqInsightError",
     "CacheError",
     "ConfigurationError",
     "HTTPStatusError",
     "NotFoundError",
+    "PERMANENT_STATUS",
+    "RETRYABLE_STATUS",
     "ServiceUnavailable",
     "TransportError",
     "ValidationFailure",

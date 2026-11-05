@@ -51,8 +51,12 @@ class TestSummariseAccounting:
         assert summary["requests"] == 6
         assert summary["accounting_check"] == "ok"
         assert (
-            summary["retrieved"] + summary["not_found"] + summary["timeouts"]
-            + summary["service_errors"] + summary["invalid_input"] + summary["skipped"]
+            summary["retrieved"]
+            + summary["not_found"]
+            + summary["timeouts"]
+            + summary["service_errors"]
+            + summary["invalid_input"]
+            + summary["skipped"]
         ) == summary["requests"]
 
     def test_invalid_input_is_reported_not_silently_dropped(self):

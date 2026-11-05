@@ -189,7 +189,13 @@ class RetrievalStatus(str, Enum):
 
 @dataclass
 class ValidationReport(DictMixin):
-    """Result of comparing a retrieved structure against the query."""
+    """Result of comparing a retrieved structure against the query.
+
+    ``partial_structure`` is a qualifier, not a level: it is True when the
+    accession is confirmed and the aligned region is highly identical but the
+    structure covers only part of the query (a domain construct). The mapping
+    level is unchanged by it, so ``M4`` still means a full-length exact match.
+    """
 
     mapping_level: MappingLevel
     identity_percent: float | None = None
@@ -200,6 +206,7 @@ class ValidationReport(DictMixin):
     subject_chain: str | None = None
     accession_match: bool | None = None
     returned_accessions: list[str] = field(default_factory=list)
+    partial_structure: bool = False
     message: str = ""
 
     @property
@@ -301,12 +308,12 @@ class BatchRow(DictMixin):
 
 
 __all__ = [
-    "ORF",
     "AttemptRecord",
     "BatchRow",
     "DictMixin",
     "MappingLevel",
     "MotifHit",
+    "ORF",
     "ProteinResult",
     "RetrievalStatus",
     "SecondaryStructureSketch",

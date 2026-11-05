@@ -1,6 +1,6 @@
 {
   "software_version": "2.0.2",
-  "generated_at": "2026-09-26T11:40:11+00:00",
+  "generated_at": "2026-09-23T20:18:56+00:00",
   "repeats_per_scenario": 100,
   "max_attempts": 3,
   "note": "Deterministic scripted-transport experiment. No external service was contacted. Backoff delays are computed by the retry policy but not slept through, so wall-clock timings are not reported here.",
@@ -36,7 +36,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 6.345379224512726e-06,
+      "mean_recovery_time_s": 7.4590599996327e-06,
       "total_http_calls": 200
     },
     "double_504": {
@@ -53,7 +53,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 3.0,
-      "mean_recovery_time_s": 9.907370840664953e-06,
+      "mean_recovery_time_s": 1.1320970000383567e-05,
       "total_http_calls": 300
     },
     "persistent_504": {
@@ -87,7 +87,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 5.985739408060908e-06,
+      "mean_recovery_time_s": 7.517959999034929e-06,
       "total_http_calls": 200
     },
     "http_502": {
@@ -104,7 +104,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 5.96615020185709e-06,
+      "mean_recovery_time_s": 8.11547000054702e-06,
       "total_http_calls": 200
     },
     "http_503": {
@@ -121,7 +121,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 5.967499746475369e-06,
+      "mean_recovery_time_s": 9.533769999308106e-06,
       "total_http_calls": 200
     },
     "rate_limited_429": {
@@ -138,7 +138,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 6.0502896667458116e-06,
+      "mean_recovery_time_s": 1.0194039999902315e-05,
       "total_http_calls": 200
     },
     "not_found_404": {
@@ -189,7 +189,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 5.970339698251337e-06,
+      "mean_recovery_time_s": 9.727060000130905e-06,
       "total_http_calls": 200
     },
     "connection_error": {
@@ -223,7 +223,7 @@
       "success_rate": 100.0,
       "recovery_rate": 100.0,
       "mean_attempts": 2.0,
-      "mean_recovery_time_s": 6.052519311197102e-06,
+      "mean_recovery_time_s": 8.345820000386083e-06,
       "total_http_calls": 200
     }
   },

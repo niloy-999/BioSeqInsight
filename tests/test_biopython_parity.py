@@ -88,8 +88,6 @@ class TestProteinParity:
         )
 
 
-
-
 class TestDocumentedDifferences:
     def test_melting_temperature_is_close_but_not_identical(self):
         """Tm agrees with Biopython to within a few degrees, by design.

@@ -1,0 +1,54 @@
+{
+  "software_version": "2.0.0",
+  "generated_at": "2026-09-22T08:50:34+00:00",
+  "note": "Live run captured after the AlphaFold provider fix (CHANGELOG.md, Unreleased) but BEFORE the StructureResult.recovered fix that the same run's output exposed. AlphaFold retrieval jumped from 0% (see structure_benchmark_2026-09-21_prefix_summary.json) to 98.5%, confirming the provider fix. The per_provider.alphafold.recovered_after_failure value below (67) is the raw, INCORRECT value produced by the buggy StructureResult.recovered property -- it reports every one of the 67 successful AlphaFold retrievals as a recovery, which is implausible on its face (no service fails on attempt 1 and recovers on attempt 2 for 100% of 67 unrelated proteins) and was in fact caused by AlphaFold's two-call design (API discovery + file download) being miscounted as a retry. It is left unedited here as the authentic record of what the run produced; do not cite it. A clean re-run with both fixes applied is needed before citing any recovered_after_failure figure for AlphaFold, and should replace this file.",
+  "candidates": 69,
+  "resolved": 68,
+  "unresolved": 1,
+  "unresolved_accessions": ["P01857"],
+  "strata": {
+    "short": {"proteins": 16, "exact_matches": 16},
+    "medium": {"proteins": 23, "exact_matches": 22},
+    "long": {"proteins": 29, "exact_matches": 29}
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 68,
+      "retrieved": 67,
+      "success_rate_percent": 98.5,
+      "not_found": 1,
+      "timeouts": 0,
+      "service_errors": 0,
+      "recovered_after_failure": 67,
+      "recovered_after_failure_note": "Known incorrect -- see top-level note. Should be 0 or close to it under the corrected StructureResult.recovered definition.",
+      "median_response_time_s": 0.905,
+      "exact_matches": 67
+    },
+    "esmatlas": {
+      "requests": 68,
+      "retrieved": 45,
+      "success_rate_percent": 66.2,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 2.027,
+      "exact_matches": 0
+    },
+    "rcsb": {
+      "requests": 68,
+      "retrieved": 58,
+      "success_rate_percent": 85.3,
+      "not_found": 6,
+      "timeouts": 0,
+      "service_errors": 4,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 5.213,
+      "exact_matches": 39
+    }
+  },
+  "best_mapping_distribution": {"M0": 0, "M1": 0, "M2": 0, "M3": 1, "M4": 67},
+  "exact_mapping_rate_percent": 98.5,
+  "any_structure_rate_percent": 100.0,
+  "wall_clock_s": 1293.3
+}

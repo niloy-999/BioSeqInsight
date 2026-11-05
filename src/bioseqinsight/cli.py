@@ -31,6 +31,8 @@ from .core.alphabet import SequenceError, parse_fasta
 from .core.protein import ProteinAnalyzer
 from .core.sequence import SequenceAnalyzer
 from .io.export import (
+    protein_result_to_record,
+    sequence_result_to_record,
     to_json,
     write_csv,
     write_html_report,
@@ -90,7 +92,9 @@ def build_parser() -> argparse.ArgumentParser:
         "--providers",
         help="comma-separated subset of rcsb,alphafold,esmatlas (default: all, in settings order)",
     )
-    structure.add_argument("--all", action="store_true", help="query every provider, do not stop at M4")
+    structure.add_argument(
+        "--all", action="store_true", help="query every provider, do not stop at M4"
+    )
     structure.add_argument("--json", action="store_true")
     structure.add_argument("--out")
 
@@ -311,7 +315,9 @@ def cmd_structure(args: argparse.Namespace, settings: Settings) -> int:
             lines.append("  served from cache")
         validation = result.validation
         if validation:
-            lines.append(f"  mapping: {validation.mapping_level.value} {validation.mapping_level.label}")
+            lines.append(
+                f"  mapping: {validation.mapping_level.value} {validation.mapping_level.label}"
+            )
             if validation.identity_percent is not None:
                 lines.append(
                     f"  identity {validation.identity_percent:.1f}%  "
@@ -367,8 +373,11 @@ def cmd_batch(args: argparse.Namespace, settings: Settings) -> int:
     formats = {f.strip() for f in args.formats.split(",") if f.strip()}
     written: dict[str, str] = {}
     if args.project:
-        project = Project.open(args.project) if Path(args.project, "project.json").is_file() \
+        project = (
+            Project.open(args.project)
+            if Path(args.project, "project.json").is_file()
             else Project.create(args.project, settings=settings)
+        )
         project.add_sequences(records, filename=path.name)
         written = project.save_results(rows, basename=args.out_prefix, formats=sorted(formats))
     else:

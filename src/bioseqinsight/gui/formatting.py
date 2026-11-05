@@ -11,6 +11,7 @@ from __future__ import annotations
 
 from ..models.results import (
     ProteinResult,
+    SecondaryStructureSketch,
     SequenceResult,
     StructureResult,
 )
@@ -93,9 +94,7 @@ def format_protein_result(result: ProteinResult) -> str:
         chunk = present[index : index + 5]
         lines.append(
             "  "
-            + "  ".join(
-                f"{aa} {n:>3} ({result.composition_percent[aa]:4.1f}%)" for aa, n in chunk
-            )
+            + "  ".join(f"{aa} {n:>3} ({result.composition_percent[aa]:4.1f}%)" for aa, n in chunk)
         )
 
     sketch = result.secondary_structure
@@ -145,8 +144,6 @@ def format_hydropathy(values: list[float], window: int) -> str:
         marker = "#" * max(filled, 1)
         lines.append(f"{position + 1:>5} {value:>6.2f} |{marker}")
     return "\n".join(lines)
-
-
 
 
 def format_structure_outcome(outcome: StructureSearchOutcome) -> str:

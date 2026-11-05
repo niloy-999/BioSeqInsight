@@ -69,9 +69,7 @@ def find_orfs(
                 end = len(seq) - ((len(seq) - open_start) % 3)
                 aa_len = (end - open_start) // 3
                 if aa_len >= min_aa:
-                    results.append(
-                        _build(code, strand, frame, seq, open_start, end, aa_len, True)
-                    )
+                    results.append(_build(code, strand, frame, seq, open_start, end, aa_len, True))
 
     results.sort(key=lambda o: (-o.aa_length, o.strand, o.start))
     return results

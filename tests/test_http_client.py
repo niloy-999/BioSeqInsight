@@ -9,8 +9,9 @@ from __future__ import annotations
 
 import pytest
 
-from bioseqinsight.services.errors import TransportError
+from bioseqinsight.services.errors import RETRYABLE_STATUS, TransportError
 from bioseqinsight.services.http_client import (
+    HttpClient,
     RetryPolicy,
     summarise_attempts,
 )

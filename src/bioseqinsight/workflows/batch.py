@@ -23,9 +23,9 @@ Design points that matter for the evaluation:
 from __future__ import annotations
 
 import time
-from collections.abc import Callable, Iterable, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
+from typing import Callable, Iterable, Sequence
 
 from ..config.settings import Settings, get_settings
 from ..core.alphabet import (
@@ -121,7 +121,11 @@ class BatchRunner:
     @staticmethod
     def records_from_identifiers(identifiers: Iterable[str]) -> list[FastaRecord]:
         """Treat a list of accessions or PDB ids as records with empty sequences."""
-        return [FastaRecord(identifier=i.strip(), description="", sequence="") for i in identifiers if i.strip()]
+        return [
+            FastaRecord(identifier=i.strip(), description="", sequence="")
+            for i in identifiers
+            if i.strip()
+        ]
 
     # -- execution -----------------------------------------------------------
 
@@ -200,18 +204,14 @@ class BatchRunner:
         self, rows: list[BatchRow], opts: BatchOptions, progress: ProgressCallback | None
     ) -> None:
         targets = [
-            row
-            for row in rows
-            if row.input_type in ("protein", "identifier") and row.error is None
+            row for row in rows if row.input_type in ("protein", "identifier") and row.error is None
         ]
         if not targets:
             return
         workers = max(1, min(opts.workers or self.settings.batch_workers, 16))
         done = 0
         with ThreadPoolExecutor(max_workers=workers) as pool:
-            futures = {
-                pool.submit(self._retrieve_one, row, opts): row for row in targets
-            }
+            futures = {pool.submit(self._retrieve_one, row, opts): row for row in targets}
             for future in as_completed(futures):
                 row = futures[future]
                 done += 1
@@ -235,9 +235,7 @@ class BatchRunner:
         )
         return outcome.results
 
-    def _summarise(
-        self, rows: list[BatchRow], elapsed: float, opts: BatchOptions
-    ) -> BatchSummary:
+    def _summarise(self, rows: list[BatchRow], elapsed: float, opts: BatchOptions) -> BatchSummary:
         summary = BatchSummary(total=len(rows), elapsed_s=elapsed)
         for row in rows:
             if row.error:

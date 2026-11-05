@@ -33,36 +33,36 @@ Three things happened that you did not have to do:
 Only when all three agree do you get **M4**. That is the one level that
 supports writing "the structure of ubiquitin (PDB 1UBQ)" in a paper.
 
-## 2. A case that is not clean
+## 2. A case where the accession and the hit disagree
 
 ```bash
 bioseqinsight structure P01308 --all
 ```
 
-`P01308` is human preproinsulin. Watch what the sequence search returns, and
-what BioSeqInsight says about it:
+`P01308` is human preproinsulin. In the v1.0 benchmark, the top RCSB
+sequence-search hit for this query was associated with `P14735`
+(insulin-*degrading* enzyme). That is an accession discordance, and it is
+ambiguous: the entry might be an IDE-insulin complex that *contains* insulin
+(in which case it is a legitimate structure of the query), or it might not.
 
-```
-mapping        M1 Retrieved but unverified
-WARNING: the retrieved structure does not correspond to the requested
-protein (identity 8.2%, coverage 11.4%), which is below the threshold for
-even a related record. It is associated with P14735.
-```
+Run the command above and read the verdict for yourself: BioSeqInsight aligns
+each returned chain against the query and reports identity, coverage, and
+whether the accession is cross-referenced. **Do not assume the outcome from
+this tutorial** — an earlier draft of it showed a mismatch verdict with
+specific percentages that were illustrative, not measured. The measured
+result for this and the other 24 v1.0 queries is produced by
+`validation/scripts/06_case_studies.py`.
 
-`P14735` is insulin-*degrading* enzyme — the enzyme that destroys the
-hormone. It is a legitimate sequence-search neighbour, because the enzyme's
-structures contain bound insulin peptide. It is not insulin.
-
-**Version 1.0 of this software reported this as a successful retrieval.** It
-was one of 7 such cases in a 25-protein benchmark that claimed 25/25 success.
-See [`../SOFTWARE_AUDIT.md`](../SOFTWARE_AUDIT.md).
+The point of the exercise is that an accession discordance is *resolved by
+evidence* rather than assumed benign or assumed wrong. See
+[`../SOFTWARE_AUDIT.md`](../SOFTWARE_AUDIT.md).
 
 ## 3. The levels
 
 | Level | Meaning | Safe to say "this is my protein"? |
 |---|---|---|
 | M4 | Accession confirmed **and** identity ≥ 99 % at ≥ 95 % coverage | **Yes** |
-| M3 | Identity ≥ 95 %, coverage ≥ 90 %, accession unconfirmed | Probably — state the numbers |
+| M3 | Identity ≥ 95 %, coverage ≥ 80 %, accession unconfirmed | The same or a near-identical sequence — state the numbers |
 | M2 | Homologue, orthologue or fragment | **No** |
 | M1 | Not verified, or verified as different | **No** |
 | M0 | Nothing returned | — |

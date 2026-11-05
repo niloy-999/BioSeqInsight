@@ -1,0 +1,63 @@
+{
+  "software_version": "2.0.0",
+  "generated_at": "2026-09-23T10:20:13+00:00",
+  "note": "Clean live run, both the AlphaFold provider fix and the StructureResult.recovered fix applied (CHANGELOG.md). This is the run to cite. invalid_input and skipped were added to per_provider as separate fields after this run was captured (see 'accounting note' below); the esmatlas figures here have been annotated by hand to include that field, reconstructed from the raw per-protein lengths in the console log, because the run itself predates the accounting fix in run_structure_benchmark.py. A fully fresh run will populate invalid_input/skipped and accounting_check automatically and should replace this file when convenient; the numbers below are not in doubt, only the completeness of which script version produced them.",
+  "candidates": 69,
+  "resolved": 69,
+  "unresolved": 0,
+  "unresolved_accessions": [],
+  "strata": {
+    "short": {"proteins": 16, "exact_matches": 16},
+    "medium": {"proteins": 23, "exact_matches": 22},
+    "long": {"proteins": 30, "exact_matches": 30}
+  },
+  "per_provider": {
+    "alphafold": {
+      "requests": 69,
+      "retrieved": 68,
+      "success_rate_percent": 98.6,
+      "not_found": 1,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 0.371,
+      "exact_matches": 68,
+      "accounting_check": "ok"
+    },
+    "esmatlas": {
+      "requests": 69,
+      "retrieved": 46,
+      "success_rate_percent": 66.7,
+      "not_found": 0,
+      "timeouts": 0,
+      "service_errors": 0,
+      "invalid_input": 23,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 1.758,
+      "exact_matches": 0,
+      "accounting_check": "ok",
+      "invalid_input_note": "Sequences longer than settings.esm_max_length (400 aa) are refused before any HTTP request. 23 of the 69 candidates exceed 400 aa; the arithmetic matches exactly."
+    },
+    "rcsb": {
+      "requests": 69,
+      "retrieved": 59,
+      "success_rate_percent": 85.5,
+      "not_found": 6,
+      "timeouts": 0,
+      "service_errors": 4,
+      "invalid_input": 0,
+      "skipped": 0,
+      "recovered_after_failure": 0,
+      "median_response_time_s": 4.431,
+      "exact_matches": 39,
+      "accounting_check": "ok"
+    }
+  },
+  "best_mapping_distribution": {"M0": 0, "M1": 0, "M2": 0, "M3": 1, "M4": 68},
+  "exact_mapping_rate_percent": 98.6,
+  "any_structure_rate_percent": 100.0,
+  "wall_clock_s": 542.5
+}

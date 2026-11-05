@@ -198,5 +198,6 @@ Before any number goes into the manuscript:
 - [ ] Does the claim match what was measured, or is it broader?
 - [ ] Are the failure cases reported alongside the successes?
 
-The last two are the ones v1.0 failed. "25/25 structures retrieved" was a
-count of HTTP 200 responses presented as a count of correct answers.
+The last two are the ones v1.0 was weakest on. "25/25 structures retrieved" was a
+count of returned hits; the manuscript did flag 7 accession discordances, but
+had no way to decide which hits were the queried molecule.

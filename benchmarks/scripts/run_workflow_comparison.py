@@ -56,9 +56,7 @@ from bioseqinsight.core.sequence import SequenceAnalyzer  # noqa: E402
 from bioseqinsight.io.export import write_csv  # noqa: E402
 from bioseqinsight.workflows.batch import BatchOptions, BatchRunner  # noqa: E402
 
-UBIQUITIN = (
-    "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
-)
+UBIQUITIN = "MQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG"
 DEMO_DNA = "ATG" + "GCTAGCTTACCGATGGCATTACGGATCCTAGGCTTAACCGGATCAGCT" * 6 + "TAA"
 
 
@@ -147,10 +145,18 @@ def build_tasks() -> list[Task]:
                 Step("Open a protein parameter tool", "web tool D"),
                 Step("Paste the peptide", "web tool D", manual_transfer=True),
                 Step("Read molecular weight, pI and GRAVY", "web tool D"),
-                Step("Transcribe all values into a notebook or spreadsheet", "notes", manual_transfer=True),
+                Step(
+                    "Transcribe all values into a notebook or spreadsheet",
+                    "notes",
+                    manual_transfer=True,
+                ),
             ],
             integrated=[
-                Step("Paste the sequence into the Sequence tab", "BioSeqInsight", manual_transfer=True),
+                Step(
+                    "Paste the sequence into the Sequence tab",
+                    "BioSeqInsight",
+                    manual_transfer=True,
+                ),
                 Step("Click Full analysis", "BioSeqInsight"),
                 Step("Click Export CSV", "BioSeqInsight"),
             ],
@@ -170,7 +176,9 @@ def build_tasks() -> list[Task]:
                 Step("Open the UniProt entry", "UniProt"),
                 Step("Copy the canonical sequence", "UniProt", manual_transfer=True),
                 Step("Open the RCSB search page", "RCSB PDB"),
-                Step("Paste the sequence and run a sequence search", "RCSB PDB", manual_transfer=True),
+                Step(
+                    "Paste the sequence and run a sequence search", "RCSB PDB", manual_transfer=True
+                ),
                 Step("Inspect the hit list and choose an entry", "RCSB PDB"),
                 Step("Open the entry page and check its UniProt cross-reference", "RCSB PDB"),
                 Step("Download the coordinate file", "RCSB PDB"),
@@ -186,14 +194,18 @@ def build_tasks() -> list[Task]:
                 Step("Record the decision and the evidence for it", "notes", manual_transfer=True),
             ],
             integrated=[
-                Step("Enter the accession in the Structure tab", "BioSeqInsight", manual_transfer=True),
+                Step(
+                    "Enter the accession in the Structure tab",
+                    "BioSeqInsight",
+                    manual_transfer=True,
+                ),
                 Step("Click Retrieve and validate", "BioSeqInsight"),
                 Step("Read the mapping level, identity and coverage", "BioSeqInsight"),
             ],
             notes=(
                 "The manual alignment step is the one most often skipped, and skipping "
-                "it is exactly how v1.0's benchmark reported 25/25 successful "
-                "retrievals while 7 of them were the wrong molecule."
+                "it is how a v1.0-style benchmark can report 25/25 hits while "
+                "7 of them carry a different accession, unresolved."
             ),
         ),
         Task(
@@ -201,7 +213,11 @@ def build_tasks() -> list[Task]:
             goal="Produce one table of properties for fifty sequences.",
             manual=[
                 Step("Split the FASTA file into individual sequences", "text editor"),
-                Step("For each sequence, repeat task T1 (16 steps)", "web tools A-D", manual_transfer=True),
+                Step(
+                    "For each sequence, repeat task T1 (16 steps)",
+                    "web tools A-D",
+                    manual_transfer=True,
+                ),
                 Step("Paste each result into a spreadsheet", "spreadsheet", manual_transfer=True),
                 Step("Check for transcription errors", "spreadsheet"),
                 Step("Format the table", "spreadsheet"),
@@ -247,7 +263,9 @@ def build_tasks() -> list[Task]:
                 Step("Collect the input files", "file manager"),
                 Step("Collect the downloaded structures", "file manager"),
                 Step("Collect the spreadsheet of results", "file manager"),
-                Step("Write down which tools and settings were used", "notes", manual_transfer=True),
+                Step(
+                    "Write down which tools and settings were used", "notes", manual_transfer=True
+                ),
                 Step("Zip the folder by hand", "file manager"),
                 Step("Send it and explain the layout", "email"),
             ],
@@ -349,11 +367,18 @@ def main(argv: list[str] | None = None) -> int:
             "integrated_steps": total_integrated,
             "step_reduction_percent": _reduction(total_manual, total_integrated),
             "distinct_applications_manual": len(
-                sorted({app for task in tasks for step in task.manual for app in [step.application]})
+                sorted(
+                    {app for task in tasks for step in task.manual for app in [step.application]}
+                )
             ),
             "distinct_applications_integrated": len(
                 sorted(
-                    {app for task in tasks for step in task.integrated for app in [step.application]}
+                    {
+                        app
+                        for task in tasks
+                        for step in task.integrated
+                        for app in [step.application]
+                    }
                 )
             ),
             "manual_data_transfers_manual": sum(
