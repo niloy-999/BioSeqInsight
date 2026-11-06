@@ -145,7 +145,10 @@ class RCSBProvider(StructureProvider):
             wanted = accession.upper()
             ordered = sorted(
                 hits,
-                key=lambda h: (0 if wanted in {a.upper() for a in h["accessions"]} else 1, -h["score"]),
+                key=lambda h: (
+                    0 if wanted in {a.upper() for a in h["accessions"]} else 1,
+                    -h["score"],
+                ),
             )
 
         chosen = ordered[0]

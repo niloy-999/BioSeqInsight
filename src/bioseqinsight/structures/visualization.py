@@ -98,13 +98,13 @@ def _escape(text: str) -> str:
     )
 
 
-def write_viewer_html(pdb_text: str, destination: str | os.PathLike[str] | None = None, **kwargs) -> str:
+def write_viewer_html(
+    pdb_text: str, destination: str | os.PathLike[str] | None = None, **kwargs
+) -> str:
     """Write the viewer page to disk and return its path."""
     html = build_viewer_html(pdb_text, **kwargs)
     if destination is None:
-        handle = tempfile.NamedTemporaryFile(
-            "w", suffix=".html", delete=False, encoding="utf-8"
-        )
+        handle = tempfile.NamedTemporaryFile("w", suffix=".html", delete=False, encoding="utf-8")
         handle.write(html)
         handle.close()
         return handle.name

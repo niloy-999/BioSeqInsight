@@ -227,11 +227,7 @@ class StructureManager:
                 result.validation = no_result_report(result.error or "")
 
             outcome.results.append(result)
-            if (
-                stop_on_exact
-                and result.ok
-                and result.mapping_level is MappingLevel.M4_EXACT
-            ):
+            if stop_on_exact and result.ok and result.mapping_level is MappingLevel.M4_EXACT:
                 break
 
         outcome.elapsed_s = time.perf_counter() - started
@@ -298,7 +294,10 @@ class StructureManager:
 
     def fetch_alphafold(self, accession: str, refresh: bool = False) -> StructureResult:
         return self.providers["alphafold"].retrieve(
-            accession, query_type="uniprot", accession=normalise_accession(accession), refresh=refresh
+            accession,
+            query_type="uniprot",
+            accession=normalise_accession(accession),
+            refresh=refresh,
         )
 
     def fold_sequence(self, sequence: str, refresh: bool = False) -> StructureResult:

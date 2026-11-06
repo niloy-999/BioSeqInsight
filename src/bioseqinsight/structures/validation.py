@@ -92,8 +92,7 @@ def is_partial_structure(
     if identity is None or coverage is None or not accession_match:
         return False
     return (
-        identity >= settings.high_identity_threshold
-        and coverage < settings.high_coverage_threshold
+        identity >= settings.high_identity_threshold and coverage < settings.high_coverage_threshold
     )
 
 
@@ -227,11 +226,7 @@ def describe(
     return (
         f"WARNING: the returned structure may not correspond to the requested protein "
         f"({numbers})."
-        + (
-            f" The structure is associated with {', '.join(returned[:3])}."
-            if returned
-            else ""
-        )
+        + (f" The structure is associated with {', '.join(returned[:3])}." if returned else "")
     )
 
 

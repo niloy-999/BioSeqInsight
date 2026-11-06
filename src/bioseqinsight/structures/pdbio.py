@@ -15,13 +15,39 @@ import re
 from dataclasses import dataclass, field
 
 THREE_TO_ONE: dict[str, str] = {
-    "ALA": "A", "ARG": "R", "ASN": "N", "ASP": "D", "CYS": "C", "GLN": "Q",
-    "GLU": "E", "GLY": "G", "HIS": "H", "ILE": "I", "LEU": "L", "LYS": "K",
-    "MET": "M", "PHE": "F", "PRO": "P", "SER": "S", "THR": "T", "TRP": "W",
-    "TYR": "Y", "VAL": "V",
+    "ALA": "A",
+    "ARG": "R",
+    "ASN": "N",
+    "ASP": "D",
+    "CYS": "C",
+    "GLN": "Q",
+    "GLU": "E",
+    "GLY": "G",
+    "HIS": "H",
+    "ILE": "I",
+    "LEU": "L",
+    "LYS": "K",
+    "MET": "M",
+    "PHE": "F",
+    "PRO": "P",
+    "SER": "S",
+    "THR": "T",
+    "TRP": "W",
+    "TYR": "Y",
+    "VAL": "V",
     # Common modified residues mapped to their parent amino acid.
-    "MSE": "M", "SEC": "U", "PYL": "O", "HYP": "P", "SEP": "S", "TPO": "T",
-    "PTR": "Y", "CSO": "C", "CME": "C", "MLY": "K", "KCX": "K", "LLP": "K",
+    "MSE": "M",
+    "SEC": "U",
+    "PYL": "O",
+    "HYP": "P",
+    "SEP": "S",
+    "TPO": "T",
+    "PTR": "Y",
+    "CSO": "C",
+    "CME": "C",
+    "MLY": "K",
+    "KCX": "K",
+    "LLP": "K",
 }
 
 _DBREF = re.compile(r"^DBREF[12]?\s")
@@ -135,9 +161,7 @@ def parse_pdb(text: str) -> ParsedStructure:
     chain_ids = sorted(set(atom_seq) | set(seqres))
     for chain_id in chain_ids:
         from_atoms = "".join(atom_seq.get(chain_id, []))
-        from_seqres = "".join(
-            THREE_TO_ONE.get(res, "X") for res in seqres.get(chain_id, [])
-        )
+        from_seqres = "".join(THREE_TO_ONE.get(res, "X") for res in seqres.get(chain_id, []))
         # Prefer SEQRES when it is present and at least as complete: it
         # includes residues that are disordered and therefore absent from the
         # coordinates, which matters when comparing against a full-length
